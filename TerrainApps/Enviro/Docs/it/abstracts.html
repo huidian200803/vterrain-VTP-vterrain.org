@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Structure Layers</title>
+</head>
+
+<body>
+
+<h2><i><font face="Verdana">Livelli Astratti</font></i></h2>
+<blockquote>
+	<p><i>Livello Astratto</i> nel software VTP sta ad indicare ogni tipo di dato 
+	geometrico grezzo (punti, linee, polilinee, polyigoni) che non rappresentano 
+	un oggetto del mondo reale. Per esempio, caposaldi, confini politici, aree di 
+	proprieta&#39;, tracce GPS.&nbsp; Questi sono i tipi di &quot;feature&quot; tradizionalmente 
+	gestiti da software <b>GIS</b>.&nbsp; I Livelli Astratti possono essere caricati 
+	e salvati in file <b>SHP</b> (ESRI Shapefile format, sempre accompagnato dal 
+	corrispondente <b>DBF</b> file).&nbsp; Potete avere un numero qualsiasi di livelli 
+	astratti su ogni terreno.</p>
+</blockquote>
+<h3>Aggiugere Livelli Astratti al vostro Terreno</h3>
+<blockquote>
+	<p>Per includere strutture da un file SHP, editate le
+	<a href="terrain_creation.html">proprietà per il vostro terreno</a>.&nbsp; Sotto 
+	il tab <b>Livelli Astratti</b>, fate doppio-click per scegliere da una lista 
+	tutti i file SHP che sono localizzati nella cartella <b>PointData</b> del vostro 
+	data path.&nbsp; <i>(Lae directory e&#39; chiamata PointData perche&#39; VTP la usa 
+	solo per supportare punti, ma potete nei fatti inserire ogni tipo di dataset 
+	SHP.)</i></p>
+	<p>Ogni livello puo&#39; essere visualizzato con un proprio Stile, che puo&#39; essere 
+	impostato con il <a href="style_dialog.html">Pannello Stile</a>.</p>
+	<p>Potete anche creare un nuovo, vuoto Livello Astratto durante il runtime, 
+	contenente feature di punti etichettati , premendo <b>Crea</b> nel Pannello 
+	Livelli.&nbsp; Il Dialogo Stile apparira&#39;.&nbsp; Potrete fare questo anche usando 
+	la modalita&#39; <b>Crea Punti</b> (menu Strumenti: Punti, oppure lo spillino &quot;inserisci 
+	punti&quot; sulla palette) che creera&#39; un Livello Astratto Punti per voi, nel caso 
+	non esistesse.</p>
+</blockquote>
+<h3>Il Pannello di Dialogo dei Livelli in Terrain View</h3>
+<blockquote>
+	<h3>
+	<img src="../images/layer_dlg3.png" alt="" style="border: 0px solid; width: 598px; height: 249px;" /></h3>
+	<p>I livelli astratti sono mostrati nel <b>Dialogo Livelli</b> sopra.&nbsp; 
+	E&#39; possibile fare le seguenti operazioni su di un livello astratto:</p>
+	<ul>
+		<li><span style="font-weight: bold;">Crea: </span>Crea un nuovo livello 
+		vuoto di punti.</li>
+		<li><span style="font-weight: bold;">Apri: </span>
+		<span style="font-weight: bold;"></span>Carica un livello SHP esistente.</li>
+		<li><span style="font-weight: bold;">Salva: </span>Registra il livello SHP 
+		su quello salvato.</li>
+		<li><span style="font-weight: bold;">Salva col nome: </span>&nbsp;registra 
+		il livello SHP con un altro nome.</li>
+		<li><span style="font-weight: bold;">Elimina: </span>togli il livello dalla 
+		lista.</li>
+		<li><b>Zoom Su:</b> Sposta il punto di vista in modo da visualizzare tutto 
+		il livello.</li>
+		<li><span style="font-weight: bold;">Accendi/Spegni: </span>Visualizza o 
+		nascondi il livello dalla vista.</li>
+		<li><b>Ombre: </b>Visualizza o nascondi le ombre della struttura.</li>
+		<li><b>Mostra tutti:</b> Mostra tutti gli elementi dell&#39;alberatura dei livelli.</li>
+	</ul>
+</blockquote>
+
+</body>
+
+</html>

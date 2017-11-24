@@ -1,0 +1,30 @@
+/* XPM */
+static const char *model_add_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 4 1",
+"  c None",
+"a c Black",
+"b c #BFBF00",
+"c c #FFFF00",
+/* pixels */
+"                    ",
+"                    ",
+" aaa        aaa     ",
+"a c aaaaa  a   a    ",
+"ac c  c a       a   ",
+"a c cc ca       a   ",
+"ac caaaaaaaaa a a a ",
+"a cabbbbbbba   aaa  ",
+"a abbbbbbba     a   ",
+"aabbbbbbba          ",
+"aaaaaaaaa           ",
+"          aa    aa  ",
+"          aa    aa  ",
+"          aaa  aaa  ",
+"          aaaaaaaa  ",
+"          aa aa aa  ",
+"          aa aa aa  ",
+"          aa    aa  ",
+"          aa    aa  ",
+"                    "
+};

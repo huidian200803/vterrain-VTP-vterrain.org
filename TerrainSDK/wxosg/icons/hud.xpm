@@ -1,0 +1,27 @@
+/* XPM */
+static const char *hud_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1 ",
+"  c black",
+". c #FF3366",
+"X c #FFFF99",
+"o c gray100",
+"O c None",
+/* pixels */
+"OOOOOOOOOOOOOOOO",
+"OoooooOOOO....OO",
+"OoooooOOOOOOOOOO",
+"OOOOOOOOOO....OO",
+"OOOOOOOOOOOOOOOO",
+"O     OOOO....OO",
+"OOOOOOOOOOooooOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOO OOOO",
+"OXXXXXOOOOO OOOO",
+"OXXXXXOOO     OO",
+"OXXXXXOOOOO OOOO",
+"OOOOOOOOOOOOOOOO"
+};

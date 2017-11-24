@@ -1,0 +1,32 @@
+/* XPM */
+static const char *space_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 5 1",
+/* colors */
+"` c #000000",
+"a c #00BF00",
+"b c None",
+"c c #0000BF",
+"d c #0000FF",
+/* pixels */
+"bbbbbbbbbbbbbbbbbbbb",
+"bbbbbbbb````bbbbbbbb",
+"bbbbb```dddd```bbbbb",
+"bbbb`aaaaaddddd`bbbb",
+"bbb`ddaaaaaaddda`bbb",
+"bb`cdddaaaaadddaa`bb",
+"bb`cdddaaaaaaddda`bb",
+"bb`cdddaaaaaadddd`bb",
+"b`ccddddaaaaaddddd`b",
+"b`cccddddaadaddddd`b",
+"b`cccddddaadddddda`b",
+"b`ccccdddddaddddda`b",
+"bb`ccccdddddaaddd`bb",
+"bb`acccccddaaaadd`bb",
+"bb`aaccccccaaaadd`bb",
+"bbb`accccccaaacc`bbb",
+"bbbb`ccccccaacc`bbbb",
+"bbbbb```cccc```bbbbb",
+"bbbbbbbb````bbbbbbbb",
+"bbbbbbbbbbbbbbbbbbbb"
+};

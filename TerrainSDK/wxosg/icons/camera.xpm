@@ -1,0 +1,28 @@
+/* XPM */
+static const char *camera_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c black",
+". c red",
+"X c #808000",
+"o c yellow",
+"O c #C0C0C0",
+"+ c None",
+/* pixels */
+"++++++++++++++++",
+"++++++++++XooX++",
+"+++++++++XooooX+",
+"++...++++XooooX+",
+"++   ++++XooooX+",
+"O         XooX O",
+"      O+++O     ",
+"  OOO +++++     ",
+"     +++++++    ",
+"      +++++     ",
+"      O+++O     ",
+"O              O",
+"+O            O+",
+"++++++++++++++++",
+"++++++++++++++++",
+"++++++++++++++++"
+};

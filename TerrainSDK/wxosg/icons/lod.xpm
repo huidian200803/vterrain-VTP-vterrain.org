@@ -1,0 +1,28 @@
+/* XPM */
+static const char *lod_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c black",
+". c #808000",
+"X c yellow",
+"o c #808080",
+"O c #C0C0C0",
+"+ c None",
+/* pixels */
+"++++++++++++++++",
+"+OooooooooO+++++",
+"+o        o+++++",
+"+o XXXXXX o+++++",
+"+o XXXXXX ooO+++",
+"+o XXXXXX   oO++",
+"+o XXXXXX XX o++",
+"+o XXXXXX XX oO+",
+"+o XXXXXX XXX o+",
+"+o        XXX o+",
+"+Oooo XXXXXX.oO+",
+"+++Oo XXXXXX o++",
+"++++Oo  XX. oO++",
+"+++++Ooo  ooO+++",
+"+++++++OooO+++++",
+"++++++++++++++++"
+};

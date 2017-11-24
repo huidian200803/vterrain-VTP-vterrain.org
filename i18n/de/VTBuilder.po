@@ -1,0 +1,4632 @@
+# German translation of VTBuilder text.
+# Copyright (C) VTP
+# This file is distributed under the same license as the VTP package.
+# Ben Discoe <ben@vterrain.org>, 2004-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-31 17:56-0800\n"
+"PO-Revision-Date: 2007-09-07 09:49+0100\n"
+"Last-Translator: Fricke <fricke@gta-geo.de>\n"
+"Language-Team: VTP <ben@vterrain.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Builder.cpp:101 TreeView.cpp:191
+msgid "Raw"
+msgstr "Roh"
+
+#: Builder.cpp:102 TreeView.cpp:170 VTBuilder_UI.cpp:1663
+msgid "Elevation"
+msgstr "Gelände"
+
+#: Builder.cpp:103 TSDlg.cpp:48
+msgid "Image"
+msgstr "Bild"
+
+#: Builder.cpp:104
+msgid "Road"
+msgstr "Straße"
+
+#: Builder.cpp:105
+msgid "Structure"
+msgstr "Bauwerk"
+
+#: Builder.cpp:106 TreeView.cpp:185
+msgid "Water"
+msgstr "Wasser"
+
+#: Builder.cpp:107 TreeView.cpp:182
+msgid "Vegetation"
+msgstr "Vegetation"
+
+#: Builder.cpp:108
+msgid "Utility"
+msgstr "Versorgung"
+
+#: Builder.cpp:340 VegLayer.cpp:116
+#, fuzzy
+msgid ""
+"You must specify a species file (plant list) to use when working with "
+"vegetation files."
+msgstr ""
+"Sie müssen eine Artendatei (Pflanzenliste) angeben,\n"
+" bevor Sie mit Vegetationsdateien zu arbeiten beginnen.\n"
+
+#: Builder.cpp:347
+msgid "Do you want to load the default species file from:"
+msgstr ""
+
+#: Builder.cpp:350
+#, fuzzy
+msgid "Plants"
+msgstr "Pflanzenliste"
+
+#: Builder.cpp:456
+#, c-format
+msgid ""
+"The data already loaded is in:\n"
+"   %hs\n"
+" but the layer you are attempting to add:\n"
+"   %s\n"
+" is using:\n"
+"   %hs\n"
+" Would you like to attempt to convert it now to the existing projection?"
+msgstr ""
+"Die schon geladenen Daten sind in:\n"
+"  %hs\n"
+" aber die Ebene, die Sie hinzufügen möchten:\n"
+"  %s\n"
+"verwendet:\n"
+"  %hs\n"
+"Möchten Sie nun versuchen, siein das bestehende Koordinatensystem zu "
+"konvertieren?"
+
+#: Builder.cpp:460
+msgid "Convert Coordinate System?"
+msgstr "Koordinatensystem konvertieren?"
+
+#: Builder.cpp:472 FrameMenus.cpp:1487
+#, fuzzy
+msgid "Reprojecting"
+msgstr "Koordinatensystem:"
+
+#: Builder.cpp:482
+msgid ""
+"Couldn't convert projection.\n"
+" Proceed anyway?"
+msgstr ""
+"Konnte Koordinatensystem nicht konvertieren.\n"
+" Dennoch fortsetzen?"
+
+#: Builder.cpp:483 Builder.cpp:1539 Export.cpp:62 Frame.cpp:312
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:145
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:195
+msgid "Warning"
+msgstr "Warnung"
+
+#: Builder.cpp:591
+msgid "These are your choices"
+msgstr "Dies sind Ihre Auswahlmöglichkeiten"
+
+#: Builder.cpp:592
+msgid "Please indicate layer type"
+msgstr "Bitte geben Sie den Ebenentyp an"
+
+#: Builder.cpp:792
+#, fuzzy
+msgid "Sampling Elevation Layers"
+msgstr "Gelände-Ebene wird geladen"
+
+#: Builder.cpp:881
+msgid "Filling Gaps"
+msgstr "Lücken werden gefüllt"
+
+#: Builder.cpp:946
+#, fuzzy
+msgid "Comparing Elevation Layers"
+msgstr "Gelände-Ebene wird geladen"
+
+#: Builder.cpp:978
+#, fuzzy
+msgid "difference"
+msgstr "Einstellungen"
+
+#: Builder.cpp:999
+#, fuzzy
+msgid "Sampling Image Layers"
+msgstr "Bild-Ebenen werden vereinigt und resampeld"
+
+#: Builder.cpp:1185
+#, fuzzy
+msgid "Sample Elevation"
+msgstr "Höhe skalieren"
+
+#: Builder.cpp:1205
+#, c-format
+msgid "Failed to initialize %d x %d elevation grid"
+msgstr "Konnte %d x %d Geländeraster nicht initialisieren"
+
+#: Builder.cpp:1231 Builder.cpp:1308 Export.cpp:465 vtImage.cpp:1271
+msgid "Writing file"
+msgstr "Datei wird geschrieben"
+
+#: Builder.cpp:1267
+msgid ""
+"Sorry, you must have some image layers to\n"
+" perform a sampling operation on them."
+msgstr ""
+"Sorry, Sie benötigen einige Bildebenen, um eine\n"
+"Berechnungsoperation an ihnen auszuführen."
+
+#: Builder.cpp:1272
+#, fuzzy
+msgid "Sample Imagery"
+msgstr "Bilder speichern"
+
+#: Builder.cpp:1291
+msgid "Sorry, could not allocate an image of that size."
+msgstr ""
+"Verzeihung, konnte für ein Bild dieser Größe keinen Speicherplatz "
+"reservieren."
+
+#: Builder.cpp:1332
+msgid "Generating Vegetation"
+msgstr "Vegetation wird generiert"
+
+#: Builder.cpp:1402
+#, c-format
+msgid "column %d/%d, plants: %d"
+msgstr "Spalte %d/%d, Pflanzen: %d"
+
+#: Builder.cpp:1500
+msgid "Vegetation distribution results:\n"
+msgstr "Vegetationsverteilung Ergebnisse:\n"
+
+#: Builder.cpp:1512
+#, c-format
+msgid "  BioType %d"
+msgstr "  BioTyp %d"
+
+#: Builder.cpp:1521
+#, c-format
+msgid "    Plant %d: %hs: %d generated.\n"
+msgstr "    Pflanze %d: %hs: %d generiert.\n"
+
+#: Builder.cpp:1527
+msgid ": None.\n"
+msgstr ": Keine.\n"
+
+#: Builder.cpp:1529
+#, c-format
+msgid "  Total: %d\n"
+msgstr ""
+
+#: Builder.cpp:1585
+msgid ""
+"File lacks a projection.\n"
+" Would you like to specify one?\n"
+" Yes - specify projection\n"
+" No - use current projection\n"
+msgstr ""
+"Datei besitzt keine Koordinatendefinition.\n"
+" Möchten Sie eine festlegen?\n"
+" Ja - Koordinatensystem festlegen\n"
+" Nein - Aktuelles Koordinatensystem verwenden\n"
+
+#: Builder.cpp:1586
+msgid "Coordinate Reference System"
+msgstr "Koordinaten-Referenzsystem"
+
+#: Builder.cpp:1590 Import.cpp:884 Import.cpp:1661
+msgid "Please indicate projection"
+msgstr "Bitte wählen Sie ein Koordinatensystem"
+
+#: BuilderView.cpp:649
+msgid "miles"
+msgstr "Meilen"
+
+#: BuilderView.cpp:855
+msgid "Added"
+msgstr "Hinzugefügt"
+
+#: BuilderView.cpp:860
+msgid "Subtracted"
+msgstr "Subtrahiert"
+
+#: BuilderView.cpp:865
+msgid "Toggled"
+msgstr "Eingeschalted"
+
+#: BuilderView.cpp:870 ../../TerrainSDK/vtui/FeatureTableDlg.cpp:317
+msgid "Selected"
+msgstr "Markiert"
+
+#: BuilderView.cpp:890
+#, c-format
+msgid "1 entity, %d total selected"
+msgstr "1 Instanz, %d insgesamt ausgewählt"
+
+#: BuilderView.cpp:892
+#, c-format
+msgid "%d entities, %d total selected"
+msgstr "%d Instanzen, %d insgesamt markiert"
+
+#: BuilderView.cpp:1646
+#, c-format
+msgid "Selected 1 Node (%d total)"
+msgstr "1 Knoten markiert (%d insgesamt)"
+
+#: BuilderView.cpp:1648
+#, c-format
+msgid "Selected 1 Road (%d total)"
+msgstr "1 Strasse markiert (%d insgesamt)"
+
+#: BuilderView.cpp:1653
+msgid "Deselected all"
+msgstr "Alle Markierungen gelöscht"
+
+#: BuilderView.cpp:1766
+msgid "Clear Distance Tool"
+msgstr "Lineal zurücksetzen"
+
+#: BuilderView.cpp:1893
+#, fuzzy
+msgid "Rendering elevation layers"
+msgstr "Gelände-Ebene wird geladen"
+
+#: ElevLayer.cpp:115
+msgid "Loading Elevation Layer"
+msgstr "Gelände-Ebene wird geladen"
+
+#: ElevLayer.cpp:146
+msgid "CRS file"
+msgstr "Koordinatensystem Datei"
+
+#: ElevLayer.cpp:151
+msgid "is missing or unreadable.\n"
+msgstr "fehlt oder ist unlesbar.\n"
+
+#: ElevLayer.cpp:197
+msgid "Input grid is integer.  Use floating-point values in reprojected grid?"
+msgstr ""
+"Das Eingangsraster hat Integer Werte (ganzzahlig). Sollen im Zielraster "
+"Werte mit Gleitkommazahlen geschrieben werden?"
+
+#: ElevLayer.cpp:198
+msgid "query"
+msgstr "Suche"
+
+#: ElevLayer.cpp:219 ImageLayer.cpp:87
+msgid "Error"
+msgstr "Fehler"
+
+#: ElevLayer.cpp:534 FrameMenus.cpp:1143 FrameMenus.cpp:1570 ImageLayer.cpp:23
+#: ImageLayer.cpp:30 ImageLayer.cpp:255 Import.cpp:659 RawLayer.cpp:34
+#: RoadLayer.cpp:29 StructLayer.cpp:39 WaterLayer.cpp:25
+msgid "Untitled"
+msgstr "Unbenannt"
+
+#: ElevLayer.cpp:567
+msgid "Couldn't create bitmap, probably too large."
+msgstr "Konnte keine Rasterbild erzeugen, wahrscheinlich zu groß."
+
+#: ElevLayer.cpp:634
+msgid "Turn off displayed elevation for elevation layers?"
+msgstr "Angezeigte Höhe für Gelände-Ebenen abstellen?"
+
+#: ElevLayer.cpp:965
+msgid "Raw Elevation File"
+msgstr "Roh-Höhen-Datei"
+
+#: ElevLayer.cpp:1023
+msgid ""
+"File lacks geographic location (extents). Would you like to specify "
+"extents?\n"
+" Yes - specify extents\n"
+" No - use some default values\n"
+msgstr ""
+"Datei besitzt keine geographische Lage (Maße). Möchten Sie die Maße "
+"festlegen?\n"
+"Ja - Maße festlegen...\n"
+"Nein - einige Standardwerte verwenden\n"
+
+#: ElevLayer.cpp:1024
+msgid "Elevation Import"
+msgstr "Gelände-Import"
+
+#: ElevLayer.cpp:1029 RawDlg.cpp:71
+msgid "Elevation Grid Extents"
+msgstr "Höhenraster-Maße"
+
+#: ElevLayer.cpp:1241
+msgid "Merging shared vertices"
+msgstr "Verbinde gemeinsame Knoten"
+
+#: ElevLayer.cpp:1255
+#, c-format
+msgid "Reduced vertices from %d to %d"
+msgstr "Knoten wurden von %d zu %d reduziert"
+
+#: ElevLayer.cpp:1257
+#, c-format
+msgid "There are %d vertices, unable to merge any."
+msgstr ""
+"Es sind %d Knoten vorhanden. Es ist nicht möglich, irgendwelche zu verbinden."
+
+#: ElevLayer.cpp:1292
+#, c-format
+msgid "Grid size: %d x %d\n"
+msgstr "Gittergröße: %d x %d\n"
+
+#: ElevLayer.cpp:1296
+msgid "Grid spacing: "
+msgstr "Gitterabstand:"
+
+#: ElevLayer.cpp:1304
+msgid "Floating point: Yes\n"
+msgstr "Gleitkomma: Ja\n"
+
+#: ElevLayer.cpp:1306
+msgid "Floating point: No\n"
+msgstr "Gleitkomma: Nein\n"
+
+#: ElevLayer.cpp:1314
+#, c-format
+msgid "Minimum elevation: %.2f\n"
+msgstr "Minimale Höhe: %.2f\n"
+
+#: ElevLayer.cpp:1316
+#, c-format
+msgid "Maximum elevation: %.2f\n"
+msgstr "Maximale Höhe: %.2f\n"
+
+#: ElevLayer.cpp:1322
+#, fuzzy, c-format
+msgid "Number of unknown heixels: %d (%.2f%%)\n"
+msgstr "Anzahl Instanzen: %d\n"
+
+#: ElevLayer.cpp:1327
+#, c-format
+msgid "Size in memory: %d bytes (%.1f MB)\n"
+msgstr ""
+
+#: ElevLayer.cpp:1333
+#, fuzzy
+msgid "Not in memory.\n"
+msgstr "In den Speicher laden"
+
+#: ElevLayer.cpp:1336
+#, c-format
+msgid "Height scale (meters per vertical unit): %f\n"
+msgstr "Höhenmaßstab (Meter je vertikale Einheit): %f\n"
+
+#: ElevLayer.cpp:1342
+#, c-format
+msgid "Original DEM name: \"%hs\"\n"
+msgstr "Ursprünglicher DEM-Name: \"%hs\"\n"
+
+#: ElevLayer.cpp:1350
+#, c-format
+msgid ""
+"TIN\n"
+"Vertices: %d\n"
+"Triangles: %d\n"
+msgstr ""
+"TIN\n"
+"Knoten: %d\n"
+"Dreiecke: %d\n"
+
+#: ElevLayer.cpp:1353
+msgid "Min/max elevation: "
+msgstr "Min/Max Höhe:"
+
+#: ElevLayer.cpp:1357 VegLayer.cpp:59
+msgid "None\n"
+msgstr "Keine\n"
+
+#: ElevLayer.cpp:1395
+msgid "BT File (.bt)|*.bt|GZipped BT File (.bt.gz)|*.bt.gz"
+msgstr "BT-Datei (.bt)|*.bt|GZip'te BT-Datei (.bt.gz)|*.bt.gz"
+
+#: ElevLayer.cpp:1406 Frame.cpp:413 FrameMenus.cpp:425 Layer.cpp:144
+#: StructLayer.cpp:1113
+msgid "Save Layer"
+msgstr "Ebene speichern"
+
+#: ElevLayer.cpp:1606 Export.cpp:923
+msgid "Filling gaps"
+msgstr "Lücken werden gefüllt"
+
+#: ElevLayer.cpp:1714 vtImage.cpp:1952
+#, c-format
+msgid "Writing tile '%hs', size %dx%d"
+msgstr "Kachel '%hs', Größe %dx%d wird geschrieben"
+
+#: Export.cpp:58
+msgid "The Arc ASCII format only supports evenly spaced elevation grids.\n"
+msgstr ""
+"Das Arc ASCII-Format unterstützt nur gleichmäßig verteilte Höhengitter.\n"
+
+#: Export.cpp:59
+#, c-format
+msgid "The spacing of this grid is %g x %g\n"
+msgstr "Der Gitterabstand beträgt %g x %g\n"
+
+#: Export.cpp:61
+msgid "The result my be stretched.  Do you want to continue anyway?"
+msgstr "Das Ergebnis könnte gestreckt sein. Möchten Sie dennoch fortsetzen?"
+
+#: Export.cpp:144
+msgid "Export Planet Data to Directory"
+msgstr "Planetendaten ins Verzeichnis exportieren"
+
+#: Export.cpp:221
+#, fuzzy
+msgid "Export ChunkLOD"
+msgstr "ChunkLOD exportieren"
+
+#: Export.cpp:339 Export.cpp:505
+msgid "Tiling Options"
+msgstr "Kacheloptionen"
+
+#: Export.cpp:356 Export.cpp:588
+msgid "Also derive and export color-mapped image tiles?"
+msgstr "Auch abgeleitete Bildkacheln speichern?"
+
+#: Export.cpp:356 Export.cpp:588
+msgid "Tiled output"
+msgstr "Gekachelte Ausgabe"
+
+#: Export.cpp:372 Export.cpp:604 OptionsDlg.cpp:63
+msgid "Rendering options"
+msgstr "Optionen zum Zeichnen"
+
+#: Export.cpp:382 Export.cpp:521 Export.cpp:627
+#, fuzzy
+msgid "Writing tiles"
+msgstr "Datei wird geschrieben"
+
+#: Export.cpp:559 FrameMenus.cpp:647
+#, fuzzy
+msgid "Sample Elevation to Tileset"
+msgstr "Optimiertes Resampling von Gelände zu Kachelsatz"
+
+#: Export.cpp:581
+msgid "Sample floating-point elevation values?"
+msgstr "Gleitkomma-Höhenwerte abfragen?"
+
+#: Export.cpp:582 FrameMenus.cpp:1005 vtImage.cpp:1441 vtImage.cpp:1457
+msgid "Question"
+msgstr "Frage"
+
+#: Export.cpp:596 TileDlg.cpp:269
+#, fuzzy
+msgid ".Ini file"
+msgstr "Zu Datei"
+
+#: Export.cpp:651 FrameMenus.cpp:649
+#, fuzzy
+msgid "Sample Imagery to Tileset"
+msgstr "Optimiertes Resampling von Bildern zu Kachelsatz"
+
+#: Export.cpp:737 Export.cpp:1144
+#, fuzzy
+msgid "Texture Compression OpenGL Context"
+msgstr "Textur Kompression"
+
+#: Export.cpp:759
+msgid "Binning TIN"
+msgstr ""
+
+#: Export.cpp:865
+msgid "Sampling elevation"
+msgstr "Sampeln des Geländes"
+
+#: Export.cpp:1037 Export.cpp:1258
+#, c-format
+msgid "Tile '%hs', size %dx%d"
+msgstr "Kachel '%hs', Größe %dx%d"
+
+#: Export.cpp:1323 vtImage.cpp:1916
+#, c-format
+msgid "Wrote %d tiles (%d cells) in %.1f seconds (%.2f seconds per cell)"
+msgstr ""
+"%d Kacheln (%d Zellen) wurden in %.1f Sekunden (%.2f Sekunden pro Zelle) "
+"geschrieben"
+
+#: Frame.cpp:244 FrameMenus.cpp:468 TreeView.cpp:165 VTBuilder_UI.cpp:969
+msgid "Layers"
+msgstr "Ebenen"
+
+#: Frame.cpp:301
+msgid "Ready"
+msgstr "Fertig"
+
+#: Frame.cpp:311
+#, c-format
+msgid ""
+"There are %d layers modified but unsaved.\n"
+" Are you sure you want to exit?"
+msgstr ""
+"Es gibt %d modifizierte Ebenen, die noch nicht gespeichert wurden.\n"
+"Sind Sie sicher, daß Sie beenden möchten?"
+
+#: Frame.cpp:406 FrameMenus.cpp:384
+msgid "New Project"
+msgstr "Neues Projekt"
+
+#: Frame.cpp:407 FrameMenus.cpp:385
+msgid "Open Project"
+msgstr "Projekt öffnen"
+
+#: Frame.cpp:408 FrameMenus.cpp:726
+msgid "Save Project"
+msgstr "Projekt speichern"
+
+#: Frame.cpp:409 Frame.cpp:1032
+msgid "View Options"
+msgstr "Anzeigeoptionen"
+
+#: Frame.cpp:411
+msgid "New Layer"
+msgstr "Neue Ebene"
+
+#: Frame.cpp:412 FrameMenus.cpp:424 FrameMenus.cpp:1124
+msgid "Open Layer"
+msgstr "Ebene öffnen"
+
+#: Frame.cpp:414 FrameMenus.cpp:427 Import.cpp:92
+msgid "Import Data"
+msgstr "Daten importieren"
+
+#: Frame.cpp:416 FrameMenus.cpp:413
+msgid "Delete"
+msgstr "Löschen"
+
+#: Frame.cpp:417 FrameMenus.cpp:444 FrameMenus.cpp:1053
+msgid "Offset"
+msgstr "Verschiebung"
+
+#: Frame.cpp:418
+msgid "Layer Visibility"
+msgstr "Ebenen-Sichtbarkeit"
+
+#: Frame.cpp:419
+msgid "Layer Up"
+msgstr "Ebene hoch"
+
+#: Frame.cpp:420
+msgid "Layer Down"
+msgstr "Ebene tiefer"
+
+#: Frame.cpp:422
+msgid "Zoom In"
+msgstr "Einzoomen"
+
+#: Frame.cpp:423
+msgid "Zoom Out"
+msgstr "Auszoomen"
+
+#: Frame.cpp:424
+msgid "Zoom All"
+msgstr "Zoom Alle"
+
+#: Frame.cpp:425
+msgid "Zoom To Layer"
+msgstr "Zoom zu Ebene"
+
+#: Frame.cpp:427
+msgid "Magnifier"
+msgstr "Lupe"
+
+#: Frame.cpp:428
+msgid "Pan"
+msgstr "Bildauschnitt verschieben"
+
+#: Frame.cpp:429
+msgid "Distance"
+msgstr "Lineal"
+
+#: Frame.cpp:430
+msgid "Area Tool"
+msgstr "Flächenwerkzeug"
+
+#: Frame.cpp:431 Frame.cpp:877 FrameMenus.cpp:478
+msgid "Elevation Profile"
+msgstr "Höhenprofil"
+
+#: Frame.cpp:433
+msgid "Merge/Resample Elevation"
+msgstr "Gelände zusammenfügen/resampeln"
+
+#: Frame.cpp:434
+msgid "Merge/Resample Imagery"
+msgstr "Bilder zusammenfügen/resampeln"
+
+#: Frame.cpp:438 Frame.cpp:465 FrameMenus.cpp:570 FrameMenus.cpp:595
+msgid "Select Features"
+msgstr "Features markieren"
+
+#: Frame.cpp:439 FrameMenus.cpp:596
+msgid "Pick Features"
+msgstr "Features auswählen"
+
+#: Frame.cpp:440
+msgid "Table"
+msgstr "Tabelle"
+
+#: Frame.cpp:441 FrameMenus.cpp:600
+msgid "Add Points with Mouse"
+msgstr "Punkte mit Maus hinzufügen"
+
+#: Frame.cpp:445
+msgid "Select Elevation"
+msgstr "Höhe auswählen"
+
+#: Frame.cpp:446 Frame.cpp:451
+msgid "Zoom to Full Detail"
+msgstr "Ins Volldetail zoomen"
+
+#: Frame.cpp:447 FrameMenus.cpp:538
+msgid "Trim TIN triangles by line segment"
+msgstr "Überflüssige Verbindungen im TIN trennen"
+
+#: Frame.cpp:455
+msgid "Select Roads"
+msgstr "Straßen markieren"
+
+#: Frame.cpp:456
+msgid "Select Nodes"
+msgstr "Knoten markieren"
+
+#: Frame.cpp:457 FrameMenus.cpp:489
+msgid "Select Whole Roads"
+msgstr "Ganze Straßen markieren"
+
+#: Frame.cpp:458 FrameMenus.cpp:490
+msgid "Set Road Direction"
+msgstr "Straßenrichtung festlegen"
+
+#: Frame.cpp:459 FrameMenus.cpp:491
+msgid "Edit Road Points"
+msgstr "Straßenpunkte bearbeiten"
+
+#: Frame.cpp:460 FrameMenus.cpp:493
+msgid "Show Nodes"
+msgstr "Knoten zeigen"
+
+#: Frame.cpp:461 FrameMenus.cpp:417
+msgid "Crossing Selection"
+msgstr "Von Auswahlrahmen geschnitten"
+
+#: Frame.cpp:466 FrameMenus.cpp:571
+msgid "Edit Buildings"
+msgstr "Gebäude bearbeiten"
+
+#: Frame.cpp:467 FrameMenus.cpp:572
+msgid "Add points to building footprints"
+msgstr "Punkte zu Gebäude-Grundflächen hinzufügen"
+
+#: Frame.cpp:468 FrameMenus.cpp:573
+msgid "Delete points from building footprints"
+msgstr "Punkte von Gebäude-Grundflächen entfernen"
+
+#: Frame.cpp:469 FrameMenus.cpp:574
+msgid "Add Linear Structures"
+msgstr "Lineare Strukturen hinzufügen"
+
+#: Frame.cpp:470 FrameMenus.cpp:575
+msgid "Edit Linear Structures"
+msgstr "Lineare Strukturen bearbeiten"
+
+#: Frame.cpp:471
+msgid "Constrain Angles"
+msgstr "Winkel einschränken"
+
+#: Frame.cpp:472 FrameMenus.cpp:576
+msgid "Add Instances"
+msgstr "Instanzen hinzufügen"
+
+#: Frame.cpp:476
+msgid "Select Plants"
+msgstr "Selektiere Pflanzen"
+
+#: Frame.cpp:480
+msgid "Add Tower"
+msgstr "Mast hinzufügen"
+
+#: Frame.cpp:482
+msgid "Select Towers"
+msgstr "Masten markieren"
+
+#: Frame.cpp:483
+msgid "Edit Towers"
+msgstr "Masten bearbeiten"
+
+#: Frame.cpp:700 ../../TerrainSDK/vtui/FeatureTableDlg.cpp:116
+msgid "Feature Info"
+msgstr "Feature-Info"
+
+#: Frame.cpp:714
+msgid "Distance Tool"
+msgstr "Lineal"
+
+#: Frame.cpp:792
+msgid "Linear Structures"
+msgstr "Lineare Strukturen"
+
+#: Frame.cpp:822
+msgid "Structure Instances"
+msgstr "Strukturinstanzen"
+
+#: FrameMenus.cpp:384
+msgid "&New\tCtrl+N"
+msgstr "&Neu\tStrg+N"
+
+#: FrameMenus.cpp:385
+msgid "Open Project\tCtrl+O"
+msgstr "Projekt öffnen\tStrg+O"
+
+#: FrameMenus.cpp:386
+msgid "Save Project\tCtrl+S"
+msgstr "Projekt speichern\tStrg+S"
+
+#: FrameMenus.cpp:386
+msgid "Save Project As"
+msgstr "Projekt speichern als"
+
+#: FrameMenus.cpp:388
+#, fuzzy
+msgid "Recent Projects"
+msgstr "Projekt öffnen"
+
+#: FrameMenus.cpp:391
+#, fuzzy
+msgid "Batch Conversion of Elevation"
+msgstr "Gelände speichern"
+
+#: FrameMenus.cpp:392
+msgid "Create Dymaxion Textures"
+msgstr "Dymaxion-Textur erzeugen"
+
+#: FrameMenus.cpp:393
+#, fuzzy
+msgid "Create Dymaxion Map"
+msgstr "Dymaxion-Textur erzeugen"
+
+#: FrameMenus.cpp:394
+msgid "Process Billboard Texture"
+msgstr "Billboard-Textur verarbeiten"
+
+#: FrameMenus.cpp:395 Geocode.cpp:128
+msgid "Geocode"
+msgstr "Geokodieren"
+
+#: FrameMenus.cpp:396
+msgid "Run test"
+msgstr ""
+
+#: FrameMenus.cpp:397
+msgid "Copy Elevation Layer to Clipboard"
+msgstr "Gelände-Ebene in Zwischenablage kopieren"
+
+#: FrameMenus.cpp:398
+msgid "New Elevation Layer from Clipboard"
+msgstr "Neue Gelände-Ebene aus Zwischenablage"
+
+#: FrameMenus.cpp:399
+msgid "Special"
+msgstr "Spezial"
+
+#: FrameMenus.cpp:401 FrameMenus.cpp:741
+msgid "Preferences"
+msgstr "Einstellungen"
+
+#: FrameMenus.cpp:403
+msgid "E&xit\tAlt-X"
+msgstr "Beenden\tAlt-X"
+
+#: FrameMenus.cpp:403
+msgid "Exit"
+msgstr "Beenden"
+
+#: FrameMenus.cpp:408
+msgid "&Project"
+msgstr "&Projekt"
+
+#: FrameMenus.cpp:413
+msgid "Delete\tDEL"
+msgstr "Entfernen\tEntf"
+
+#: FrameMenus.cpp:415
+msgid "Deselect All"
+msgstr "Alle Markierungen löschen"
+
+#: FrameMenus.cpp:415
+msgid "Clears selection"
+msgstr "Löscht Markierung"
+
+#: FrameMenus.cpp:416
+msgid "Invert Selection"
+msgstr "Markierung invertieren"
+
+#: FrameMenus.cpp:418
+msgid "&Edit"
+msgstr "B&earbeiten"
+
+#: FrameMenus.cpp:423
+msgid "&New Layer"
+msgstr "&Neue Ebene"
+
+#: FrameMenus.cpp:423
+msgid "Create New Layer"
+msgstr "Neue Ebene erzeugen"
+
+#: FrameMenus.cpp:424
+msgid "Open Existing Layer"
+msgstr "Vorhandene Ebene öffnen"
+
+#: FrameMenus.cpp:425
+msgid "Save Active Layer"
+msgstr "Aktive Ebene speichern"
+
+#: FrameMenus.cpp:426
+msgid "Save Layer As..."
+msgstr "Ebene speichern als..."
+
+#: FrameMenus.cpp:426
+msgid "Save Active Layer As"
+msgstr "Aktive Ebene speichern als"
+
+#: FrameMenus.cpp:427
+msgid "Import Data\tCtrl+I"
+msgstr "Daten importieren\tStrg+I"
+
+#: FrameMenus.cpp:430
+#, fuzzy
+msgid "Recent Layers"
+msgstr "Ebene öffnen"
+
+#: FrameMenus.cpp:431
+#, fuzzy
+msgid "Recent Imports"
+msgstr "Bildimport"
+
+#: FrameMenus.cpp:433
+#, fuzzy
+msgid "Import Layers From TIGER"
+msgstr "Daten aus TIGER importieren"
+
+#: FrameMenus.cpp:434
+#, fuzzy
+msgid "Import Layers From OSM"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:435
+msgid "Import multiple layers from a OpenStreetMap .osm File"
+msgstr ""
+
+#: FrameMenus.cpp:436
+#, fuzzy
+msgid "Import Layers From NTF"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:437
+#, fuzzy
+msgid "Import multiple layers from an OSGB NTF File"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:438
+msgid "Import From MapSource File"
+msgstr "Aus MapSource-Datei importieren"
+
+#: FrameMenus.cpp:439
+msgid "Import Point Data From Table"
+msgstr "Punktdaten aus Tabelle importieren"
+
+#: FrameMenus.cpp:440
+msgid "Import Point Data From XML"
+msgstr "Punktdaten aus XML importieren"
+
+#: FrameMenus.cpp:441
+#, fuzzy
+msgid "Import Raw Layers from DXF"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:443
+msgid "Layer Properties"
+msgstr "Ebenen-Eigenschaften"
+
+#: FrameMenus.cpp:444
+msgid "Offset Coordinates"
+msgstr "Verschiebung-Koordinaten"
+
+#: FrameMenus.cpp:446
+#, fuzzy
+msgid "&Combine Layers"
+msgstr "&Neue Ebene"
+
+#: FrameMenus.cpp:446
+msgid "Combine"
+msgstr ""
+
+#: FrameMenus.cpp:448
+msgid "Convert Projection"
+msgstr "Koordinatensystem konvertieren"
+
+#: FrameMenus.cpp:448
+msgid "Convert"
+msgstr "Konvertieren"
+
+#: FrameMenus.cpp:449
+msgid "Set Projection"
+msgstr "Koordinatensystem festlegen"
+
+#: FrameMenus.cpp:450
+msgid "&Layer"
+msgstr "Ebene"
+
+#: FrameMenus.cpp:455
+msgid "Current Layer &Visible"
+msgstr "Aktuelle Ebene sichtbar"
+
+#: FrameMenus.cpp:456
+msgid "Toggle Visibility of the current Layer"
+msgstr "Sichtbarkeit der aktuellen Ebene umschalten"
+
+#: FrameMenus.cpp:457
+msgid "Move Layer &Up"
+msgstr "Ebene hochbewegen"
+
+#: FrameMenus.cpp:458
+msgid "Move Layer &Down"
+msgstr "Bewege Ebene abwärts"
+
+#: FrameMenus.cpp:460
+msgid "Zoom &In\tCtrl++"
+msgstr "E&inzoomen\tStrg++"
+
+#: FrameMenus.cpp:461
+msgid "Zoom Out\tCtrl+-"
+msgstr "Auszoomen\tStrg+-"
+
+#: FrameMenus.cpp:462
+msgid "Zoom &All"
+msgstr "&Alle zoomen"
+
+#: FrameMenus.cpp:463
+msgid "Zoom to Current &Layer"
+msgstr "Zur aktue&llen Ebene zoomen"
+
+#: FrameMenus.cpp:464
+msgid "Zoom to &Full Res (1:1)"
+msgstr "Zur vollen Au&flösung zoomen (1:1)"
+
+#: FrameMenus.cpp:465
+msgid "Zoom to Area Tool"
+msgstr "Auf ausgewähltes Gebiet zoomen"
+
+#: FrameMenus.cpp:467
+msgid "Toolbar"
+msgstr "Werkzeugleiste"
+
+#: FrameMenus.cpp:470
+msgid "&Magnifier\tZ"
+msgstr "Lupe\tZ"
+
+#: FrameMenus.cpp:471
+msgid "&Pan\tSPACE"
+msgstr "Bildausschnitt verschieben\tLEER"
+
+#: FrameMenus.cpp:472
+msgid "Obtain &Distance"
+msgstr "&Distanz messen"
+
+#: FrameMenus.cpp:473
+msgid "Area &Tool"
+msgstr "Flächenwerkzeug"
+
+#: FrameMenus.cpp:475
+msgid "&World Map"
+msgstr "&Weltkarte"
+
+#: FrameMenus.cpp:475
+msgid "Show/Hide World Map"
+msgstr "Weltkarte zeigen/verstecken"
+
+#: FrameMenus.cpp:476
+msgid "Show &UTM Boundaries"
+msgstr "&UTM-Grenzen zeigen"
+
+#: FrameMenus.cpp:479
+msgid "Scale Bar"
+msgstr "Maßstab"
+
+#: FrameMenus.cpp:481
+msgid "&Options"
+msgstr "&Optionen"
+
+#: FrameMenus.cpp:482
+msgid "&View"
+msgstr "Ansicht"
+
+#: FrameMenus.cpp:487
+msgid "Select/Modify Roads"
+msgstr "Straßen markieren/bearbeiten"
+
+#: FrameMenus.cpp:488
+msgid "Select/Modify Nodes"
+msgstr "Knoten markieren/bearbeiten"
+
+#: FrameMenus.cpp:494
+msgid "Select by Highway Number"
+msgstr "Nach Highway-Nummer auswählen"
+
+#: FrameMenus.cpp:496
+msgid "Clean RoadMap"
+msgstr "Straßenkarte säubern"
+
+#: FrameMenus.cpp:496
+msgid "Clean"
+msgstr "Säubern"
+
+#: FrameMenus.cpp:497
+msgid "Guess Intersection Types"
+msgstr "Kreuzungstypen schätzen"
+
+#: FrameMenus.cpp:498
+msgid "Flatten Elevation Grid Under Roads"
+msgstr "Höhengitter unter Straßen abflachen"
+
+#: FrameMenus.cpp:499
+msgid "&Roads"
+msgstr "St&raßen"
+
+#: FrameMenus.cpp:505
+msgid "Add a Transmission Tower"
+msgstr "Strommast hinzufügen"
+
+#: FrameMenus.cpp:507
+msgid "Select Utility Layer"
+msgstr "Versorgungs-Ebene auswählen"
+
+#: FrameMenus.cpp:508
+msgid "Edit Transmission Towers"
+msgstr "Strommasten bearbeiten"
+
+#: FrameMenus.cpp:509
+msgid "Util&ities"
+msgstr "Versorgung"
+
+#: FrameMenus.cpp:515
+msgid "Se&lect Elevation Layer"
+msgstr "Geländhöhen-Ebene auswählen"
+
+#: FrameMenus.cpp:517
+msgid "Sc&ale Elevation"
+msgstr "Höhe skalieren"
+
+#: FrameMenus.cpp:518 FrameMenus.cpp:2136
+#, fuzzy
+msgid "Offset Elevation Vertically"
+msgstr "Geländhöhen-Ebene auswählen"
+
+#: FrameMenus.cpp:519
+msgid "&Remove Elevation Range..."
+msgstr "Höhenbereich entfe&rnen..."
+
+#: FrameMenus.cpp:520
+msgid "&Compute Difference Layer"
+msgstr ""
+
+#: FrameMenus.cpp:523 VTBuilder_UI.cpp:1849
+msgid "Fast"
+msgstr "Schnell"
+
+#: FrameMenus.cpp:524 VTBuilder_UI.cpp:1853
+msgid "Slow and smooth"
+msgstr "Langsam und fließender"
+
+#: FrameMenus.cpp:525 VTBuilder_UI.cpp:1857
+msgid "Extrapolation via partial derivatives"
+msgstr ""
+
+#: FrameMenus.cpp:527
+msgid "&Fill In Unknown Areas"
+msgstr "Unbekannte Flächen &füllen"
+
+#: FrameMenus.cpp:529
+msgid "&Set Unknown Areas"
+msgstr "Unbekannte Flächen fe&stlegen"
+
+#: FrameMenus.cpp:531
+msgid "E&xport To..."
+msgstr "E&xportieren..."
+
+#: FrameMenus.cpp:532 FrameMenus.cpp:550
+#, fuzzy
+msgid "Export to libMini tileset..."
+msgstr "Zu Kacheln exportieren..."
+
+#: FrameMenus.cpp:533
+msgid "Re&nder to Bitmap..."
+msgstr "Bitmap rendern..."
+
+#: FrameMenus.cpp:534
+msgid "Convert Grid to TIN"
+msgstr ""
+
+#: FrameMenus.cpp:535
+#, fuzzy
+msgid "Generate Contours"
+msgstr "Farbe löschen"
+
+#: FrameMenus.cpp:537
+msgid "&Merge shared TIN vertices"
+msgstr "Ge&meinsame TIN-Knoten vereinigen"
+
+#: FrameMenus.cpp:539
+msgid "Elev&ation"
+msgstr "Höhen"
+
+#: FrameMenus.cpp:545
+msgid "Replace RGB..."
+msgstr "Farben ersetzen"
+
+#: FrameMenus.cpp:546 TreeView.cpp:368
+msgid "Create Overviews on Disk"
+msgstr ""
+
+#: FrameMenus.cpp:547
+msgid "Create Overviews on Disk for All Images"
+msgstr ""
+
+#: FrameMenus.cpp:548 TreeView.cpp:369
+msgid "Create Overviews in Memory"
+msgstr ""
+
+#: FrameMenus.cpp:551
+msgid "Export to PPM"
+msgstr "Exportiere zu PPM"
+
+#: FrameMenus.cpp:552
+msgid "Imagery"
+msgstr "Bilder"
+
+#: FrameMenus.cpp:558
+msgid "Species List"
+msgstr "Artenliste"
+
+#: FrameMenus.cpp:558
+msgid "View/Edit list of available plant species"
+msgstr "Anzeige/Bearbeitung vorhandener Pflanzenarten"
+
+#: FrameMenus.cpp:559 VegDlg.cpp:170
+msgid "BioRegions"
+msgstr "BioRegionen"
+
+#: FrameMenus.cpp:559
+msgid "View/Edit list of species & density for each BioRegion"
+msgstr "Anzeige/Bearbeitung der Artenliste & Dichte für jede BioRegion"
+
+#: FrameMenus.cpp:561
+msgid "Remap Species"
+msgstr "Arten wiederaufnehmen"
+
+#: FrameMenus.cpp:562
+msgid "Export SHP"
+msgstr "SHP exportieren"
+
+#: FrameMenus.cpp:563
+msgid "Write species to HTML"
+msgstr ""
+
+#: FrameMenus.cpp:564
+msgid "Veg&etation"
+msgstr "Veg&etation"
+
+#: FrameMenus.cpp:578
+msgid "Add Foundation Levels to Buildings"
+msgstr "Fundaments-Stockwerk zu Gebäude hinzufügen"
+
+#: FrameMenus.cpp:579
+msgid "Select Using Polygons"
+msgstr "Markierung mit Polygonen"
+
+#: FrameMenus.cpp:579
+msgid "Select buildings using selected raw layer polygons"
+msgstr "Gebäude mit ausgwählten Roh-Ebenen-Polygonen markieren"
+
+#: FrameMenus.cpp:580
+msgid "Colour Selected Roofs"
+msgstr "Markierte Dächer einfärben"
+
+#: FrameMenus.cpp:580
+msgid "Set roof colour on selected buildings"
+msgstr "Dachfarbe der markierten Gebäude festlegen"
+
+#: FrameMenus.cpp:581 FrameMenus.cpp:3342
+#, fuzzy
+msgid "Clean Footprints"
+msgstr "Verbindungspunkte werden bereinigt"
+
+#: FrameMenus.cpp:581
+msgid "Clean up degenerate footprint geometry"
+msgstr ""
+
+#: FrameMenus.cpp:582
+#, fuzzy
+msgid "Select structure by index"
+msgstr "Features nach Zustand markieren"
+
+#: FrameMenus.cpp:584 FrameMenus.cpp:3393
+msgid "Export footprints to SHP"
+msgstr "Grundflächen zu SHP exportieren"
+
+#: FrameMenus.cpp:585 FrameMenus.cpp:3407
+#, fuzzy
+msgid "Export footprints to Canoma3DV"
+msgstr "Grundflächen zu SHP exportieren"
+
+#: FrameMenus.cpp:588
+msgid "Constrain angles on footprint edit"
+msgstr "Winkel bei der Grundflächenbearbeitung einschränken"
+
+#: FrameMenus.cpp:589
+msgid "&Structures"
+msgstr "&Strukturen"
+
+#: FrameMenus.cpp:597
+msgid "Show Attribute Table"
+msgstr "Attribut-Tabelle anzeigen"
+
+#: FrameMenus.cpp:599
+msgid "Set Entity Type"
+msgstr "Entitätstyp festlegen"
+
+#: FrameMenus.cpp:601
+msgid "Add Point with Text\tCtrl+T"
+msgstr "Punkt mit Text hinzufügen\tStrg+T"
+
+#: FrameMenus.cpp:601
+msgid "Add point"
+msgstr "Punkt hinzufügen"
+
+#: FrameMenus.cpp:602
+msgid "Add Points with GPS"
+msgstr "Punkte mit GPS hinzufügen"
+
+#: FrameMenus.cpp:602
+msgid "Add points with GPS"
+msgstr "Punkte mit GPS hinzufügen"
+
+#: FrameMenus.cpp:603
+#, fuzzy
+msgid "Add Feature from WKT"
+msgstr "Feature-Info"
+
+#: FrameMenus.cpp:604
+msgid "Style..."
+msgstr "Stil..."
+
+#: FrameMenus.cpp:605
+msgid "Scale horizontally"
+msgstr ""
+
+#: FrameMenus.cpp:606
+msgid "Scale vertically"
+msgstr ""
+
+#: FrameMenus.cpp:607
+msgid "Offset vertically"
+msgstr ""
+
+#: FrameMenus.cpp:608
+msgid "Clean polygon geometry"
+msgstr ""
+
+#: FrameMenus.cpp:609
+#, fuzzy
+msgid "Select bad geometry"
+msgstr "Masten markieren"
+
+#: FrameMenus.cpp:611
+msgid "Select Features by Condition"
+msgstr "Features nach Zustand markieren"
+
+#: FrameMenus.cpp:612
+msgid "Export as HTML ImageMap"
+msgstr "Als HTML-ImageMap exportieren"
+
+#: FrameMenus.cpp:613
+#, fuzzy
+msgid "Export as KML"
+msgstr "Exportiere zu PPM"
+
+#: FrameMenus.cpp:614 FrameMenus.cpp:3906
+msgid "Generate Grid from 3D Points"
+msgstr ""
+
+#: FrameMenus.cpp:615 FrameMenus.cpp:3646 FrameMenus.cpp:3656
+msgid "Generate TIN"
+msgstr ""
+
+#: FrameMenus.cpp:616
+#, fuzzy
+msgid "Generate Polygons from Polylines"
+msgstr "Generiere Farben aus Geländehöhen..."
+
+#: FrameMenus.cpp:617
+msgid "Ra&w"
+msgstr "Roh"
+
+#: FrameMenus.cpp:623
+msgid "Clear (Set to zero)"
+msgstr ""
+
+#: FrameMenus.cpp:624
+msgid "Set to Full Extents"
+msgstr "Auf vollen Umfang stellen"
+
+#: FrameMenus.cpp:625
+msgid "Set the Area Tool rectangle to the combined extent of all layers."
+msgstr "Flächenwerkzeug auf kombinierten Umfang aller Ebenen stellen."
+
+#: FrameMenus.cpp:626
+msgid "Set to Layer Extents"
+msgstr "Auf Ebenenumfang stellen"
+
+#: FrameMenus.cpp:627
+msgid "Set the Area Tool rectangle to the extent of the active layer."
+msgstr "Flächenwerkzeug auf Umfang der aktuellen Ebene stellen."
+
+#: FrameMenus.cpp:628
+msgid "Numeric Values"
+msgstr "Numerische Werte"
+
+#: FrameMenus.cpp:629
+msgid "Set the Area Tool rectangle by text entry of coordinates."
+msgstr "Flächenwerkzeug durch Koordinateneingabe einstellen."
+
+#: FrameMenus.cpp:630 FrameMenus.cpp:2591
+msgid "Match Area and Tiling to Layer"
+msgstr "Gebiet und Kachelung an Ebene anpassen"
+
+#: FrameMenus.cpp:631
+msgid "Set the Area Tool rectangle by matching the resolution of a layer."
+msgstr ""
+"Mach das ausgewählte Gebiet durch Anpassung an die Auflösung der Ebene "
+"rechteckig"
+
+#: FrameMenus.cpp:633
+#, fuzzy
+msgid "Sample &Elevation"
+msgstr "Höhe skalieren"
+
+#: FrameMenus.cpp:634
+msgid ""
+"Sample all elevation data within the Area Tool to produce a single, new "
+"elevation."
+msgstr ""
+"Gelände innerhalb der Markierung abtasten, um eine einzelnes, neues Gelände "
+"zu erzeugen."
+
+#: FrameMenus.cpp:635
+#, fuzzy
+msgid "Sample &Imagery"
+msgstr "Bilder speichern"
+
+#: FrameMenus.cpp:636
+msgid "Sample imagery within the Area Tool to produce a single, new image."
+msgstr ""
+"Bilder innerhalb der Markierung abtasten, um ein einzelnes, neues Bild zu "
+"erzeugen."
+
+#: FrameMenus.cpp:637
+msgid "Generate Vegetation"
+msgstr "Vegetation generieren"
+
+#: FrameMenus.cpp:638
+msgid "Generate Vegetation File (*.vf) containing plant distribution."
+msgstr "Generiere Vegetationsdatei (*.vf) mit einer Pflanzenverteilung"
+
+#: FrameMenus.cpp:639
+msgid "Compute Vegetation Density"
+msgstr "Berechne Vegetationsdichte"
+
+#: FrameMenus.cpp:640
+msgid ""
+"Compute and display the density of each species of vegetation in the given "
+"area."
+msgstr ""
+"Berechne und zeige die Dichte jeder Vegetationsspezies im gewählten Gebiet"
+
+#: FrameMenus.cpp:642
+msgid "Request Layer from WFS"
+msgstr "Ebene vom WFS anfordern"
+
+#: FrameMenus.cpp:643
+msgid "Request Image from WMS"
+msgstr "Bild vom WMS anfordern"
+
+#: FrameMenus.cpp:644
+msgid "Request Image from Terraserver"
+msgstr "Bild vom Terraserver anfordern"
+
+#: FrameMenus.cpp:648
+msgid ""
+"Sample all elevation data within the Area Tool efficiently to produce an "
+"elevation tileset."
+msgstr ""
+"Effizientes Sampling der Höhe innerhalb der Auswahl um einen Gelände-"
+"Kachelsatz zu erzeugen."
+
+#: FrameMenus.cpp:650
+msgid ""
+"Sample all image data within the Area Tool efficiently to produce an image "
+"tileset."
+msgstr ""
+"Effizientes Sampling der Bilddaten innerhalb des Flächenwerkzeugs um einen "
+"Bild-Kachelsatz zu erzeugen."
+
+#: FrameMenus.cpp:651
+msgid "&Area Tool"
+msgstr "Flächenwerkzeug"
+
+#: FrameMenus.cpp:656 FrameMenus.cpp:4075
+msgid "About "
+msgstr "Über"
+
+#: FrameMenus.cpp:660
+msgid "&About"
+msgstr "Ü&ber"
+
+#: FrameMenus.cpp:661
+msgid "Documentation (local)"
+msgstr "Dokumentation (Lokal)"
+
+#: FrameMenus.cpp:662
+msgid "Documentation (on the web)"
+msgstr "Dokumentation (im Web)"
+
+#: FrameMenus.cpp:663 FrameMenus.cpp:666
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: FrameMenus.cpp:710
+msgid "Project Files (*.vtb)|*.vtb"
+msgstr "Projektdateien (*.vtb)|*.vtb"
+
+#: FrameMenus.cpp:716
+msgid "Load Project"
+msgstr "Projekt laden"
+
+#: FrameMenus.cpp:809
+msgid "Import elevation grid data, write BT"
+msgstr ""
+
+#: FrameMenus.cpp:810
+msgid "Import 3D point data, produce a TIN and write ITF"
+msgstr ""
+
+#: FrameMenus.cpp:812
+msgid "Choose operation:"
+msgstr ""
+
+#: FrameMenus.cpp:818
+msgid "Choose directory that has the input files"
+msgstr ""
+
+#: FrameMenus.cpp:823
+#, fuzzy
+msgid "Choose directory for output files"
+msgstr "Wähle Eingabedatei"
+
+#: FrameMenus.cpp:972
+#, c-format
+msgid "Deleting road selection: %d nodes and %d roads"
+msgstr "Löschen der Straßenauswahl: %d Knoten und %d Straßen"
+
+#: FrameMenus.cpp:1004
+msgid "Are you sure you want to delete the current layer?"
+msgstr "Möchten Sie die aktuelle Ebene wirklich löschen?"
+
+#: FrameMenus.cpp:1054
+msgid "Please enter horizontal offset X, Y"
+msgstr "Bitte geben Sie horizontalen Offset X, Y ein"
+
+#: FrameMenus.cpp:1108
+msgid "Native Layer Formats|"
+msgstr "Native Ebenenformate|"
+
+#: FrameMenus.cpp:1148
+msgid "Saving layer to file "
+msgstr "Ebene wird in Datei gespeichert"
+
+#: FrameMenus.cpp:1154
+msgid "Saved layer to file "
+msgstr "Ebene wurde in Datei gespeichert"
+
+#: FrameMenus.cpp:1156
+msgid "Save failed."
+msgstr "Speichern fehlgeschlagen."
+
+#: FrameMenus.cpp:1176
+msgid "Saving layer to file as "
+msgstr "Ebene wird in Datei gespeichert als"
+
+#: FrameMenus.cpp:1186
+msgid "Saved layer to file as "
+msgstr "Ebene wurde in Datei gespeichert als"
+
+#: FrameMenus.cpp:1193
+msgid "Failed to save layer to "
+msgstr "Fehler beim Speichern der Ebene als"
+
+#: FrameMenus.cpp:1194
+msgid "Problem"
+msgstr "Problem"
+
+#: FrameMenus.cpp:1240
+msgid "Import TIGER Data From Directory"
+msgstr "TIGER-Daten aus Verzeichnis importieren"
+
+#: FrameMenus.cpp:1248
+#, fuzzy
+msgid "Import Layers from OpenStreetMap File"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:1254 Import.cpp:382
+#, fuzzy
+msgid "Importing from OpenStreetMap"
+msgstr "Importiere aus SCC..."
+
+#: FrameMenus.cpp:1268
+msgid "Import Layers from NTF File"
+msgstr "Ebenen aus NTF-Datei importieren"
+
+#: FrameMenus.cpp:1283
+msgid "Import Utility Data from Directory of SHP Files"
+msgstr "Versorgungsdaten aus Verzeichnis mit SHP-Dateien importieren"
+
+#: FrameMenus.cpp:1292
+msgid "Indicate Projection"
+msgstr "Koordinatensystem angeben"
+
+#: FrameMenus.cpp:1319
+msgid "Import MapSource File"
+msgstr "MapSource-Datei importieren"
+
+#: FrameMenus.cpp:1320
+msgid "MapSource Export Files (*.txt)|*.txt"
+msgstr "MapSource Export-Dateien (*.txt)|*.txt"
+
+#: FrameMenus.cpp:1331
+#, fuzzy
+msgid "Tabular Data Files|"
+msgstr "Tabellarische Werte-Dateien (*.dbf)|*.dbf"
+
+#: FrameMenus.cpp:1338
+msgid "Import Point Data"
+msgstr "Punktdaten importieren"
+
+#: FrameMenus.cpp:1354
+msgid "Import XML Data"
+msgstr "XML-Daten importieren"
+
+#: FrameMenus.cpp:1355
+msgid "XML files (*.xml)|*.xml"
+msgstr "XML-Dateien (*.xml)|*.xml"
+
+#: FrameMenus.cpp:1376
+#, fuzzy
+msgid "Import DXF Data"
+msgstr "XML-Daten importieren"
+
+#: FrameMenus.cpp:1377
+#, fuzzy
+msgid "DXF files (*.dxf)|*.dxf"
+msgstr "DXF Dateien (*.dxf)|*.dxf"
+
+#: FrameMenus.cpp:1401
+msgid " Layer Properties"
+msgstr " Ebenen-Eigenschaften"
+
+#: FrameMenus.cpp:1427
+msgid "Changed extents."
+msgstr "Ausmaße geändert."
+
+#: FrameMenus.cpp:1431
+msgid "Could not change extents."
+msgstr "Konnte Ausmaße nicht ändern."
+
+#: FrameMenus.cpp:1468
+msgid "Convert to what projection?"
+msgstr "In welches Koordinatensystem konvertieren?"
+
+#: FrameMenus.cpp:1516
+msgid "Set to what projection?"
+msgstr "Auf welches Koordinatensystem einstellen?"
+
+#: FrameMenus.cpp:1899
+msgid "Please enter highway number"
+msgstr "Bitte geben Sie eine Autobahn-Nummer ein"
+
+#: FrameMenus.cpp:1900
+msgid "Select Highway"
+msgstr "Autobahn auswählen"
+
+#: FrameMenus.cpp:1939
+msgid ""
+"Sorry, but precise grid operations require a non-geographic coordinate\n"
+" system (meters as horizontal units, not degrees.)"
+msgstr ""
+"Sorry, aber präzise Gitter-Operationen erfordern ein nicht-geographisches "
+"Koordinatensystem (Meter als horizontale Einheiten, nicht in Grad.)"
+
+#: FrameMenus.cpp:1940 FrameMenus.cpp:2940 FrameMenus.cpp:3061
+msgid "Info"
+msgstr "Info"
+
+#: FrameMenus.cpp:1947
+msgid "How many meters for the margin at the edge of each road?"
+msgstr "Wieviele Meter für den Straßen-Seitenrand?"
+
+#: FrameMenus.cpp:1948
+msgid "Flatten elevation grid under roads"
+msgstr "Höhengitter unter den Straßen abflachen"
+
+#: FrameMenus.cpp:2000
+msgid ""
+"Please specify the elevation range\n"
+"(minimum and maximum in the form \"X Y\")\n"
+"All values within this range (and within the area\n"
+"tool, if it is defined) will be set to Unknown."
+msgstr ""
+"Bitte geben Sie einen Höhenbereich an\n"
+"(Minimum und Maximum in der Form \"X Y\")\n"
+"Alle Werte innerhalb dieses Bereiches (und innerhalb des Flächen-\n"
+" werkzeugs, falls es definiert wurde) werden auf Unbekannt gesetzt."
+
+#: FrameMenus.cpp:2006
+msgid "Didn't get two numbers."
+msgstr "Zwei Zahlenwerte nicht erhalten."
+
+#: FrameMenus.cpp:2013
+#, c-format
+msgid "Set %d heixels to unknown"
+msgstr "Setze %d Heixel auf Unbekannt"
+
+#: FrameMenus.cpp:2047
+msgid "Set unknown areas to what value?"
+msgstr "Auf welchen Wert möchten Sie unbekannte Flächen setzen?"
+
+#: FrameMenus.cpp:2048
+msgid "Set Unknown Areas"
+msgstr "Unbekannte Flächen setzen"
+
+#: FrameMenus.cpp:2099
+msgid "Please enter a scale factor"
+msgstr "Bitte geben Sie einen Skalierungsfaktor an"
+
+#: FrameMenus.cpp:2100
+msgid "Scale Elevation"
+msgstr "Höhe skalieren"
+
+#: FrameMenus.cpp:2108 FrameMenus.cpp:2144
+msgid "Couldn't parse the number you typed."
+msgstr "Konnte den von Ihnen eingegebenen Zahlenwert nicht parsen."
+
+#: FrameMenus.cpp:2135
+#, fuzzy
+msgid "Please enter an amout to offset"
+msgstr "Bitte geben Sie horizontalen Offset X, Y ein"
+
+#: FrameMenus.cpp:2198
+msgid "Please choose"
+msgstr "Bitte wählen Sie"
+
+#: FrameMenus.cpp:2199
+msgid "Export to file format:"
+msgstr "Zu Dateiformat exportieren:"
+
+#: FrameMenus.cpp:2300
+msgid "Render Elevation to Bitmap"
+msgstr "Höhen als Rasterbild darstellen"
+
+#: FrameMenus.cpp:2307
+msgid "Generating Bitmap"
+msgstr "Generiere Bitmap"
+
+#: FrameMenus.cpp:2337
+#, fuzzy
+msgid "Add Contours"
+msgstr "Punkt hinzufügen"
+
+#: FrameMenus.cpp:2443
+msgid "R G B in the range 0-255:"
+msgstr "R G B im Wertebereich von 0-255"
+
+#: FrameMenus.cpp:2444
+msgid "Replace color:"
+msgstr "Farbe ersetzen"
+
+#: FrameMenus.cpp:2452 FrameMenus.cpp:2462
+msgid "Didn't get three R G B values in range."
+msgstr "Konnte keine drei RGB Werte in den Wertebereich bekommen"
+
+#: FrameMenus.cpp:2455
+msgid "With color:"
+msgstr "Mit Farbe:"
+
+#: FrameMenus.cpp:2473 FrameMenus.cpp:2482 FrameMenus.cpp:4181
+msgid "Creating Overviews"
+msgstr ""
+
+#: FrameMenus.cpp:2496 FrameMenus.cpp:4196
+#, fuzzy
+msgid "Creating MipMaps"
+msgstr "Straßenkarte wird bereinigt"
+
+#: FrameMenus.cpp:2580
+msgid "Edit Area"
+msgstr "Fläche bearbeiten"
+
+#: FrameMenus.cpp:2686
+msgid "Could not open file"
+msgstr "Konnte Datei nicht öffnen"
+
+#: FrameMenus.cpp:2697
+msgid "Requesting data"
+msgstr "Daten werden angefordert"
+
+#: FrameMenus.cpp:2773
+msgid "Terraserver"
+msgstr "Terraserver"
+
+#: FrameMenus.cpp:2779
+msgid "Requesting data from Terraserver..."
+msgstr "Daten werden vom Terraserver angefordert..."
+
+#: FrameMenus.cpp:2788
+msgid "Successfully wrote file."
+msgstr "Datei wurde erfolgreich geschrieben."
+
+#: FrameMenus.cpp:2791
+msgid "Unable to download."
+msgstr "Download nicht möglich."
+
+#: FrameMenus.cpp:2818
+msgid "Plant Species List Files (*.xml)|*.xml"
+msgstr "Pflanzenarten-Dateien (*.xml)|*.xml"
+
+#: FrameMenus.cpp:2842
+msgid "Load Plant Info"
+msgstr "Pflanzen-Info laden"
+
+#: FrameMenus.cpp:2855
+msgid "Plants List"
+msgstr "Pflanzenliste"
+
+#: FrameMenus.cpp:2868
+msgid "Bioregion Files (*.txt)|*.txt"
+msgstr "Bioregion-Dateien (*.txt)|*.txt"
+
+#: FrameMenus.cpp:2871
+msgid "Load BioRegion Info"
+msgstr "Lade BioRegion-Info"
+
+#: FrameMenus.cpp:2885
+msgid "BioRegions List"
+msgstr "BioRegionen-Liste"
+
+#: FrameMenus.cpp:2909
+msgid "Remap FROM Species"
+msgstr "Remap VON Arten"
+
+#: FrameMenus.cpp:2909 FrameMenus.cpp:2915 VTBuilder_UI.cpp:97
+#: VTBuilder_UI.cpp:2875 VTBuilder_UI.cpp:3277
+msgid "Species"
+msgstr "Arten"
+
+#: FrameMenus.cpp:2915
+msgid "Remap TO Species"
+msgstr "Remap AUF Arten"
+
+#: FrameMenus.cpp:2939
+#, c-format
+msgid "Remap successful, %d plants remapped.\n"
+msgstr "Remap erfolgreich, %d Pflanzen wurden remapped.\n"
+
+#: FrameMenus.cpp:2951 FrameMenus.cpp:2967
+msgid "Export vegetation to SHP"
+msgstr "Vegetation zu SHP exportieren"
+
+#: FrameMenus.cpp:2952 FrameMenus.cpp:2968
+msgid "Vegetation Files (*.shp)|*.shp"
+msgstr "Vegetationsdateien (*.shp)|*.shp"
+
+#: FrameMenus.cpp:2985
+msgid "Save Vegetation File"
+msgstr "Vegetationsdatei speichern"
+
+#: FrameMenus.cpp:2986
+msgid "Vegetation Files (*.vf)|*.vf"
+msgstr "Vegetationsdateien (*.vf)|*.vf"
+
+#: FrameMenus.cpp:2992
+msgid "Vegetation Distribution Options"
+msgstr "Vegetationsverteilung Optionen"
+
+#: FrameMenus.cpp:3016
+#, c-format
+msgid "Total area: %.1f square meters (%.3f hectares)\n"
+msgstr "Gesamtfläche: %.1f Quadratmeter (%.3fHektar)\n"
+
+#: FrameMenus.cpp:3052
+#, c-format
+msgid "  %d instances of species %hs: %.5f per m^2, average height %.1f\n"
+msgstr ""
+"  %d Instanzen der Spezies %hs: %.5f pro m², durchschnittliche Höhe %.1f\n"
+
+#: FrameMenus.cpp:3059
+#, c-format
+msgid "Total plant instances: %d\n"
+msgstr "Gesamtzahl von einzelnen Pflanzen: %d\n"
+
+#: FrameMenus.cpp:3341
+msgid "How close are degenerate points? (epsilon)"
+msgstr ""
+
+#: FrameMenus.cpp:3369
+#, c-format
+msgid "Index (0 .. %d)"
+msgstr ""
+
+#: FrameMenus.cpp:3370
+msgid "Index"
+msgstr ""
+
+#: FrameMenus.cpp:3394
+msgid "SHP Files (*.shp)|*.shp"
+msgstr "SHP-Dateien (*.shp)|*.shp"
+
+#: FrameMenus.cpp:3408
+#, fuzzy
+msgid "Canoma3DV Files (*.3dv)|*.3dv"
+msgstr "DXF Dateien (*.dxf)|*.dxf"
+
+#: FrameMenus.cpp:3476
+msgid "Raw Layer Type"
+msgstr "Roh-Ebenentyp"
+
+#: FrameMenus.cpp:3477
+msgid "Please indicate entity type:"
+msgstr "Bitte geben Sie Entitätstyp an:"
+
+#: FrameMenus.cpp:3518
+msgid "(X, Y) in current projection"
+msgstr "(X, Y) in aktuellem Koordinatensystem"
+
+#: FrameMenus.cpp:3519
+msgid "Enter coordinate"
+msgstr "Geben Sie die Koordinate ein"
+
+#: FrameMenus.cpp:3557
+msgid "Enter well-known-text (WKT) of a feature (in current CRS)"
+msgstr ""
+
+#: FrameMenus.cpp:3599
+msgid "Select"
+msgstr "Auswahl"
+
+#: FrameMenus.cpp:3609
+msgid "Unable to select"
+msgstr "Auswahl nicht möglich"
+
+#: FrameMenus.cpp:3611
+msgid "Selected 1 entity"
+msgstr "Eine Einheit selektiert"
+
+#: FrameMenus.cpp:3613
+#, c-format
+msgid "Selected %d entities"
+msgstr "%d Einheiten selektiert"
+
+#: FrameMenus.cpp:3646
+#, fuzzy
+msgid "Height Field"
+msgstr "Höhenfeld:"
+
+#: FrameMenus.cpp:3655
+msgid "What height to use for the TIN surface?"
+msgstr ""
+
+#: FrameMenus.cpp:3801
+msgid "Export Image Map"
+msgstr "Image Map exportieren"
+
+#: FrameMenus.cpp:3806 FrameMenus.cpp:3816
+msgid "Save to Image File"
+msgstr "In Bilddatei speichern"
+
+#: FrameMenus.cpp:3887
+#, fuzzy
+msgid "Save to KML File"
+msgstr "In Datei speichern"
+
+#: FrameMenus.cpp:3951 FrameMenus.cpp:3966
+msgid "Scale factor?"
+msgstr "Skalierungsfaktor?"
+
+#: FrameMenus.cpp:3951 FrameMenus.cpp:3966
+msgid "Scale Raw Layer"
+msgstr "Roh-Ebene skalieren"
+
+#: FrameMenus.cpp:3981
+#, fuzzy
+msgid "Vertical offset?"
+msgstr "Höhenunterschied"
+
+#: FrameMenus.cpp:3981
+#, fuzzy
+msgid "Offset Raw Layer"
+msgstr "Roh-Ebene skalieren"
+
+#: FrameMenus.cpp:4004
+msgid "Distance threshhold for proximity and co-linearity?"
+msgstr ""
+
+#: FrameMenus.cpp:4005
+#, fuzzy
+msgid "Clean Raw Layer"
+msgstr "Roh-Ebene skalieren"
+
+#: FrameMenus.cpp:4016
+#, c-format
+msgid "Removed %d degenerate points"
+msgstr ""
+
+#: FrameMenus.cpp:4031
+msgid "Distance threshhold for proximity?"
+msgstr ""
+
+#: FrameMenus.cpp:4032
+#, fuzzy
+msgid "Select bad polygons"
+msgstr "Markierung mit Polygonen"
+
+#: FrameMenus.cpp:4039
+#, c-format
+msgid "Found %d degenerate polygons"
+msgstr ""
+
+#: FrameMenus.cpp:4051
+msgid ""
+"Virtual Terrain Builder\n"
+"Powerful, easy to use, free!\n"
+msgstr ""
+"Virtual Terrain Builder\n"
+"Leistungsstark, leicht zu bedienen, kostenlos!\n"
+
+#: FrameMenus.cpp:4053
+msgid "Please read the HTML documentation and license.\n"
+msgstr "Bitte lesen Sie die HTML-Dokumentation und Lizenz.\n"
+
+#: FrameMenus.cpp:4055
+msgid "Send feedback to: "
+msgstr "Senden Sie Feedback an: "
+
+#: FrameMenus.cpp:4060
+msgid "Build date: "
+msgstr "Build-Datum:"
+
+#: ImageLayer.cpp:75
+msgid "Converting Image CRS"
+msgstr "Wandle Bild Koordinatensystem um"
+
+#: ImageLayer.cpp:146
+#, c-format
+msgid "Dimensions %d by %d pixels"
+msgstr "Maße %d x %d Pixel"
+
+#: ImageLayer.cpp:149
+msgid "Spacing: "
+msgstr "Abstand:"
+
+#: ImageLayer.cpp:160
+#, fuzzy
+msgid "Bitmaps:"
+msgstr "Bitmapgröße"
+
+#: ImageLayer.cpp:177
+#, fuzzy
+msgid "in memory"
+msgstr "In den Speicher laden"
+
+#: ImageLayer.cpp:183
+msgid "overview on disk"
+msgstr ""
+
+#: Import.cpp:189
+msgid "Expanding archive"
+msgstr "Archiv wird ausgepackt"
+
+#: Import.cpp:457
+msgid "Importing Data from "
+msgstr "Daten werden importiert aus"
+
+#: Import.cpp:653
+msgid "Did not import any data from that file."
+msgstr "Aus dieser Datei wurden keine Daten importiert."
+
+#: Import.cpp:852
+msgid ""
+"Couldn't read that Shape file.  Perhaps it is\n"
+"missing its corresponding .dbf and .shx files."
+msgstr ""
+"Diese Shape-Datei konnte nicht gelesen werden. Vielleicht\n"
+"fehlen ihre entsprechenden .dbf und .shx-Dateien."
+
+#: Import.cpp:905
+msgid ""
+"The Shapefile must have either point features\n"
+"(for individual plants) or polygon features\n"
+" (for plant distribution areas)."
+msgstr ""
+"Die Shape-Datei muß entweder Punkt-Features\n"
+"(für individuelle Pflanzen) oder Polygon-Features\n"
+" (für Pflanzenverteilungsflächen) haben."
+
+#: Import.cpp:912
+msgid "Import Vegetation Information"
+msgstr "Vegetations-Infos importieren"
+
+#: Import.cpp:923
+msgid "Map fields to attributes"
+msgstr "Felder auf Attribute abbilden"
+
+#: Import.cpp:1195 Import.cpp:1199
+msgid "Which layers to import?"
+msgstr "Welche Ebenen importieren?"
+
+#: Import.cpp:1196 Import.cpp:1200
+msgid "Import Tracks"
+msgstr "Tracks importieren"
+
+#: Import.cpp:1305 Import.cpp:1433
+msgid "Point Data Import"
+msgstr "Punktdaten importieren"
+
+#: Import.cpp:1629 StructLayer.cpp:1080
+msgid "Import Structures"
+msgstr "Strukturen importieren"
+
+#: Import.cpp:1762
+msgid "Importing from TIGER..."
+msgstr "Importiere aus TIGER..."
+
+#: Import.cpp:1898
+#, fuzzy
+msgid "Importing from NTF..."
+msgstr "Importiere aus TIGER..."
+
+#: Import.cpp:2092
+#, fuzzy
+msgid "Importing from S-57..."
+msgstr "Importiere aus SCC..."
+
+#: Import.cpp:2175
+msgid "Importing from SCC..."
+msgstr "Importiere aus SCC..."
+
+#: Import.cpp:2383
+msgid "Parsing DXF"
+msgstr ""
+
+#: ImportPointDlg.cpp:100 RawDlg.cpp:79
+msgid "Please indicate CRS"
+msgstr "Bitte geben Sie CRS an"
+
+#: ImportStructDlg.cpp:175 ImportStructDlg.cpp:176 ImportStructDlg.cpp:177
+#: ImportStructDlgOGR.cpp:157 ImportStructDlgOGR.cpp:158
+msgid "(none)"
+msgstr "(keine)"
+
+#: ImportVegDlg.cpp:59 VegFieldsDlg.cpp:102
+msgid "Couldn't open shapefile."
+msgstr "Konnte Shape-Datei nicht öffnen."
+
+#: ImportVegDlg.cpp:70
+msgid ""
+"Shapefile must have either point features (for individual\n"
+" plants) or polygon features (for plant distribution areas)."
+msgstr ""
+"Shape-Datei muß entweder Punkt-Features (für individuelle\n"
+" Pflanzen) oder Polygon-Features (für Pflanzenverteilungsflächen) haben."
+
+#: ImportVegDlg.cpp:78 VegFieldsDlg.cpp:113
+msgid "Couldn't open DBF file."
+msgstr "DBF-Datei konnte nicht geöffnet werden."
+
+#: ImportVegDlg.cpp:96
+msgid " (String)"
+msgstr " (String)"
+
+#: ImportVegDlg.cpp:98
+msgid " (Integer)"
+msgstr " (Integer)"
+
+#: ImportVegDlg.cpp:100
+msgid " (Double)"
+msgstr " (Double)"
+
+#: Layer.cpp:47 NodeDlg.cpp:129 ../../TerrainSDK/vtui/BuildingDlg.cpp:506
+#: ../../TerrainSDK/vtui/DoubleProgDlg.cpp:418
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:118
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: Layer.cpp:124
+msgid " Files"
+msgstr " Dateien"
+
+#: Layer.cpp:131
+msgid "|All Files|*.*"
+msgstr "|Alle Dateien|*.*"
+
+#: Layer.cpp:168 MapServerDlg.cpp:114 SampleImageDlg.cpp:209
+msgid "All Files|*.*"
+msgstr "Alle Dateien|*.*"
+
+#: Layer.cpp:175
+msgid "Export"
+msgstr "Export"
+
+#: MapServerDlg.cpp:123 SampleImageDlg.cpp:215
+msgid "Save Imagery"
+msgstr "Bilder speichern"
+
+#: MapServerDlg.cpp:147
+msgid "Querying server..."
+msgstr "Server wird abgefragt..."
+
+#: MapServerDlg.cpp:279
+msgid "<none>"
+msgstr "<keine>"
+
+#: MapServerDlg.cpp:316
+msgid "Title: "
+msgstr "Titel:"
+
+#: MapServerDlg.cpp:323
+msgid "Abstract: "
+msgstr "Abstrakt:"
+
+#: MatchDlg.cpp:111
+msgid "n/a"
+msgstr "nicht anwendbar"
+
+#: NodeDlg.cpp:130 NodeDlg.cpp:137
+msgid "Uncontrolled"
+msgstr "Ungesteuert"
+
+#: NodeDlg.cpp:131
+msgid "All Traffic Light(s)"
+msgstr "Alle Verkehrsampeln"
+
+#: NodeDlg.cpp:132
+msgid "All Stop Sign(s)"
+msgstr "Alle Stopschilder"
+
+#: NodeDlg.cpp:133
+msgid "Traffic Light(s)"
+msgstr "Verkehrsampel(n)"
+
+#: NodeDlg.cpp:134
+msgid "Stop Sign(s)"
+msgstr "Stopschild(er)"
+
+#: NodeDlg.cpp:135 RoadDlg.cpp:52 RoadDlg.cpp:57 RoadDlg.cpp:62
+#: RoadDlg.cpp:152 RoadDlg.cpp:158 RoadDlg.cpp:184 RoadDlg.cpp:190
+#: RoadDlg.cpp:196 RoadDlg.cpp:202 RoadDlg.cpp:208
+msgid "(multiple)"
+msgstr "(mehrere)"
+
+#: NodeDlg.cpp:138
+msgid "Traffic Light"
+msgstr "Verkehrsampel"
+
+#: NodeDlg.cpp:139
+msgid "Stop Sign"
+msgstr "Stopschild"
+
+#: OptionsDlg.cpp:35 VTBuilder_UI.cpp:792 VTBuilder_UI.cpp:997
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:47
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:53
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:59
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:65
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:324
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:208
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1404
+msgid "Meters"
+msgstr "Meter"
+
+#: OptionsDlg.cpp:36 ../../TerrainSDK/vtui/ProjectionDlg.cpp:211
+msgid "Feet (International)"
+msgstr "Fuß (International)"
+
+#: OptionsDlg.cpp:37 ../../TerrainSDK/vtui/ProjectionDlg.cpp:212
+msgid "Feet (U.S. Survey)"
+msgstr "Fuß (U.S. Survey)"
+
+#: RawLayer.cpp:328 Special.cpp:767
+#, fuzzy
+msgid "Loading"
+msgstr "Laden"
+
+#: RawLayer.cpp:420
+msgid "No Features\n"
+msgstr "Keine Features\n"
+
+#: RawLayer.cpp:426
+#, c-format
+msgid "Entity type: %hs\n"
+msgstr "Entitätstyp: %hs\n"
+
+#: RawLayer.cpp:429
+#, c-format
+msgid "Entities: %d\n"
+msgstr "Entitäten: %d\n"
+
+#: RawLayer.cpp:438 RawLayer.cpp:452
+#, c-format
+msgid "Minimum Height: %.2f\n"
+msgstr "Minimale Höhe: %.2f\n"
+
+#: RawLayer.cpp:441 RawLayer.cpp:455
+#, c-format
+msgid "Maximum Height: %.2f\n"
+msgstr "Maximale Höhe: %.2f\n"
+
+#: RawLayer.cpp:463
+msgid "Fields:\n"
+msgstr "Felder:\n"
+
+#: RawLayer.cpp:473
+msgid "Fields: None.\n"
+msgstr "Felder: Keine.\n"
+
+#: RenderDlg.cpp:149 RenderOptionsDlg.cpp:125
+msgid "ColorMap"
+msgstr "Farbtabelle"
+
+#: RenderDlg.cpp:159 RenderOptionsDlg.cpp:135
+msgid "Couldn't locate file."
+msgstr "Datei konnte nicht gefunden werden."
+
+#: RenderDlg.cpp:179
+msgid "Specify image file"
+msgstr "Geben Sie eine Bilddatei an"
+
+#: RoadDlg.cpp:39 VTBuilder_UI.cpp:2256 VTBuilder_UI.cpp:3071
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:864
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "None"
+msgstr "Keine"
+
+#: RoadDlg.cpp:40
+msgid "Gravel"
+msgstr "Schotter"
+
+#: RoadDlg.cpp:41
+msgid "Trail"
+msgstr "Pfad"
+
+#: RoadDlg.cpp:42
+msgid "2 Track"
+msgstr "Zweispurig"
+
+#: RoadDlg.cpp:43
+msgid "Dirt"
+msgstr "Unbefestigt"
+
+#: RoadDlg.cpp:44
+msgid "Paved"
+msgstr "Gepflastert"
+
+#: RoadDlg.cpp:45
+msgid "Railroad"
+msgstr "Schienen"
+
+#: RoadDlg.cpp:46
+msgid "Stone"
+msgstr "Stein"
+
+#: RoadDlg.cpp:47
+msgid "(multiple types)"
+msgstr "(Mehrere Arten)"
+
+#: RoadDlg.cpp:50 RoadDlg.cpp:55 RoadDlg.cpp:60
+msgid "No"
+msgstr "Nein"
+
+#: RoadDlg.cpp:51 RoadDlg.cpp:56 RoadDlg.cpp:61
+msgid "Yes"
+msgstr "Ja"
+
+#: RoadLayer.cpp:270
+msgid "Network of links.\n"
+msgstr "Netzwerk von Verbindungen.\n"
+
+#: RoadLayer.cpp:273
+#, c-format
+msgid "Nodes: %d, selected: %d\n"
+msgstr "Knoten: %d, ausgewählt: %d\n"
+
+#: RoadLayer.cpp:275
+#, c-format
+msgid "Links: %d, selected: %d\n"
+msgstr "Verbindungen: %d, ausgewählt: %d\n"
+
+#: RoadLayer.cpp:501 RoadMapEdit.cpp:93
+msgid "Node Properties"
+msgstr "Knoten-Eigenschaften"
+
+#: RoadLayer.cpp:529
+msgid "Link Properties"
+msgstr "Verbindungs-Eigenschaften"
+
+#: RoadLayer.cpp:544
+#, c-format
+msgid "Selected %d nodes"
+msgstr "%d Knoten ausgewählt"
+
+#: RoadLayer.cpp:555
+#, c-format
+msgid "Selected %d links"
+msgstr "%d Verbindungen ausgewählt"
+
+#: RoadLayer.cpp:570
+msgid "Cleaning RoadMap"
+msgstr "Straßenkarte wird bereinigt"
+
+#: RoadLayer.cpp:572
+msgid "Removing unused nodes"
+msgstr "Ungenutzte Knoten werden entfernt"
+
+#: RoadLayer.cpp:580
+msgid "Merging redundant nodes"
+msgstr "Redundante Knoten werden vereinigt"
+
+#: RoadLayer.cpp:589
+msgid "Cleaning link points"
+msgstr "Verbindungspunkte werden bereinigt"
+
+#: RoadLayer.cpp:663
+msgid "Scanning Grid against Roads"
+msgstr "Straßen werden im Gitter gesucht"
+
+#: RoadMapEdit.cpp:400
+msgid "Road Properties"
+msgstr "Straßeneigenschaften"
+
+#: SampleElevationDlg.cpp:129
+msgid "Save Elevation"
+msgstr "Gelände speichern"
+
+#: SelectDlg.cpp:74
+msgid "X (longitude)"
+msgstr "X (Längengrad)"
+
+#: SelectDlg.cpp:75
+msgid "Y (latitude)"
+msgstr "Y (Breitengrad)"
+
+#: SelectDlg.cpp:79
+msgid "X (easting)"
+msgstr "X (Rechtswert)"
+
+#: SelectDlg.cpp:80
+msgid "Y (northing)"
+msgstr "Y (Hochwert)"
+
+#: SelectDlg.cpp:86
+msgid "Z (meters)"
+msgstr "Z (Meter)"
+
+#: Special.cpp:261 Special.cpp:511
+msgid "Can't register clipboard format"
+msgstr "Zwischenablagenformat konnte nicht registriert werden"
+
+#: Special.cpp:619 Special.cpp:754
+msgid "Choose input file"
+msgstr "Wähle Eingabedatei"
+
+#: Special.cpp:630
+msgid "Size of each output tile?"
+msgstr "Größe jeder Ausgabe-Kachel?"
+
+#: Special.cpp:631 Special.cpp:637
+msgid "Query"
+msgstr "Abfrage"
+
+#: Special.cpp:637
+msgid "Prefix for output filenames?"
+msgstr "Präfix für Ausgabe-Dateinamen?"
+
+#: Special.cpp:644
+msgid "Output Directory"
+msgstr ""
+
+#: Special.cpp:654 Special.cpp:764
+msgid "Processing"
+msgstr "Verarbeitung im Gange"
+
+#: Special.cpp:654
+msgid "Loading source bitmap.."
+msgstr "Lade Quell-Rasterbild..."
+
+#: Special.cpp:684
+#, c-format
+msgid "Creating tile %d ..."
+msgstr "Erzeuge Kachel %d ..."
+
+#: Special.cpp:749
+#, fuzzy
+msgid "Image Formats|"
+msgstr "Bildimport"
+
+#: Special.cpp:759
+#, fuzzy
+msgid "Choose output file"
+msgstr "Wähle Eingabedatei"
+
+#: Special.cpp:796
+#, fuzzy
+msgid "Output size"
+msgstr "Ausgabe"
+
+#: Special.cpp:871
+#, fuzzy
+msgid "Saving to "
+msgstr "Ebene wird in Datei gespeichert"
+
+#: StatusBar.cpp:83
+#, c-format
+msgid "Zone %d"
+msgstr "Streifen %d"
+
+#: StatusBar.cpp:99
+#, c-format
+msgid "1 Pixel = %.6lg "
+msgstr "1 Pixel = %.6lg "
+
+#: StatusBar.cpp:101
+#, c-format
+msgid "1 Pixel = %.2lf "
+msgstr "1 Pixel = %.2lf "
+
+#: StatusBar.cpp:106 StatusBar.cpp:138
+msgid "Mouse"
+msgstr "Maus"
+
+#: StructLayer.cpp:232
+#, fuzzy
+msgid "Loading Structures"
+msgstr "Lineare Strukturen"
+
+#: StructLayer.cpp:397
+msgid "Filename: "
+msgstr "Dateiname:"
+
+#: StructLayer.cpp:402
+#, c-format
+msgid "Number of structures: %d\n"
+msgstr "Anzahl Strukturen: %d\n"
+
+#: StructLayer.cpp:413
+#, c-format
+msgid "\t %d Buildings (procedural)\n"
+msgstr "\t %d Gebäude (prozedural)\n"
+
+#: StructLayer.cpp:415
+#, fuzzy, c-format
+msgid "\t %d Linears (fences/walls)\n"
+msgstr "\t %d Linear (Zäune/Mauern)\n"
+
+#: StructLayer.cpp:417
+#, fuzzy, c-format
+msgid "\t %d Instances (external 3D models)\n"
+msgstr "\t %d Instanzen (importierte Modelle)\n"
+
+#: StructLayer.cpp:420
+#, c-format
+msgid "Number of selected structures: %d\n"
+msgstr "Anzahl ausgewählter Strukturen: %d\n"
+
+#: StructLayer.cpp:926
+msgid "Building Properties"
+msgstr "Gebäude-Eigenschaften"
+
+#: StructLayer.cpp:1109
+#, fuzzy
+msgid "VTST File (.vtst)|*.vtst"
+msgstr "NTF-Dateien (*.ntf)|*.ntf"
+
+#: StructLayer.cpp:1111
+#, fuzzy
+msgid "GZipped VTST File (.vtst.gz)|*.vtst.gz"
+msgstr "BT-Datei (.bt)|*.bt|GZip'te BT-Datei (.bt.gz)|*.bt.gz"
+
+#: TreeView.cpp:173
+msgid "Images"
+msgstr "Bilder"
+
+#: TreeView.cpp:176
+msgid "Structures"
+msgstr "Strukturen"
+
+#: TreeView.cpp:179
+msgid "Roads"
+msgstr "Straßen"
+
+#: TreeView.cpp:188
+msgid "Utilities"
+msgstr "Versorgung"
+
+#: TreeView.cpp:360
+#, fuzzy
+msgid "Properties"
+msgstr "Knoten-Eigenschaften"
+
+#: TreeView.cpp:361
+msgid "Move to Top (draw first)"
+msgstr ""
+
+#: TreeView.cpp:362
+msgid "Move to Bottom (draw last)"
+msgstr ""
+
+#: TreeView.cpp:373
+msgid "Show All"
+msgstr "Alles zeigen"
+
+#: TreeView.cpp:374
+msgid "Hide All"
+msgstr "Alles ausblenden"
+
+#: TSDlg.cpp:47
+msgid "Relief"
+msgstr "Relief"
+
+#: TSDlg.cpp:49
+msgid "Topo"
+msgstr "Topo"
+
+#: TSDlg.cpp:134
+msgid "Image Filename"
+msgstr "Bilddateiname"
+
+#: VegDlg.cpp:67
+msgid "Scientific Name"
+msgstr "Wissenschaftlicher Name"
+
+#: VegDlg.cpp:69
+msgid "Common Name"
+msgstr "Gebräuchlicher Name"
+
+#: VegDlg.cpp:71
+msgid "Max Height"
+msgstr "Max-Höhe"
+
+#: VegDlg.cpp:78
+msgid "Billboard"
+msgstr "Billboard"
+
+#: VegDlg.cpp:80
+msgid "FileName"
+msgstr "Dateiname"
+
+#: VegDlg.cpp:82 VTBuilder_UI.cpp:1941
+msgid "Width"
+msgstr "Breite"
+
+#: VegDlg.cpp:84 VTBuilder_UI.cpp:1948 VTBuilder_UI.cpp:3335
+msgid "Height"
+msgstr "Höhe"
+
+#: VegDlg.cpp:86
+msgid "Shadow Radius"
+msgstr "Schatten-Radius"
+
+#: VegDlg.cpp:88
+msgid "Shadow Darkness"
+msgstr "Schatten-Dunkelheit"
+
+#: VegDlg.cpp:95
+msgid "(All species)"
+msgstr "(Alle Arten)"
+
+#: VegDlg.cpp:182
+#, c-format
+msgid "Type %d"
+msgstr "Typ %d"
+
+#: VegLayer.cpp:56
+msgid "Vegetation layer type: "
+msgstr "Vegetationsebenen-Typ:"
+
+#: VegLayer.cpp:60
+msgid "Density\n"
+msgstr "Dichte\n"
+
+#: VegLayer.cpp:61
+msgid "BioMap\n"
+msgstr "BioKarte\n"
+
+#: VegLayer.cpp:62
+msgid "Plant Instances\n"
+msgstr "Pflanzen-Instanzen\n"
+
+#: VegLayer.cpp:69
+#, c-format
+msgid "Number of Instances: %d\n"
+msgstr "Anzahl Instanzen: %d\n"
+
+#: VegLayer.cpp:79
+#, c-format
+msgid "  %d instances of species %hs\n"
+msgstr " %d Arten-Instanzen %hs\n"
+
+#: VTBuilder_UI.cpp:30
+msgid "Depth of the quadtree of chunks to generate:"
+msgstr "Tiefe des zu generierenden Chunk-Quadtrees:"
+
+#: VTBuilder_UI.cpp:37
+msgid "Maximum geometric error to allow at full LOD:"
+msgstr "Maximal erlaubter geometrischer Fehler bei vollem LOD:"
+
+#: VTBuilder_UI.cpp:49 VTBuilder_UI.cpp:229 VTBuilder_UI.cpp:327
+#: VTBuilder_UI.cpp:418 VTBuilder_UI.cpp:529 VTBuilder_UI.cpp:582
+#: VTBuilder_UI.cpp:710 VTBuilder_UI.cpp:941 VTBuilder_UI.cpp:1069
+#: VTBuilder_UI.cpp:1132 VTBuilder_UI.cpp:1218 VTBuilder_UI.cpp:1262
+#: VTBuilder_UI.cpp:1413 VTBuilder_UI.cpp:1541 VTBuilder_UI.cpp:1601
+#: VTBuilder_UI.cpp:1720 VTBuilder_UI.cpp:1905 VTBuilder_UI.cpp:2031
+#: VTBuilder_UI.cpp:2200 VTBuilder_UI.cpp:2326 VTBuilder_UI.cpp:2455
+#: VTBuilder_UI.cpp:2505 VTBuilder_UI.cpp:2692 VTBuilder_UI.cpp:2841
+#: VTBuilder_UI.cpp:2905 VTBuilder_UI.cpp:3098 VTBuilder_UI.cpp:3163
+#: VTBuilder_UI.cpp:3250 VTBuilder_UI.cpp:3372
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:281 ../../TerrainSDK/vtui/vtui_UI.cpp:481
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1308
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1353
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1421
+msgid "OK"
+msgstr "OK"
+
+#: VTBuilder_UI.cpp:53 VTBuilder_UI.cpp:233 VTBuilder_UI.cpp:331
+#: VTBuilder_UI.cpp:422 VTBuilder_UI.cpp:533 VTBuilder_UI.cpp:586
+#: VTBuilder_UI.cpp:714 VTBuilder_UI.cpp:945 VTBuilder_UI.cpp:1073
+#: VTBuilder_UI.cpp:1136 VTBuilder_UI.cpp:1222 VTBuilder_UI.cpp:1266
+#: VTBuilder_UI.cpp:1417 VTBuilder_UI.cpp:1545 VTBuilder_UI.cpp:1605
+#: VTBuilder_UI.cpp:1724 VTBuilder_UI.cpp:1909 VTBuilder_UI.cpp:2035
+#: VTBuilder_UI.cpp:2204 VTBuilder_UI.cpp:2330 VTBuilder_UI.cpp:2459
+#: VTBuilder_UI.cpp:2509 VTBuilder_UI.cpp:2696 VTBuilder_UI.cpp:2845
+#: VTBuilder_UI.cpp:3102 VTBuilder_UI.cpp:3167 VTBuilder_UI.cpp:3254
+#: VTBuilder_UI.cpp:3376 ../../TerrainSDK/vtui/vtui_UI.cpp:485
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1312
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1357
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1425
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: VTBuilder_UI.cpp:80
+msgid "Grid spacing of sampling, in meters:"
+msgstr "Rasterabstand des Sampling, in Meter:"
+
+#: VTBuilder_UI.cpp:87
+msgid "Artificial scarcity, set to 1.0 for full density:"
+msgstr "Künstliche Verknappung, setze auf 1.0 für volle Dichte:"
+
+#: VTBuilder_UI.cpp:102
+msgid "Single species:"
+msgstr "Einzelne Art:"
+
+#: VTBuilder_UI.cpp:116
+msgid "Single biotype:"
+msgstr "Einzelner Biotyp:"
+
+#: VTBuilder_UI.cpp:130
+msgid "Biotype from layer:"
+msgstr "Biotyp aus Ebene:"
+
+#: VTBuilder_UI.cpp:144
+msgid "Density"
+msgstr "Dichte"
+
+#: VTBuilder_UI.cpp:149
+msgid "Fixed density:"
+msgstr "Feste Dichte:"
+
+#: VTBuilder_UI.cpp:156
+msgid "plants per m2"
+msgstr "Pflanzen pro qm"
+
+#: VTBuilder_UI.cpp:162
+msgid "Inherit from biotype"
+msgstr "Erbe von Biotyp"
+
+#: VTBuilder_UI.cpp:169
+msgid "Combine density from layer:"
+msgstr "Kombiniere Dichte aus Ebene:"
+
+#: VTBuilder_UI.cpp:183
+msgid "Size"
+msgstr "Größe"
+
+#: VTBuilder_UI.cpp:188
+msgid "Fixed size:"
+msgstr "Feste Größe:"
+
+#: VTBuilder_UI.cpp:195 VTBuilder_UI.cpp:2642
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:108 ../../TerrainSDK/vtui/vtui_UI.cpp:430
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:445
+msgid "meters"
+msgstr "Meter"
+
+#: VTBuilder_UI.cpp:204
+msgid "Randomize from:"
+msgstr "Zufallsverteilung von"
+
+#: VTBuilder_UI.cpp:211
+msgid "to"
+msgstr "bis"
+
+#: VTBuilder_UI.cpp:218
+msgid "percent of maximum"
+msgstr "Prozent vom Maximum"
+
+#: VTBuilder_UI.cpp:260 VTBuilder_UI.cpp:1163 VTBuilder_UI.cpp:1999
+#: VTBuilder_UI.cpp:2020 vtImage.cpp:1402
+msgid "Extents"
+msgstr "Maße"
+
+#: VTBuilder_UI.cpp:265
+msgid "North"
+msgstr "Norden"
+
+#: VTBuilder_UI.cpp:282
+msgid "West"
+msgstr "Westen"
+
+#: VTBuilder_UI.cpp:295
+msgid "East"
+msgstr "Osten"
+
+#: VTBuilder_UI.cpp:312
+msgid "South"
+msgstr "Süden"
+
+#: VTBuilder_UI.cpp:318
+msgid "Display coordinates as Degrees-Minutes-Seconds"
+msgstr "Koordinaten als Grad-Minuten-Sekunden anzeigen"
+
+#: VTBuilder_UI.cpp:341 VTBuilder_UI.cpp:1441
+msgid "Origin and Size:"
+msgstr "Ursprung und Größe:"
+
+#: VTBuilder_UI.cpp:369 VTBuilder_UI.cpp:2560 VTBuilder_UI.cpp:2747
+msgid "Sampling"
+msgstr "Sampling/Abtastung"
+
+#: VTBuilder_UI.cpp:374 VTBuilder_UI.cpp:2565
+msgid "Grid spacing:"
+msgstr "Gitterabstand:"
+
+#: VTBuilder_UI.cpp:389 VTBuilder_UI.cpp:2580
+msgid "Grid size:"
+msgstr "Gittergröße:"
+
+#: VTBuilder_UI.cpp:404
+msgid "Distance cutoff factor (1-10):"
+msgstr ""
+
+#: VTBuilder_UI.cpp:445
+msgid "Data File"
+msgstr "Daten-Datei"
+
+#: VTBuilder_UI.cpp:450 VTBuilder_UI.cpp:480 VTBuilder_UI.cpp:499
+#: VTBuilder_UI.cpp:518 VTBuilder_UI.cpp:1400 VTBuilder_UI.cpp:2083
+#: VTBuilder_UI.cpp:2549 VTBuilder_UI.cpp:2736 VTBuilder_UI.cpp:2939
+#: VTBuilder_UI.cpp:3237 ../../TerrainSDK/vtui/vtui_UI.cpp:738
+msgid "..."
+msgstr "..."
+
+#: VTBuilder_UI.cpp:457
+msgid "Geocoding"
+msgstr "Geocoding"
+
+#: VTBuilder_UI.cpp:459
+msgid "Use Geocode.us (Web, US street addresses)"
+msgstr ""
+
+#: VTBuilder_UI.cpp:463
+msgid "Use Gazeteer (US Cities)"
+msgstr ""
+
+#: VTBuilder_UI.cpp:473
+msgid "Places:"
+msgstr "Orte:"
+
+#: VTBuilder_UI.cpp:492
+msgid "Zipcodes:"
+msgstr "Postleitzahlen:"
+
+#: VTBuilder_UI.cpp:505
+#, fuzzy
+msgid "Use NIMA GEOnet (International Cities)"
+msgstr "Fuß (International)"
+
+#: VTBuilder_UI.cpp:559
+msgid ""
+"This operation will take the current contents of the\n"
+"window and export them a PNG file.\n"
+"A corresponding HTML file will be written with an\n"
+"image map with clickable areas derived from\n"
+"the polygon features of the active Raw layer."
+msgstr ""
+
+#: VTBuilder_UI.cpp:568
+msgid "Link field:"
+msgstr "Verbindung Feld:"
+
+#: VTBuilder_UI.cpp:612
+msgid "Easting field:"
+msgstr "Rechtswert Feld:"
+
+#: VTBuilder_UI.cpp:626
+msgid "Northing field:"
+msgstr "Hochwert Feld:"
+
+#: VTBuilder_UI.cpp:640
+#, fuzzy
+msgid "Elevation field:"
+msgstr "Rechtswert Feld:"
+
+#: VTBuilder_UI.cpp:654
+msgid "Import field directly:"
+msgstr ""
+
+#: VTBuilder_UI.cpp:668
+msgid "CRS:"
+msgstr "CRS:"
+
+#: VTBuilder_UI.cpp:675 VTBuilder_UI.cpp:837 VTBuilder_UI.cpp:848
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:124 ../../TerrainSDK/vtui/vtui_UI.cpp:140
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:156 ../../TerrainSDK/vtui/vtui_UI.cpp:195
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:226
+msgid "Set"
+msgstr "Setzen"
+
+#: VTBuilder_UI.cpp:682
+msgid "Number format:"
+msgstr "Zahlenformat:"
+
+#: VTBuilder_UI.cpp:684
+msgid "Decimal"
+msgstr "Dezimal"
+
+#: VTBuilder_UI.cpp:688
+#, fuzzy
+msgid "Packed degrees: DDDMMSSSS"
+msgstr "Komprimierte Grade: GGGMMSSSS, GGMMSSSS"
+
+#: VTBuilder_UI.cpp:692
+msgid "Hemisphere Degrees Minutes: HDDD MM.MMM"
+msgstr ""
+
+#: VTBuilder_UI.cpp:701
+msgid "Longitude is west"
+msgstr "Längengrad ist westlich"
+
+#: VTBuilder_UI.cpp:737
+msgid "Structure Type:"
+msgstr "Strukturtyp:"
+
+#: VTBuilder_UI.cpp:744 VTBuilder_UI.cpp:1026
+msgid "Linear (fences or walls)"
+msgstr "Linear (Zäune oder Mauern)"
+
+#: VTBuilder_UI.cpp:748 VTBuilder_UI.cpp:1030
+msgid "Instances (external model references)"
+msgstr "Instanzen (Externe Modell-Referenzen)"
+
+#: VTBuilder_UI.cpp:758 VTBuilder_UI.cpp:1040
+msgid "Filename field:"
+msgstr "Dateiname Feld:"
+
+#: VTBuilder_UI.cpp:769
+msgid "Buildings (parametric by center)"
+msgstr "Gebäude (parametrisch nach Mitte)"
+
+#: VTBuilder_UI.cpp:773
+msgid "Buildings (parametric by footprint, polygon or closed polyline)"
+msgstr ""
+"Gebäude (parametrisch nach Grundfläche, Polygon oder geschlossene Polylinie)"
+
+#: VTBuilder_UI.cpp:783
+msgid "Height field:"
+msgstr "Höhenfeld:"
+
+#: VTBuilder_UI.cpp:792 VTBuilder_UI.cpp:997
+msgid "Stories"
+msgstr "Stockwerke"
+
+#: VTBuilder_UI.cpp:792 VTBuilder_UI.cpp:997
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:48
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:54
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:60
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:66
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:325
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1408
+msgid "Feet"
+msgstr "Fuß"
+
+#: VTBuilder_UI.cpp:792
+msgid "Meters (single story)"
+msgstr "Meter (einzelnes Stockwerk)"
+
+#: VTBuilder_UI.cpp:792
+msgid "Feet (single story)"
+msgstr "Fuß (einzelnes Stockwerk)"
+
+#: VTBuilder_UI.cpp:806 ../../TerrainSDK/vtui/vtui_UI.cpp:133
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:219
+msgid "Color:"
+msgstr "Farbe:"
+
+#: VTBuilder_UI.cpp:818 VTBuilder_UI.cpp:872
+msgid "Default"
+msgstr "Standard"
+
+#: VTBuilder_UI.cpp:830
+msgid "Building:"
+msgstr "Gebäude:"
+
+#: VTBuilder_UI.cpp:841
+msgid "Roof:"
+msgstr "Dach:"
+
+#: VTBuilder_UI.cpp:860
+msgid "Roof type:"
+msgstr "Dachtyp:"
+
+#: VTBuilder_UI.cpp:884
+msgid "Single type:"
+msgstr "Einzeltyp:"
+
+#: VTBuilder_UI.cpp:888
+msgid "Flat"
+msgstr "Flach"
+
+#: VTBuilder_UI.cpp:888 ../../TerrainSDK/vtui/BuildingDlg.cpp:563
+msgid "Shed"
+msgstr "Säge"
+
+#: VTBuilder_UI.cpp:888 ../../TerrainSDK/vtui/BuildingDlg.cpp:564
+msgid "Gable"
+msgstr "Giebel"
+
+#: VTBuilder_UI.cpp:888 ../../TerrainSDK/vtui/BuildingDlg.cpp:565
+msgid "Hip"
+msgstr "Walm"
+
+#: VTBuilder_UI.cpp:894 ../../TerrainSDK/vtui/vtui_UI.cpp:235
+msgid "Slope:"
+msgstr "Neigung:"
+
+#: VTBuilder_UI.cpp:909
+msgid "Field:"
+msgstr "Feld:"
+
+#: VTBuilder_UI.cpp:925
+msgid "Defaults from:"
+msgstr "Standards von:"
+
+#: VTBuilder_UI.cpp:934 VTBuilder_UI.cpp:1056
+msgid "Only import features inside the Area Tool extents"
+msgstr "Importiere nur Features innerhalb des Flächenwerkzeugs"
+
+#: VTBuilder_UI.cpp:971
+msgid "Import from"
+msgstr "Importieren aus"
+
+#: VTBuilder_UI.cpp:983
+msgid "Fields"
+msgstr "Felder"
+
+#: VTBuilder_UI.cpp:988
+msgid "Feature height"
+msgstr "Feature-Höhe"
+
+#: VTBuilder_UI.cpp:1008
+msgid "Structure type"
+msgstr "Struktur-Typ"
+
+#: VTBuilder_UI.cpp:1010
+msgid "Buildings"
+msgstr "Gebäude"
+
+#: VTBuilder_UI.cpp:1020
+msgid "Build foundations"
+msgstr "Erstelle Fundamente"
+
+#: VTBuilder_UI.cpp:1054
+msgid "Options"
+msgstr "Optionen"
+
+#: VTBuilder_UI.cpp:1060
+msgid "Use 2.5D for elevation"
+msgstr "Verwende 2.5D für Höhe"
+
+#: VTBuilder_UI.cpp:1099
+msgid "Field to use:"
+msgstr "Zu verwendenes Feld:"
+
+#: VTBuilder_UI.cpp:1111
+msgid "Interpretation of the field:"
+msgstr "Interpretation des Feldes:"
+
+#: VTBuilder_UI.cpp:1115
+msgid "Density (0 to 1) (double)"
+msgstr "Dichte (0 bis 1) (Double)"
+
+#: VTBuilder_UI.cpp:1119
+msgid "Biotype by name (string)"
+msgstr "Biotyp nach Name (String)"
+
+#: VTBuilder_UI.cpp:1123
+msgid "Biotype by ID (integer)"
+msgstr "Biotyp nach ID (Integer)"
+
+#: VTBuilder_UI.cpp:1168 ../../TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Left"
+msgstr "Links"
+
+#: VTBuilder_UI.cpp:1180
+msgid "Top"
+msgstr "Oben"
+
+#: VTBuilder_UI.cpp:1192 ../../TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Right"
+msgstr "Rechts"
+
+#: VTBuilder_UI.cpp:1204
+msgid "Bottom"
+msgstr "Unten"
+
+#: VTBuilder_UI.cpp:1248
+msgid "Select level to edit"
+msgstr "Wählen Sie ein Stockwerk zur Bearbeitung"
+
+#: VTBuilder_UI.cpp:1289
+msgid "WMS base URL:"
+msgstr "WMS Basis-URL:"
+
+#: VTBuilder_UI.cpp:1296
+msgid "Query Layers"
+msgstr "Ebenen abfragen"
+
+#: VTBuilder_UI.cpp:1308
+msgid "Layer:"
+msgstr "Ebene:"
+
+#: VTBuilder_UI.cpp:1312 VTBuilder_UI.cpp:1336
+msgid "Description:"
+msgstr "Beschreibung:"
+
+#: VTBuilder_UI.cpp:1332
+msgid "Style:"
+msgstr "Stil:"
+
+#: VTBuilder_UI.cpp:1351 ../../TerrainSDK/vtui/vtui_UI.cpp:940
+msgid "Width:"
+msgstr "Breite:"
+
+#: VTBuilder_UI.cpp:1358 ../../TerrainSDK/vtui/vtui_UI.cpp:361
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:830
+msgid "Height:"
+msgstr "Höhe:"
+
+#: VTBuilder_UI.cpp:1365
+msgid "Format"
+msgstr "Format"
+
+#: VTBuilder_UI.cpp:1376
+msgid "Query URL:"
+msgstr "Abfrage-URL:"
+
+#: VTBuilder_UI.cpp:1384 VTBuilder_UI.cpp:2059 VTBuilder_UI.cpp:2533
+#: VTBuilder_UI.cpp:2720 VTBuilder_UI.cpp:3219
+msgid "Output"
+msgstr "Ausgabe"
+
+#: VTBuilder_UI.cpp:1386 VTBuilder_UI.cpp:2535 VTBuilder_UI.cpp:2722
+#: VTBuilder_UI.cpp:3221 ../../TerrainSDK/vtui/vtui_UI.cpp:457
+msgid "Create new layer"
+msgstr "Neue Ebene erstellen"
+
+#: VTBuilder_UI.cpp:1393 VTBuilder_UI.cpp:2542 VTBuilder_UI.cpp:2729
+#: VTBuilder_UI.cpp:3230
+msgid "To file"
+msgstr "Zu Datei"
+
+#: VTBuilder_UI.cpp:1449
+msgid "Previous:"
+msgstr "Vorhergehend:"
+
+#: VTBuilder_UI.cpp:1456
+msgid "Current:"
+msgstr "Aktuell:"
+
+#: VTBuilder_UI.cpp:1470
+msgid "Match Layer:"
+msgstr "Ebene anpassen:"
+
+#: VTBuilder_UI.cpp:1474 ../../TerrainSDK/vtui/vtui_UI.cpp:208
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:470 ../../TerrainSDK/vtui/vtui_UI.cpp:974
+msgid "ChoiceItem"
+msgstr "AuswahlElement"
+
+#: VTBuilder_UI.cpp:1485
+msgid "Layer Resolution:"
+msgstr "Auflösung der Ebene"
+
+#: VTBuilder_UI.cpp:1497
+msgid "Allow area to:"
+msgstr "Gestatte dem Gebiet zu:"
+
+#: VTBuilder_UI.cpp:1501
+msgid "Grow"
+msgstr "wachsen"
+
+#: VTBuilder_UI.cpp:1505
+msgid "Shrink"
+msgstr "schrumpfen"
+
+#: VTBuilder_UI.cpp:1514
+msgid "Tile LOD0 Size:"
+msgstr "Kachelgröße für höchste Auflösungsstufe (LOD0) "
+
+#: VTBuilder_UI.cpp:1529
+msgid "Tiling:"
+msgstr "Kachele:"
+
+#: VTBuilder_UI.cpp:1575
+msgid "Intersection Type"
+msgstr "Kreuzungstyp"
+
+#: VTBuilder_UI.cpp:1582
+msgid "Road Number"
+msgstr "Straßennummer"
+
+#: VTBuilder_UI.cpp:1589
+msgid "Behavior"
+msgstr "Verhaltensweise"
+
+#: VTBuilder_UI.cpp:1613
+msgid "View"
+msgstr "Ansicht"
+
+#: VTBuilder_UI.cpp:1640
+msgid "Status Bar"
+msgstr "Statuszeile"
+
+#: VTBuilder_UI.cpp:1642
+msgid "Show minutes and seconds for degree values"
+msgstr "Zeige Gradwerte als Minuten und Sekunden"
+
+#: VTBuilder_UI.cpp:1649
+msgid "Show elevation values as:"
+msgstr "Zeige Höhenwerte als:"
+
+#: VTBuilder_UI.cpp:1665
+msgid "Show outline only (faster, saves memory)"
+msgstr "Zeige nur Umrisse (schneller, spart Speicher)"
+
+#: VTBuilder_UI.cpp:1669
+msgid "Artificial color by elevation value"
+msgstr "Künstliche Farbgebung nach Höhenwert"
+
+#: VTBuilder_UI.cpp:1681
+msgid "Rendering options..."
+msgstr "Render-Optionen..."
+
+#: VTBuilder_UI.cpp:1688
+msgid "Hide areas of unknown elevation"
+msgstr "Verstecke Flächen mit unbekannter Höhe"
+
+#: VTBuilder_UI.cpp:1694
+#, fuzzy
+msgid "Draw TIN elevation simplified"
+msgstr "Roh-Höhen-Datei"
+
+#: VTBuilder_UI.cpp:1703
+msgid "Show roads with width"
+msgstr "Zeige Straßen mit Breite"
+
+#: VTBuilder_UI.cpp:1707
+msgid "Draw raw layers simplified"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1711
+msgid "Show full pathnames in Layer View"
+msgstr "Zeige volle Pfadnamen in Ebenenansicht"
+
+#: VTBuilder_UI.cpp:1754
+msgid "When importing data that lacks a CRS:"
+msgstr "Importieren von Daten ohne Koordinatensystem:"
+
+#: VTBuilder_UI.cpp:1756
+msgid "Use the current CRS"
+msgstr "Aktuelles Koordinatensystem nutzen."
+
+#: VTBuilder_UI.cpp:1760 VTBuilder_UI.cpp:1777 VTBuilder_UI.cpp:1840
+msgid "Ask"
+msgstr "Nachfragen"
+
+#: VTBuilder_UI.cpp:1767
+msgid "When loading an image which is very large:"
+msgstr "Beim Laden sehr großer Bilder:"
+
+#: VTBuilder_UI.cpp:1769
+msgid "Load it into memory"
+msgstr "In den Speicher laden"
+
+#: VTBuilder_UI.cpp:1773
+msgid "Use out-of-core access"
+msgstr "Speichersparenden Zugriff nutzen"
+
+#: VTBuilder_UI.cpp:1784
+msgid "Large image is more than:"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1791
+msgid "megapixels"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1802
+msgid "Imagery: N > 1 for NxN multisampling"
+msgstr "Bilder: N > 1 für N X N Mehrfach Sampling"
+
+#: VTBuilder_UI.cpp:1814
+msgid "Treat black as transparent when sampling images"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1818
+msgid "Deflate TIFF images when writing"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1830
+msgid "When reprojecting an integer elevation grid:"
+msgstr "Transformation Geländeraster mit Integer Werten:"
+
+#: VTBuilder_UI.cpp:1832
+msgid "Leave it as integer"
+msgstr "Integer beibehalten (ganzzahlig)"
+
+#: VTBuilder_UI.cpp:1836
+msgid "Upgrade it to floating-point values"
+msgstr "In Gleitkommazahlen umwandeln"
+
+#: VTBuilder_UI.cpp:1847
+msgid "Filling unknown areas of elevation grids:"
+msgstr "Ergänze unbekannte Gebiete im Geländeraster:"
+
+#: VTBuilder_UI.cpp:1866
+msgid "Maximum size for rendered elevation layers:"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1875
+msgid "Default to gzip-compressed BT files"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1879
+msgid "Delay loading elevation from BT and ITF until needed for sampling"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1889
+msgid "Maximum memory used for elevation (MB):"
+msgstr ""
+
+#: VTBuilder_UI.cpp:1934
+msgid "Bytes per sample"
+msgstr "Bytes pro Sample"
+
+#: VTBuilder_UI.cpp:1955
+msgid "Little Endian"
+msgstr "Little Endian"
+
+#: VTBuilder_UI.cpp:1959
+msgid "Big Endian  "
+msgstr "Big Endian"
+
+#: VTBuilder_UI.cpp:1963
+msgid "Vertical units in meters"
+msgstr "Vertikale Einheiten in Meter"
+
+#: VTBuilder_UI.cpp:1973
+msgid "Coordinate Reference System (CRS)"
+msgstr "Koordinatenreferenzsystem (CRS)"
+
+#: VTBuilder_UI.cpp:1975
+msgid "Simple meters (UTM zone 1)"
+msgstr "Einfache Meter (UTM Zone 1)"
+
+#: VTBuilder_UI.cpp:1979
+msgid "Use current"
+msgstr "Aktuelle verwenden"
+
+#: VTBuilder_UI.cpp:1986
+msgid "Enter exact CRS:"
+msgstr "Geben Sie exaktes CRS ein:"
+
+#: VTBuilder_UI.cpp:1990
+msgid "CRS"
+msgstr "CRS"
+
+#: VTBuilder_UI.cpp:2004
+msgid "Based on grid spacing:"
+msgstr "Basiert auf Rasterabstand:"
+
+#: VTBuilder_UI.cpp:2016
+msgid "Enter exact extents: "
+msgstr "Geben Sie exakte Maße ein:"
+
+#: VTBuilder_UI.cpp:2061
+msgid "Create new image layer"
+msgstr "Neue Bildebene erzeugen"
+
+#: VTBuilder_UI.cpp:2068
+msgid "Write to file:"
+msgstr "In Datei schreiben:"
+
+#: VTBuilder_UI.cpp:2092
+msgid "Format:"
+msgstr "Format:"
+
+#: VTBuilder_UI.cpp:2096
+msgid "GeoTIFF"
+msgstr "GeoTIFF"
+
+#: VTBuilder_UI.cpp:2100 VTBuilder_UI.cpp:3087
+msgid "JPEG"
+msgstr "JPEG"
+
+#: VTBuilder_UI.cpp:2109
+msgid "Appearance"
+msgstr "Erscheinungsbild"
+
+#: VTBuilder_UI.cpp:2114
+msgid "Colors:"
+msgstr "Farben:"
+
+#: VTBuilder_UI.cpp:2118 ../../TerrainSDK/vtui/vtui_UI.cpp:681
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:699 ../../TerrainSDK/vtui/vtui_UI.cpp:717
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:786 ../../TerrainSDK/vtui/vtui_UI.cpp:804
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:884 ../../TerrainSDK/vtui/vtui_UI.cpp:899
+msgid "Item"
+msgstr "Element"
+
+#: VTBuilder_UI.cpp:2124 VTBuilder_UI.cpp:2242
+msgid "Edit Colors..."
+msgstr "Farben bearbeiten..."
+
+#: VTBuilder_UI.cpp:2136
+msgid "Use view options for shading"
+msgstr "Zeige Ansichtsoptionen für Schattierung"
+
+#: VTBuilder_UI.cpp:2148
+msgid "Color to use for NODATA heixels:"
+msgstr ""
+
+#: VTBuilder_UI.cpp:2161
+msgid "Bitmap Size"
+msgstr "Bitmapgröße"
+
+#: VTBuilder_UI.cpp:2166 VTBuilder_UI.cpp:2752
+msgid "Image size:"
+msgstr "Bildgröße:"
+
+#: VTBuilder_UI.cpp:2178 VTBuilder_UI.cpp:2782
+msgid "Size constraint: power of 2 for texture map"
+msgstr "Größenbeschränkung: Potenz von 2 für Textur-Map"
+
+#: VTBuilder_UI.cpp:2185 VTBuilder_UI.cpp:2604 VTBuilder_UI.cpp:2791
+msgid "<< Smaller"
+msgstr "<< Kleiner"
+
+#: VTBuilder_UI.cpp:2189 VTBuilder_UI.cpp:2608 VTBuilder_UI.cpp:2795
+msgid ">> Bigger"
+msgstr ">> Größer"
+
+#: VTBuilder_UI.cpp:2228 ../../TerrainSDK/vtui/vtui_UI.cpp:340
+msgid "Colors"
+msgstr "Farben"
+
+#: VTBuilder_UI.cpp:2230
+msgid "Color map file:"
+msgstr "ColorMap-Dateo:"
+
+#: VTBuilder_UI.cpp:2251
+msgid "Shading"
+msgstr "Shading"
+
+#: VTBuilder_UI.cpp:2260
+msgid "Quick (East-West)"
+msgstr "Schnell (Osten-Westen)"
+
+#: VTBuilder_UI.cpp:2264
+msgid "Dot-product with surface"
+msgstr "Punkt-Produkt mit Oberfläche"
+
+#: VTBuilder_UI.cpp:2276
+msgid "Angle (0-90):"
+msgstr "Winkel (0-90):"
+
+#: VTBuilder_UI.cpp:2286
+msgid "Direction (0-360):"
+msgstr "Richtung (0-360):"
+
+#: VTBuilder_UI.cpp:2296
+msgid "Ambient light (0-1):"
+msgstr "Streulicht (0-1)"
+
+#: VTBuilder_UI.cpp:2306
+msgid "Gamma (0-1):"
+msgstr "Grundhelligkeit (Gamma: 0-1)"
+
+#: VTBuilder_UI.cpp:2315
+msgid "Cast Shadows"
+msgstr "Schlagschatten"
+
+#: VTBuilder_UI.cpp:2360
+msgid "Number of Lanes"
+msgstr "Anzahl Spuren"
+
+#: VTBuilder_UI.cpp:2367
+msgid "Highway Name"
+msgstr "Highway-Name"
+
+#: VTBuilder_UI.cpp:2374
+msgid "Sidewalk"
+msgstr "Gehweg"
+
+#: VTBuilder_UI.cpp:2383
+msgid "Parking"
+msgstr "Parkstreifen"
+
+#: VTBuilder_UI.cpp:2392
+msgid "Margin"
+msgstr "Rand"
+
+#: VTBuilder_UI.cpp:2401
+msgid "Lane Width"
+msgstr "Spurbreite"
+
+#: VTBuilder_UI.cpp:2408
+msgid "Pavement Width"
+msgstr "Breite Straßenbelag"
+
+#: VTBuilder_UI.cpp:2415
+msgid "Curb Height"
+msgstr "Höhe Bordsteinkante"
+
+#: VTBuilder_UI.cpp:2422
+msgid "Parking Width"
+msgstr "Breite Parkstreifen"
+
+#: VTBuilder_UI.cpp:2429
+msgid "Hard Shoulder Width"
+msgstr "Breite Standstreifen"
+
+#: VTBuilder_UI.cpp:2441
+msgid "Surface Type:"
+msgstr "Oberflächentyp:"
+
+#: VTBuilder_UI.cpp:2482
+msgid "Select all features which satisfy the condition:"
+msgstr "Markiere alle Features, die die Bedingung erfüllen:"
+
+#: VTBuilder_UI.cpp:2595
+msgid "Size constraint: power of 2 plus 1 for terrain LOD"
+msgstr "Größenbeschränkung: 2te Potenz plus 1 für Terrain-LOD"
+
+#: VTBuilder_UI.cpp:2625
+msgid "Floating point"
+msgstr "Gleitkomma"
+
+#: VTBuilder_UI.cpp:2629
+msgid "Short integer"
+msgstr "Short Integer"
+
+#: VTBuilder_UI.cpp:2635 ../../TerrainSDK/vtui/vtui_UI.cpp:631
+msgid "Vertical units:"
+msgstr "Vertikale Einheiten:"
+
+#: VTBuilder_UI.cpp:2648
+msgid "Fill gaps (NODATA) in the resampled grid with interpolated values"
+msgstr "Fülle Lücken (NODATA) im Resample-Gitter mit interpolierten Werten"
+
+#: VTBuilder_UI.cpp:2655 VTBuilder_UI.cpp:2804 VTBuilder_UI.cpp:2993
+msgid "Information"
+msgstr "Information"
+
+#: VTBuilder_UI.cpp:2660 VTBuilder_UI.cpp:2809 VTBuilder_UI.cpp:3013
+msgid "Size of sample area:"
+msgstr "Größe des Sample-Bereiches:"
+
+#: VTBuilder_UI.cpp:2675 VTBuilder_UI.cpp:2824
+msgid "Estimated spacing of existing data:"
+msgstr "Geschätzter Abstand existierender Daten:"
+
+#: VTBuilder_UI.cpp:2767
+msgid "Pixel spacing:"
+msgstr "Pixelabstand:"
+
+#: VTBuilder_UI.cpp:2889
+msgid "Appearances"
+msgstr "Vorkommen"
+
+#: VTBuilder_UI.cpp:2932
+msgid "Tile output file:"
+msgstr "Kachel-Ausgabedatei:"
+
+#: VTBuilder_UI.cpp:2950
+msgid "Columns"
+msgstr "Spalten"
+
+#: VTBuilder_UI.cpp:2957
+msgid "Rows"
+msgstr "Zeilen"
+
+#: VTBuilder_UI.cpp:2969
+msgid "LOD 0 Size:"
+msgstr "LOD 0-Größe:"
+
+#: VTBuilder_UI.cpp:2983
+msgid "Number of LODs:"
+msgstr "Anzahl LODs:"
+
+#: VTBuilder_UI.cpp:2998
+msgid "Total size of all tiles:"
+msgstr "Gesamtgröße aller Kacheln:"
+
+#: VTBuilder_UI.cpp:3030
+msgid "Spacing of existing data:"
+msgstr "Rasterweite existierender Daten:"
+
+#: VTBuilder_UI.cpp:3040
+msgid "Spacing of LOD 0:"
+msgstr "Rasterweite des LOD 0:"
+
+#: VTBuilder_UI.cpp:3057
+msgid "Omit flat elevation tiles (sea level)"
+msgstr "Geländekacheln mit Höhe Null (Meereshöhe) aussparen"
+
+#: VTBuilder_UI.cpp:3061
+msgid "Mask unknown elevation areas with texture alpha values"
+msgstr ""
+
+#: VTBuilder_UI.cpp:3065
+msgid "Use texture alpha values"
+msgstr ""
+
+#: VTBuilder_UI.cpp:3069
+msgid "Texture Compression"
+msgstr "Textur Kompression"
+
+#: VTBuilder_UI.cpp:3075
+msgid "OpenGL"
+msgstr "OpenGL"
+
+#: VTBuilder_UI.cpp:3079
+msgid "Squish fast"
+msgstr "Squish schnell"
+
+#: VTBuilder_UI.cpp:3083
+msgid "Squish slow (6x slower, slightly fewer artifacts)"
+msgstr "Squish langsam (6x langsamer, nur geringfügig weniger Störungen)"
+
+#: VTBuilder_UI.cpp:3129
+msgid "Tower Position"
+msgstr "Mast-Position"
+
+#: VTBuilder_UI.cpp:3136
+msgid "Tower Type"
+msgstr "Mast-Typ"
+
+#: VTBuilder_UI.cpp:3145
+msgid "Tower Material"
+msgstr "Mast-Material"
+
+#: VTBuilder_UI.cpp:3156
+msgid "Tower Elevated"
+msgstr "Mast erhöht"
+
+#: VTBuilder_UI.cpp:3193
+msgid "Theme:"
+msgstr "Motiv:"
+
+#: VTBuilder_UI.cpp:3207
+msgid "Meters per pixel:"
+msgstr "Meter pro Pixel:"
+
+#: VTBuilder_UI.cpp:3282
+msgid "Use species:"
+msgstr "Verwende Arten:"
+
+#: VTBuilder_UI.cpp:3296 VTBuilder_UI.cpp:3356
+msgid "Use field:"
+msgstr "Verwende Feld:"
+
+#: VTBuilder_UI.cpp:3310
+msgid "Species ID (integer)"
+msgstr "Arten-ID (Integer)"
+
+#: VTBuilder_UI.cpp:3314
+msgid "Species Name (string)"
+msgstr "Arten-Name (String)"
+
+#: VTBuilder_UI.cpp:3318
+msgid "Common Name (string)"
+msgstr "Gebräuchlicher Name (String)"
+
+#: VTBuilder_UI.cpp:3322
+msgid "BioType ID (integer)"
+msgstr "BioTyp-ID (Integer)"
+
+#: VTBuilder_UI.cpp:3326
+msgid "BioType Name (string)"
+msgstr "BioTyp Name (String)"
+
+#: VTBuilder_UI.cpp:3337
+msgid "Randomize"
+msgstr "Zufallsverteilung"
+
+#: VTBuilder_UI.cpp:3344
+msgid "Fixed:"
+msgstr "Festgesetzt:"
+
+#: vtImage.cpp:1393
+msgid "File lacks geographic location (extents).  "
+msgstr "Datei besitzt keine geographische Lage (Maße)."
+
+#: vtImage.cpp:1394
+msgid "Would you like to specify extents?\n"
+msgstr "Möchten Sie die Maße festlegen?\n"
+
+#: vtImage.cpp:1396
+msgid "Image Import"
+msgstr "Bildimport"
+
+#: vtImage.cpp:1420
+msgid "Reading file"
+msgstr "Datei wird gelesen"
+
+#: vtImage.cpp:1438
+#, c-format
+msgid "Image is very large (%d x %d).\n"
+msgstr "Bild ist sehr groß (%d x %d).\n"
+
+#: vtImage.cpp:1439 vtImage.cpp:1455
+msgid ""
+"Would you like to create the layer using out-of-memory access to the image?"
+msgstr "Möchten Sie die Ebene mit Bildzugriff direkt von der Platte erzeugen?"
+
+#: vtImage.cpp:1453
+#, c-format
+msgid "Couldn't allocate bitmap of size %d x %d.\n"
+msgstr ""
+"Dem Rasterbild mit Maßen %d x %d konnte kein Speicher zugewiesen werden.\n"
+
+#: vtImage.cpp:1717
+msgid "Couldn't create cache directory."
+msgstr "Cache(Zwischenspeicher)-Verzeichnis konnte nicht erstellt werden."
+
+#: vtImage.cpp:1905
+msgid "Cancelled."
+msgstr "Abgebrochen."
+
+#: WaterLayer.cpp:148
+#, c-format
+msgid "Features: %d\n"
+msgstr "Elemente: %d\n"
+
+#: WaterLayer.cpp:155
+#, c-format
+msgid "Water bodies: %d\n"
+msgstr "Wasser-Körper: %d\n"
+
+#: WaterLayer.cpp:157
+#, c-format
+msgid "Water vectors: %d\n"
+msgstr "Wasser-Vektoren: %d\n"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:179
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:683
+msgid "(None)"
+msgstr "(keine)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:401
+msgid " (flat roof)"
+msgstr " (Flachdach)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:403
+msgid " (shed roof)"
+msgstr " (Sägedach)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:405
+msgid " (gable roof)"
+msgstr " (Giebeldach)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:407
+msgid " (hip roof)"
+msgstr " (Walmdach)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:411
+#, c-format
+msgid " (stories : %d)"
+msgstr " (Stockwerke: %d)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:562
+msgid "Flat (all edges 0(degree sign))"
+msgstr "Flach (alle Kanten 0°)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:566
+msgid "Vertical (all edges 90(degree sign))"
+msgstr "Vertikal (alle Kanten 90°)"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:572
+msgid "Please indicate edge slopes"
+msgstr "Bitte wählen Sie eine Dachneigung"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:586
+msgid "Sloped edges"
+msgstr "Dachneigung"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:586
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:321
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:206
+msgid "Degrees"
+msgstr "Grad"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:587
+msgid "Slope"
+msgstr "Neigung"
+
+#: ../../TerrainSDK/vtui/BuildingDlg.cpp:734
+msgid "Set Building Material for All Edges"
+msgstr "Baumaterial für alle Seiten festlegen"
+
+#: ../../TerrainSDK/vtui/ColorMapDlg.cpp:104
+#, c-format
+msgid "%.2f meters"
+msgstr "%.2f Meter"
+
+#: ../../TerrainSDK/vtui/ColorMapDlg.cpp:124
+msgid "Load ColorMap"
+msgstr "ColorMap laden"
+
+#: ../../TerrainSDK/vtui/ColorMapDlg.cpp:125
+#: ../../TerrainSDK/vtui/ColorMapDlg.cpp:165
+msgid "ColorMap Files (*.cmt)|*.cmt"
+msgstr "ColorMap-Dateien (*.cmt)|*.cmt"
+
+#: ../../TerrainSDK/vtui/ColorMapDlg.cpp:164
+msgid "Save ColorMap"
+msgstr "ColorMap speichern"
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:49
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:55
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:61
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:67
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:326
+msgid "US Survey Feet"
+msgstr "US Survey Fuß"
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:50
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:56
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:62
+msgid "Kilometers"
+msgstr "Kilometer"
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:51
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:57
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:63
+msgid "Miles"
+msgstr "Meilen"
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:181
+msgid "<Projection failure>"
+msgstr "<Transformationsfehler>"
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:369
+msgid ""
+"Enter the path to a SHP file containing a polyline, or a series of points in "
+"the form X Y X Y .."
+msgstr ""
+
+#: ../../TerrainSDK/vtui/DistanceDlg.cpp:369
+#, fuzzy
+msgid "Input Path"
+msgstr "Input"
+
+#: ../../TerrainSDK/vtui/DoubleProgDlg.cpp:209
+msgid "unknown"
+msgstr "unbekannt"
+
+#: ../../TerrainSDK/vtui/DoubleProgDlg.cpp:271
+msgid "Done."
+msgstr "Fertig."
+
+#: ../../TerrainSDK/vtui/DoubleProgDlg.cpp:442
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:394
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1186
+msgid "Close"
+msgstr "Schließen"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:144
+#, c-format
+msgid ""
+"There are %d selected features.  Are you sure you\n"
+" want to display them all in the table view?"
+msgstr ""
+"Es gibt %d markierte Features. Sind Sie sicher,\n"
+"daß Sie sie alle in der Tabellenansicht anzeigen möchten?"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:150
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:200
+msgid "Populating table"
+msgstr ""
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:194
+#, c-format
+msgid ""
+"There are %d features in this layer.  Are you sure\n"
+" you want to display them all in the table view?"
+msgstr ""
+"Es gibt %d Features in dieser Ebene. Sind Sie sicher,\n"
+"daß Sie sie alle in der Tabellenansicht anzeigen möchten?"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:293
+#, c-format
+msgid "Enter a new value for field '%hs'"
+msgstr "Geben Sie einen neuen Wert für das Feld '%hs' ein"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:295
+msgid "Text entry"
+msgstr "Texteingabe"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:318
+msgid "Picked"
+msgstr "Ausgewählt"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:319
+msgid "All"
+msgstr "Alle"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:322
+msgid "Meter"
+msgstr "Meter"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:323
+msgid "Foot"
+msgstr "Fuß"
+
+#: ../../TerrainSDK/vtui/FeatureTableDlg.cpp:324
+msgid "Foot (US)"
+msgstr "Fuß (US)"
+
+#: ../../TerrainSDK/vtui/InstanceDlg.cpp:169
+msgid "(All)"
+msgstr "(Alle)"
+
+#: ../../TerrainSDK/vtui/InstanceDlg.cpp:195
+msgid "3D Model files"
+msgstr "3D Modell-Dateien"
+
+#: ../../TerrainSDK/vtui/InstanceDlg.cpp:197
+msgid "All files"
+msgstr "Alle Dateien"
+
+#: ../../TerrainSDK/vtui/InstanceDlg.cpp:199
+#, fuzzy
+msgid "Choose model file"
+msgstr "Wähle Eingabedatei"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:111
+msgid "Wooden posts, wire"
+msgstr "Holzpfosten, Draht"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:112
+msgid "Metal posts, wire"
+msgstr "Metallpfosten, Draht"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:113
+#, fuzzy
+msgid "Metal posts, hog wire"
+msgstr "Metallpfosten, Draht"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:114
+msgid "Metal poles, chain-link"
+msgstr "Metallpfosten, Maschendraht"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:115
+msgid "Security fence"
+msgstr "Sicherheitszaun"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:116
+msgid "Dry-stone wall"
+msgstr "Trockenmauer"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:117
+msgid "Stone wall"
+msgstr "Steinmauer"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:118
+msgid "Privet hedge"
+msgstr "Ligusterhecke"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:119
+msgid "Berm"
+msgstr "Berme"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:120
+msgid "Railing (Pipe)"
+msgstr "Geländer (Rohr)"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:121
+msgid "Railing (Wire)"
+msgstr "Geländer (Drahtseil)"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:122
+msgid "Railing (EU)"
+msgstr "Leitplanke"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:123
+msgid "(custom)"
+msgstr "(benutzerdefiniert)"
+
+#: ../../TerrainSDK/vtui/LinearStructDlg.cpp:298
+msgid "Edit Linear Structure Profile"
+msgstr "Lineares Bauwerksprofil bearbeiten"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:646
+msgid "No Endpoints"
+msgstr "Keine Endpunkte"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:681
+msgid "No Data"
+msgstr "Keine Daten"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:948
+#, c-format
+msgid "Minimum: %.2f m at distance %.1f\n"
+msgstr "Minimum: %.2f m bei %.1f Distanz\n"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:951
+#, c-format
+msgid "Maximum: %.2f m at distance %.1f"
+msgstr "Maximum: %.2f m bei %.1f Distanz"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:958
+#, c-format
+msgid "Mouse: %.2f m at distance %.1f"
+msgstr "Maus: %.2f m bei %.1f Distanz"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:964
+#, c-format
+msgid "Slope %.3f (%.1f degrees)"
+msgstr "Neigung %.3f (%.1f Grad)"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:972
+#, c-format
+msgid "Fresnel Zone 1: Radius: %.1f, Clearance %.1f"
+msgstr "Fresnel-Zone 1: Radius: %.1f, Abstand %.1f"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:977
+#, c-format
+msgid "  OF Zone: Radius: %.1f, Clearance %.1f"
+msgstr "  OF Zone: Radius: %.1f, Abstand %.1f"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:987
+#, c-format
+msgid ""
+"Fresnel zone radius at midpoint %.2fm (Object free zone %.2fm) Geoid Height "
+"%.1fm"
+msgstr ""
+"Fresnel-Zonenradius am Mittelpunkt %.2fm (Objektfreie Zone %.2fm) Geoid-Höhe "
+"%.1fm"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:996
+#, c-format
+msgid "Intersects ground at height %.2f, distance %.1f"
+msgstr "Trifft Boden bei Höhe %.2f, Distanz %.1f"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1003
+#, c-format
+msgid "Intersects culture at height %.2f, distance %.1f"
+msgstr "Schneided Bauwerk in Höhe %.2f,Abstand %.1f"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1183
+msgid "Export Profile to DXF"
+msgstr "Exportiere Profil nach DXF"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1184
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1198
+msgid "DXF Files (*.dxf)|*.dxf"
+msgstr "DXF Dateien (*.dxf)|*.dxf"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1197
+msgid "Export Trace to DXF"
+msgstr "Exportiere Pfad nach DXF"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1211
+#, fuzzy
+msgid "Export Trace to CSV"
+msgstr "Exportiere Pfad nach DXF"
+
+#: ../../TerrainSDK/vtui/ProfileDlg.cpp:1212
+#, fuzzy
+msgid "CSV Files (*.csv)|*.csv"
+msgstr "SHP-Dateien (*.shp)|*.shp"
+
+#: ../../TerrainSDK/vtui/ProfileEditDlg.cpp:258
+msgid "Load Profile"
+msgstr "Profil laden"
+
+#: ../../TerrainSDK/vtui/ProfileEditDlg.cpp:259
+#: ../../TerrainSDK/vtui/ProfileEditDlg.cpp:278
+msgid "Profile Files (*.shp)|*.shp"
+msgstr "Profildateien (*.shp)|*.shp"
+
+#: ../../TerrainSDK/vtui/ProfileEditDlg.cpp:277
+msgid "Save Profile"
+msgstr "Profil speichern"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:73
+msgid "Albers Equal Area Conic"
+msgstr "Albers Equal Area Conic"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:74
+msgid "Geographic"
+msgstr "Geographisch"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:75
+msgid "Hotine Oblique Mercator"
+msgstr "Hotine Oblique Mercator"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:76
+msgid "Krovak"
+msgstr "Krovak"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:77
+msgid "Lambert Azimuthal Equal-Area"
+msgstr "Lambertsche Azimutal"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:78
+msgid "Lambert Conformal Conic"
+msgstr "Lambertsche Schnittkegel"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:79
+msgid "Lambert Conformal Conic 1 SP"
+msgstr "Lambert konform, konisch 1SP"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:80
+msgid "New Zealand Map Grid"
+msgstr "Neuseeland Kartengitter"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:81
+msgid "Oblique Stereographic"
+msgstr "Oblique-Stereografisch"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:82
+msgid "Polar Stereographic"
+msgstr "Polar-Stereografisch"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:83
+msgid "Sinusoidal"
+msgstr "Sinusförmig"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:84
+msgid "Stereographic"
+msgstr "Stereografisch"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:85
+msgid "Mercator"
+msgstr "Mercator"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:86
+msgid "Transverse Mercator"
+msgstr "Transverse Mercator"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:87
+msgid "UTM"
+msgstr "UTM"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:88
+msgid "Dymaxion"
+msgstr "Dymaxion"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:94
+msgid "Attribute"
+msgstr "Attribut"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:96
+msgid "Value"
+msgstr "Wert"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:215
+msgid "Unit Edges"
+msgstr "Einheitsgrenzen"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:267
+msgid "(Invalid projection)"
+msgstr "(Ungültiges Koordinatensystem)"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:367
+msgid "Unknown projection: "
+msgstr "UnbekanntesKoordinatensystem:"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:384
+msgid "Save Projection to File"
+msgstr "Koordinatensystem in Datei abspeichern"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:385
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:395
+msgid "Projection Files (*.prj)|*.prj"
+msgstr "Koordinatensystem Datei (*.prj)|*.prj"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:394
+msgid "Load Projection from File"
+msgstr "Koordinatensystem aus Datei laden"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:402
+msgid "Couldn't load projection from that file.\n"
+msgstr "Koordinatensystem konnte nicht aus dieser Datei geladen werden.\n"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:422
+msgid ""
+"Couldn't set that Datum.  Perhaps the EPSG\n"
+" tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+"Konnte dieses Datum nicht setzen. Vielleicht konnten\n"
+"die EPSG-Tabellen nicht gefunden werden. Überprüfen\n"
+"Sie, ob Ihre GEOTIFF_CSV Umgebungsvariable gesetzt ist."
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:450
+msgid "Value for "
+msgstr "Wert für"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:454
+msgid "Enter new value"
+msgstr "Geben Sie einen neuen Wert ein"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Enter EPSG code:"
+msgstr "EPSG Kode eingeben"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Input"
+msgstr "Input"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:523
+msgid "Couldn't set EPSG coordinate system."
+msgstr "Konnte EPSG Koordinatensystem nicht setzen"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:629
+msgid "Select State Plane"
+msgstr "State Plane-Auswahl"
+
+#: ../../TerrainSDK/vtui/ProjectionDlg.cpp:648
+msgid ""
+"Couldn't set state plane projection.  Perhaps the\n"
+" EPSG tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+"State Plane-Projektion konnte nicht eingerichtet werden. Vielleicht\n"
+"konnten die EPSG-Tabellen nicht gefunden werden. Überprüfen Sie,\n"
+"ob Ihre GEOTIFF_CSV Umgebungsvariable gesetzt ist."
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:29
+msgid "Building Levels"
+msgstr "Stockwerke"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:41
+msgid "Copy"
+msgstr "Kopieren"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:47
+msgid "Del"
+msgstr "Löschen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:53
+msgid "Up"
+msgstr "Hoch"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:57
+msgid "Down"
+msgstr "Runter"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:69
+msgid "Baseline Editor"
+msgstr "Grundlinie Editor"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:75
+msgid "Set Roof Type"
+msgstr "Dachtyp festlegen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:84
+msgid "Level Properties"
+msgstr "Stockwerk-Eigenschaften"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:89
+msgid "Stories:"
+msgstr "Stockwerke:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:101
+msgid "Story Height:"
+msgstr "Stockwerkshöhe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:117 ../../TerrainSDK/vtui/vtui_UI.cpp:188
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:895
+msgid "Material:"
+msgstr "Material:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:149
+msgid "Edge Slopes:"
+msgstr "Kanten-Neigung:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:169
+#, fuzzy
+msgid "Edges"
+msgstr "Kanten:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:183
+msgid "Edge Properties"
+msgstr "Eigenschaften Kante"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:204
+msgid "Facade:"
+msgstr "Fassade"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:250 ../../TerrainSDK/vtui/vtui_UI.cpp:528
+msgid "Clear"
+msgstr "Löschen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:254
+msgid "Wall"
+msgstr "Mauer"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:258
+msgid "Window"
+msgstr "Fenster"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:262
+msgid "Door"
+msgstr "Tür"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:288
+msgid "Edges >>"
+msgstr "Kanten >>"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:314 ../../TerrainSDK/vtui/vtui_UI.cpp:677
+msgid "File:"
+msgstr "Datei:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:326
+msgid "Scale relative to elevation range"
+msgstr "Skaliere relativ zum Höhenbereich"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:330
+msgid "Blend colors smoothly"
+msgstr "Gleichmäßige Farbmischung"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:348
+msgid "Change Color..."
+msgstr "Farbe wechseln..."
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:352
+msgid "Delete Color"
+msgstr "Farbe löschen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:359
+msgid "New Color"
+msgstr "Neue Farbe"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:368
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1154
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:379
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1174
+msgid "Save"
+msgstr "Speichern"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:383
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1178
+msgid "Save As..."
+msgstr "Speichern als..."
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:387
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1182
+msgid "Load"
+msgstr "Laden"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:423
+#, fuzzy
+msgid "Single contour at:"
+msgstr "Einzelner Biotyp:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:439
+msgid "Contours every:"
+msgstr ""
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:466
+#, fuzzy
+msgid "Add to layer:"
+msgstr "Mast hinzufügen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:514
+msgid "Line"
+msgstr "Gerade"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:518
+msgid "Path"
+msgstr "Pfad"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:524
+msgid "Load Path..."
+msgstr ""
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:539
+msgid "Map Offset"
+msgstr "Karten Überstand"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:551
+msgid "Map Distance"
+msgstr "Karten-Entfernung"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:563
+msgid "Geodesic Distance"
+msgstr "Geodätische Entfernung"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:575
+msgid "Approximate Ground"
+msgstr "Boden schätzen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:587
+msgid "Vertical Difference"
+msgstr "Höhenunterschied"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:622
+msgid "Show features:"
+msgstr "Zeige Features:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:640
+msgid "Delete Highlighted"
+msgstr "Markierte entfernen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:667
+msgid "Instance from Content File"
+msgstr "Instanz von Inhaltsdatei"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:695 ../../TerrainSDK/vtui/vtui_UI.cpp:800
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:880
+msgid "Type:"
+msgstr "Typ:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:713
+msgid "Item:"
+msgstr "Einzelheit:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:725
+msgid "Instance from 3D Model File"
+msgstr "Instanzen aus 3D Modell Datei"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:749
+msgid "Location:"
+msgstr "Ort:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:756
+msgid "Create"
+msgstr ""
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:782
+msgid "Defined Style:"
+msgstr "Definierter Stil:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:795
+msgid "Posts"
+msgstr "Zaunpfähle"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:815
+msgid "Spacing:"
+msgstr "Abstand:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:845
+msgid "Size:"
+msgstr "Größe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:860
+msgid "Extension:"
+msgstr "Erweiterung:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Double"
+msgstr "Doppelt"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:875
+msgid "Connection"
+msgstr "Verbindung"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:910
+msgid "Top Height:"
+msgstr "Obere Höhe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:925
+msgid "Bottom Height:"
+msgstr "Untere Höhe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:955
+msgid "Side Slope:"
+msgstr "Seitliche Neigung:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:970
+msgid "Profile:"
+msgstr "Profil:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:980
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:986
+msgid "Constant Top Height"
+msgstr "Konstante obere Höhe"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1019
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Line of Sight"
+msgstr "Blickrichtung"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1023
+msgid "Visibility"
+msgstr "Sichtweite"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1027
+msgid "Show Fresnel zones"
+msgstr "Zeige Fresnel-Zonen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1031
+msgid "Use effective radius of earth"
+msgstr "Verwende effektiven Radius der Erde"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1035
+msgid "Show Culture Objects"
+msgstr "Zeige Bauwerke und Gebäude"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1049
+msgid "Start height:"
+msgstr "Starthöhe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1056
+msgid "End height:"
+msgstr "Endhöhe:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1063
+msgid "Radio Frequency:"
+msgstr "Radiofrequenz:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1073
+msgid "MHz"
+msgstr "MHz"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1079
+msgid "Apply curvature to:"
+msgstr "Wende Krümmung an:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Terrain"
+msgstr "Terrain"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1103
+#, fuzzy
+msgid "Export:"
+msgstr "Export"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1107
+#, fuzzy
+msgid "Profile"
+msgstr "Profil:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1111
+#, fuzzy
+msgid "Trace"
+msgstr "Zweispurig"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1115
+#, fuzzy
+msgid "CSV"
+msgstr "CRS"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1158
+msgid "Move"
+msgstr "Verschieben"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1162
+msgid "Remove"
+msgstr "Entfernen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1212
+msgid "Projection:"
+msgstr "Koordinatensystem:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1224
+msgid "Datum:"
+msgstr "Datum:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1228
+msgid "Show All Datums"
+msgstr "Zeige alle Daten"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1242
+msgid "Ellipsoid:"
+msgstr "Ellipsoid:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1251
+msgid "Horizontal Units:"
+msgstr "Horizontale Einheiten:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1260
+msgid "Zone:"
+msgstr "Zone:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1269
+msgid "Parameters:"
+msgstr "Parameter:"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1279
+msgid "Set State Plane Projection"
+msgstr "State Plane-Projektion festlegen"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1283
+msgid "Set EPSG"
+msgstr "Setze EPSG Koordinaten"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1292
+msgid "Load from File"
+msgstr "Aus Datei laden"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1296
+msgid "Save to File"
+msgstr "In Datei speichern"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1391
+msgid "NAD27"
+msgstr "NAD27"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1395
+msgid "NAD83"
+msgstr "NAD83"
+
+#: ../../TerrainSDK/vtui/vtui_UI.cpp:1412
+msgid "U.S. Feet"
+msgstr "U.S. Fuß"

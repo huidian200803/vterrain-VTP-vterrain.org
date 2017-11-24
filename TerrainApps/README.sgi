@@ -1,0 +1,75 @@
+     Read the problem description below, but here's what it means to you
+building on SGI IRIX.  
+
+     You probably already knew you couldn't mix GNU C++ and MIPSPro CC C++
+object files in an application due to different name mangling schemes,
+right?
+
+     In other words, C++ dependencies (osg, sdts++, etc.) must be built
+with the same compiler you build your apps with (g++ or CC).  NOTE: THIS
+ALSO INCLUDES THE OPENGL "GLU" LIBRARY!  The native IRIX libGLU is
+C++ dependent, and of course CC-compatible (NOT g++ compatible).
+
+     So what does this mean?  If you build VTerrain and all it's C++
+dependencies using:
+
+     1) GCC, then you must build your own libGLU library using GCC and link
+        to it.
+
+   or alternatively...:
+
+     2) MIPSPro CC, then you must compile with -mips3 or -mips4 on the CC
+        command-line (to enable RTTI compilation).
+
+     Both are easy, once you know, but option 2 is easier.  
+
+     For option 1, just grab Mesa (www.mesa3d.org), build --enable-static,
+grab the libGLU.a library file and stash it somewhere, and then when
+building GLU client apps, replace -lGLU in link lines with a path to your
+Mesa-built libGLU.a file.  The top-level Make.defs variables support this.
+
+     For option 2, just tweak your CC and CXX makefile macros to contain
+-mips3 or -mips4 to enable RTTI (needed by VTerrain and some of its C++
+dependencies).  Again, the top-level Make.defs file supports this.  Just tweak
+the line comments.
+
+------------------------------------------------------------------------------
+
+SITUATION:  Compiling IRIX apps with GCC which combine C++ and OpenGL code
+
+PROBLEM:    All compiled apps core dump deep down in ios::init before you
+            even get to main()
+
+SYMPTOM:    > ./tst
+            Segmentation fault (core dumped)
+
+            > dbx ./tst
+            (dbx) where
+            >  0 ios::init
+            ...
+
+REASON:     Your apps are linked (indirectly) to both to libC.so (IRIX C++) 
+            "and" libstdc++ (GNU C++).  This is a big no-no.
+
+            HOW?: G++ apps implicitly must link to libstdc++, and libGLU.so
+            on IRIX depends on libC.so (see "elfdump -Dl libGLU.so")
+
+SOLUTIONS:  1) Compile your own libGLU with GCC and link to it.
+
+                 Building a static libGLU.a from Mesa 3.4.1 worked for me.
+                 Just build for the same ABI and appropriate architecture.
+                 Then replace your -lGLU link references with a path to the
+                 libGLU.a file.
+
+            2) Alternatively, use MIPSPro CC for all C++ code.
+
+                 NOTE: if your code requires RTTI (ANSI casts:
+                 dynamic_cast, typeid, etc.), MIPSProCC will not build it
+                 by default, and how to "make" it build is undocumented: an
+                 explicit -mips3 or -mips4 on the CC command-line triggers it.
+
+                 ...NOTE: having a default ABI of mips3 or mips4 in your
+                 $COMPILER_DEFAULTS_PATH will not kick on the RTTI-is-ok
+                 flag in CC.  Despite what the SGI docs say, default ABI
+                 mips3/mips4 is not equivalent to putting -mips3/-mips4 on
+                 the command line.  [scratch,scratch] Beats me...

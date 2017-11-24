@@ -1,0 +1,311 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Danish resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+#ifdef _WIN32
+LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "1 TYPELIB ""vtocx.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ABOUTDLL            ICON                    "vtocx.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_VTOCX               BITMAP                  "vtocxCtrl.bmp"
+#endif    // Danish resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PROPSCREEN_VTOCX DIALOGEX 0, 0, 250, 110
+STYLE DS_SETFONT | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Screen Settings",IDC_GROUP_SCREEN,5,5,240,60
+    EDITTEXT        IDC_EDIT_LEFT,70,15,45,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_RIGHT,185,15,45,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_BOTTOM,70,30,45,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_TOP,185,30,45,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDIT_DIST,70,45,45,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    COMBOBOX        IDC_COMBO_ASPECT,185,45,57,28,CBS_DROPDOWNLIST | 
+                    CBS_AUTOHSCROLL | CBS_DISABLENOSCROLL | CBS_UPPERCASE | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Screen Left",IDC_STATIC_LEFT,10,17,55,10
+    LTEXT           "Screen Aspect",IDC_STATIC_ASPECT,125,47,55,10
+    LTEXT           "Screen Distance",IDC_STATIC_DIST,10,47,55,10
+    LTEXT           "Screen Bottom",IDC_STATIC_BOTTOM,10,32,55,10
+    LTEXT           "Screen Right",IDC_STATIC_RIGHT,125,17,55,10
+    LTEXT           "ScreenTop",IDC_STATIC_TOP,125,32,55,10
+END
+
+IDD_PROPNAVIGATION_VTOCX DIALOGEX 0, 0, 250, 110
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "Sensivity",IDC_NAVSENSIVITY,6,0,240,66
+    LTEXT           "Velocity",IDC_STATIC,12,12,48,10
+    LTEXT           "Rotation",IDC_STATIC,12,31,48,10
+    LTEXT           "Pan",IDC_STATIC,12,49,48,10
+    CONTROL         "",IDC_SLIDER_VELOCITY,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,12,126,12
+    CONTROL         "",IDC_SLIDER_ROTATION,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,31,126,12
+    CONTROL         "",IDC_SLIDER_PAN,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,60,49,126,12
+    EDITTEXT        IDC_EDIT_VELOCITY,192,12,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_ROTATION,192,31,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PAN,192,49,48,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_PROPSCREEN_VTOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 65
+    END
+
+    IDD_PROPNAVIGATION_VTOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 103
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PROPSCREEN_VTOCX DLGINIT
+BEGIN
+    IDC_COMBO_ASPECT, 0x403, 5, 0
+0x5246, 0x4545, "\000" 
+    IDC_COMBO_ASPECT, 0x403, 19, 0
+0x4f4c, 0x4b43, 0x545f, 0x5f4f, 0x4f48, 0x4952, 0x4f5a, 0x544e, 0x4c41, 
+"\000" 
+    IDC_COMBO_ASPECT, 0x403, 17, 0
+0x4f4c, 0x4b43, 0x545f, 0x5f4f, 0x4556, 0x5452, 0x4349, 0x4c41, "\000" 
+    0
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral (Sys. Default) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEUSD)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_SYS_DEFAULT
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "VTP"
+            VALUE "FileDescription", "ActiveX Plugin"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "vtocx.ocx"
+            VALUE "LegalCopyright", "(c) VTP"
+            VALUE "OriginalFilename", "vtocx.ocx"
+            VALUE "ProductName", "ActiveX Plugin"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX_VTOCX DIALOG  34, 22, 260, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About vtocx Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ABOUTDLL,IDC_STATIC,10,10,20,20
+    LTEXT           "vtocx Control, Version 1.0",IDC_STATIC,40,10,170,8
+    LTEXT           "Copyright (C) 2003, ",IDC_STATIC,40,25,170,8
+    DEFPUSHBUTTON   "OK",IDOK,221,7,32,16,WS_GROUP
+END
+
+IDD_FULLSCREEN_VTOCX DIALOGEX 0, 0, 186, 90
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX_VTOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_FULLSCREEN_VTOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_VTOCX               "vtocx Control"
+    IDS_VTOCX_PPG           "vtocx Property Page"
+    IDS_VTOCX_PSC           "vtocx Screen Property Page"
+    IDS_VTOCX_PCN           "vtocx Console Property Page"
+    IDS_VTOCX_PNV           "vtocx Navigation Property Page"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VTOCX_PPG_CAPTION   "General"
+    IDS_VTOCX_PSC_CAPTION   "View"
+    IDS_VTOCX_PCN_CAPTION   "Console"
+    IDS_VTOCX_PNV_CAPTION   "Navigation"
+END
+
+#endif    // Neutral (Sys. Default) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "vtocx.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

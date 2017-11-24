@@ -1,0 +1,105 @@
+
+digraph G
+{
+  edge [];
+  node [fontname="Helvetica-Bold",fontsize="11",shape=record,height=0.1,width=0.4];
+  rankdir=TB;
+  bgcolor=Transparent;
+
+	node [style="filled",fillcolor="#FFFF9B",shape=record];
+
+	Simple [label="simple examples",color="black",URL=".html"];
+	CManager [color="black",URL=".html"];
+	Enviro [fontname="Helvetica-Bold",fontsize="13",color="black",URL=".html"];
+	VTBuilder [fontname="Helvetica-Bold",fontsize="13",color="black",URL=".html"];
+
+	{ rank = same; CManager; Enviro; VTBuilder; }  
+
+	node [style="filled",fillcolor="#EFB57B",shape=record];
+
+	vtui [color="black",URL=".html"];
+	vtlib [fontname="Helvetica-Bold",fontsize="13",color="black",URL=".html",width=1.2];
+	vtdata [fontname="Helvetica-Bold",fontsize="13",color="black",URL=".html",width=1.6];
+	wxosg [color="black",URL=".html"];
+
+	Simple -> vtlib;
+	Simple -> vtdata;
+
+	CManager -> vtlib;
+	CManager -> vtdata;
+	CManager -> vtui;
+	CManager -> wxosg;
+
+	Enviro -> vtdata;
+	Enviro -> vtlib;
+	Enviro -> vtui;
+	Enviro -> wxosg;
+
+	VTBuilder -> vtui;
+	VTBuilder -> vtdata;
+
+	vtlib -> vtdata;
+
+	wxosg -> vtdata;
+	vtui -> vtdata;
+
+	node [style="filled",fillcolor="grey95",shape=record];
+
+	wxWidgets [color="black",URL=".html"];
+
+	Enviro -> wxWidgets;
+	VTBuilder -> wxWidgets;
+	wxosg -> wxWidgets;
+	vtui -> wxWidgets;
+
+	OSG [fontsize="13",color="black",URL=".html"];
+
+	vtlib -> OSG;
+	wxosg -> OSG;
+
+	libMini [color="black",URL=".html"];
+
+	vtlib -> libMini;
+
+	OpenGL [color="black",URL=".html"];
+
+	libMini -> OpenGL;
+	OSG -> OpenGL;
+
+	FreeType [color="black",URL=".html"];
+
+	OSG -> FreeType;
+
+	unzip [color="black",URL=".html"];
+
+	vtdata -> unzip;
+
+	lowlevel [label="libjpeg, libpng/zlib",color="black",URL=".html"];
+
+	OSG -> lowlevel;
+	vtlib -> lowlevel;
+	vtdata -> lowlevel;
+	unzip -> lowlevel;
+
+	GDAL [label="GDAL (OGR,\nShapelib, libgeotiff...)",color="black",URL=".html"];
+
+	vtdata -> GDAL;
+
+	PROJ [label="PROJ.4", color="black",URL=".html"];
+
+	GDAL -> PROJ;
+
+	node [style="filled",fillcolor="#9CCEFF",shape=record];
+
+	Squish [color="black",URL=".html"];
+
+	VTBuilder -> Squish;
+
+	QuikGrid [color="black",URL=".html"];
+	libcurl [color="black",URL=".html"];
+	NetCDF [color="black",URL=".html"];
+
+	vtdata -> QuikGrid;
+	vtdata -> libcurl;
+	vtdata -> NetCDF;
+}

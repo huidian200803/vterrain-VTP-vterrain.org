@@ -1,0 +1,67 @@
+// vtocx.idl : type library source for ActiveX Control project.
+
+// This file will be processed by the MIDL compiler tool to
+// produce the type library (vtocx.tlb) that will become a resource in
+// vtocx.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(AD34DE08-0561-4AC1-B740-7FAE00CA8D28), version(1.0),
+  helpfile("vtocx.hlp"),
+  helpstring("vtocx ActiveX Control module"),
+  control ]
+library vtocxLib
+{
+	importlib(STDOLE_TLB);
+
+	//  Primary dispatch interface for CvtocxCtrl
+
+	[ uuid(36A29705-DCF3-4012-8FDA-07575131BC08),
+	  helpstring("Dispatch interface for vtocx Control")]
+	dispinterface _Dvtocx
+	{
+	properties:
+		[id(1), helpstring("property ClearColor")] OLE_COLOR ClearColor;
+		[id(2), helpstring("property Stereo")] VARIANT_BOOL Stereo;
+		[id(12), helpstring("property TerrainFile")] BSTR TerrainFile;
+		[id(13), helpstring("property TerrainPaths")] BSTR TerrainPaths;
+		[id(14), helpstring("property Src")] BSTR Src;
+		[id(15), helpstring("property LocalSrc")] BSTR LocalSrc;
+		[id(16), helpstring("property Fullscreen")] VARIANT_BOOL Fullscreen;
+		[id(18), helpstring("property PositionX")] DOUBLE PositionX;
+		[id(19), helpstring("property PositionY")] DOUBLE PositionY;
+		[id(20), helpstring("property PositionZ")] DOUBLE PositionZ;
+		[id(21), helpstring("property NavSpeed")] FLOAT NavSpeed;
+		[id(22), helpstring("property ContextMenu")] VARIANT_BOOL ContextMenu;
+		[id(DISPID_READYSTATE), helpstring("property ReadyState")] LONG ReadyState;
+	methods:
+		[id(DISPID_ABOUTBOX)] void AboutBox();
+		[id(30), helpstring("method JumpToNo")] void JumpToNo(LONG vp);
+		[id(31), helpstring("method ResetView")] void ResetView();
+	};
+
+	//  Event dispatch interface for CvtocxCtrl
+
+	[ uuid(66FCF5BE-102F-45FA-8574-CC67345624A9),
+	  helpstring("Event interface for vtocx Control") ]
+	dispinterface _DvtocxEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+		[id(DISPID_KEYPRESS)] void KeyPress(SHORT* KeyAscii);
+		[id(DISPID_READYSTATECHANGE)] void ReadyStateChange(void);
+	};
+
+	//  Class information for CvtocxCtrl
+
+	[ uuid(246039DB-3D65-47EC-B929-C6A040981483),
+	  helpstring("vtocx Control"), control ]
+	coclass vtocx
+	{
+		[default] dispinterface _Dvtocx;
+		[default, source] dispinterface _DvtocxEvents;
+	};
+};

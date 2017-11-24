@@ -1,0 +1,30 @@
+/* XPM */
+static const char *sun_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 3 1",
+/* colors */
+"` c None",
+"a c #FF0000",
+"b c #FFFF00",
+/* pixels */
+"````````````````````",
+"`bbbbbbbba``````````",
+"`bbbbbbbbabbb```````",
+"`bbbbbbbbaaaabbbb```",
+"`bbbbbbbba```aaaabb`",
+"`bbbbbbbaabb`````aa`",
+"`bbbbbbba`aabb``````",
+"`bbbbbbba```aabb````",
+"`bbbbbbaab````aabb``",
+"`bbbbaa``ab`````aab`",
+"`aaaa`ab``abb`````a`",
+"``ab```a```aab``````",
+"```ab``ab````ab`````",
+"```ab```ab````ab````",
+"```ab````ab````ab```",
+"```ab````ab`````ab``",
+"````ab````ab`````ab`",
+"````ab`````ab`````a`",
+"````ab`````ab```````",
+"````````````````````"
+};

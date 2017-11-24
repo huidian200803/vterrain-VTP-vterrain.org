@@ -1,0 +1,3551 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-31 18:33-0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TerrainApps/Enviro/Enviro.cpp:344
+msgid "Terrain not found"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:472
+msgid "Setting up Terrain "
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:487
+msgid "Loading Elevation"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:515
+msgid "Loading/Coloring/Prelighting Textures"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:537
+msgid "Processing Elevation"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:548
+msgid "Building CLOD"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:559
+msgid "Creating Structures"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:566
+msgid "Creating Roads"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:573
+msgid "Creating Vegetation"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:580
+msgid "Creating Water and Abstracts"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:587
+msgid "Setting Camera"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:601
+msgid "Switching to Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:623
+msgid "Welcome to "
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:2681
+msgid "Cursor: "
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:2691 TerrainApps/Enviro/Enviro.cpp:2776
+msgid "Not on ground"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:2770
+msgid "Elev: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:86
+msgid "Meters/sec"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:87
+msgid "Km/hour"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:88
+msgid "Miles/hour"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:211
+msgid "View Width (meters)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:217
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:495
+msgid "Horizontal FOV (degrees)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:223
+msgid " Startup"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:388
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:42
+msgid "Earth View"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:483
+msgid "Scanning data paths for terrains"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:540
+msgid "No terrains found (datapath/Terrains/*.xml)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:544
+msgid "Please choose a terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:545
+msgid "Select Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:573
+msgid "Terrain Creation Parameters"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:578
+msgid "Couldn't load from that file."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:591
+msgid "Upgrading the .ini to a .xml file.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:592
+msgid "Deleting old file: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:605
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:313
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:336
+#, c-format
+msgid "Couldn't save to file %hs.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:606
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:314
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:337
+msgid "Please make sure the file is not read-only."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:504
+msgid "Building Properties"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:505
+msgid "Camera-View"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:506
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1088
+msgid "Distance"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:507
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1560
+msgid "Ephemeris"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:508
+msgid "Linear Structures"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:509
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:631
+msgid "Instances"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:511
+msgid "Tags"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:514
+msgid "Terrain LOD Info"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:518
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:629
+msgid "Plants"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:522
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:910
+msgid "Locations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:524
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:672
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:935
+msgid "Scene Graph"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:527
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:717
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:929
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1509
+msgid "Time"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:528
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:628
+msgid "Routes"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:529
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:710
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1865
+msgid "Scenarios"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:530
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:632
+msgid "Vehicles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:534
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:674
+#: TerrainApps/Enviro/wx/EnviroUI.h:1132
+msgid "Performance Monitor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:551
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:556
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:611
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:343
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:574
+msgid "Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:613
+msgid "Create Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:614
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:111
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:718
+msgid "Load Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:616
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1629
+msgid "Save Terrain State"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:617
+msgid "Save Terrain State As..."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:619
+msgid "E&xit (Esc)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:619
+msgid "Exit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:620
+msgid "&File"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:623
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:845
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:849
+msgid "Select"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:624
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:864
+msgid "Select Box"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:625
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:867
+msgid "Select and Move"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:626
+msgid "Fences"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:627
+msgid "Buildings"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:630
+msgid "Points"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:633
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:868
+msgid "Move Objects"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:634
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:880
+msgid "Navigate"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:635
+msgid "Measure Distances\tCtrl+D"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:637
+msgid "Constrain building angles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:640
+msgid "&Calculate\tCtrl+C"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:640
+msgid "Calculate visual impact factor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:641
+msgid "&Plot\tCtrl+P"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:641
+msgid "Produce visual impact plot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:642
+msgid "C&lear"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:642
+msgid "Clear visual impact target and all contributors"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:644
+msgid "Visual Impact.."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:646
+msgid "&Tools"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:677
+msgid "Go to Terrain...\tCtrl+G"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:680
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:915
+msgid "Go to Space"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:683
+msgid "Save scene graph to .osg"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:685
+msgid "Ephemeris...\tCtrl+P"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:686
+msgid "Time...\tCtrl+I"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:687
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:931
+msgid "Time Stop"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:688
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:930
+msgid "Time Faster"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:689
+msgid "&Scene"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:692
+msgid "Wireframe\tCtrl+W"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:693
+msgid "Fullscreen\tCtrl+F"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:694
+msgid "Top-Down Camera\tCtrl+T"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:695
+msgid "Rendering Statistics\tx"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:696
+msgid "Elevation Legend"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:697
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1651
+msgid "Compass"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:698
+msgid "Overview"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:699
+msgid "Drive Vehicle"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:701
+msgid "Camera - View Settings\tCtrl+S"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:702
+msgid "Store/Recall Locations\tCtrl+L"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:703
+msgid "Reset to Terrain Center\tCtrl+R"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:705
+msgid "Save Window Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:706
+msgid "Save Numbered Snapshot\tCtrl+N"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:707
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1923
+msgid "High-resolution Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:709
+msgid "&Status Bar"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:711
+msgid "&View"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:715
+msgid "Culture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:716
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:895
+msgid "Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:718
+msgid "Toolbars"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:721
+msgid "Fly Slower (S)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:722
+msgid "Fly Faster (F)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:723
+msgid "Maintain height above ground (A)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:724
+msgid "&Navigate"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:728
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:942
+msgid "Normal Terrain Flyer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:729
+msgid "Flyer with Velocity"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:730
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:944
+msgid "Grab-Pivot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:732
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:946
+msgid "Panoramic Flyer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:733
+msgid "Navigation Style"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:736
+msgid "LOD Terrain Surface\tF3"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:737
+msgid "Cull every frame"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:738
+msgid "Cull once"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:740
+msgid "Show Sky\tF4"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:741
+msgid "Show Ocean\tF5"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:742
+msgid "Show Plants\tF6"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:743
+msgid "Show Structures\tF7"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:744
+msgid "Show Roads\tF8"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:745
+msgid "Show Fog\tF9"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:747
+msgid "Increase Detail (+)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:748
+msgid "Decrease Detail (-)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:749
+msgid "Level of Detail Info\tCtrl+Q"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:751
+msgid "Toggle Artificial Foundations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:752
+msgid "&Recalculate Shading\tCtrl+H"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:753
+msgid "&Change Texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:754
+msgid "&Distribute Vehicles (test)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:755
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3002
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3010
+msgid "Write Elevation to BT"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:756
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3048
+msgid "Add Contours"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:757
+msgid "Te&rrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:762
+msgid "&Show Shading"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:763
+msgid "Show &Axes\tCtrl+A"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:764
+msgid "Seasonal &Tilt"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:765
+msgid "&Flatten\tCtrl+E"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:766
+msgid "&Unfold\tCtrl+U"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:771
+msgid "&Earth"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:775
+msgid "About"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:780
+msgid "Documentation (local)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:781
+msgid "Documentation (online)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:782
+msgid "&Help"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:869
+msgid "Create Fences"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:870
+msgid "Create Buildings"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:871
+msgid "Create Routes"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:872
+msgid "Create Plants"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:874
+msgid "Create Points"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:877
+msgid "Create Instances"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:878
+msgid "Create Vehicles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:884
+msgid "Measure Distance"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:889
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3543
+msgid "Elevation Profile"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:890
+msgid "Constrain Angles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:896
+msgid "Numbered Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:901
+msgid "Show Layer Dialog"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:906
+msgid "Maintain Height"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:907
+msgid "Fly Faster"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:908
+msgid "Fly Slower"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:909
+msgid "Camera Dialog"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:916
+msgid "Go to Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:920
+msgid "Show Sunlight"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:921
+msgid "Axes"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:922
+msgid "Tilt"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:923
+msgid "Unfold"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1630
+msgid "Terrain Files (*.xml)|*.xml"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1639
+msgid "Name for new terrain:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1639
+msgid "Query"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1874
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1939
+msgid "Save View Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1926
+msgid ""
+"If the size requested is greater than your graphics card supports, the size "
+"will be clamped to the card's limit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2188
+msgid "Your 3d driver does not support off screen rendering.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2189
+msgid "If the main 3d window is obscured by any other windows\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2190
+msgid "(including popup dialogs). The accuracy of the visual impact\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2191
+msgid "calculation will be impaired."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2197
+msgid "Not available."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2365
+msgid "Visual Impact Plot successful"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2367
+msgid "Visual Impact Plot unsuccessful"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2875
+msgid "Adding Foundations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2880
+msgid "Removing Foundations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2914
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3829
+msgid "Recalculating Shading"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2934
+msgid "Change Texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2940
+msgid "Changing Texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2966
+msgid "There are no roads to put the vehicles on.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2982
+msgid "Could not find any ground vehicles in the content file.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2987
+#, c-format
+msgid "There are %d types of ground vehicle available."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2988
+msgid "Vehicles:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2988
+msgid "Distribute Vehicles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3178
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:278
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:332
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:111 TerrainSDK/vtui/vtui_UI.cpp:387
+#: TerrainSDK/vtui/vtui_UI.cpp:1182
+msgid "Load"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3179
+msgid "JPEG Files (*.jpg)|*.jpg"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3250
+msgid ""
+"The runtime environment for the Virtual Terrain Project.\n"
+"\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3251
+msgid ""
+"Please read the HTML documentation and license.\n"
+"\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3252
+msgid "Send feedback to: ben@vterrain.org\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3256
+msgid "Build date: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3265
+msgid "About "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3582
+msgid "Properties"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3588
+msgid "Copy Style"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3593
+msgid "Paste Style"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3594
+msgid "Flip Footprint Direction"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3599
+msgid "Reload from Disk"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3600
+msgid "Adjust Terrain Surface to Fit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3604
+msgid "Toggle Shadow"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3613
+msgid "URL"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3618
+msgid "&Visual Impact Contributor\tCtrl+V"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3619
+msgid "Set this structure as a contributor to the VIA calculation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3621
+msgid "Visual Impact &Target\tCtrl+T"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3622
+msgid "Set this structure as the viewer target for VIA plots"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3632
+msgid "Start Driving"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3636
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1827
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1923
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2219
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2373
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:114
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:362
+msgid "Delete"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:149
+msgid "Creating Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:292
+msgid "Save Vegetation Data"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:293
+msgid "Vegetation Files (*.vf)|*.vf"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:326
+msgid "Save Built Structures Data"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:327
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:713
+msgid "Structure Files (*.vtst)|*.vtst"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:348
+msgid "Error"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:465
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:507
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:753
+msgid "Style"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:40
+msgid "Launch with:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:52
+msgid "Image:  "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:61 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:71
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:726
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:780
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:792
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:825
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:843
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:935
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:950
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:970
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1437
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1675
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1768
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2151
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2444
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2459
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2660
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2751
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2850
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2869
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2948 TerrainSDK/vtui/vtui_UI.cpp:681
+#: TerrainSDK/vtui/vtui_UI.cpp:699 TerrainSDK/vtui/vtui_UI.cpp:717
+#: TerrainSDK/vtui/vtui_UI.cpp:786 TerrainSDK/vtui/vtui_UI.cpp:804
+#: TerrainSDK/vtui/vtui_UI.cpp:884 TerrainSDK/vtui/vtui_UI.cpp:899
+msgid "Item"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:77
+msgid "Edit Properties"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:88
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:208
+msgid "Terrain Manager"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:92
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:268
+msgid "Global Options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:96
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:82
+msgid "OpenGL Info"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:105
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:697
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1872
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1937
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2177
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2333
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2404
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2482
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2968
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3622 TerrainSDK/wxosg/TimeDlg.cpp:85
+#: TerrainSDK/vtui/vtui_UI.cpp:281 TerrainSDK/vtui/vtui_UI.cpp:481
+#: TerrainSDK/vtui/vtui_UI.cpp:1308 TerrainSDK/vtui/vtui_UI.cpp:1353
+#: TerrainSDK/vtui/vtui_UI.cpp:1421
+msgid "OK"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:109
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1876
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2181
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2337
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2408
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2486
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2972
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3628 TerrainSDK/wxosg/TimeDlg.cpp:88
+#: TerrainSDK/vtui/vtui_UI.cpp:485 TerrainSDK/vtui/vtui_UI.cpp:1312
+#: TerrainSDK/vtui/vtui_UI.cpp:1357 TerrainSDK/vtui/vtui_UI.cpp:1425
+msgid "Cancel"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:135
+msgid " Species:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:149
+msgid "Common names"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:153
+msgid "Language:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:167
+msgid "    Height:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:174
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:236
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1181
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1696
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1786
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2104
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2120
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2682
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2698
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2773
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2887
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2903 TerrainSDK/vtui/vtui_UI.cpp:108
+#: TerrainSDK/vtui/vtui_UI.cpp:430 TerrainSDK/vtui/vtui_UI.cpp:445
+msgid "meters"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:184
+msgid "Planting Options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:189
+msgid "Individual instances"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:193
+msgid "Straight line"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:199
+msgid "Continuously"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:210
+msgid "Height variance:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:217
+msgid "%"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:229
+msgid "Minimum spacing:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:274
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:328
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:112 TerrainSDK/vtui/vtui_UI.cpp:379
+#: TerrainSDK/vtui/vtui_UI.cpp:1174
+msgid "Save"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:289
+msgid "Recall ->"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:293
+msgid "<- Store"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:297
+msgid "Store As.."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:301
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:360 TerrainSDK/vtui/vtui_UI.cpp:1162
+msgid "Remove"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:324
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1823
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2215
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2369
+msgid "New"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:367
+msgid "Active"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:374
+msgid "Playback"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:379
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2533 TerrainSDK/wxosg/wxosg_UI.cpp:76
+msgid "Speed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:389
+msgid "m/s"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:398
+msgid "Loop"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:402
+msgid "Continuous"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:406
+msgid "Smooth"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:410
+msgid "Position Only"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:416
+msgid "Play animation to disk as a series of images"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:423
+msgid "Recording"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:425
+msgid "Use linear distance"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:432
+msgid "Time interval"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:439
+msgid "seconds"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:468
+msgid "Position:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:483
+msgid "Elevation:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:510
+msgid "Near Clipping Plane (meters):"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:525
+msgid "Far Clipping Plane (meters):"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:540
+msgid "Stereo Eye Separation:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:555
+msgid "Stereo Fusion Distance:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:573
+msgid "Navigation Speed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:588
+msgid "Units"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:605
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1739
+msgid "Accelerate by height above ground"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:614
+msgid "Velocity Damping:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:627
+msgid "LOD Distance"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:632
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:640
+msgid "Vegetation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:647
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1402
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3169
+msgid "Structures"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:662
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1144
+msgid "Roads"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:722
+msgid "Structure Type:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:755
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2275
+msgid "Name:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:770
+msgid "Grid"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:775
+msgid "Grid Filename: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:788
+msgid "Terrain LOD Method:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:798
+msgid "Triangle count target: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:815
+msgid "TIN"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:820
+msgid "TIN Filename:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:833
+msgid "Grid Tiles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:838
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:965
+msgid "Tileset .ini file:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:851
+msgid "Vertex count target: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:858
+msgid "RAM cache size (MB):"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:871
+msgid "Use multithreading for asynchronous tile loading"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:880
+msgid "External"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:885
+msgid "External Data:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:899
+msgid "Vertical Exaggeration:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:906
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1546
+msgid "x"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:915
+msgid "Elevation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:921
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1104
+msgid "Texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:923
+msgid "No texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:930
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2439
+msgid "Single texture "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:940
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2449
+msgid "Derive texture from elevation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:956
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2465
+msgid "Edit Colors..."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:981
+msgid "Start with minimal texture tiles and load gradually"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:993
+msgid "Texture LOD factor:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1008
+msgid "Mipmapping"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1012
+msgid "Request 16-bit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1021
+msgid "Precompute lighting"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1028
+msgid "Lighting factor: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1037
+msgid "Cast shadows"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1048
+msgid "Retain loaded texture in memory for faster re-lighting"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1060
+msgid "Detail Texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1062
+msgid "Show detail texture"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1072
+msgid "Scale"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1081
+msgid "(meter size of detail texture)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1113
+msgid "Plant Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1121
+msgid " Visibility distance: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1128
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1262
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1345
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1387
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3291
+msgid "m"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1134
+msgid "Use Shaders for Plants"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1154
+msgid "Source file: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1174
+msgid "Ground offset: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1185
+msgid "Visibility distance:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1192
+msgid "km"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1198
+msgid "Texture-map roads"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1202
+msgid "Road culture (stoplights, etc.)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1213
+msgid "Include:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1217
+msgid "Highways"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1221
+msgid "Paved"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1225
+msgid "Dirt"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1238
+msgid "Plants and Roads"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1244
+msgid "Structure Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1255
+msgid "Visibility distance: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1271
+msgid "Terrain-specific content:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1288
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3247
+msgid "Shadows"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1304
+msgid "Resolution:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1318
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3265
+msgid "Darkness:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1327
+msgid "All structures cast shadows by default"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1331
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3277
+msgid "Recompute shadows every frame"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1338
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3284
+msgid "Limit shadow area:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1355
+msgid "Paging"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1365
+msgid "Maximum structures:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1380
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3132
+msgid "Page-out distance:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1411
+msgid "Sky && Water"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1413
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3191
+msgid "Ocean plane"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1423
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1450
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3201
+msgid "Level (meters)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1432
+msgid "Water surface"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1440
+msgid "Depress Ocean"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1459
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3210
+msgid "Sky dome"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1477
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3228
+msgid "Fog"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1481
+msgid "Distance (km)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1493
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3304
+msgid "Scene background color:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1500
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1521
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2584
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3311 TerrainSDK/vtui/vtui_UI.cpp:124
+#: TerrainSDK/vtui/vtui_UI.cpp:140 TerrainSDK/vtui/vtui_UI.cpp:156
+#: TerrainSDK/vtui/vtui_UI.cpp:195 TerrainSDK/vtui/vtui_UI.cpp:226
+msgid "Set"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1514
+msgid "Initial Time: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1530
+msgid "Time Moves"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1539
+msgid "Faster than real: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1569
+msgid "Abstract Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1577
+msgid "Style..."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1586
+msgid "Image Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1599
+msgid "Abstracts"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1608
+msgid "Window Overlay"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1610
+msgid "Image file:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1620 TerrainSDK/vtui/vtui_UI.cpp:738
+msgid "..."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1629
+msgid "Placement:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1641
+msgid "(pixels from the lower-left corner)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1647
+msgid "Terrain overview map"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1660
+msgid "HUD"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1666
+msgid "Navigation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1671
+msgid "Style:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1689
+msgid "Minimum height above ground: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1708
+msgid "Navigation speed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1715
+msgid "meters/frame"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1727
+msgid "Velocity damping:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1743
+msgid "Allow Roll"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1752
+msgid "Default Locations File:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1764
+msgid "Initial Camera Location"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1779
+msgid "Near clipping (\"Hither\") distance"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1797
+msgid "Animation Paths:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1809
+msgid "Camera"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1831
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2223
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2377 TerrainSDK/vtui/vtui_UI.cpp:980
+msgid "Edit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1835
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2227
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2381
+msgid "Move Up"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1839
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2231
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2385
+msgid "Move Down"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1850
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2242
+msgid "Start with active scenario:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1854
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2246
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2568 TerrainSDK/vtui/vtui_UI.cpp:208
+#: TerrainSDK/vtui/vtui_UI.cpp:470 TerrainSDK/vtui/vtui_UI.cpp:974
+msgid "ChoiceItem"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1908
+msgid "Add Path"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1912
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:242
+msgid "Add Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1919
+msgid "Add Copy"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1930
+msgid "Edit Parameters"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1967
+msgid "Display"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1969
+msgid "Start in full screen"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1973
+msgid "Stereo"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1985
+msgid "Anaglyphic (red-blue)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1992
+msgid "Quad buffer (shutter glasses)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1998
+msgid "Horizontal split"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2004
+msgid "Vertical split"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2009
+msgid "Anti-aliasing (Multisamples):"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2019
+msgid "None / System Default"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2022
+msgid "4x"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2025
+msgid "8x"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2028
+msgid "16x"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2036
+msgid "Window size"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2043
+msgid "Window X"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2050
+msgid "Window Y"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2057
+msgid "Width"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2064
+msgid "Height"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2073
+msgid "Size is inside (3D view area, not frame)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2079
+msgid "Texture compression"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2083
+msgid "Disable model mipmaps"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2088
+msgid "Selection"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2090
+msgid "Use direct picking of object under 2D cursor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2097
+msgid "Selection cutoff distance:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2113
+msgid "Maximum radius for selecting models:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2131
+msgid "Size exaggeration for plants and fences: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2140
+msgid "Show only species with available appearances"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2147
+msgid "Global content file:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2159
+msgid "Show progress dialog during terrain creation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2163
+msgid "Fly in gradually from earth view"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2167
+msgid "Enable joystick navigation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2171
+msgid "Enable SpaceNavigator"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2293
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2326
+msgid "Visible Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2303
+msgid "<<"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2307
+msgid ">>"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2314
+msgid "Available Layers"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2389
+msgid "Previous"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2393
+msgid "Next"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2412
+msgid "Apply"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2537
+msgid "2.0"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2540
+msgid "fps"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2577
+msgid "Body color:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2610
+msgid "Feature type:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2624
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2714
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2814
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2931
+msgid "Enable"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2634
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2724
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2824 TerrainSDK/vtui/vtui_UI.cpp:133
+#: TerrainSDK/vtui/vtui_UI.cpp:219
+msgid "Color:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2644
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2734
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2834
+msgid "Fixed"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2657
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2747
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2847
+msgid "Field"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2675
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2766
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2880
+msgid "Height above ground"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2691
+msgid "Size/scale"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2709
+msgid "Object Geometry"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2782
+msgid "Line width"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2789
+msgid "pixels"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2798
+msgid "Tessellate edges"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2809
+msgid "Line Geometry"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2865
+msgid "Text field:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2896
+msgid "Label Size (vertical)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2912
+msgid "Font:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2926
+msgid "Text Labels"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2944
+msgid "Mode:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2961
+msgid "Texture Overlay"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3000
+msgid "Detail levels chart"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3010
+msgid "Number of Triangles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3020
+msgid "Current"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3030
+msgid "Tileset Texture Status"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3038
+msgid "prange"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3059
+msgid "16"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3066
+msgid "32"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3073
+msgid "64"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3080
+msgid "128"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3087
+msgid "256"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3094
+msgid "512"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3101
+msgid "1k"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3108
+msgid "2k"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3124
+msgid "Surface and Textures"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3127
+msgid "Structure Paging Status"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3147
+msgid "Currently constructed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3154
+msgid "/"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3232
+msgid "Distance (m)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3322
+msgid "Wind Direction:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3332
+msgid "Wind Speed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3365
+msgid "Right click on counter to enable/disable"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3396
+msgid "Speed"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3406
+msgid "kmph"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3410
+msgid "Follow with camera"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3413
+msgid "Rate of turn"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3421
+msgid "radians"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3492
+msgid "Percentage of human binocular field of view"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3509
+msgid "Recalculate"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3515
+msgid "Done"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3550
+msgid "Raster Creation Options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3553
+msgid "Help"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3561
+#: TerrainApps/Enviro/wx/EnviroUI.h:1231
+msgid "Creation Options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3571
+msgid "Sample Grid"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3573
+msgid "X(E-W) sample interval"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3582
+msgid "Y(N-S) sample interval"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3594
+msgid "Data conversion options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3596
+msgid "Data Type"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3600
+msgid "Combo!"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3608
+msgid "Scale Factor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:110 TerrainSDK/vtui/vtui_UI.cpp:756
+msgid "Create"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:110
+msgid "Create New Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:112
+msgid "Save Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:113
+msgid "Save As"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:113
+msgid "Save Layer As..."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:114
+msgid "Delete Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:116
+msgid "Zoom"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:116
+msgid "Zoom to Layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:117
+msgid "Visible"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:117
+msgid "Toggle Layer Visibility"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:118
+msgid "Table of Attributes"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:119
+msgid "Shadow"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:119
+msgid "Toggle Structure Shadow"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:120 TerrainSDK/wxosg/wxosg_UI.cpp:124
+msgid "Refresh"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:122
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:319
+msgid "All"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:122
+msgid "Show all elements of every layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:305
+#, c-format
+msgid " (Plants: %d)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:322
+msgid ", Features: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:330
+msgid ", Selected: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:377
+msgid "Building"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:382
+msgid "Fence"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:389
+msgid "File "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:395
+msgid "Item "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:418
+#, c-format
+msgid "Buildings: %d"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:428
+#, c-format
+msgid "Fences: %d"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:438
+#, c-format
+msgid "Instances: %d"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:638
+msgid "Abstract (Points with labels)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:639
+msgid "Structure"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:641
+msgid "Layer type:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:641 TerrainSDK/vtui/vtui_UI.cpp:457
+msgid "Create new layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:680
+msgid "Save Abstract Data"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:681
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:709
+msgid "GIS Files (*.shp)|*.shp"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:698
+msgid "Couldn't save layer."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:715
+msgid "All supported layer formats (*.shp;*.vtst)|*.shp;*.vtst"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:778
+msgid "Couldn't open"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:780
+msgid "That file isn't point data."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:1051
+#, c-format
+msgid "There are %d structures.  Are you sure you want to display them all?"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:1052
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:145
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:195
+msgid "Warning"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:182
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:521
+#, c-format
+msgid "%d: time %lf"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:590
+msgid "Please select an animpath to record."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:595
+msgid "Output directory for the images"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:610
+msgid "Animation time step for each frame, in seconds:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:611
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:622
+msgid "Animation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:620
+#, c-format
+msgid "The animation of %.2f seconds will be recorded as %d frames (%.2f/sec)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:625
+msgid "Output"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:643
+msgid "Polyline Data Sources"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:645
+msgid "Load Animation Path"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:692
+msgid "Save AnimPath"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:693
+msgid "AnimPath Files (*.vtap)|*.vtap"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:718
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:809
+msgid ""
+"Couldn't recall point, probably a coordinate system transformation problem."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:724
+msgid "Load Locations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:725
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:753
+msgid "Location Files (*.loc)|*.loc"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:752
+msgid "Save Locations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:769
+#, c-format
+msgid "Location %d"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:770
+msgid "Type a name for the new location:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:771
+msgid "Location Name"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:788
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:798
+msgid ""
+"Couldn't store point, probably a coordinate system transformation problem."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:222
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1431
+msgid "Scenario Parameters"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:273
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1400
+msgid "Enter Scenario Name"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:273
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1401
+msgid "New Scenario"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:58
+msgid "OpenGL Version: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:61
+msgid "Vendor: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:64
+msgid "Renderer: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:67
+#, c-format
+msgid "Maximum Texture Dimension: %d\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:70
+msgid "GLSL Version: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:75
+msgid "Extensions: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:129
+msgid "ADD"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:130
+msgid "MODULATE"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:131
+msgid "DECAL"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:73
+msgid "Terrain Data Paths"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:170
+msgid "Please enter the name for the terrain copy."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:171
+msgid "Add Copy of Terrain"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:241
+msgid "Please enter the name for a new terrain .xml file."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:275
+msgid "Specify Data Directory"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:128
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1123
+msgid "Couldn't locate file."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:132
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1127
+msgid "ColorMap"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:161
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:816
+msgid "Looking for files on data paths"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:719
+msgid "(default)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:943
+msgid "Terrain Flyer with Velocity"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1010
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1011
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1012
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1013
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1018
+msgid "(double-click to add files)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1113
+msgid "Please select a filename."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1190
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1216
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1267
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1293
+msgid "One of the following to add:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1191
+msgid "Choose a plant file"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1217
+msgid "Choose a structure file"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1238
+msgid "Load features"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1239
+msgid "Feature files (*.shp,*.igc,*.dxf)|*.shp;*.igc;*.dxf"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1267
+msgid "Choose an animpath file"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1294
+msgid "Choose an image file"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1332
+msgid "Set Initial Time"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1352
+msgid "Feature Style"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1365
+msgid "Overlay Image File"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1366
+msgid "Image Files (*.png,*.jpg,*.bmp)|*.png;*.jpg;*.bmp"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/VIADlg.cpp:30 TerrainApps/Enviro/wx/VIADlg.cpp:38
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:34
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:35
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:36
+#, c-format
+msgid "%0.2f"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.h:1167
+msgid "Drive"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.h:1196
+msgid "Visual Impact Calculation"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:152
+msgid "Engines"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:174
+msgid "vtLightSource"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:179
+msgid "vtDynGeom"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:184
+msgid "vtGeode"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:199
+msgid "vtFog"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:204
+msgid "vtShadow"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:209
+msgid "vtHUD"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:215
+msgid "vtGroup"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:221
+msgid "MatrixTransform"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:226
+msgid "LOD"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:231
+msgid "Group"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:236
+msgid "Geode"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:242
+msgid "Other"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:293
+#, c-format
+msgid "%d: Mesh, %hs, %d verts, %d prims"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:297
+msgid "Text Mesh"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:301
+#, c-format
+msgid "%d: Drawable, %d verts"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:306
+msgid "Drawable"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:322
+#, c-format
+msgid "%d: %d verts"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:327
+#, c-format
+msgid "%d: drawable"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:342
+#, c-format
+msgid "(%d children)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:353
+msgid "(internal node)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:371
+msgid "unnamed"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:387
+msgid "(non-node)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:392
+#, c-format
+msgid " (%d targets total)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:491
+msgid "The standard log file (debug.txt)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:492
+msgid "A dot file (scene.dot)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:493
+msgid "Log the scene graph to:"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:24
+msgid "Year:"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:31
+msgid "Month"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:38
+msgid "Day"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:50
+msgid "Hour:"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:57
+msgid "Minute"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:64
+msgid "Second"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:86
+msgid "Stop"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:116
+msgid "Enabled"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:120
+msgid "Zoom To"
+msgstr ""
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:128
+msgid "Log"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:179 TerrainSDK/vtui/BuildingDlg.cpp:683
+msgid "(None)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:401
+msgid " (flat roof)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:403
+msgid " (shed roof)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:405
+msgid " (gable roof)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:407
+msgid " (hip roof)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:411
+#, c-format
+msgid " (stories : %d)"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:506 TerrainSDK/vtui/DoubleProgDlg.cpp:418
+#: TerrainSDK/vtui/ProjectionDlg.cpp:118
+msgid "Unknown"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:562
+msgid "Flat (all edges 0(degree sign))"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:563
+msgid "Shed"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:564
+msgid "Gable"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:565
+msgid "Hip"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:566
+msgid "Vertical (all edges 90(degree sign))"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:572
+msgid "Please indicate edge slopes"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:586
+msgid "Sloped edges"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:586 TerrainSDK/vtui/DistanceDlg.cpp:321
+#: TerrainSDK/vtui/ProjectionDlg.cpp:206
+msgid "Degrees"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:587
+msgid "Slope"
+msgstr ""
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:734
+msgid "Set Building Material for All Edges"
+msgstr ""
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:104
+#, c-format
+msgid "%.2f meters"
+msgstr ""
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:124
+msgid "Load ColorMap"
+msgstr ""
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:125 TerrainSDK/vtui/ColorMapDlg.cpp:165
+msgid "ColorMap Files (*.cmt)|*.cmt"
+msgstr ""
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:164
+msgid "Save ColorMap"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:47 TerrainSDK/vtui/DistanceDlg.cpp:53
+#: TerrainSDK/vtui/DistanceDlg.cpp:59 TerrainSDK/vtui/DistanceDlg.cpp:65
+#: TerrainSDK/vtui/DistanceDlg.cpp:324 TerrainSDK/vtui/ProjectionDlg.cpp:208
+#: TerrainSDK/vtui/vtui_UI.cpp:1404
+msgid "Meters"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:48 TerrainSDK/vtui/DistanceDlg.cpp:54
+#: TerrainSDK/vtui/DistanceDlg.cpp:60 TerrainSDK/vtui/DistanceDlg.cpp:66
+#: TerrainSDK/vtui/DistanceDlg.cpp:325 TerrainSDK/vtui/vtui_UI.cpp:1408
+msgid "Feet"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:49 TerrainSDK/vtui/DistanceDlg.cpp:55
+#: TerrainSDK/vtui/DistanceDlg.cpp:61 TerrainSDK/vtui/DistanceDlg.cpp:67
+#: TerrainSDK/vtui/DistanceDlg.cpp:326
+msgid "US Survey Feet"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:50 TerrainSDK/vtui/DistanceDlg.cpp:56
+#: TerrainSDK/vtui/DistanceDlg.cpp:62
+msgid "Kilometers"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:51 TerrainSDK/vtui/DistanceDlg.cpp:57
+#: TerrainSDK/vtui/DistanceDlg.cpp:63
+msgid "Miles"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:181
+msgid "<Projection failure>"
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:369
+msgid ""
+"Enter the path to a SHP file containing a polyline, or a series of points in "
+"the form X Y X Y .."
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:369
+msgid "Input Path"
+msgstr ""
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:209
+msgid "unknown"
+msgstr ""
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:271
+msgid "Done."
+msgstr ""
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:442 TerrainSDK/vtui/vtui_UI.cpp:394
+#: TerrainSDK/vtui/vtui_UI.cpp:1186
+msgid "Close"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:116
+msgid "Feature Info"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:144
+#, c-format
+msgid ""
+"There are %d selected features.  Are you sure you\n"
+" want to display them all in the table view?"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:150
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:200
+msgid "Populating table"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:194
+#, c-format
+msgid ""
+"There are %d features in this layer.  Are you sure\n"
+" you want to display them all in the table view?"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:293
+#, c-format
+msgid "Enter a new value for field '%hs'"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:295
+msgid "Text entry"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:317
+msgid "Selected"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:318
+msgid "Picked"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:322
+msgid "Meter"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:323
+msgid "Foot"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:324
+msgid "Foot (US)"
+msgstr ""
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:169
+msgid "(All)"
+msgstr ""
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:195
+msgid "3D Model files"
+msgstr ""
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:197
+msgid "All files"
+msgstr ""
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:199
+msgid "Choose model file"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:111
+msgid "Wooden posts, wire"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:112
+msgid "Metal posts, wire"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:113
+msgid "Metal posts, hog wire"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:114
+msgid "Metal poles, chain-link"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:115
+msgid "Security fence"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:116
+msgid "Dry-stone wall"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:117
+msgid "Stone wall"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:118
+msgid "Privet hedge"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:119
+msgid "Berm"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:120
+msgid "Railing (Pipe)"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:121
+msgid "Railing (Wire)"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:122
+msgid "Railing (EU)"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:123
+msgid "(custom)"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:298
+msgid "Edit Linear Structure Profile"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:646
+msgid "No Endpoints"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:681
+msgid "No Data"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:948
+#, c-format
+msgid "Minimum: %.2f m at distance %.1f\n"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:951
+#, c-format
+msgid "Maximum: %.2f m at distance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:958
+#, c-format
+msgid "Mouse: %.2f m at distance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:964
+#, c-format
+msgid "Slope %.3f (%.1f degrees)"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:972
+#, c-format
+msgid "Fresnel Zone 1: Radius: %.1f, Clearance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:977
+#, c-format
+msgid "  OF Zone: Radius: %.1f, Clearance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:987
+#, c-format
+msgid ""
+"Fresnel zone radius at midpoint %.2fm (Object free zone %.2fm) Geoid Height "
+"%.1fm"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:996
+#, c-format
+msgid "Intersects ground at height %.2f, distance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1003
+#, c-format
+msgid "Intersects culture at height %.2f, distance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1183
+msgid "Export Profile to DXF"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1184 TerrainSDK/vtui/ProfileDlg.cpp:1198
+msgid "DXF Files (*.dxf)|*.dxf"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1197
+msgid "Export Trace to DXF"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1211
+msgid "Export Trace to CSV"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1212
+msgid "CSV Files (*.csv)|*.csv"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:258
+msgid "Load Profile"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:259
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:278
+msgid "Profile Files (*.shp)|*.shp"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:277
+msgid "Save Profile"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:73
+msgid "Albers Equal Area Conic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:74
+msgid "Geographic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:75
+msgid "Hotine Oblique Mercator"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:76
+msgid "Krovak"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:77
+msgid "Lambert Azimuthal Equal-Area"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:78
+msgid "Lambert Conformal Conic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:79
+msgid "Lambert Conformal Conic 1 SP"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:80
+msgid "New Zealand Map Grid"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:81
+msgid "Oblique Stereographic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:82
+msgid "Polar Stereographic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:83
+msgid "Sinusoidal"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:84
+msgid "Stereographic"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:85
+msgid "Mercator"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:86
+msgid "Transverse Mercator"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:87
+msgid "UTM"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:88
+msgid "Dymaxion"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:94
+msgid "Attribute"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:96
+msgid "Value"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:211
+msgid "Feet (International)"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:212
+msgid "Feet (U.S. Survey)"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:215
+msgid "Unit Edges"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:267
+msgid "(Invalid projection)"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:367
+msgid "Unknown projection: "
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:384
+msgid "Save Projection to File"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:385 TerrainSDK/vtui/ProjectionDlg.cpp:395
+msgid "Projection Files (*.prj)|*.prj"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:394
+msgid "Load Projection from File"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:402
+msgid "Couldn't load projection from that file.\n"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:422
+msgid ""
+"Couldn't set that Datum.  Perhaps the EPSG\n"
+" tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:450
+msgid "Value for "
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:454
+msgid "Enter new value"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Enter EPSG code:"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Input"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:523
+msgid "Couldn't set EPSG coordinate system."
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:629
+msgid "Select State Plane"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:648
+msgid ""
+"Couldn't set state plane projection.  Perhaps the\n"
+" EPSG tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:29
+msgid "Building Levels"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:41
+msgid "Copy"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:47
+msgid "Del"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:53
+msgid "Up"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:57
+msgid "Down"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:69
+msgid "Baseline Editor"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:75
+msgid "Set Roof Type"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:84
+msgid "Level Properties"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:89
+msgid "Stories:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:101
+msgid "Story Height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:117 TerrainSDK/vtui/vtui_UI.cpp:188
+#: TerrainSDK/vtui/vtui_UI.cpp:895
+msgid "Material:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:149
+msgid "Edge Slopes:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:169
+msgid "Edges"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:183
+msgid "Edge Properties"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:204
+msgid "Facade:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:235
+msgid "Slope:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:250 TerrainSDK/vtui/vtui_UI.cpp:528
+msgid "Clear"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:254
+msgid "Wall"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:258
+msgid "Window"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:262
+msgid "Door"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:288
+msgid "Edges >>"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:314 TerrainSDK/vtui/vtui_UI.cpp:677
+msgid "File:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:326
+msgid "Scale relative to elevation range"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:330
+msgid "Blend colors smoothly"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:340
+msgid "Colors"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:348
+msgid "Change Color..."
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:352
+msgid "Delete Color"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:359
+msgid "New Color"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:361 TerrainSDK/vtui/vtui_UI.cpp:830
+msgid "Height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:368 TerrainSDK/vtui/vtui_UI.cpp:1154
+msgid "Add"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:383 TerrainSDK/vtui/vtui_UI.cpp:1178
+msgid "Save As..."
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:423
+msgid "Single contour at:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:439
+msgid "Contours every:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:466
+msgid "Add to layer:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:514
+msgid "Line"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:518
+msgid "Path"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:524
+msgid "Load Path..."
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:539
+msgid "Map Offset"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:551
+msgid "Map Distance"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:563
+msgid "Geodesic Distance"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:575
+msgid "Approximate Ground"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:587
+msgid "Vertical Difference"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:622
+msgid "Show features:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:631
+msgid "Vertical units:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:640
+msgid "Delete Highlighted"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:667
+msgid "Instance from Content File"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:695 TerrainSDK/vtui/vtui_UI.cpp:800
+#: TerrainSDK/vtui/vtui_UI.cpp:880
+msgid "Type:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:713
+msgid "Item:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:725
+msgid "Instance from 3D Model File"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:749
+msgid "Location:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:782
+msgid "Defined Style:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:795
+msgid "Posts"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:815
+msgid "Spacing:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:845
+msgid "Size:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:860
+msgid "Extension:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "None"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Left"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Right"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Double"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:875
+msgid "Connection"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:910
+msgid "Top Height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:925
+msgid "Bottom Height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:940
+msgid "Width:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:955
+msgid "Side Slope:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:970
+msgid "Profile:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:986
+msgid "Constant Top Height"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1019 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Line of Sight"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1023
+msgid "Visibility"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1027
+msgid "Show Fresnel zones"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1031
+msgid "Use effective radius of earth"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1035
+msgid "Show Culture Objects"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1049
+msgid "Start height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1056
+msgid "End height:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1063
+msgid "Radio Frequency:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1073
+msgid "MHz"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1079
+msgid "Apply curvature to:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1103
+msgid "Export:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1107
+msgid "Profile"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1111
+msgid "Trace"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1115
+msgid "CSV"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1158
+msgid "Move"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1212
+msgid "Projection:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1224
+msgid "Datum:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1228
+msgid "Show All Datums"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1242
+msgid "Ellipsoid:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1251
+msgid "Horizontal Units:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1260
+msgid "Zone:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1269
+msgid "Parameters:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1279
+msgid "Set State Plane Projection"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1283
+msgid "Set EPSG"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1292
+msgid "Load from File"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1296
+msgid "Save to File"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1391
+msgid "NAD27"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1395
+msgid "NAD83"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1412
+msgid "U.S. Feet"
+msgstr ""

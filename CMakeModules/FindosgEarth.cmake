@@ -1,0 +1,68 @@
+# Locate osgEarth
+# This module defines
+# xxx_LIBRARY xxx_LIBRARY_DEBUG xxx_LIBRARIES for each of the osgEarth libraries in OSGEARTH_LIBRARY_NAMES below
+# xxx_LIBRARIES contains both debug and release libraries with relevant target_link_libraries flags
+# OSGEARTH_ALL_LIBRARIES contains all the xxx_LIBRARIES
+# OSGEARTH_FOUND, if false, do not try to link to osg 
+# OSGEARTH_INCLUDE_DIR, where to find the headers
+#
+# OSGEARTH_INSTALL_PREFIX installation prefix
+#
+#
+# Orginal source for OSG by Robert Osfield. Modified for osgEarth by Roger James 25/01/11
+
+SET(OSGEARTH_INSTALL_PREFIX "/usr/local" CACHE PATH "osgEarth install prefix")
+
+SET(OSGEARTH_LIBRARY_NAMES
+    osgEarth
+    osgEarthFeatures
+    osgEarthSymbology
+    osgEarthUtil)
+
+FIND_PATH(OSGEARTH_INCLUDE_DIR osgEarth/Version
+    ${OSGEARTH_INSTALL_PREFIX}/include
+    NO_DEFAULT_PATH
+)
+
+FIND_PATH(OSGEARTH_INCLUDE_DIR osgEarth/Version)
+
+MACRO(FIND_OSGEARTH_LIBRARY MYLIBRARYNAME)
+
+    FIND_LIBRARY(${MYLIBRARYNAME}_LIBRARY_DEBUG
+        NAMES ${MYLIBRARYNAME}d
+        PATHS
+        ${OSGEARTH_INSTALL_PREFIX}/lib
+        NO_DEFAULT_PATH
+    )
+
+    FIND_LIBRARY(${MYLIBRARYNAME}_LIBRARY
+        NAMES ${MYLIBRARYNAME}
+        PATHS
+        ${OSGEARTH_INSTALL_PREFIX}/lib
+        NO_DEFAULT_PATH
+    )
+
+    IF( NOT ${MYLIBRARYNAME}_LIBRARY_DEBUG)
+        IF(${MYLIBRARYNAME}_LIBRARY)
+            SET(${MYLIBRARYNAME}_LIBRARY_DEBUG ${${MYLIBRARYNAME}_LIBRARY})
+         ENDIF(${MYLIBRARYNAME}_LIBRARY)
+    ENDIF( NOT ${MYLIBRARYNAME}_LIBRARY_DEBUG)
+
+    IF(${MYLIBRARYNAME}_LIBRARY)
+        SET(${MYLIBRARYNAME}_LIBRARIES debug ${${MYLIBRARYNAME}_LIBRARY_DEBUG} optimized ${${MYLIBRARYNAME}_LIBRARY})
+    ENDIF(${MYLIBRARYNAME}_LIBRARY)
+
+           
+ENDMACRO(FIND_OSGEARTH_LIBRARY MYLIBRARYNAME)
+
+FOREACH(LIB_NAME ${OSGEARTH_LIBRARY_NAMES})
+    FIND_OSGEARTH_LIBRARY(${LIB_NAME})
+    IF (${LIB_NAME}_LIBRARIES)
+        LIST(APPEND OSGEARTH_ALL_LIBRARIES ${${LIB_NAME}_LIBRARIES})
+    ENDIF (${LIB_NAME}_LIBRARIES)
+ENDFOREACH(LIB_NAME)
+
+SET(OSGEARTH_FOUND "NO")
+IF(osgEarth_LIBRARY AND OSGEARTH_INCLUDE_DIR)
+    SET(OSGEARTH_FOUND "YES")
+ENDIF(osgEarth_LIBRARY AND OSGEARTH_INCLUDE_DIR)

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder Basic Menu Commands</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<style type="text/css">
+.grey-italic {
+	color: #606060;
+	font-style:italic;
+}
+</style>
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h2>View Menu Commands</h2>
+<ul>
+	<li>Current Layer Visible<ul>
+		<li>Toggle the visibility of the current layer.&nbsp; When a layer is hidden 
+		(not visible), it is shown in the Layer list in 
+		<span class="grey-italic">
+		grey italic</span>.&nbsp; This is useful to hide layers, for easier 
+		editing or faster redraw.</li>
+	</ul>
+	</li>
+	<li>Move Layer Up / Move Layer Down<ul>
+		<li>Changes the order of the current layer in the Layer list, which also 
+		affects the order in which it is drawn.</li>
+	</ul>
+	</li>
+	<li>Zoom In / Out<ul>
+		<li>Zooms in/out by about 40%.</li>
+	</ul>
+	</li>
+	<li>Zoom All<ul>
+		<li>Centers your view on the currently loaded terrains (but doesn't yet 
+		change the level of Zoom)</li>
+	</ul>
+	</li>
+	<li>Zoom to Full Res (1:1)<ul>
+		<li>If the current terrain is grid data (Elevation or Image), sets the view 
+		to match (1 screen pixel per heixel, or 1 screen pixel per image pixel)</li>
+	</ul>
+	</li>
+	<li>Zoom to Area Tool<ul>
+		<li>Moves your view to the area indicated by the Area Tool.</li>
+	</ul>
+	</li>
+	<li>Toolbar
+	<ul>
+		<li>Toggles display of the Toolbar.</li>
+	</ul>
+	</li>
+	<li>Layers
+	<ul>
+		<li>Toggles display of the Layer list.</li>
+	</ul>
+	</li>
+	<li>Magnifier<ul>
+		<li>Allows you to zoom the view into a specified rectangle.</li>
+	</ul>
+	</li>
+	<li>Pan<ul>
+		<li>Allows you to pan the view by dragging the first mouse button.&nbsp; 
+		You can also drag with the middle mouse button, if you have one, to pan 
+		at <b>any</b> time.</li>
+	</ul>
+	</li>
+	<li>Obtain Distance<ul>
+		<li>Click and drag to measure horizontal distance and offset between any 
+		two points.</li>
+	</ul>
+	</li>
+	<li>Area Tool<ul>
+		<li>Allows you to set the area for the <a href="export_area.html">Area Tool</a>.</li>
+	</ul>
+	</li>
+	<li>World Map<ul>
+		<li>Toggles the display of a world map (shoreline vectors).&nbsp; The data 
+		is expected to be in a folder called &quot;WorldMap&quot; below the program 
+		folder.&nbsp; VTBuilder will attempt to convert the map to your current 
+		projection, which may not produce good results for all projections.</li>
+	</ul>
+	</li>
+	<li>Show UTM Boundaries<ul>
+		<li>If you are using data in a geographic projection, this will toggle the 
+		display of the boundaries of the UTM coordinate zones.</li>
+	</ul>
+	</li>
+	<li>Elevation Profile<ul>
+		<li>Using the same dialog as the <strong>Distance Tool</strong>, you can 
+		draw lines or paths and the <strong>Elevation Profile<em> </em></strong>
+		dialog will show you the profile along the line you have drawn.</li>
+	</ul>
+	</li>
+	<li>Scale Bar<ul>
+		<li>Toggle display of the Scale Bar in the view, which gives a more conventional 
+		display of scale than the Status Bar.</li>
+	</ul>
+	</li>
+	<li>Options<ul>
+		<li>Show the View Options dialog.</li>
+	</ul>
+	</li>
+</ul>
+<h3>View Options Dialog</h3>
+<ul>
+	<li>Status Bar<ul>
+		<li>Show minutes and seconds<ul>
+			<li>If you are using data in a geographic projection, this will toggle 
+			the display of minutes and seconds of latitude-longitude.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Elevation<ul>
+		<li>Show outline only<ul>
+			<li>Turn this on to show each elevation layer as a simple box, which 
+			saves a lot of memory and time.</li>
+		</ul>
+		</li>
+		<li>Artificial color by elevation value<ul>
+			<li>Elevation is rendered using a mapping from height value to color.</li>
+		</ul>
+		</li>
+		<li>Rendering options...<ul>
+			<li>Shows the <strong><a href="renderdlg.html">Rendering Options</a></strong> 
+			dialog, to control how elevations are rendered and shaded.</li>
+		</ul>
+		</li>
+		<li>Hide Unknown Areas<ul>
+			<li>Area of the elevation layer will be not drawn at all (transparent), 
+			rather than shown in red.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Show Full Layer Pathnames
+	<ul>
+		<li>Toggles the display is the entire file path for each layer, in the Layers 
+		View.&nbsp; It can be useful to turn this off when your files are nested 
+		deeply on your filesystem.</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

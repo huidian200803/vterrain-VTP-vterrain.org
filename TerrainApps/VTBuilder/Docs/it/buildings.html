@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder - Structures</title>
+</head>
+
+<body>
+
+<h1 align="center">
+VTBuilder<br />
+<a href="index.html"><font size="3">back to index</font></a></h1>
+
+<h3>Structure Layers</h3>
+<blockquote>
+  <p>Built Structure data includes buildings, fences, and other artificial 
+	structures not described by other layer types.&nbsp; The native file format 
+	for Structure files is
+  <a href="http://vterrain.org/Implementation/Formats/VTST.html">VTST files</a>.</p>
+  <p>You can also import Structure data from Shapefiles.&nbsp; The Shapefile 
+	should contains arc (polygon) data, which will be interpreted as building 
+	footprints.</p>
+  <p> If you have another source of building location/footprint data that you 
+	would like to import, <a href="mailto:feedback@vterrain.org">please let us 
+	know</a>.</p>
+</blockquote>
+<h3>Structures Menu</h3>
+        <ul>
+          <li>Select Features
+            <ul>
+              <li>In this mode, you can select structures (by clicking or 
+				dragging the left mouse button) and edit their properties (by 
+				click the right mouse button).&nbsp; Properties you can edit include:
+                <ul>
+                  <li>Color</li>
+                  <li>Number of Stories</li>
+                  <li>Roof Style</li>
+                  <li>Materials</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Edit Buildings
+            <ul>
+              <li>In this mode, you can edit the shape and location of 
+				buildings:
+                <ul>
+                  <li>Grab the center of a building to move it or grab a corner 
+					to resize it</li>
+                  <li>Hold down Shift and grab the corner of a building to 
+					evenly scale it </li>
+                  <li>Hold down Ctrl and grab the corner of a building to rotate 
+					it </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>Add Points to Building Footprints<ul>
+          <li>In this mode, you can click on the edges of buildings to add 
+			points to the footprint.&nbsp; If the building has multiple levels, the 
+			point is added to all levels.</li>
+        </ul>
+
+          </li>
+          <li>Delete Points from Building Footprints<ul>
+          <li>In this mode, you can click on points of the building footprint to 
+			remove them.&nbsp; If the building has multiple levels, the point is 
+			removed from all levels.</li>
+        </ul>
+
+          </li>
+          <li>Add Linear Structures<ul>
+          <li>In this mode, click with the left mouse button to create linear 
+			structures, such as fences and walls.&nbsp; The linear structures dialog 
+			will appear to allow you to select what kind of feature you want.&nbsp; 
+			Click with the right mouse button to finish the structure.</li>
+        </ul>
+
+          </li>
+          <li>Edit Linear Structures<ul>
+          <li>In this mode, you can use the left mouse button to drag the points 
+			which define linear structures.</li>
+        </ul>
+
+          </li>
+          <li>Add Foundation Levels to Buildings<ul>
+          <li>Constructs an additional &quot;foundation&quot; level to each building, 
+			which can help with the common problem of low-resolution elevation 
+			data which has slopes and buildings on it.&nbsp; The buildings in this 
+			case can look unrealistically &quot;embedded&quot; in the terrain.<br />
+          The height of the terrain is evaluated at each point of the building's 
+			footprint, and if there is a vertical range of greater than 0.5 
+			meters, then the &quot;foundation&quot; is constructed.&nbsp; The foundation 
+			consists of a slab of cement-block which is just high enough to 
+			elevate the building, to prevent any of the non-foundation levels 
+			from intersecting the ground.</li>
+        </ul>
+
+          </li>
+        </ul>
+
+<h3>Importing Structures from Raw GIS Data</h3>
+<blockquote>
+  <p>This is the easiest way to populate your terrain with a lot of structures 
+	if you already have GIS data for their locations.</p>
+</blockquote>
+<ol>
+  <li>Use the &quot;Layer: Import Data&quot; command and select &quot;Structures&quot; as the layer 
+	type.</li>
+  <li>Select your Shapefile (*.shp)<br />
+  Shapefiles with polygon data can be turned into building footprints.<br />
+  Shapefiles with arc data can be turned into fence lines.<br />
+  Shapefiles with point data can be either building centers, or instance 
+	locations.</li>
+  <li>Indicate how to interpret the Shapefile (one of the above 3 meanings)</li>
+  <li>Optionally, you can restrict the import to only use features that lie 
+	within your Area tool.&nbsp; This is useful if you have a massive GIS data source 
+	and only care about a specific area.</li>
+</ol>
+<blockquote>
+  <p>The data will then import, so you can review it and save to VTST.</p>
+  <p><b>Attributes for Instances: </b>&nbsp;In addition to the filename file which 
+	you can specify in the Import dialog, the following optional fields will be 
+	recognized in your input SHP if they are present:</p>
+  <ul>
+    <li><i>itemname</i> - The item name of the model to show (from a content 
+	file).</li>
+    <li><i>scale</i> - Scale for the instance model, e.g. a value of 3 means to 
+	scale the model by 3x in all dimensions.</li>
+    <li><i>rotation</i> - Rotation for the instance model, around its vertical 
+	axis by the indicated number in degrees.</li>
+  </ul>
+  <p><b>Attributes for Buildings: </b>&nbsp;Building footprints will be created with 
+	the default attributes of 1 story, flat red roof.&nbsp; If there is a SHP 
+	field called &quot;stories&quot;, it will be used for the number of stories.&nbsp; 
+	There are plans to eventually extend this functionality to allow any of the 
+	fields to be mapped onto any attribute.</p>
+  <p>Remember that when you are ready to use VTST data with Enviro, you should 
+	put it in the &quot;BuildingData&quot; folder on your Data path.</p>
+  <p>If you want to apply a default appearance to all the buildings you import, 
+	you can use the <i>Default Structures</i> feature.</p>
+</blockquote>
+
+  <h3>Default Structures</h3>
+<blockquote>
+  <p>To tell VTBuilder about defaults for structures, create a VTST file with 
+	one or more structures (Buildings) which have the desired appearance.&nbsp; 
+	Name this file <code>DefaultStructures.vtst </code>and put it in a 
+	&quot;BuildingData&quot; folder on your Data path.&nbsp; Then, whenever VTBuilder 
+	imports structures from raw GIS data, it will look at the defaults and copy 
+	visual appearance (materials, story heights, roof types, etc.) to each newly 
+	imported structure.</p>
+</blockquote>
+
+</body>
+
+</html>

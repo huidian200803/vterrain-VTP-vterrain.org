@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Abstract Layers</title>
+</head>
+
+<body>
+
+<h2><i>Abstract Layers</i></h2>
+<blockquote>
+	<p><i>Abstract Layers</i> in the VTP software means any kind of raw geometry 
+	data (points, lines, polylines, polygons) which do not represent a real-world 
+	object.&nbsp; For example, waypoints, political boundaries, property areas, 
+	GPS tracks.&nbsp; These are the kind of features traditionally handled by <b>
+	GIS</b> software.&nbsp; Abstract Layers can be loaded and saved to <b>SHP</b> 
+	files (ESRI Shapefile format, often with an accompanying <b>DBF</b> file).&nbsp; 
+	You can have any number of abstract layers on each terrain.</p>
+</blockquote>
+<h3>Adding Abstract Layers to your Terrain</h3>
+<blockquote>
+	<p>To include structures from a SHP file, you can:</p>
+	<ol>
+		<li>Edit the <a href="terrain_creation.html">properties for your terrain</a>.&nbsp; Under 
+	the <b>Abstract Layers</b> tab, double-click to choose from a list of all the 
+	SHP files that are located in <b>PointData</b> folders on your data path.&nbsp;
+		<i>(The directory is called PointData because VTP used to only support points, 
+	but you can in fact put any kind of SHP dataset there.)</i></li>
+		<li>Or, use the <strong>Load Layer</strong> button in the Layer Dialog, 
+		at runtime.</li>
+	</ol>
+	<p>Each layer can be displayed with its own Style, which you set with the
+	<a href="style_dialog.html">Style Dialog</a>.</p>
+	<p>You can also create a new, empty Abstract Layer at runtime, containing labeled 
+	point features, by pressing <b>Create</b> in the Layer Dialog.&nbsp; The Style 
+	Dialog will appear.&nbsp; You can also do this by using the <b>Create Points</b> 
+	mode (menu Tools: Points, or the pushpin on the toolbar) which will create an 
+	Abstract Point Layer for you if none exists.</p>
+</blockquote>
+
+</body>
+
+</html>

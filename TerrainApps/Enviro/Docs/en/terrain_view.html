@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Enviro - Terrain View</title>
+</head>
+
+<body>
+
+<h1><i>Enviro</i></h1>
+<h2>Terrain View</h2>
+<p>From the Startup Dialog, to launch with Terrain:</p>
+<ul>
+	<li>Use the drop-down control to choose from the known terrains.</li>
+	<li>Use &quot;Edit Properties&quot; to view or edit the properties of the currently 
+	chosen terrain (the <b><a href="terrain_creation.html">Terrain Parameters</a></b> 
+	dialog)</li>
+</ul>
+<p>Press &quot;OK&quot;.&nbsp; The terrain will now load, which may take up to a 
+minute.&nbsp; Messages in the status bar will inform you of the loading progress.</p>
+<h4>How to Navigate:</h4>
+<ul>
+	<li>Here&#39;s a handy guide for <a href="navigation.html">using the mouse to 
+	navigate</a> in Terrain View.</li>
+</ul>
+<h3>Menu Commands for Terrain View</h3>
+<h4>File Menu</h4>
+<ul>
+	<li><b>Layers</b> - Shows the Layers dialog.</li>
+	<li><strong>Create Layer</strong> - open the Create New Layer dialog box</li>
+	<li><strong>Load Layer</strong> - browse for a file (VTST or GIS format) to 
+	open as a new layer.</li>
+	<li><strong>Save Terrain State</strong> - When the terrain&#39;s parameters 
+	have been loaded from a .xml file, this command saves the current state of the 
+	terrain back to that .xml file.&nbsp; The state includes the ephemeris, time 
+	of day, names of loaded layers, and scenarios.</li>
+	<li><strong>Save Terrain State As... - </strong>Same as Save Terrain State, 
+	but saves to a new file.</li>
+</ul>
+<h4>Tools Menu</h4>
+<table cellpadding="5" style="width: 100%">
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/select.bmp" width="20" /></td>
+		<td><b>Select</b> - Use the mouse point to move the 3D cursor on the terrain, 
+		selecting and deselecting objects.&nbsp; You can also right-click for a 
+		pop-up menu of actions for the selected objects.&nbsp; See
+		<a href="culture.html">Working with Culture Objects</a> for more information.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/select_box.bmp" width="20" /></td>
+		<td><b>Select Box</b> - This mode lets you select Abstract Point elements 
+		by dragging a box on the screen.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/select_move.bmp" width="20" /></td>
+		<td><b>Select And Move</b> - In addition to selecting objects, you can move 
+		them by dragging.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/move.bmp" width="20" /></td>
+		<td><b>Move Objects - </b>Similar to the <strong>Select and Move</strong> 
+		mode, except that you can only move objects, so there is no chance of accidentally 
+		selecting or deselecting objects you want to move.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/fence.bmp" width="20" /></td>
+		<td><b>Fences</b> - Opens the Linear Structures dialog for creating features 
+		like fences, walls and hedges.&nbsp; Click to add points on the terrain, 
+		right-click to close the feature.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/building.bmp" width="20" /></td>
+		<td><b>Buildings</b> - Click on the terrain to create buildings.&nbsp; Each 
+		click defines a corner of the building footprints, right-click finishes 
+		definition.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/route.bmp" width="20" /></td>
+		<td><b>Routes</b> - Opens the Routes dialog for creating utility routes, 
+		specifically electrical transmission lines.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/tree.bmp" width="20" /></td>
+		<td><b>Plants</b> - Opens the Plants dialog for creating plants by clicking 
+		on the terrain.&nbsp; See <a href="culture.html">Working with Culture Objects</a> 
+		for more information.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/placemark.bmp" width="20" /></td>
+		<td><b>Points</b> - Use the mouse to click on the terrain to create labeled 
+		points (&quot;placemarks&quot;).&nbsp; The first time you select this mode, 
+		it will ask you for the style you want (Color, Size, etc.).&nbsp; The points 
+		are generated in a new Abstract Layer, which you can view and save from 
+		the Layers Dialog.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/instances.bmp" width="20" /></td>
+		<td><b>Instances</b> - Opens the Instances dialog for creating 3D model 
+		instances by clicking on the terrain.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/vehicles.bmp" width="20" /></td>
+		<td><b>Vehicles</b> - Opens the Vehicles dialog for creating vehicle models 
+		by clicking on the terrain.&nbsp; Vehicles can be selected, moved and rotated 
+		just like instances.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/nav.bmp" width="20" /></td>
+		<td><b>Navigate</b> - Use the mouse to fly over the terrain.&nbsp; See
+		<a href="navigation.html">using the mouse to navigate</a>.</td>
+	</tr>
+	<tr>
+		<td style="width: 20px">&nbsp;</td>
+		<td><img height="20" src="../images/distance.bmp" width="20" /></td>
+		<td><b>Measure Distances</b> - Opens the Distance dialog.&nbsp; Drag a line 
+		on the terrain to get information about the distance measured several ways.</td>
+	</tr>
+</table>
+<h4>Scene Menu</h4>
+<ul>
+	<li><strong>Scene Graph</strong> - Open the Scene Graph dialog to see the low-level 
+	structure of the scene including its engines.</li>
+	<li><strong>Go to Terrain...</strong> - Choose another terrain to switch to.</li>
+	<li><strong>Go to Space</strong> - Switch to <a href="earth_view.html">Earth 
+	View</a>.</li>
+	<li><b>Ephemeris - </b>Open the Ephemeris dialog for control of the ocean, sky, 
+	fog, background, etc.</li>
+	<li><strong>Time...</strong> - Open the Time dialog.</li>
+</ul>
+<h4>View Menu</h4>
+<ul>
+	<li><strong>Wireframe</strong> - Toggle for wireframe rendering.</li>
+	<li><strong>Fullscreen</strong> - Toggle for fullscreen rendering.</li>
+	<li><strong>Top-Down Camera</strong> - Toggle between the normal camera and 
+	a special, orthogonal top-down camera which always looks straight down.&nbsp; 
+	In CAD, this is often called &#39;Plan View&#39;.</li>
+	<li><strong>Framerate Chart</strong> - Toggle showing the current framerate 
+	as a little yellow line chart in the lower-left corner of the view.</li>
+	<li><strong>Elevation Legend</strong> - For terrain with texture derived from 
+	elevation, show the mapping from elevation values to colors.</li>
+	<li><strong>Compass</strong> - Toggle a small directional compass in the upper-right 
+	corner of the view.&nbsp; This shows which way the camera is facing; it is a &#39;heading&#39; 
+	compass.</li>
+	<li><strong>Overview</strong> - Toggle a floating overview map in the lower-left 
+	corner of the view.&nbsp; Only works for simple terrain (not tilesets) for which 
+	the entire terrain texture is always in memory.</li>
+	<li><strong>Camera - View Settings</strong> - Open the Camera dialog.</li>
+	<li><strong>Store/Recall Locations</strong> - Open the Locations dialog, which 
+	also lets you record or load animation paths and play them.</li>
+	<li><strong>Save Window Snapshot</strong> - to JPEG, BMP, PNG, or TIFF.</li>
+	<li><strong>Save Numbered Snapshot</strong> - Same as Save Window Snapshot, 
+	but automatically and quietly saves a snapshot to the same filename as before, 
+	with an increasing number attached (_000, _001, _002, etc.)</li>
+	<li><strong>High-resolution Snapshot</strong> - Save the window snapshot at 
+	a resolution higher than your on-screen window.&nbsp; While this can be larger 
+	than your screen, it will only work up to a certain size, determined by your 
+	3D graphics hardware.</li>
+	<li><strong>Status Bar</strong> - Toggle the window&#39;s status bar.</li>
+	<li><strong>Scenarios</strong> - Open the Scenarios dialog.</li>
+	<li><strong>Toolbars</strong> - Toggle some toolbar buttons by function.&nbsp; 
+	If there are buttons you don&#39;t use, you can hide them for a cleaner interface.</li>
+</ul>
+<h4>Navigate Menu</h4>
+<ul>
+	<li><b>Fly Slower</b> - Decrease flight speed</li>
+	<li><b>Fly Faster</b> - Increase flight speed</li>
+	<li><b>Maintain height above ground</b> (toggle) - Keeps the camera at a fixed 
+	height above the terrain.</li>
+	<li><b>Navigation Style</b> - Choose from several styles of navigation to find 
+	one you like.&nbsp; There is also a keyboard shortcut &#39;D&#39; to toggle 
+	the Grab-Pivot navigation.</li>
+</ul>
+<h4>Terrain Menu</h4>
+<ul>
+	<li><b>LOD Terrain Surface </b>(toggle) - Show the terrain surface.</li>
+	<li><b>Cull every frame</b> (toggle) - Continuously calculates the level of 
+	detail needed as the camera moves.&nbsp; You can turn this off to see how the 
+	CLOD algorithm is working.</li>
+	<li><b>Cull once</b> - When Cull Every Frame is turned off, this tells the CLOD 
+	to calculate (cull).</li>
+	<li><b>Show Sky</b> (toggle) - The sky (Skydome) is a hemisphere which surround 
+	the camera, showing either a static texture, or correct lighting for the time 
+	of day (sun, moon, stars, sunrise, sunset).</li>
+	<li><b>Show Horizon</b> (toggle) - The horizon is the flat geometry between 
+	the edge of the terrain and the far clipping plane.</li>
+	<li><b>Show Ocean</b> (toggle) - The ocean plane is an additional flat geometry 
+	which intersects the entire terrain, with a watery translucent texture.</li>
+	<li><b>Show Plants</b> (toggle) - You can turn all plants (the Vegetation Layer) 
+	on and off.</li>
+	<li><b>Show Structures</b> (toggle).</li>
+	<li><b>Show Roads</b> (toggle).</li>
+	<li><b>Show Fog</b> (toggle).<br />
+	</li>
+	<li><b>Increase Detail</b> - Increases the detail (triangles or vertices used) 
+	of the CLOD terrain surface by 1000.&nbsp; If your terrain is over-simplified, 
+	you should increase detail until it looks good.</li>
+	<li><b>Decrease Detail</b> - Decreases the detail (triangles or vertices used) 
+	of the CLOD terrain surface by 1000.</li>
+	<li><b>Level of Detail Info</b> - Shows the Terrain LOD Info dialog with technical 
+	information about the CLOD algorithm and (if you are using Tilesets) the texture 
+	paging.</li>
+	<li><b>Toggle Artificial Foundations</b> - For the current structure layer, 
+	each building which lies on a slope has a cement &quot;foundation&quot; level 
+	added to elevate it such that no point of the base footprint lies beneath ground 
+	level.</li>
+	<li>&nbsp;<b>Recalculate Shading</b> - If your terrain has shading that was 
+	computed at the time the terrain was constructed, then that shading is recalculated.&nbsp; 
+	The current time of day is used.&nbsp; This is useful for seeing what a terrain 
+	looks like at different times of day.</li>
+	<li><b>Change Texture</b> - Opens the Change Texture dialog to let you change 
+	the texture on the terrain.</li>
+	<li><b>Distribute Vehicles</b> - Puts a number of test vehicles around your 
+	road network, where they will will traverse randomly.&nbsp; This is not a real 
+	simulation, just a simple test.</li>
+</ul>
+
+</body>
+
+</html>

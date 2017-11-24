@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Enviro - Command-line Options</title>
+</head>
+
+<body>
+
+<h2><i>Enviro</i></h2>
+<h3>Command-line Options</h3>
+<blockquote>
+	<table border="1" cellpadding="6" cellspacing="0" style="border-collapse: collapse">
+		<tr>
+			<td valign="top" class="nowrap"><code>-no_startup_dialog</code></td>
+			<td valign="top">This will suppress the startup dialog, Enviro will 
+			simply use the contents of the Enviro.ini file, proceeding as if the 
+			startup dialog had opened and the user pressed &quot;OK.&quot;</td>
+		</tr>
+		<tr>
+			<td valign="top" class="nowrap"><code>-fullscreen</code></td>
+			<td valign="top">Start up in full screen mode.</td>
+		</tr>
+		<tr>
+			<td valign="top" class="nowrap"><code>-terrain=name</code></td>
+			<td valign="top">Start up in Terrain View with the indicated terrain.&nbsp; 
+			This also suppresses the startup dialog.</td>
+		</tr>
+		<tr>
+			<td valign="top" class="nowrap"><code>-locale=name</code></td>
+			<td valign="top">Tells Enviro what language to use for the Menus and 
+			Dialogs.&nbsp; This can be either a full English language name, or a 
+			two-character standard abbreviation.<p>Examples:</p>
+			<ul>
+				<li>-locale=Swedish</li>
+				<li>-locale=sv</li>
+				<li>-locale=Russian</li>
+				<li>-locale=ru</li>
+			</ul>
+			<p>Note that if your computer is set to a non-English language, Enviro 
+			will detect it and try to use it automatically, so this command-line 
+			option is only needed to override the default behavior.</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" class="nowrap"><code>-location=name</code></td>
+			<td valign="top">When a terrain opens, start at this named location.&nbsp; 
+			If the location name has spaces in it, you should enclose it in quotes.<p>
+			Example: -locale=&quot;Kilauea Caldera&quot;</p>
+			</td>
+		</tr>
+		<tr>
+			<td valign="top" class="nowrap"><code>-neutral</code></td>
+			<td valign="top">When the main frame window opens, don&#39;t launch any 
+			terrain, just wait for user input.</td>
+		</tr>
+	</table>
+</blockquote>
+
+</body>
+
+</html>

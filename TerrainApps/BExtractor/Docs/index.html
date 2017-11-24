@@ -1,0 +1,157 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1252">
+<title>Building Extractor README</title>
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+</head>
+
+<body LINK="#0000ff" VLINK="#800080">
+
+<h2>&nbsp;</h2>
+
+<h2>Building Extractor Documentation</h2>
+
+<h3>Purpose</h3>
+
+<blockquote>
+  <p>This software extracts building locations from USGS DRG (Digital Raster Graph) files.
+  &nbsp; It may also work with similar files produced by other organizations, such as
+  scanned international topo quads.&nbsp; The input file is expected to be a TIF, and the
+  output is a VTST (Structures File).</p>
+</blockquote>
+
+<h3>Required Software</h3>
+
+<blockquote>
+  <p>The Image Processing Library (IPL) must be installed for you to compile or run
+  this program. This can be obtained from the VTP CD.&nbsp; Unfortunately it is 
+  no longer available directly from its creator.</p>
+  <p>You may also need to copy the IPL DLLs&nbsp;from the directory in which
+  they were installed (usually <b>C:/Program Files/Intel/plsuite/bin</b>) to a
+  directory on your path (for example, <b>C:/winnt</b>)</p>
+</blockquote>
+
+<h3>Required RAM</h3>
+
+<blockquote>
+  <p>If you are going to process a full-size DRG, be aware that you should have at
+  <b> least</b> 128
+  MB of RAM on your machine - more is better.</p>
+</blockquote>
+
+<h3>Controls</h3>
+
+<blockquote>
+  <p>Once an image is loaded, user can do the following: <ul>
+    <li>Zoom in/out (using menu or +/- keys) </li>
+    <li>SuperZoom: Can zoom in by factor of 3X by hitting the spacebar. Hitting the spacebar a
+      second time causes you to return to your original position. This is very useful for
+      precisely labeling the centers of buildings after you've done the automatic processing. </li>
+    <li>Scroll around the image using the scrollbars or the up/down/left/right arrow keys on the
+      keyboard </li>
+    <li>View the image at it's original resolution (from the View menu, select &quot;View Full
+      Resolution Image&quot;) </li>
+    <li>In Building Select mode:<ul>
+        <li>Left mouse button click will place or remove a building mark</li>
+        <li>Left mouse button drag will form a rectangle until released; when released, all building
+          marks inside the rectangle will be removed. </li>
+        <li>Middle mouse button drag enables scrolling around the image</li>
+      </ul>
+    </li>
+    <li>In Hand mode: <ul>
+        <li>Left mouse button drag enables scrolling around the image </li>
+        <li>This mode is not needed unless you do not have a middle mouse button</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h3>Functions</h3>
+
+<blockquote>
+  <p><em><strong>Extract Buildings</strong></em> -- This function is the meat of the
+  application, and is composed of the following parts: <ul>
+    <i>
+    <li>PreFloodFill<ul>
+        <li></i>This is highly recommended, especially for large files. </li>
+        <li>The purpose of the pre-floodfill is to remove objects larger than buildings (such as
+          letters) from the image before the convolve occurs.</li>
+        <li>It reduces the amount of false positives in the final output (therefore reducing the
+          amount of user processing required after the convolve). </li>
+        <b>
+        <li>Tweaks</b>: in the file B_ExtractorDoc.cpp, in the PreFloodFillDIB method, the critical
+          line is:<br>
+          &quot;if (result &gt; #)&quot;.<ul>
+            <li># represents the number of black pixels the floodfill must encounter (starting from a
+              specific point) in order to remove that object from the image. Buildings in the Hawaii
+              DRG's are approximately 40 pixels in volume, but ones close together can be connected, or
+              buildings can be connected to thin black lines of pixels, which artificially increase the
+              pixel count for the building (which is why it is set at 120 in the code).</li>
+            <li>The user can make this number lower:<ul>
+                <li><b>+</b> this reduces the number of false positives in the final output</li>
+                <li>- this means taking the risk of removing buildings from the image before they can be
+                  recognized in the convolve (potentially increases false negatives) </li>
+              </ul>
+            </li>
+            <li>or higher:<ul>
+                <li>+ higher value means more sure that all buildings will survive to the convolve step </li>
+                <li>- increases the number of false positives (since more words will make it to the convolve
+                  and be recognized)</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <i>
+    <li>Kernel Size</i> (PreConvolve)<ul>
+        <li>Can choose 9x9, 7x7, or 5x5 </li>
+        <li>7 x 7 appears to give the best results in tests done to date </li>
+        <li>5 x 5 is <strong>not</strong> recommended, it was only used in an aborted attempt to
+          incorporate erosion of the image into the processing. The Erode is no longer done, so the
+          5 x 5 kernel does not return any good results.</li>
+      </ul>
+    </li>
+  </ul>
+  <ul>
+    <i>
+    <li>Threshold</i> (PostConvolve)<ul>
+        <li>Perhaps the most important decision, the threshold determines where the cut-off is for a
+          building (placing or not placing a building mark at a point in the image). </li>
+        <b>
+        <li>Tweaks</b>: </li>
+        <ul>
+          <li>If you are getting too many false positives, try a higher threshold. This will reduce
+            them, but will also reduce the number of buildings identified correctly (will increase
+            false negatives)</li>
+          <li>If you are getting too many false negatives, try a lower threshold. This will increase
+            the number of buildings labelled correctly, but will cause a corresponding increase in the
+            number of words/marks/etc incorrectly marked as being a building. </li>
+          <li>The threshold can be manually set by changing the number passed in to the iplThreshold
+            function. This function is called in B_ExtractorView.cpp, in the OnFunctionsConvolve
+            method</li>
+        </ul>
+      </ul>
+    </li>
+  </ul>
+  <i><b><p>Clear Selected Buildings</b> -- </i>This function clears all building marks from
+  the image. Useful if the user wants to try a different kernel size or threshold setting on
+  an image. </p>
+  <i><b><p>TestIPL</b></i> -- This function is of no use for building recognition. It was
+  used to test certain aspects of the Intel Image Processing Library during development.</p>
+</blockquote>
+<h3>Use of VTST Files
+
+</h3>
+<blockquote>
+  <p>In order to use the VTST files you have generated, copy them to the VTP
+  Enviro data directory <b>Enviro/Data/BuildingData.</b>&nbsp; The next time
+  you run Enviro, they will appear on the &quot;Structures Filename&quot;
+  drop-down control of the Terrain Parameters dialog.</p>
+</blockquote>
+</body>
+</html>

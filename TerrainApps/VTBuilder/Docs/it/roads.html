@@ -1,0 +1,303 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder Roads</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">back to index</font></a><font size="3">
+</font></h1>
+<h2>Road Layers</h2>
+<blockquote>
+	<p>VTBuilder supports networks of transportation elements.&nbsp; The topology 
+	is represented by <b>nodes</b> (intersections) and <b>roads</b> (a centerline 
+	path between two nodes). </p>
+	<p>Road data is imported from raw data sources, and saved to a compact Road 
+	Map Format (RMF). You can load multiple files, merge them, and delete areas 
+	that are not of interest.&nbsp; Traffic direction and intersection behavior 
+	can be modelled and easily edited.</p>
+	<p>VTBuilder can import road data from these formats:</p>
+	<ul>
+		<li>USGS DLG-O (Digital Line Graph - Optional format)</li>
+		<li>USGS DLG-SDTS</li>
+		<li>US Census TIGER</li>
+		<li>ESRI Shape files (SHP) and other GIS vector formats</li>
+	</ul>
+</blockquote>
+<h4>Display</h4>
+<blockquote>
+	<p>Roads are displayed with color that indicates their properties:</p>
+	<table border="1" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111">
+		<tr>
+			<td width="80" bgcolor="#DDDDDD"><hr noshade="" color="#000000" />
+			</td>
+			<td><span class="387150922-29062005"><i>Black</i>: Normal (paved) road</span></td>
+		</tr>
+		<tr>
+			<td width="80" bgcolor="#DDDDDD"><hr noshade="" color="#826446" />
+			</td>
+			<td><span class="387150922-29062005"><i>Brown</i>: Unpaved (dirt) road</span></td>
+		</tr>
+		<tr>
+			<td width="80" bgcolor="#DDDDDD">
+			<hr noshade="" color="#800000" size="4" /></td>
+			<td><span class="387150922-29062005"><i>Thick Red:</i> Highway</span></td>
+		</tr>
+		<tr>
+			<td width="80" bgcolor="#DDDDDD"><hr noshade="" color="#808080" />
+			</td>
+			<td><span class="387150922-29062005"><i>Grey</i>: Gravel</span></td>
+		</tr>
+		<tr>
+			<td width="80" bgcolor="#DDDDDD">
+			<hr noshade="" color="#CCCCCC" style="border: 1px dotted #826446" />
+			</td>
+			<td><span class="387150922-29062005"><i>Dotted Brown</i>: Trails</span></td>
+		</tr>
+		<tr>
+			<td width="80" bgcolor="#DDDDDD">
+			<hr noshade="" color="#DDDDDD" style="border: 1px dashed #111111" />
+			</td>
+			<td><span class="387150922-29062005"><i>Dashed Black</i>: Railroad</span></td>
+		</tr>
+	</table>
+	<p>For nodes, the colors are:</p>
+	<table border="1" cellpadding="2" style="border-collapse: collapse" bordercolor="#111111">
+		<tr>
+			<td width="40" bgcolor="#DDDDDD"><hr noshade="" color="#0080FF" />
+			</td>
+			<td><span class="387150922-29062005"><i>Blue:</i> NONE, uncontrolled</span></td>
+		</tr>
+		<tr>
+			<td width="40" bgcolor="#DDDDDD"><hr noshade="" color="#008000" />
+			</td>
+			<td><span class="387150922-29062005"><i>Green</i>: ALL LIGHTS, controlled 
+			intersection with all lights</span></td>
+		</tr>
+		<tr>
+			<td width="40" bgcolor="#DDDDDD"><hr noshade="" color="#800000" />
+			</td>
+			<td><span class="387150922-29062005"><i>Red:</i> ALL STOPS, controlled 
+			intersection with all stop signs</span></td>
+		</tr>
+		<tr>
+			<td width="40" bgcolor="#DDDDDD">
+			<hr noshade="" color="#CCCCCC" style="border: 1px dotted #008000" />
+			</td>
+			<td><span class="387150922-29062005"><i>Dotted Green:</i> LIGHTS, controlled 
+			intersection with at least one traffic light</span></td>
+		</tr>
+		<tr>
+			<td width="40" bgcolor="#DDDDDD">
+			<hr noshade="" color="#C0C0C0" style="border: 1px dotted #900000" />
+			</td>
+			<td><span class="387150922-29062005"><i>Dotted Red:</i> STOP SIGN, controlled 
+			intersection with at least one stop sign</span></td>
+		</tr>
+	</table>
+	<p>Colors are inverted when the road or node is selected.</p>
+</blockquote>
+<h4><a name="Road Menu">Road Menu</a></h4>
+<ul>
+	<li><b><a name="Select/Modify">Select/Modify</a> Roads </b>
+	<ul>
+		<li>In this mode, you may select roads in the road map by left clicking 
+		on them (click again to deselect.)&nbsp; Double clicking will bring up that 
+		roads properties in a dialog box.&nbsp; You may also modify multiple roads 
+		at once by selecting multiple roads and then right clicking anywhere on 
+		the road map.</li>
+		<li><b>Road properties</b> include:
+		<ul type="disc">
+			<li>Highway number</li>
+			<li>Number of lanes</li>
+			<li>Sidewalk</li>
+			<li>Parking (presence of vehicle-width area of pavement along road)</li>
+			<li>Margin (presence of paved shoulder)</li>
+			<li>Road surface type</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><b>Select/Modify Nodes </b>
+	<ul>
+		<li>In this mode, you may select nodes in the road map by left clicking 
+		on them (click again to deselect.)&nbsp; Double clicking will bring up that 
+		node&#39;s properties in a dialog box.&nbsp; You may also modify multiple nodes 
+		at once by selecting multiple nodes and then right clicking anywhere on 
+		the road map.</li>
+		<li><b>Node properties</b> include:
+		<ul type="disc">
+			<li>Intersection Type: Signal lights, Stop sign, or Uncontrolled (None).</li>
+			<li>Behavior of each of the road at the intersection point.&nbsp; Each 
+			road is associated with a number as seen on the diagram on the right 
+			side of the dialog box.
+			<ul type="circle">
+				<li>A red outline of an octagon denotes a stop sign for the road 
+				at the given node.</li>
+				<li>A solid circle denotes a signal sign for the road at the given 
+				node.&nbsp; Signal lights of like color (red or green) indicate 
+				linked signal lights (determined automatically.)&nbsp; A black circle 
+				indicates that the signal light hasn&#39;t been set up properly.&nbsp; 
+				Simply force the intersection type to signal lights to fix the problem.</li>
+				<li>If the road is uncontrolled, there will not be any symbol.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><b><a name="Select Whole">Select Whole</a> Roads</b><ul>
+		<li>Click on a road, and VTBuilder will attempt to select all adjacent roads 
+		that constitute a single conceptual &quot;road&quot;.&nbsp; For example, you can use 
+		this to select an entire highway at once.</li>
+	</ul>
+	</li>
+	<li><b>Set Road Direction </b>
+	<ul>
+		<li>Adjust traffic direction on roads by left clicking on the road.
+		<ul>
+			<li><font color="#008000"><b>&lt;&gt;</b> </font>- two-way traffic</li>
+			<li><font color="#008000"><b>&gt; </b></font><b>or<font color="#008000"> 
+			&lt; </font>- </b>one-way traffic, in direction of the arrow.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><b>Edit Road Points </b>
+	<ul>
+		<li>In this mode, you can use the mouse to drag individual points of the 
+		roads.&nbsp; Click on any road to select the points in that road, then click 
+		and drag those points to move them.&nbsp; Note that intersections are not 
+		currently moved correctly.</li>
+	</ul>
+	</li>
+	<li><b>Show Nodes </b>
+	<ul>
+		<li>Toggles the display of nodes (intersections).&nbsp; Turning this off 
+		is useful to make roads faster to display and edit.</li>
+	</ul>
+	</li>
+	<li><b>Select Highway Number </b>
+	<ul>
+		<li>Simply enter the number of the highway you want selected.</li>
+	</ul>
+	</li>
+	<li><b><a name="Clean">Clean</a> RoadMap </b>
+	<ul>
+		<li>This powerful feature will perform a number of steps to fix errors in 
+		current road layer.&nbsp; This is very important because raw sources of 
+		road data such as USGS DLG files often contain dangerous anomalies.&nbsp; 
+		The following actions are performed:
+		<ul>
+			<li>Merge Redundant Nodes
+			<ul>
+				<li>Merges nodes that are extremely close to each other.&nbsp; This 
+				function joins roads that were cut off on adjacent source files.&nbsp; 
+				However, the roads are still separate.</li>
+			</ul>
+			</li>
+			<li>Remove Degenerate Roads
+			<ul>
+				<li>Removes small roads that don&#39;t go anywhere (i.e. start and end 
+				at same point and have less than 3 points.)</li>
+			</ul>
+			</li>
+			<li>Remove Unnecessary Nodes
+			<ul>
+				<li>Eliminates nodes and merges the 2 roads into one road if the 
+				2 roads have the same properties.</li>
+			</ul>
+			</li>
+			<li>Clean Road Points
+			<ul>
+				<li>Ensures that roads end on nodes and eliminates any repeating 
+				points.</li>
+			</ul>
+			</li>
+			<li>Delete Dangling Roads
+			<ul>
+				<li>Delete roads that either:
+				<ul type="circle">
+					<li type="disc">have the same start and end nodes and have less 
+					than 4 points</li>
+					<li type="disc">have less than 2 points, regardless of start 
+					or end nodes.</li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+			<li>Remove Unused Nodes
+			<ul>
+				<li>Deletes nodes with no roads.</li>
+			</ul>
+			</li>
+			<li>Fix Overlapped Roads
+			<ul>
+				<li>Fix when two different roads meet at the same node along the 
+				same path</li>
+			</ul>
+			</li>
+			<li>Fix Extraneous Parallels
+			<ul>
+				<li>Delete roads that are really close to other roads and lead nowhere.</li>
+			</ul>
+			</li>
+			<li>Split Looping Roads
+			<ul>
+				<li>Splits a road that has the same start and end point.&nbsp; Road 
+				will be split at the middle point and a new uncontrolled node will 
+				be created between the 2 new roads.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<h4><a name="Use of RMF Files">Use of RMF Files</a> </h4>
+<blockquote>
+	<p>In order to use the RMF files you have generated, copy them to a folder named
+	<b>RoadData </b>on any of your data paths<b>.</b>&nbsp; The next time you run 
+	Enviro, they will appear on the &quot;Roads Filename&quot; drop-down control in the Terrain 
+	Parameters dialog.</p>
+</blockquote>
+<p><i>Currently Unimplemented:</i></p>
+<ul>
+	<li>Merge 2 nodes.
+	<ul>
+		<li>Merges the 2 selected nodes.</li>
+	</ul>
+	</li>
+	<li>Path Finder<ul>
+		<li>Tool to create a path for a vehicle to follow in the Enviro Program.</li>
+		<li>There are 3 steps:
+		<ul>
+			<li>Select the start node.</li>
+			<li>Select roads to create the path.&nbsp; This can be done in 2 ways.&nbsp; 
+			First, you can choose another node and let VTBuilder find the shortest 
+			path from the start point to the selected point (
+			<img border="0" src="images/README14.gif" align="middle" width="34" height="30" /> 
+			on the toolbar - default setting.)&nbsp; Second, you may also select 
+			individual roads to create the path - you must choose connected roads 
+			(
+			<img border="0" src="images/README15.gif" align="middle" width="34" height="30" /> 
+			on the toolbar.)</li>
+			<li>Save the path by clicking on
+			<img border="0" src="images/README16.gif" align="middle" width="34" height="30" /> 
+			in the toolbar. </li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

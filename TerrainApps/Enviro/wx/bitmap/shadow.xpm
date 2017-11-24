@@ -1,0 +1,31 @@
+/* XPM */
+static const char *shadow_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 5 1",
+"  c None",
+"a c Black",
+"b c #FFFFFF",
+"c c #808080",
+"d c #C0C0C0",
+/* pixels */
+"                    ",
+"                    ",
+"                    ",
+" dbbbbbbb           ",
+" ddbbbbbbb          ",
+" ddcccccccc         ",
+" ddcccccccc         ",
+" ddcccccccc  aaaaa  ",
+" ddcccccccc aaaaaaa ",
+" ddccccccccaaaaaaaaa",
+" ddccccccccaaaaaaaa ",
+" ddccccccccaaaaaaa  ",
+" ddccccccccaaaaaa   ",
+" ddccccccccaaaa     ",
+"  dccccccccaaa      ",
+"  dccccccccaa       ",
+"   cccccccc         ",
+"                    ",
+"                    ",
+"                    "
+};

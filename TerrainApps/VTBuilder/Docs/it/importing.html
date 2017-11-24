@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder: Importing Data</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">back to index</font></a><font size="3">
+</font></h1>
+<h3>Importing Data into VTBuilder</h3>
+<blockquote>
+	<p>There are two ways to import data files: with the &quot;Layer: Import&quot; command, 
+	or by using drag-and-drop to drag files into the VTBuilder window.</p>
+</blockquote>
+<h3>Layer: Import</h3>
+<blockquote>
+	<p>With the Layer: Import command, you will be asked for the kind of data to 
+	expect: Elevation, Imagery, and so forth.&nbsp; This is important because many 
+	file formats can be interpreted in more than one way.&nbsp; For example, a Shapefile 
+	(.shp) can be used to represent Water, Road, or Building features.&nbsp; Since 
+	Shapefiles lack any kind of standards for attributes, a computer can't guess 
+	what sort of data it really is, unless it knows what to expect.&nbsp; For another 
+	example, TIF files can be interpreted as either Imagery or Elevation, so telling 
+	VTBuilder makes it clear how to handle your TIF file.</p>
+	<p>Depending on the layer type, VTBuilder may give you additional dialogs to 
+	clarify how to import the data.&nbsp; See the documentation for each layer type 
+	(e.g. <a href="buildings.html">Structure Layers</a>) for an explanation of the 
+	issues involved in importing data of that type.&nbsp; If the data lacks a
+	<a href="projdlg.html">CRS</a>, then you may be shown the
+	<a href="projdlg.html">Projection Dialog</a> to specify it.</p>
+</blockquote>
+<h3>Drag-and-Drop</h3>
+<blockquote>
+	<p>The fastest and easiest way to import files is to drag-and-drop them from 
+	your operating system file manager.&nbsp; Multiple files can be imported at 
+	once by dragging over a group of icons.&nbsp; This is really useful when you 
+	have a whole directory full of small files which need to be imported and merged.</p>
+	<p>When you drop files, VTBuilder won't ask you the layer type for each file, 
+	but instead will do its best to guess.&nbsp; Un-guessable GIS files like .shp 
+	will be imported as Raw layers.</p>
+</blockquote>
+<h3>Compressed File Support (.gz, .tar.gz, and .zip)</h3>
+<blockquote>
+	<p>If you drag-and-drop a compressed (archive) file, VTBuilder will quietly 
+	unarchive it to a temporary folder, and look in that folder for something to 
+	import.&nbsp; If the archive contains a single file, it will act as if you dropped 
+	in that file by itself.&nbsp; If the archive contains multiple files, it will 
+	look for distinctive patterns like &quot;catd.ddf&quot; and &quot;.dem&quot; to try figure out what 
+	to import.</p>
+	<p>The feature is very convenient for the user, especially for awkward formats 
+	like SDTS.</p>
+	<p>If you encounter a situation where a file is not importing as expected, please 
+	let us know.</p>
+</blockquote>
+
+</body>
+
+</html>

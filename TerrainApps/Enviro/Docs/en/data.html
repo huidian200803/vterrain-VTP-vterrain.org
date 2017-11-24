@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Where to Put Your Data</title>
+</head>
+
+<body>
+
+<h2><i>Enviro</i></h2>
+<h3>Where to Put Your Data</h3>
+<blockquote>
+	<p>Put your data in the following directories: </p>
+	<table border="1" cellspacing="0" cellpadding="4" style="border-collapse: collapse">
+		<tr>
+			<td><b>Data</b></td>
+			<td><b>Location</b></td>
+		</tr>
+		<tr>
+			<td>Built structure data (VTST files)<br />
+&nbsp;also profiles for linear structures (SHP)</td>
+			<td><code>Data/BuildingData</code></td>
+		</tr>
+		<tr>
+			<td>Building models and textures, including<br />
+&nbsp;facade textures (JPG, PNG, etc.)</td>
+			<td><code>Data/BuildingModels</code></td>
+		</tr>
+		<tr>
+			<td>Elevation data (BT and PRJ files)<br />
+&nbsp;also ITF for TIN files<br />
+&nbsp;also .ini for elevation tilesets</td>
+			<td><code>Data/Elevation</code></td>
+		</tr>
+		<tr>
+			<td>Geospecific images (JPG, TIF, BMP files)<br />
+&nbsp;also .ini for imagery tilesets<br />
+			See <a href="imagery.html">Using Your Own Imagery</a></td>
+			<td><code>Data/GeoSpecific</code></td>
+		</tr>
+		<tr>
+			<td>Locations (LOC and VTAP)</td>
+			<td><code>Data/Locations</code></td>
+		</tr>
+		<tr>
+			<td>Vegetation (species.xml and VF files)</td>
+			<td><code>Data/PlantData</code></td>
+		</tr>
+		<tr>
+			<td>Vegetation billboard images</td>
+			<td><code>Data/PlantModels</code></td>
+		</tr>
+		<tr>
+			<td>Raw (abstract) GIS files</td>
+			<td><code>Data/PointData</code></td>
+		</tr>
+		<tr>
+			<td>Road data (RMF files)</td>
+			<td><code>Data/RoadData</code></td>
+		</tr>
+		<tr>
+			<td>Skydome textures (hemispherical)</td>
+			<td><code>Data/Sky</code></td>
+		</tr>
+		<tr>
+			<td>Terrain definitions (XML)</td>
+			<td><code>Data/Terrains</code></td>
+		</tr>
+		<tr>
+			<td>Whole earth images for Earth view</td>
+			<td><code>Data/WholeEarth</code></td>
+		</tr>
+	</table>
+	<p>There are a few other folders used internally by the VTP software, including
+	<code>Data/Culture</code> for standard culture models and textures, <code>Data/Fonts</code> 
+	for fonts, <code>Data/GeoTypical</code> for geotypical textures such as ocean 
+	and roads.&nbsp; You generally won&#39;t need to add to or modify these folders.</p>
+	<p>Don&#39;t forget that in order to use the continuous LOD rendering, elevation 
+	files must be square-power-of-2-plus-1 in size.&nbsp; For example: </p>
+	<table border="1" cellspacing="0" cellpadding="4" style="border-collapse: collapse">
+		<tr>
+			<td>513 x 513</td>
+			<td>1025 x 1025</td>
+			<td>2049 x 2049</td>
+			<td>4097 x 4097</td>
+			<td>8193 x 8193</td>
+		</tr>
+	</table>
+	<p>If you have 3D models you want to import, they can be anywhere on your machine 
+	(if you use an absolute path) or anywhere on your Data path (for a relative 
+	address.)</p>
+	<h4>Creating Your Own Terrain Settings</h4>
+	<p>To make your terrain show up as a new terrain in the Enviro startup dialog, 
+	you can create your own .xml files in the Terrain folder on the data path.&nbsp; 
+	The easy way to do this is with the <a href="startup.html">Terrain Manager</a> 
+	dialog.&nbsp; Alternately, you can copy one of the existing .xml files (for 
+	example, Generic.xml) and edit it, either as a text file or with Enviro, to 
+	contain the settings you want.&nbsp; The first element in the file (&quot;Name&quot;) 
+	is the name that will appear in Enviro.</p>
+</blockquote>
+
+</body>
+
+</html>

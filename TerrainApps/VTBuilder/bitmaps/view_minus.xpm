@@ -1,0 +1,43 @@
+/* XPM */
+static const char *view_minus_xpm[] = {
+/* width height num_colors chars_per_pixel */
+"    20    20       16            1",
+/* colors */
+"` c #000000",
+". c #bf0000",
+"# c #00bf00",
+"a c #bfbf00",
+"b c #0000bf",
+"c c #bf00bf",
+"d c #00bfbf",
+"e c None",
+"f c #808080",
+"g c #ff0000",
+"h c #00ff00",
+"i c #ffff00",
+"j c #0000ff",
+"k c #ff00ff",
+"l c #00ffff",
+"m c #ffffff",
+/* pixels */
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeee````````````eeee",
+"eeee````````````eeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee",
+"eeeeeeeeeeeeeeeeeeee"
+};

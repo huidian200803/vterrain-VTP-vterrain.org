@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder Basic Menu Commands</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">ritorna all&#39;indice</font></a><font size="3">
+</font></h1>
+<h3>Comandi Base del Menu</h3>
+<ul>
+	<li><b><a name="Project">Progetto</a></b>
+	<ul>
+		<li>Nuovo
+		<ul>
+			<li>Pulisce lo spazio di lavoro di VTBuilder per iniziare un nuovo progetto.</li>
+		</ul>
+		</li>
+		<li>Apri Progetto...
+		<ul>
+			<li>Apre un progetto VTBuilder precedentemente salvato.</li>
+		</ul>
+		</li>
+		<li>Salva Progetto
+		<ul>
+			<li>Salva un progetto contenente informazioni su tutti i livelli su 
+			un <b>vtb</b> (VTBuilder Project File).</li>
+		</ul>
+		</li>
+		<li>Speciale
+		<ul>
+			<li>Crea Texture Dymaxion - vedere spiegazione di
+			<a href="dymax.html">Dymaxion Texture</a></li>
+			<li>Processa Texture Billboard - vedere
+			<a href="http://vterrain.org/Plants/Alpha/index.html">Problemi con valori 
+			alpha in texture-mapped billboards</a></li>
+			<li>Geocodifica</li>
+			<li>Copia Livello Elevazione nella Clipboard&nbsp; (non attivo)</li>
+			<li>Nuovo Livello Elevazione dalla Clipboard (non attivo)</li>
+		</ul>
+		</li>
+		<li>Esci</li>
+	</ul>
+	</li>
+	<li><b><a name="Edit"></a>Modifica</b>
+	<ul>
+		<li>Cancella
+		<ul>
+			<li>Se il livello corrente ha qualche elemento selezionato, essi vengono 
+			cancellati.&nbsp; Altrimenti, viene cancellato il livello corrente, 
+			dopo una richiesta di conferma.</li>
+		</ul>
+		</li>
+		<li>Deseleziona Tutto
+		<ul>
+			<li>Deseleziona tutti gli elementi nel livello corrente (ad esempio 
+			tute le strade del livello strade).</li>
+		</ul>
+		</li>
+		<li>Inverti Selezione
+		<ul>
+			<li>Inverte lo stato di selezione di tutti gli elementi nel livello 
+			corrente.</li>
+		</ul>
+		</li>
+		<li>Selezione ad Incrocio</li>
+		<li>
+		<ul>
+			<li>Questa opzione si riflette sulla selezione interativa degli elementi.&nbsp; 
+			Quando vera, qualunque parte di un elemento all&#39;interno del box di selezione 
+			verrà selezionato.&nbsp; Quando falso, solo gli elementi interamente 
+			contenutinel box di selezione verranno selezionati.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><b><a name="Layer">Livello</a></b>
+	<ul>
+		<li>Nuovo Livello
+		<ul>
+			<li>Crea un livello vuoto del tipo selezionato.</li>
+		</ul>
+		</li>
+		<li>Apri Livello
+		<ul>
+			<li>Apre qualunque tipo di livello (per es. Strade, Edifici, Acqua) 
+			e lo aggiunge al progetto corrente.</li>
+		</ul>
+		</li>
+		<li>Salva Livello </li>
+		<li>Salva Livello Come...
+		<ul>
+			<li>Salva il livello selezionato come file binario (per es. elevazione 
+			come BT, strade come RMF, strutture come VTST), da utilizzare con il 
+			programma Enviro.</li>
+		</ul>
+		</li>
+		<li>Importa Dati
+		<ul>
+			<li>Crea un nuovo livello importando dati da ogni formato conosciuto.&nbsp; 
+			Verrà richiesto il tipo di dati aspettato in ingresso, che aiuterà VTBuilder 
+			a creare il tipo corretto di livello.&nbsp; E&#39; possibile anche semplicemente 
+			trascinare i file nella finestra di VTBuilder.&nbsp; Vedere
+			<a href="importing.html">Importare Dati</a> per maggiori nformazioni.</li>
+		</ul>
+		</li>
+		<li>Proprietà Livello
+		<ul>
+			<li>Visualizzerà alcune proprietà del livello corrente.&nbsp; Non tutti 
+			i livelli avranno proprietà da visualizzare.</li>
+		</ul>
+		</li>
+		<li>Trasla Coordinate
+		<ul>
+			<li>Slitta tutti i dati del livello corrente di una specifica quantità.&nbsp; 
+			Questo é utile per allineare manualmente i livelli che differiscono 
+			per una certa quantità nel piano orizzontale (X Y).</li>
+		</ul>
+		</li>
+		<li>Aggrega Livelli
+		<ul>
+			<li>Questo sommerà (&quot;aggrega&quot;) tutti i livelli compatibili <i>al tipo 
+			di livello correntemente selezionato</i> in un singolo livello.</li>
+		</ul>
+		</li>
+		<li>Converti Proiezione
+		<ul>
+			<li>Converte la proiezione geografica di <b>tutti</b> i livelli caricati 
+			in na nuova proiezione.&nbsp; Il <a href="projdlg.html">Pannello di 
+			dialogo Proiezione</a> permette di inserire una nuova proiezione.</li>
+		</ul>
+		</li>
+		<li>Imposta Proiezione
+		<ul>
+			<li>Modifica la corrente proiezione definita, <b>senza</b> convertire 
+			le coordinate.&nbsp; Usate questo e sapete che la vostra proiezione 
+			corrente (segnalata nella Status Bar) é errata, e volete correggerla.&nbsp;&nbsp; 
+			Il <a href="projdlg.html">Pannello di dialogo Proiezione</a> permette 
+			di inserire una nuova proiezione.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

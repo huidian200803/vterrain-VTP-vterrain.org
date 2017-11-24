@@ -1,0 +1,26 @@
+/* XPM */
+static const char *folder3_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1",
+"  c black",
+". c #808000",
+"X c yellow",
+"o c None",
+/* pixels */
+"oooooooooooooooo",
+"oooooooooooooooo",
+"o     oooooooooo",
+"o XXX        ooo",
+"o XXXXXXXXXX ooo",
+"o XXXXXXXXXX ooo",
+"o XX           o",
+"o XX.......... o",
+"o X ..........oo",
+"o X.......... oo",
+"o  ..........ooo",
+"o .......... ooo",
+"o           oooo",
+"oooooooooooooooo",
+"oooooooooooooooo",
+"oooooooooooooooo"
+};

@@ -1,0 +1,30 @@
+/* XPM */
+static const char *nav_set_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 3 1",
+/* colors */
+"` c #000000",
+"a c None",
+"b c #0000FF",
+/* pixels */
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaabaaaaaaaaaaa",
+"aaaaaaabbbaaaaaaaaaa",
+"aaaaaabbbbbaaaaaaaaa",
+"aaaaaaaabaaaaaaaaaaa",
+"aaaaabaabaabaaaaaaaa",
+"aaaabbaabaabbaaaaaaa",
+"aaabbbbbbbbbbbaaaaaa",
+"aaaabbaabaabbaaaaaaa",
+"aaaaabaabaabaaaaaaaa",
+"aaaaaaaabaaaaaaaaaaa",
+"aaaaaabbbbbaaaaaaaaa",
+"aaaaaaabbbaaaaaaaaaa",
+"aaaaaaaabaaaaaaaaaaa",
+"aa`aaaaaaaaaa``aa`aa",
+"aa````````````````aa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aa`aa``aaaaaaaaaa`aa",
+"aa````````````````aa",
+"aaaaaaaaaaaaaaaaaaaa"
+};

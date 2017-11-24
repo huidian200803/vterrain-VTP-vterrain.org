@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<title>VTP Documentation</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../docs.css" rel="stylesheet" />
+<link href="docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h2 class="tcenter">The VTP Software</h2>
+<p class="tcenter"><em>A Short Introduction</em></p>
+
+<h4>Very Briefly</h4>
+<blockquote>
+	<p>The purpose of the VTP software is to allow you to rapidly construct an interactive 
+	3D visualization of any part of the real world.</p>
+</blockquote>
+<h4>In Detail</h4>
+<blockquote>
+	<p>The general process of building a visualization using the VTP tools is to
+	<b>import</b> data files into <a href="VTBuilder/Docs/index.html">VTBuilder</a>, 
+	manipulate them in a content-specific manner, then <b>export</b> them into a 
+	series of runtime files.&nbsp; The runtime files are placed into the appropriate 
+	Data directory, then <a href="Enviro/Docs/index.html">Enviro</a> is used for 
+	a realtime visualization of the data.</p>
+	<p>See the VTBuilder and Enviro documentation for the step-by-step process of 
+	reading your data in, and visualizing it.&nbsp; This includes elevation, roads, 
+	trees, buildings and fences.</p>
+</blockquote>
+<h4>Cropping and Sampling Images</h4>
+<blockquote>
+	<p>If you have imagery that you wish to drape, that does not matches your elevation 
+	in projection and extents, then you will need to crop and/or re-project it to 
+	match.&nbsp; The VTP software does not have these features.&nbsp; Here are some 
+	possible approaches you can use:</p>
+	<ol>
+		<li>If you happen to have it, many high-end software packages such as
+		<a href="http://www.gis.leica-geosystems.com/Products/product_details.asp?productid=1">
+		ERDAS Imagine</a> can do these steps.</li>
+		<li>The inexpensive software <a href="http://www.globalmapper.com/">Global 
+		Mapper</a> is capable of loading any number of images, displaying them with 
+		any given projection, and extracting a rectangular area (cropping).</li>
+		<li>If you are technically savvy, the cross-platform open-source package
+		<a href="http://www.remotesensing.org/gdal/">GDAL</a> provides a command-line 
+		tool called &#39;gdal_translate&#39; which can be configured to re-project 
+		and extract rectangular areas.&nbsp; The <code>-projwin</code> option is 
+		useful for this purpose.</li>
+		<li>Finally, if you only need to extract a rectangular area, it may be possible 
+		to use a conventional bitmap application like PhotoShop to crop to the area 
+		of interest.&nbsp; This requires some manual arithmetic to turn coordinates 
+		into pixel values.</li>
+	</ol>
+</blockquote>
+<h4>Custom 3D Geometry</h4>
+<blockquote>
+	<p>If you want to import your own, custom 3D models, here are some details about 
+	how the software supports them.</p>
+	<p>One of the things which <a href="Enviro/Docs/index.html">Enviro</a> can do 
+	is to place one or more instances of a 3D object on a terrain surface. In order 
+	to do this, it requires two types of files: one to specify the location of the 
+	object, and the other to specify the object surface geometry. The first file 
+	is a VT Structure File (VTST), and is typically created in
+	<a href="VTBuilder/Docs/index.html">VTBuilder</a> based on GIS data representing 
+	object center points or footprints in a geographic coordinate system. (The &quot;Building 
+	Extractor&quot; and &quot;Content Manager&quot; applications can also generate 
+	these.) The object geometry file can be in any format recognized by the underlying
+	<a href="http://www.openscenegraph.org/">OpenSceneGraph</a> system and is typically 
+	generated in a 3D surface modeler or CAD system. Typical formats include:</p>
+	<ul>
+		<li>.3DS (the export format from Discrete&#39;s Studio Max application, 
+		also exported by AutoCAD) </li>
+		<li>.LWO (Lightwave)</li>
+		<li>.FLT (OpenFlight format - with import/export plugin available for Alias|Wavefront&#39;s 
+		Maya) </li>
+		<li>.OSG (OpenSceneGraph format). </li>
+	</ul>
+	<p>There is now some support for VRML 1.0 and other formats, check the
+	<a href="http://www.openscenegraph.org/">OpenSceneGraph</a> website for a full 
+	current list, and limitations.&nbsp; The application
+	<a href="CManager/Docs/index.html">CManager</a> can be used to preview your 
+	models to see how they will appear in <a href="Enviro/Docs/index.html">Enviro</a>.</p>
+	<p>In order to understand the relationship between the two files (VTST and 3D 
+	model) it is helpful to view the structure file contents. The VT structure file 
+	is itself a type of XML file, and can be viewed in a text editor. It can contain 
+	references (by name) to instances of 3D models. (It is the same format used 
+	for parametric building property descriptions used by Enviro in generating buildings 
+	procedurally at load time, but that is not relevant here.) The two types of 
+	files are placed in separate locations for runtime use:</p>
+	<ul>
+		<li>VTST files should go in the BuildingData folder, which is underneath 
+		the Data folder </li>
+		<li>3D object files can be located anywhere on your machine </li>
+	</ul>
+	<p>Once you have the VTST files in place, they should show up Enviro settings 
+	dialog in the &quot;Buildings&quot; popup menu. (You can only have one VTST 
+	file per terrain.)</p>
+</blockquote>
+
+</body>
+
+</html>

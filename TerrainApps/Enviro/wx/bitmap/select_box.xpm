@@ -1,0 +1,30 @@
+/* XPM */
+static const char *select_box_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 4 1 ",
+"  c black",
+". c yellow",
+"X c gray100",
+"o c None",
+/* pixels */
+" . . . . . . ooooooo",
+".ooooooooooo.ooooooo",
+" ooooooooooo ooooooo",
+".ooooooooooo.ooooooo",
+" ooooooooooo ooooooo",
+".ooooooooooo.ooooooo",
+" oooooooooo  ooooooo",
+".oooooooooo  ooooooo",
+" . . . . .  X oooooo",
+"ooooooooooo XX ooooo",
+"ooooooooooo XXX oooo",
+"ooooooooooo XXXX ooo",
+"ooooooooooo XXXXX oo",
+"ooooooooooo XXXXXX o",
+"ooooooooooo XXXX    ",
+"ooooooooooo XX XX oo",
+"ooooooooooo X  XX oo",
+"ooooooooooo  oo XX o",
+"ooooooooooo ooo XX o",
+"oooooooooooooooo XX "
+};

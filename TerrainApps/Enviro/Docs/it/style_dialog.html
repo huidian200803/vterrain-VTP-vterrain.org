@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Style Dialog</title>
+<style type="text/css">
+.style1 {
+	margin-left: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<h2><i>Style Dialog</i></h2>
+<div class="style1">
+			<img src="../images/style.png" width="361" height="350" style="float: right" />The Style Dialog defines the visual style for an 
+			Abstract Layer.&nbsp; You can define the style for a layer by pressing <b>
+			Style...</b> 
+			under Abstract Layers in the Terrain Properties.<p>Each of the 
+			possible feature types can be displayed as follows.</p>
+			<h3>2D/3D Points</h3>
+			<ul>
+				<li><b>Object Geometry.</b>&nbsp; The point can be represented 
+				by a sphere.&nbsp; For 2D points, the sphere will be draped on 
+				the terrain, at the indicated height above the ground. The
+				<strong>size/scale</strong> is the radius of the sphere, in 
+				meters.</li>
+			</ul>
+			<h3>2D/3D Polylines, Polygons</h3>
+			<ul>
+				<li><b>Line Geometry</b>.&nbsp; 2D polylines will be draped on the 
+				terrain.&nbsp; You can specify height above the ground.&nbsp; 3D polylines 
+				will be drawn at their own elevation.&nbsp; Polygons will have their 
+				edges drawn as lines.<br />
+				The &#39;<b>Tessellate edges</b>&#39; option means that every segment of 
+				the polyline is split into a lot of small segments, so that it 
+				can drape more smoothly on uneven terrain.</li>
+			</ul>
+			<h3>2D/3D Points, Polygons</h3>
+			<ul>
+				<li><b>Text Labels.</b>&nbsp; The label will float above the terrain 
+				at the indicated height above ground.&nbsp; In the case of polygons, 
+				the centroid is used for the label&#39;s position.&nbsp; For 2D 
+				entities, the text is draped on the terrain at the indicated 
+				height above ground.<br />
+				You can specify font.&nbsp; If you are using a language that is not 
+				Western European, be sure to choose a font that supports your 
+				character set.&nbsp; For example, on Windows,
+				<b>ArialUni.ttf</b> instead of the default Arial.ttf will 
+				support nearly everything.</li>
+			</ul>
+			<h3>2D Polygons</h3>
+			<ul>
+				<li><b>Texture Overlay</b>.&nbsp; <i>(Experimental)&nbsp; </i>The polygons 
+				will be rasterized to a 1024x1024 texture overlay, using the 
+				geometry color.&nbsp; Texture mode can be ADD (color is added), 
+				MODULATE (color multiplies), or DECAL (color is shows directly).</li>
+			</ul>
+<h4><em>Color Fields</em></h4>
+<p class="style1">The color of objects, lines and labels can be either fixed&nbsp;or 
+read from a field per entity.&nbsp; In the case of a field, it is expected to 
+take the form &quot;R G B&quot;, where R, G, and B are floating-point numbers from 0 to 1.&nbsp; 
+For example, orange would be &quot;1 0.5 0&quot;.</p>
+</div>
+</body>
+
+</html>

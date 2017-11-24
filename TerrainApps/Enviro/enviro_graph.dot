@@ -1,0 +1,166 @@
+/* You can call this file like:
+ dot -Tpng -odot_enviro_graph.png enviro_graph.dot
+ */
+
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+
+	subgraph cluster_wx
+	{
+		label="wxWidgets";
+		style=filled;
+		color="#ddddee";
+
+		/* wxWidgets */
+		node [fontname="Helvetica",fontsize="10",style="filled",fillcolor="grey90",shape=record];
+
+		wxApp [label="wxApp",height=0.2,width=0.4,color="black",URL=".html"];
+		wxFrame [label="wxFrame",height=0.2,width=0.4,color="black",URL=".html"];
+		wxGLCanvas [label="wxGLCanvas",height=0.2,width=0.4,color="black",URL=".html"];
+		wxGLCanvas [label="wxGLCanvas",height=0.2,width=0.4,color="black",URL=".html"];
+
+		/* { rank = same; NodeProjection; NodeStateSet; NodeGeometry; }  */
+	}
+
+	subgraph cluster_vtlib
+	{
+		label="vtlib";
+		style=filled;
+		color="#eedddd";
+		/*	color="black"; */
+
+		vtScene [label="vtScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtTerrainScene.html"];
+		vtTerrainScene [label="vtTerrainScene",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtTerrainScene.html"];
+		vtEngine [label="vtEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtEngine.html"];
+		vtLastMouse [label="vtLastMouse",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtLastMouse.html"];
+		vtFlyer [label="vtFlyer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtFlyer.html"];
+		vtTerrainFlyer [label="vtTerrainFlyer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtTerrainFlyer.html"];
+		vtHeightConstrain [label="vtHeightConstrain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classvtHeightConstrain.html"];
+		MapOverviewEngine [label="MapOverviewEngine",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtlib/classMapOverviewEngine.html"];
+		TerrainPicker [label="TerrainPicker",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classTerrainPicker.html"];
+
+		vtEngine -> vtLastMouse [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		vtEngine -> vtHeightConstrain [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		vtLastMouse -> vtFlyer [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		vtLastMouse -> TerrainPicker [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		vtFlyer -> vtTerrainFlyer [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		vtEngine -> MapOverviewEngine [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	}
+
+	subgraph cluster_vtui
+	{
+		label="vtui";
+		style=filled;
+		color="#eeeecc";
+		/*	color="black"; */
+
+		DistanceDlg [label="DistanceDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtui/classDistanceDlg.html"];
+		FeatureTableDlg [label="FeatureTableDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtui/classFeatureTableDlg.html"];
+		BuildingDlg [label="BuildingDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtui/classBuildingDlg.html"];
+		LinearStructureDlg [label="LinearStructureDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtui/classLinearStructureDlg.html"];
+	}
+
+	subgraph cluster_wxosg
+	{
+		label="wxosg";
+		style=filled;
+		color="#ffddcc";
+		/*	color="black"; */
+
+		vtGLCanvas [label="vtGLCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../wxosg/classvtGLCanvas.html"];
+		BuildingDlg3d [label="BuildingDlg3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../wxosg/classBuildingDlg3d.html"];
+		SceneGraphDlg [label="SceneGraphDlg",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../wxosg/classSceneGraphDlg.html"];
+	}
+
+	wxGLCanvas -> vtGLCanvas [dir=back];
+	BuildingDlg -> BuildingDlg3d [dir=back];
+
+	subgraph cluster_enviro
+	{
+		label="Enviro";
+		style=filled;
+		color="#ddeedd";
+		/*	color="black"; */
+
+		EnviroApp [label="EnviroApp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classEnviroApp.html"];
+		EnviroCanvas [label="EnviroCanvas",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classEnviroCanvas.html"];
+		EnviroFrame [label="EnviroFrame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classEnviroFrame.html"];
+		Enviro [label="Enviro",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classEnviro.html"];
+		EnviroGUI [label="EnviroGUI",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classEnviroGUI.html"];
+
+		Enviro -> EnviroGUI [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+
+		{ rank = same; EnviroApp; EnviroCanvas; EnviroFrame; }
+	}
+
+	subgraph cluster_osg
+	{
+		label="osg";
+		style=filled;
+		color="#ffeeff";
+
+		Viewer [label="osgViewer::Viewer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled"];
+	}
+
+	wxApp -> EnviroApp [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	wxFrame -> EnviroFrame [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	vtGLCanvas -> EnviroCanvas [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	vtTerrainScene -> Enviro [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+
+	EnviroApp -> EnviroFrame [style="dotted", label="creates", color="#880000"];
+	EnviroFrame -> EnviroCanvas [style="dotted", label="creates", color="#880000"];
+
+	subgraph cluster_envirodlg
+	{
+		label="envirodlg (Dialog Library)";
+		style=filled;
+		color="#ccffcc";
+		/*	color="black"; */
+
+		CameraDlg [label="CameraDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		ContourDlg [label="ContourDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		DistanceDlg3d [label="DistanceDlg3d",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		DriveDlg [label="DriveDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		EphemDlg [label="EphemDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		FeatureTableDlg3d [label="FeatureTableDlg3d",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		LayerDlg [label="LayerDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		LinearStructureDlg3d [label="LinearStructureDlg3d",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		LocationDlg [label="LocationDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		LODDlg [label="LODDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		OptionsDlg [label="OptionsDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		PlantDlg [label="PlantDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+		StartupDlg [label="StartupDlg",height=0.2,width=0.4,color="black",style="filled",fillcolor="white"];
+	}
+
+	DistanceDlg -> DistanceDlg3d [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	FeatureTableDlg -> FeatureTableDlg3d [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	LinearStructureDlg -> LinearStructureDlg3d [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+
+	Enviro -> TerrainPicker [style="dotted", label="owns", color="#008800"];
+	Enviro -> MapOverviewEngine [style="dotted", label="owns", color="#008800"];
+	Enviro -> vtTerrainFlyer [style="dotted", label="", color="#008800"];
+	Enviro -> vtHeightConstrain [style="dotted", label="owns", color="#008800"];
+
+	EnviroFrame -> CameraDlg [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> ContourDlg [style="dotted", color="#008800"];
+	EnviroFrame -> DistanceDlg3d [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> DriveDlg [style="dotted", label="", color="#008800"];
+	EnviroFrame -> EphemDlg [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> FeatureTableDlg3d [style="dotted", label="", color="#008800"];
+	EnviroFrame -> LayerDlg [style="dotted", label="", color="#008800"];
+	EnviroFrame -> LinearStructureDlg3d [style="dotted", label="", color="#008800"];
+	EnviroFrame -> LocationDlg [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> LODDlg [style="dotted", label="", color="#008800"];
+	EnviroFrame -> OptionsDlg [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> PlantDlg [style="dotted", label="owns", color="#008800"];
+	EnviroFrame -> StartupDlg [style="dotted", label="owns", color="#008800"];
+
+	vtScene -> Viewer [style="dotted", label="owns", color="#008800"];
+
+	BuildingDlg3d -> EnviroFrame [dir="back", style="dotted", label="owns", color="#008800"];
+	SceneGraphDlg -> EnviroFrame [dir="back", style="dotted", label="owns", color="#008800"];
+}
+

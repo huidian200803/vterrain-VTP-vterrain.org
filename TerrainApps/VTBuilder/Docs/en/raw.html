@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>Raw Data Layers</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<style type="text/css">
+.nobullet {
+	list-style-type: none;
+}
+</style>
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h3>Raw Data Layers</h3>
+<blockquote>
+	<p>A Raw layer is a traditional GIS data layer - a set of geo-referenced geometry 
+	without any higher-level knowledge of the what the geometry represents.&nbsp; 
+	This is useful for types of abstract data which do not have a real existence 
+	in the world, such as administrative borders, general reference points, and 
+	so on.</p>
+	<p>The layers are called &quot;Raw&quot; because in the VTP philosphy, they are 
+	temporary raw data, before being converted or &quot;cooked&quot; into more meaningful 
+	information.&nbsp; For example, 2D point data which represents the location 
+	of trees, is cooked from points (a Raw layer) into actual trees (a 
+	Vegetation layer).</p>
+</blockquote>
+<h4>Menu: Raw</h4>
+<ul>
+	<li><strong>Select Features</strong><ul>
+		<li>Use this mode to select features with the mouse</li>
+	</ul>
+	</li>
+	<li><strong>Pick Features</strong><ul>
+		<li>This mode is useful for clicking on individual features to get information 
+			about them.</li>
+	</ul>
+	</li>
+	<li><strong>Show Attribute Table</strong><ul>
+		<li>Shows the Feature Info dialog, which displays attributes in a table</li>
+	</ul>
+	</li>
+	<li class="nobullet">
+	<div style="width: 70%; background-color:#BBB; height:2px; margin: 8px 2px 8px 2px;">
+	</div>
+	</li>
+	<li><strong>Set Entity Type</strong><ul>
+		<li>Set the kind of entity (Point, Arc, Polygon) that this layer contains.&nbsp; 
+			You can only change this when the layer is empty.</li>
+	</ul>
+	</li>
+	<li><strong>Add Points with Mouse</strong>
+		<ul>
+			<li>In this mode, you can click the mouse in the main view to add points.</li>
+	</ul>
+	</li>
+	<li><strong>Add Point with Text</strong>
+		<ul>
+			<li>Lets you type in the precise coordinate of a point to add.</li>
+	</ul>
+	</li>
+	<li><strong>Add Points with GPS</strong>
+		<ul>
+			<li><em>(not implemented yet)</em></li>
+	</ul>
+	</li>
+	<li><strong>Add Feature from WKT</strong><ul>
+		<li>If you are GIS geek, you may want to add a feature with a
+		<a href="http://en.wikipedia.org/wiki/Well-known_text">Well-known text</a> 
+		string.</li>
+	</ul>
+	</li>
+	<li><strong>Style..</strong><ul>
+		<li><em>(not implemented yet)</em></li>
+	</ul>
+	</li>
+	<li><strong>Scale Horizontally</strong><ul>
+		<li>Asks for a scale factor, then mulitplies all the ground (X, Y) 
+		coordinates of all the features in the layer.</li>
+	</ul>
+	</li>
+	<li><strong>Scale Vertically</strong><ul>
+		<li>For 3D feature types, asks for a scale factor, then mulitplies the 
+		vertical (Z) coordinates of all the features in the layer.</li>
+	</ul>
+	</li>
+	<li><strong>Offset Vertically</strong><ul>
+		<li>For 3D feature types, asks for a vertical distance, then adds that 
+		to all (Z) coordinates of all the features in the layer.</li>
+	</ul>
+	</li>
+	<li><strong>Clean Polygon Geometry</strong><ul>
+		<li>For polygon (or polyline) features types, the following is done:<ol>
+			<li>Remove degenerate points (two points in sequence, too close to 
+			each other)</li>
+			<li>Remove colinear points (two points in sequence, almost exactly 
+			on the same line)</li>
+			<li>For polygons, fixes the winding (clockwise-ness). </li>
+			<li>For polygons, removes any polygons that have rings with less 
+			than 3 vertices.</li>
+			<li>For polylines, removes any polylines with less than 2 vertices.</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+	<li><strong>Select Bad Geometry</strong><ul>
+		<li>Some polygons have degeneracies which are difficult to fix 
+		automatically.&nbsp; In particular, a polygon's edges may cross each 
+		other, or a point of an inner ring (hole) may coincide or be 
+		numerically too close to a point in the outer ring.&nbsp; Since they 
+		can't be automatically fixed, this command will select them for you, so 
+		you can find them to fix them manually.&nbsp; </li>
+	</ul>
+	</li>
+	<li class="nobullet">
+	<div style="width: 70%; background-color:#BBB; height:2px; margin: 8px 2px 8px 2px;">
+	</div>
+	</li>
+	<li><strong>Select Features by Condition</strong><ul>
+		<li>Allows you to use simple logical expressions to select features.</li>
+	</ul>
+	</li>
+	<li><strong>Export as HTML Imagemap</strong><ul>
+		<li>A somewhat specialized command, it will take a snapshot of your 
+		view, save it to a PNG file, then write an HTML file with the &lt;map&gt; and 
+		&lt;img&gt; tags for making a pickable webpage from the current polygon layer.</li>
+	</ul>
+	</li>
+	<li><strong>Export as KML</strong><ul>
+		<li>Write the layer to a Google Earth-style KML file.</li>
+	</ul>
+	</li>
+	<li><strong>Generate Grid from 3D Points</strong><ul>
+		<li>Interpolates a set of points, using the algorithm from the
+		<a href="http://www.galiander.ca/quikgrid/">QuikGrid</a> software, to 
+		produce a continuous surface as a new elevation layer.</li>
+	</ul>
+	</li>
+	<li><strong>Generate TIN</strong><ul>
+		<li>Triangulates a set of points to produce a TIN as a new elevation 
+		layer.</li>
+	</ul>
+	</li>
+	<li><strong>Generate Polygons from Polylines</strong><ul>
+		<li>Given a layer of polylines, it will look for polylines which are 
+		closed (first and last point are in the same place) and create a new 
+		layer containing those as polygons.</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

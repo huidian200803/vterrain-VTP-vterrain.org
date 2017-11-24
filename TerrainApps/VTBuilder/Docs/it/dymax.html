@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder - Dymaxion Textures</title>
+</head>
+
+<body>
+
+<h3 align="center">VTBuilder<br />
+<a href="index.html">ritorna all'indice</a> </h3>
+<h3>Dymaxion Textures</h3>
+<blockquote>
+	<p>Le librerie di sviluppo e i programmi di VTP supportano il 
+	texture-mapping della intera terra anche attraverso la <i>Proiezione 
+	Dymaxion</i>, che é un metodo proiettivo della terra su un icosaedro 
+	sviluppato da Buckminster Fuller nel 1934.&nbsp; Per maggiori spiegazioni su 
+	questa proiezione, vedere <b>Icosahedral mapping</b> sul sito vterrain.org, 
+	alla pagina
+	<a href="http://vterrain.org/Textures/spherical.html">Spherical Textures</a>.</p>
+	<p>Vengono usate 10 textures quadrate per ricoprire la terra.&nbsp; Tuttavia, 
+	molte immagini della terra sono distribuite come una singola, grande 
+	immagine rettangolare creata attraverso una proiezione piana geografica:</p>
+	<p><img src="../images/earth-1.jpg" border="0" height="240" width="440" /></p>
+	<p>E' necessario un metodoche proietti questa immagine nelle 10 texture 
+	quadrate usate per la Proiezione Dymaxion, che appare qualcosa come quelle 
+	che seguono:</p>
+	<p><img src="../images/earth-2.jpg" border="0" height="202" width="457" /></p>
+	<p>VTBuilder fornisce il comando da menu &quot;Progetto: Crea Texture Dymaxion&quot; 
+	che farà questa operazione per voi.&nbsp; Verranno richiesti:</p>
+	<ul>
+		<li>Il nome del file originale, che potrà essere in formato BMP oppure 
+		PNG</li>
+		<li>La dimensione dei ogni file di uscita, in pixel.
+		<ul>
+			<li>Potrete scegliere su valori in potenza di 2, da 128 a 4096.&nbsp; Un 
+			valore maggiore darà una imagine più dettagliata della terra, ma 
+			anche un maggior uso di memoria.&nbsp; Quella che segue é una tabella che 
+			mostra la memoria che verrà richiesta per ogni risoluzione:<li></li>
+			<table border="1" cellpadding="3" cellspacing="0">
+				<tbody>
+				<tr>
+					<td>Tile Size</td>
+					<td>Texture Memory</td>
+				</tr>
+				<tr>
+					<td>256</td>
+					<td>1.8 MB</td>
+				</tr>
+				<tr>
+					<td>512</td>
+					<td>7.5 MB</td>
+				</tr>
+				<tr>
+					<td>1024</td>
+					<td>30 MB</td>
+				</tr>
+			</tbody>
+			</table>
+			</li>
+			<li>Tenete presente la memoria texture della scheda grafica 3d che 
+			state usando - 30 MB di quadranti (detti &quot;tiles&quot;) lavoreranno su 
+			schede con&nbsp; 64 MB di memoria, ma schede con meno dovranno usare una 
+			dimensione di quadranti di 512.</li>
+			<li>Ricordate inoltre che non c'é necessità di eccedere con la 
+			risoluzione del file di input.&nbsp; A scopo indicativo, la dimensione 
+			deve essere
+			<b>1/5 </b>della larghezza dell'immagine originaria.</li>
+		</ul>
+		</li>
+		<li>Il prefisso per i nomi dei file di uscita.&nbsp; Si può trattare di 
+		qualunque stringa di caratteri, come &quot;La_mia_terra_512_&quot;.&nbsp; Si raccomanda 
+		di inserire nel nome il valore della grandezza (come ad esempio 512).</li>
+	</ul>
+	<p>Al termine dell'elaborazione vengono creati i file nella stessa directory 
+	dell'immagine sorgente.</p>
+	<p>Per usare la immagini da voi create in Enviro, copiatele nella cartella 
+	&quot;Data/WholeEarth&quot;, e poi sceglietele attraveso il pannello di partenza di 
+	Enviro.</p>
+</blockquote>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+/* XPM */
+static const char *group2_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1",
+"  c black",
+". c red",
+"X c #808000",
+"o c yellow",
+/* pixels */
+"................",
+".....X    X.....",
+"...X oooooo X...",
+"..X oooooooo X..",
+".. oooX  Xooo ..",
+".XXoo X..X ooXX.",
+". ooXX....XXooX.",
+". oo ...... oo .",
+". oo ...... oo .",
+". ooXX....XXooX.",
+".XXoo X..X ooXX.",
+".. oooX  Xooo ..",
+"... oooooooo ...",
+".... oooooo ....",
+".....X    X.....",
+"................"
+};

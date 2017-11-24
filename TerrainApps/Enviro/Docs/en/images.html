@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Image Layers</title>
+</head>
+
+<body>
+
+<h2><i>Image Layers</i></h2>
+
+<blockquote>
+
+<p><i>Image Layers</i> in the VTP software.&nbsp; You can add any number of 
+image layers on each terrain, but since they are limited by the number of <b>
+multi-texture units</b> your graphics card has, the number displayed may be 
+limited to 3.</p>
+
+</blockquote>
+
+<h3>Adding Image Layers to your Terrain</h3>
+
+<blockquote>
+
+<p>To add an Image layer, edit the
+<a href="terrain_creation.html">properties for your terrain</a>.&nbsp; Under the
+<b>Texture</b> tab, under <b>Image Layers</b>, double-click to choose from a 
+list of all the image files that are located in any <b>GeoSpecific</b> folder on 
+your data path.</p>
+
+<p>The image must be:</p>
+
+<ul>
+  <li><b>Georeferenced.</b>&nbsp; Specifically, it must have extents defined.&nbsp; An 
+	easy way to ensure this is to use GeoTIFF format, but you can also use other 
+	TIF or JPEG files as long as they have a World File which defines their 
+	extents.</li>
+  <li><b>The same CRS (projection) as the terrain.</b>&nbsp; Image layers will not be 
+	dynamically reprojected.</li>
+  <li>Within the<b> </b><b>size limits</b> of your graphics card.&nbsp; Modern 
+  3D cards will support up to 8192* 8192.&nbsp; You 
+	can also use smaller images, e.g. 1024x1024, and rectangular images, e.g. 
+	2048x512.</li>
+</ul>
+
+<p>If you have an older card without OpenGL 2.0, the the image should also be:</p>
+<ul>
+  <li><b>Power of 2 in each dimension.</b>&nbsp; For example, 256x512 is supported, 
+	300*711 is not.</li>
+</ul>
+
+</blockquote>
+    <blockquote>
+    <p>Image layers are shown in the <b>Layers Dialog</b>.&nbsp; You can do 
+	these operations on an image layer:</p>
+      <ul>
+        <li><b>Remove: </b>Remove the selected layer.</li>
+        <li><b>Visible:</b> Toggle whether the selected layer is visible.</li>
+      </ul>
+</blockquote>
+
+</body>
+
+</html>

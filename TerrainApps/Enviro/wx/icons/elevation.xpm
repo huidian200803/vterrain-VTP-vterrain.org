@@ -1,0 +1,26 @@
+/* XPM */
+static const char *elevation_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1",
+"  c black",
+". c #800080",
+"X c #808080",
+"o c None",
+/* pixels */
+"oooooooooooooooo",
+"oooooooooooooooo",
+"ooo..........ooo",
+"ooo oo oo oo ooo",
+"oo. oo oo oo ooo",
+"oo XoX oo XoX oo",
+"oo ... .. ... oo",
+"oo ooX oo Xoo oo",
+"o. ooX oo Xoo oo",
+"o Xoo XooX ooX o",
+"o ... .... ... o",
+"o ooo XooX ooo o",
+". ooo oooo ooo o",
+" Xooo oooo oooX ",
+" .... .... .... ",
+"oooooooooooooooo"
+};

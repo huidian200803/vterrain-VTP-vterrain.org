@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Terrain Creation Parameters</title>
+</head>
+
+<body>
+
+<h2>Enviro - Parametri di Creazione del Terreno</h2>
+<h3>Orografia</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Elevation Grid</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">NomeFile della Griglia</td>
+		<td bgcolor="#d2c8b5">Il file BT da usare per le altezze.</td>
+	</tr>
+	<tr>
+		<th rowspan="3" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">LOD Terreno</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Metodo</td>
+		<td bgcolor="#b7ccb8">Scegliere tra le varie implementazioni di algoritmi 
+		publicati di &quot;Continuous LOD&quot;.&nbsp; Senza essere utenti esperti, e&#39; raccomandato 
+		l&#39;uso soltanto di <em><strong>Roettger</strong></em>.&nbsp; Gli altri sono 
+		di interesse di specialisti della storia degli algoritmi.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Numero Triangoli</td>
+		<td bgcolor="#b7ccb8">Gli Algoritmi aggiusteranno adattivamente il dettaglio 
+		per raggiungere questo numero indicato di triangoli.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Usa strips/fans</td>
+		<td bgcolor="#b7ccb8">Permette all&#39;algoritmo di LOD di usare strip e fan 
+		di triangoli, mentre visualizza.&nbsp; Con alcuni algoritmi, questo puo&#39; 
+		incrementare di molto la velocita&#39; di resa, ma anche introduce alcune limitazioni.</td>
+	</tr>
+	<tr>
+		<th bgcolor="#d2c8b5" nowrap="nowrap" valign="top">TIN delle altezze</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">NomeFile TIN </td>
+		<td bgcolor="#d2c8b5">Il nome del file TIN da usare per le altezze, invece 
+		della griglia rettangolare.</td>
+	</tr>
+	<tr>
+		<th rowspan="3" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Mattonelle 
+		di Griglia</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Nome del file Tile</td>
+		<td bgcolor="#b7ccb8">Il file .ini che descrive un gruppo di mattonelle 
+		(Tile) della griglia delle altezze (elevation grid).&nbsp; Vedere
+		<a href="tilesets.html">tileset documentation</a>.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Numero Vertici finali</td>
+		<td bgcolor="#b7ccb8">La Resa (Rendering) adattera&#39; il dettaglio per avvicinarsi 
+		a questo numero indicato di vertici.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">RAM cache size</td>
+		<td bgcolor="#b7ccb8">Quando i &quot;tile&quot; sono caricati da disco, sono memorizzati 
+		in una cache in RAM.&nbsp; Appena il punto di vista viene spostato, i &quot;tile&quot; 
+		che non sono necessari rimangono in questa cache, evitando di ricaricarli 
+		di nuovo da disco mentre il programma sta girando.</td>
+	</tr>
+	<tr>
+		<th bgcolor="#d2c8b5" nowrap="nowrap" valign="top">&nbsp;</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Esagerazione Verticale</td>
+		<td bgcolor="#d2c8b5">Un valore di 1.0 disegna il terreno con le proporzioni 
+		del mondo reale. Un valore di 1.5 esagera le altezze di un 50%, e così via.</td>
+	</tr>
+</table>
+<h3>Texture</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="11" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Texture</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Nessuna texture</td>
+		<td bgcolor="#d2c8b5">Il terreno sara&#39; bianco e pieno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Texture Singola</td>
+		<td bgcolor="#d2c8b5">La texture indicata sara&#39; sovrapposta sul terreno.&nbsp; 
+		L&#39;immagine deve essere di una potenza di due come dimensione, ed essere 
+		nel limite della propria scheda 3d hardware come grandezza massima della 
+		texture.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Deriva Texture<br />
+&nbsp;dall&#39; elevazione</td>
+		<td bgcolor="#d2c8b5">Enviro creera&#39; una&nbsp; texture per voi, e la riempira&#39; 
+		con falsi colori basati sulla altezza.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Texture tiled 4x4</td>
+		<td bgcolor="#d2c8b5">Voi fornite un singolo grande file immagine quadrato, 
+		ed Enviro lo tagliera&#39; per voi, durante il tempo di esecuzione, in un gruppo 
+		di 16 mattonelle (4x4).&nbsp; Il nome di ogni file e&#39; fatto di tre parti: 
+		il prefisso (per es. &quot;hawaii_&quot;), la grandezza dell&#39;immagine (per es. &quot;4093&quot;) 
+		ed il formato ( BMP o JPG ). Il pannello permette di specificare il prefisso 
+		e la grandezza della mattonella&nbsp; (&quot;tile&quot;), e calcola ed aggiunge al 
+		nome la grandezza dell&#39;immagine.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">File paginato .ini</td>
+		<td bgcolor="#d2c8b5">Il file .ini che descrive un gruppo di texture tile.&nbsp; 
+		Vedere <a href="tilesets.html">tileset documentation</a>.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Mipmapping</td>
+		<td bgcolor="#d2c8b5">Questo riduce l&#39;aliasing, a spese dell&#39;uso di piu&#39; 
+		texture RAM.&nbsp; Questo puo&#39; essere di impatto anche nella velocita&#39; di 
+		resa, a seconda della propria scheda grafica.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Richiesta 16-bit</td>
+		<td bgcolor="#d2c8b5">Normalmente, le texture sono processate come immagini 
+		24-bit.&nbsp; Questa opzione dice alla scheda 3d che va bene usare solo 
+		16-bit, il che puo&#39; salvare molta texture RAM.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Precalcola Illuminazione</td>
+		<td bgcolor="#d2c8b5">Enviro rende il terreno piu&#39; illuminato o piu&#39; scuro 
+		per simulare la luce del sole.&nbsp; Questo non e&#39; necessario se viene usata 
+		una texture Geospecifica gia&#39; contenente le ombre.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Fattore di Illuminazione</td>
+		<td bgcolor="#d2c8b5">Usare questo fattore di scala per rendere le luci 
+		precalcolate piu&#39; pronunciate o piu&#39; tenui.&nbsp; 1.0 e&#39; il valore standard.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Proietta Ombre</td>
+		<td bgcolor="#d2c8b5">Se acceso, l&#39;ombreggiatura usera&#39; un approccio &quot;ray-casting&quot;, 
+		cioe&#39; il terreno portera&#39; le ombre su se stesso.&nbsp; Se questa opzione 
+		e&#39; spenta, verra&#39; usato un metodo di ombreggiatura piu&#39; semplice (&quot;dot-product&quot;).</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Dettaglio texture</td>
+		<td bgcolor="#d2c8b5"><i>Attualmente funziona sollo con l&#39;opzione McNally 
+		CLOD.<br />
+		</i>Cerchera&#39; di inserire una seconda, dettagliata texture alta-frequenza 
+		sopra l&#39;intero terreno, sfumata per distanza in modo che sia visibile solo 
+		vicino all&#39;osservatore. Attualmente questo puo&#39; essere fatto solo con una 
+		singola texture, sebbene essa possa eventualmente essere fatta con texture 
+		multiple basate sul tipo di copertura del suolo (sporco, roccia, erba, ecc.)</td>
+	</tr>
+</table>
+<h3>Cultura</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="2" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Piante</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">File Sorgente</td>
+		<td bgcolor="#b7ccb8">Il nome di un file VF (Vegetation Format) che contiene 
+		le istanze delle piante per questo terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Distanza di Visibilita&#39;</td>
+		<td bgcolor="#b7ccb8">Distanza a cui le piante sono visibili.</td>
+	</tr>
+	<tr>
+		<th rowspan="6" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Strade</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">File Sorgente</td>
+		<td bgcolor="#d2c8b5">Il nome di un file RMF (Road Map Format) che contiene 
+		le informazioni delle strade.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Scostamento dal terreno</td>
+		<td bgcolor="#d2c8b5">Tutte le linee centrali delle strade saranno elevate 
+		di questa quantita&#39; dal terreno.&nbsp; Questo puo&#39; aiutare e evitare problemi 
+		di collisione o i occlusione tra la straa ed il terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Distanza di visibilita&#39;
+		</td>
+		<td bgcolor="#d2c8b5">Distanza dalla quale le strade sono visibili.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Texture strade</td>
+		<td bgcolor="#d2c8b5">Abilitare questo per le textures (pavimentazione, 
+		strisce, etc.)</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Arredi stradali</td>
+		<td bgcolor="#d2c8b5">Abilitando questa opzione, la segnaletica (come cartelli 
+		e semafori) viene generata automaticamente dalle informazioni del traffico 
+		nel file RMF.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Comprendi...</td>
+		<td bgcolor="#d2c8b5">Potete usare queste opzioni per indicare un sottinsieme 
+		di roads da creare, per es. solo strade pavimentate.</td>
+	</tr>
+	<tr>
+		<th bgcolor="#b7ccb8" nowrap="nowrap" valign="top">&nbsp;</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Contenuti specifici el 
+		terreno</td>
+		<td bgcolor="#b7ccb8">Un file di contenuti (.vtco) che contiene voci specifiche 
+		per questo terreno. Per esempio,se il terreno e&#39; in Australia, potete avere 
+		un set di contenuti specifici nel file &quot;Australia.vtco&quot;.</td>
+	</tr>
+	<tr>
+		<th rowspan="2" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Files Structure</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">(File Sorgenti)</td>
+		<td bgcolor="#d2c8b5">Elenco di file VTST (.vtst, Built Structures)&nbsp; 
+		contenenti gli Eifici, le Istanze, e le Recinzioni per questo terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Distanza di Visibilita&#39;</td>
+		<td bgcolor="#d2c8b5">Distanza a cui le strutture sono visibili.&nbsp; Le 
+		Strutture al di fuori di questa distanza non verranno visualizzate.</td>
+	</tr>
+</table>
+<h3>Cielo &amp; Oceano</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="4" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Oceano</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Superficie Oceano</td>
+		<td bgcolor="#d2c8b5">Impostare questa opzione per creare una superficie 
+		dell&#39;&quot;oceano&quot; singola, larga, piatta che interseca il terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Livello Oceano</td>
+		<td bgcolor="#d2c8b5">Questa e&#39; l&#39;altezza, in metri, a cui apparira&#39; il 
+		piano dell&#39;oceano.&nbsp; Normalmente puo&#39; essere settato sia a 0 (il livello 
+		esatto dedl mare) o leggermente piu&#39; basso (per es. -20) per cercare i evitare 
+		i problemi di Z-buffer tra&nbsp; il&nbsp; piano dell&#39;oceano ed alcuni terreni.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Abbassamento artificiale
+		<br />
+		fondo oceano</td>
+		<td bgcolor="#d2c8b5">Impostare questa opzione per cambiare l&#39;altezza per 
+		cui tutti i punti al &quot;livello del mare&quot; (livello = 0) sono disposti artificialmente.&nbsp; 
+		Puo&#39; essere utile combinato con &quot;Superficie Oceano&quot;, dato che molti file 
+		dati di Altezze rappresentano l&#39;oceano come &quot;livello del mare&quot;, questa opzione 
+		ripristinera&#39; qualche &quot;profondita&#39;&quot; per l&#39;oceano, in modo che questo non 
+		intersechera&#39; il Piano dell&#39;Oceano.<br />
+		Un altro utile effetto di questa opzione e&#39; che essa produce un &quot;cliff&quot; 
+		sulla linea del bagnasciuga, che puo&#39; aiutare l&#39;algoritmo di CLOD a mantenere 
+		la riva.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Livello del fondo</td>
+		<td bgcolor="#d2c8b5">Il livello, in metri, per abbassare artificialmente 
+		l&#39;oceano.&nbsp; -40 metri e&#39; un valore tipico.</td>
+	</tr>
+	<tr>
+		<th rowspan="4" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Cupola celeste</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">(File Sorgente)</td>
+		<td bgcolor="#b7ccb8">Il nome del file deve essere un PNG o JPG file, che 
+		rappresenta l&#39;immagine semisferica del cielo.&nbsp; Tutti i file trovati 
+		nelle cartelle &quot;Sky&quot; nel&nbsp; data path sono disponibili.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Orizzonte Artificiale</td>
+		<td bgcolor="#b7ccb8">Se acceso, un &quot;orizzonte&quot; piatto sara&#39; posto tra il 
+		bordo del vostro terreno e la base del cielo.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Nebbia</td>
+		<td bgcolor="#b7ccb8">Nebbia provoca l&#39;apparire di un velo progressivamente 
+		distribuito, dalla completa trasparenza a contatto della camera (punto i 
+		vista), fino all&#39; opaco ad una certa distanza dalla camera.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8">Colore di Sfondo della Scena</td>
+		<td bgcolor="#b7ccb8" valign="top">This is the color that appears behind 
+		the terrain and skydome.&nbsp; If you use the skydome and artificial horizon, 
+		you won&#39;t see the background.</td>
+	</tr>
+</table>
+<h3>Livelli Astratti</h3>
+<p>Questo e&#39; il posto in cui specificare caratteristiche (feature) che non corrispondono 
+ad un reale, visibile aspetto del mondo fisico.&nbsp; Esempi: nomi i luoghi, confini 
+nazionali, tracce GPS, ecc.</p>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="2" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Livelli Astratti</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">&lt;File&gt;</td>
+		<td bgcolor="#d2c8b5">Il file da cui leggere le &quot;feature&quot;.&nbsp; Esso puo&#39; 
+		essere qualsiasi file SHP contenuto nella cartella &quot;PointData&quot;.
+		<p>Per aggiungere altri file, doppio-click.<br />
+		Per togliere file, selezionarli e premere il tasto &lt;Canc&gt;.</p>
+		<p>I tipi supportati sono: Punti 2D, Punti 3D, Polilinee 2D, Polilinee 3D, 
+		Poligoni 2D.</p>
+		</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Stile</td>
+		<td bgcolor="#d2c8b5">Per settare lo stile per un livello, selezionarlo 
+		e premere il bottone Stile....&nbsp; Il&nbsp;
+		<a href="style_dialog.html">Pannello di Stile</a> permette di indicare la 
+		modalita&#39; con cui le feature astratte verranno disegnate: colore, etichette 
+		di testo, altezza sopra il terreno, e così via.</td>
+	</tr>
+	<tr>
+		<th rowspan="2" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Overlay</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">File Immagine</td>
+		<td bgcolor="#b7ccb8">E&#39; possibile specificare un file i immagine che sara&#39; 
+		mostrato in &quot;overlay&quot; sopra la finestra 3D.&nbsp; Questo puo&#39; essere utile 
+		per cose simili ad una legenda o una mappa di riferimento.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Posizionamento</td>
+		<td bgcolor="#b7ccb8">Dove verra&#39; mostrata l&#39;immagine di&nbsp; Overlay, 
+		in coordinate pixel, relative allo spigolo in basso a sinistra della vista 
+		3D.&nbsp; E&#39; possibile usare valori negativi per indicare una posizione 
+		relativa a un altro angolo della finestra. <br />
+		Esempio: -30, 10 e&#39; una posizione 30 pixel dal lato destro della vista e 
+		10 pixel sopra il lato basso della vista.</td>
+	</tr>
+</table>
+<h3>Varie</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="6" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Navigatione</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Stile</td>
+		<td bgcolor="#d2c8b5">Vedere <a href="navigation.html">mouse navigation</a> 
+		per una descrizione dei vari stili.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Altezza minima al suolo</td>
+		<td bgcolor="#d2c8b5">La camera potra&#39; scendere fino a questa altezza minima.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Velocita&#39; di navigazione</td>
+		<td bgcolor="#d2c8b5">Questo e&#39; un fattore usato per la velocita&#39; di spostamento 
+		durante la navigazione. E&#39; possibile modificarlo al volo mentre la Vista 
+		del Terreno e&#39; in esecuzione.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">File Posizioni i default</td>
+		<td bgcolor="#d2c8b5">Potete caricare e salvare un qualunque numero di Posizioni 
+		in un file.&nbsp; Questa opzione vi permette di associare uno specifico 
+		file ad un terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Posizione Iniziale Camera</td>
+		<td bgcolor="#d2c8b5">Se avete un file di posizioni, potete scegliere una 
+		delle sue posizioni come punto i inzio della camera, quando il terreno e&#39; 
+		caricato la prima volta.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">Distanza di visibilità 
+		ravvicinata</td>
+		<td bgcolor="#d2c8b5">Conosciuto anche come &quot;Piano Anteriore&quot;, taglia qualunque 
+		cosa sia piu&#39; vicina della Distanza data e non la disegna. Bisogna stare 
+		attenti a non definire questo valore troppo piccolo, per non avere problemi 
+		di Z-buffer, a seconda della propria scheda grafica; provate a incrementare 
+		questa distanza urante il runtime.&nbsp; Se questo risolve il problema, 
+		potete rendere permanente la modifica usano questo parametro nella proprietà 
+		di lancio.</td>
+	</tr>
+	<tr>
+		<th rowspan="3" bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Tempo</th>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Data e ora di avvio</td>
+		<td bgcolor="#b7ccb8">Valore, da 0 a 24, per il l&#39;orario del giorno mostrato 
+		da Enviro quando mostra il terreno.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Tempo in movimento</td>
+		<td bgcolor="#b7ccb8">Se impostato, il sole e la luce cambiano, giorno e 
+		notte trascorreranno nel cielo, e la luna e le stelle si sposteranno urante 
+		la notte.&nbsp; Da notare che attualmente l&#39;illuminazione della superficie 
+		del terreno stesso non viene cambiata dinamicamente - essa rimane quella 
+		del momento iniziale.</td>
+	</tr>
+	<tr>
+		<td bgcolor="#b7ccb8" nowrap="nowrap" valign="top">Più veloce del reale</td>
+		<td bgcolor="#b7ccb8">Guarare il sole muoversi nel cielo alla velocita&#39; 
+		reale puo&#39; richiedere troppa pazienza.&nbsp; Provate a cambiare questo campo 
+		con valori maggiori di 1 (per es. 1000) per vedere il tempo trascorrere 
+		rapidamente.</td>
+	</tr>
+</table>
+<h3>Scenari</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th rowspan="6" bgcolor="#d2c8b5" nowrap="nowrap" valign="top">(Lista di 
+		Scenari)</th>
+		<td bgcolor="#d2c8b5" nowrap="nowrap" valign="top">&nbsp;</td>
+		<td bgcolor="#d2c8b5">Uno scenario e&#39; un set di livelli visibili.&nbsp; 
+		Potete usare i bottoni auto-esplicanti (Nuovo, Cancella, Modifica, Sposta 
+		in alto, Sposta in basso) per creare un gruppo di Scenari.&nbsp; Durante 
+		il runtime, e&#39; possibile scambiare tra questi scenari per mostrare differenti 
+		gruppi di livelli visibili.<br />
+		Per esempio, si possono creare ue scenari chiamati &quot;Esistente&quot; and &quot;Proposta&quot; 
+		e passare facilmente dall&#39;uno all&#39;altro.</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

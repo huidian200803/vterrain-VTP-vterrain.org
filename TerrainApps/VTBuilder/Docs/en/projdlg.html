@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder: Projection Dialog</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h2>Projections and Coordinate Systems</h2>
+<blockquote>
+	<p>It's recommended to read the VTP website regarding
+	<a href="http://vterrain.org/Projections/">Coordinate Systems and Map Projections</a>.
+	</p>
+	<p>Technically speaking, what VTBuilder refers to as a &quot;projection&quot; 
+	is actually a &quot;coordinate reference system&quot;, or CRS for short.&nbsp; 
+	However, since a great many CRS are projected, it is a common colloquial usage 
+	to refer to a CRS as a &quot;projection&quot;.</p>
+</blockquote>
+<h3>Projection Dialog</h3>
+<blockquote>
+	<p>This dialog is displayed on the menu items View: Set or Convert Projection, 
+	and also when VTBuilder needs to ask you for a CRS, such as when importing a 
+	file which lacks a CRS.</p>
+	<p>There are several fields which define a CRS, which are displayed in the dialog:</p>
+	<ul>
+		<li><b>Projection</b><ul>
+			<li>This can be either Geographic (longitude-latitude, not projected) 
+			or any of several styles of projection, such as Transverse Mercator 
+			or Lambert Conformal Conic.</li>
+		</ul>
+		</li>
+		<li><b>Datum</b><ul>
+			<li>You can choose from a short list of commonly-used Datums, or click &quot;Show 
+			All Datums&quot; to select from a long list of more unusual Datums.</li>
+		</ul>
+		</li>
+		<li><b>Horizontal Units</b><ul>
+			<li>This is always Degrees for a Geographic CRS.&nbsp; For most projections, 
+			it can be Meters, Feet, or US Survey Feet.&nbsp; For the Dymaxion Projection, 
+			this value is always Unit Edges (1.0 = length of a projected face edge)</li>
+		</ul>
+		</li>
+		<li><b>Zone</b><ul>
+			<li>Certain projections, such as UTM, can be specified quickly with 
+			a Zone number.</li>
+		</ul>
+		</li>
+		<li><b>Parameters</b><ul>
+			<li>If your projection is unusual (not common, like UTM), then you may 
+			have to manually enter the parameters.&nbsp; To edit them, select any 
+			value then right-click it to supply a new value.</li>
+		</ul>
+		</li>
+	</ul>
+	<p>There are also some commands to make specifying projections easier:</p>
+	<ul>
+		<li><b>Set State Plane Projection</b><ul>
+			<li>If you know that your CRS is a U.S. State Plane CS, then you can 
+			use this command to specify it, and the parameters will be automatically 
+			supplied.</li>
+		</ul>
+		</li>
+		<li><b>Load / Save to File</b><ul>
+			<li>It is often convenient to define a projection once, then recall 
+			it easily later.&nbsp; These commands will save and load the current 
+			projection to a standard projection file (.prj) which contains a Well-Known-Text 
+			representation of the CRS.</li>
+		</ul>
+		</li>
+	</ul>
+</blockquote>
+
+</body>
+
+</html>

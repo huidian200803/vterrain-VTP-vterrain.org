@@ -1,0 +1,34 @@
+/* XPM */
+static const char *fog_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 12 1",
+"  c None",
+". c #5F5F5F",
+"X c #777777",
+"o c #868686",
+"O c gray59",
+"+ c #B2B2B2",
+"@ c #CBCBCB",
+"# c #D7D7D7",
+"$ c #DDDDDD",
+"% c gray89",
+"& c #EAEAEA",
+"* c #FFFEFD",
+/* pixels */
+"                ",
+"    XoO+@#$O    ",
+"  .XXoO+@#$%&O  ",
+"  .XXoO+@#$%&*  ",
+" ..XXoO+@#$%&*O ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&** ",
+" ..XXoO+@#$%&*O ",
+"  .XXoO+@#$%&*  ",
+"  .XXoO+@#$%&O  ",
+"    XoO+@#$O    ",
+"                "
+};

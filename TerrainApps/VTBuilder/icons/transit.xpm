@@ -1,0 +1,27 @@
+/* XPM */
+static const char *transit_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1",
+"  c black",
+". c blue",
+"X c green",
+"o c red",
+"O c None",
+/* pixels */
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOO   O",
+"OOOOOOOO    XOOO",
+"OOOO    OOXXXXOO",
+"O   .OOOOOOX   O",
+"OO....OOO   OOOO",
+"OOO.   OO OOOOOO",
+"O   OO OOO OOOOO",
+"OOOOOOO oo OOOOO",
+"OOOOOOO oo OOOOO",
+"OOOOOOO oo OOOOO",
+"OOOOOOOO OO OOOO",
+"OOOOOOOO OO OOOO",
+"OOOOOOOO OO OOOO",
+"OOOOOOOOOOOOOOOO"
+};

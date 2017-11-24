@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Dati in un Percorso Differente</title>
+</head>
+
+<body>
+
+<h2><i>Enviro</i></h2>
+<h3>Il Percorso Dati</h3>
+<ul>
+	<li>Per posizionare la cartella Dati in un&#39;altra collocazione, oppure in diverse 
+	collocazioni all&#39;interno del computer, si deve modificare il Percorso Dati.</li>
+	<li>Il modo più facile per questa operazione è utilizzare la
+	<a href="startup.html">Finestra di Dialogo Gestione Terreno</a>.</li>
+</ul>
+<h4>Il file vtp.xml</h4>
+<ul>
+	<li>In alternativa, si può modificare il file<code> vtp.xml</code>. Tale file 
+	viene creato (se non esiste) la prima volta che si lancia Enviro.<br />
+	Questo è collocato nella cartella delle impostazioni.<br />
+	Su Windows, il percorso tipico è C:\Documents and Settings\<em>Utente</em>\Dati 
+	applicazioni<br />
+	Su Unix, il percorso tipico è la cartella home del proprio account utente.</li>
+	<li>Se i dati si trovano in posti differenti, si possono semplicemente inserire 
+	diversi elementi &quot;<code>DataPath</code>&quot; all&#39;interno del file <code>vtp.xml</code>, 
+	e tutti i dati su tutti i percorsi saranno disponibili per tutte le appilcazioni 
+	VTP.</li>
+	<li>Un percorso può essere relativo o assoluto, ed è preferibile che termini 
+	con il simbolo dello slash &quot;/&quot;. Ad esempio, il percorso di default è il seguente:<br />
+	<code>&nbsp;&nbsp;&nbsp; &lt;DataPath&gt;../Data/&lt;/DataPath&gt; </code><br />
+	E&#39; possibile cambiare questo nei percorsi che seguono, a seconda della piattaforma 
+	di lavoro:<br />
+	<code>&nbsp;&nbsp;&nbsp; &lt;DataPath&gt;../../Data/&lt;/DataPath&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;DataPath&gt;C:\MyData\&lt;/DataPath&gt;<br />
+&nbsp;&nbsp;&nbsp; &lt;DataPath&gt;/home/me/mydata/&lt;/DataPath&gt;</code></li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+country
+creator
+language
+manufacturer
+model-name
+model-year
+url
+wire_info
+num_wheels
+colorable
+behavior

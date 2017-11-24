@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vtocx", "vtocx.vcproj", "{259FBB52-7E33-48E2-943B-8D349F92C875}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1045CA3D-3526-482B-B4BA-ACBF57404E9B} = {1045CA3D-3526-482B-B4BA-ACBF57404E9B}
+		{F35AD44A-5921-4C7F-842F-0B3138825EA6} = {F35AD44A-5921-4C7F-842F-0B3138825EA6}
+		{C2715AAA-C99B-438E-BF57-8357BD21AE98} = {C2715AAA-C99B-438E-BF57-8357BD21AE98}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vtdata", "..\..\TerrainSDK\vtdata\vtdata.vcproj", "{C2715AAA-C99B-438E-BF57-8357BD21AE98}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vtosg", "..\..\TerrainSDK\vtlib\vtosg\vtosg.vcproj", "{1045CA3D-3526-482B-B4BA-ACBF57404E9B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlhelper", "..\..\TerrainSDK\xmlhelper\xmlhelper.vcproj", "{F35AD44A-5921-4C7F-842F-0B3138825EA6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OSGaxClient", "ClientApp\OSGaxClient.vcproj", "{E7D63068-372C-4696-977B-F333526535A6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{259FBB52-7E33-48E2-943B-8D349F92C875}.Debug.ActiveCfg = Debug|Win32
+		{259FBB52-7E33-48E2-943B-8D349F92C875}.Debug.Build.0 = Debug|Win32
+		{259FBB52-7E33-48E2-943B-8D349F92C875}.Release.ActiveCfg = Release|Win32
+		{259FBB52-7E33-48E2-943B-8D349F92C875}.Release.Build.0 = Release|Win32
+		{C2715AAA-C99B-438E-BF57-8357BD21AE98}.Debug.ActiveCfg = Debug|Win32
+		{C2715AAA-C99B-438E-BF57-8357BD21AE98}.Debug.Build.0 = Debug|Win32
+		{C2715AAA-C99B-438E-BF57-8357BD21AE98}.Release.ActiveCfg = Release|Win32
+		{C2715AAA-C99B-438E-BF57-8357BD21AE98}.Release.Build.0 = Release|Win32
+		{1045CA3D-3526-482B-B4BA-ACBF57404E9B}.Debug.ActiveCfg = Debug|Win32
+		{1045CA3D-3526-482B-B4BA-ACBF57404E9B}.Debug.Build.0 = Debug|Win32
+		{1045CA3D-3526-482B-B4BA-ACBF57404E9B}.Release.ActiveCfg = Release|Win32
+		{1045CA3D-3526-482B-B4BA-ACBF57404E9B}.Release.Build.0 = Release|Win32
+		{F35AD44A-5921-4C7F-842F-0B3138825EA6}.Debug.ActiveCfg = Debug|Win32
+		{F35AD44A-5921-4C7F-842F-0B3138825EA6}.Debug.Build.0 = Debug|Win32
+		{F35AD44A-5921-4C7F-842F-0B3138825EA6}.Release.ActiveCfg = Release|Win32
+		{F35AD44A-5921-4C7F-842F-0B3138825EA6}.Release.Build.0 = Release|Win32
+		{E7D63068-372C-4696-977B-F333526535A6}.Debug.ActiveCfg = Debug|Win32
+		{E7D63068-372C-4696-977B-F333526535A6}.Debug.Build.0 = Debug|Win32
+		{E7D63068-372C-4696-977B-F333526535A6}.Release.ActiveCfg = Release|Win32
+		{E7D63068-372C-4696-977B-F333526535A6}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

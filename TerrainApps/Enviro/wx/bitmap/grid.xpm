@@ -1,0 +1,29 @@
+/* XPM */
+static const char *grid_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 3 1",
+"  c None",
+"a c Black",
+"b c #BFBF00",
+/* pixels */
+"                    ",
+" aaaaaaaaaaaaaaaaaa ",
+" abbbbabbbbabbbbabb ",
+" abbbbabbbbabbbbabb ",
+" aaaaaaaaaaaaaaaaaa ",
+" a    a    a    a   ",
+" a    a    a    a   ",
+" aaaaaaaaaaaaaaaaaa ",
+" a    a    a    a   ",
+" a    a    a    a   ",
+" aaaaaaaaaaaaaaaaaa ",
+" a    a    a    a   ",
+" a    a    a    a   ",
+" aaaaaaaaaaaaaaaaaa ",
+" a    a    a    a   ",
+" a    a    a    a   ",
+" aaaaaaaaaaaaaaaaaa ",
+" a    a    a    a   ",
+" a    a    a    a   ",
+"                    "
+};

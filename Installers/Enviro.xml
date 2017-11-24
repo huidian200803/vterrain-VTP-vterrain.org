@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EnviroOptions>
+	<EarthView>0</EarthView>
+	<EarthImage>ev11656_1024</EarthImage>
+	<InitialTerrain>Simple Terrain</InitialTerrain>
+	<FullScreen>0</FullScreen>
+	<Stereo>0</Stereo>
+	<StereoMode>0</StereoMode>
+	<Multisamples>4</Multisamples>
+	<WindowLocation>50 50 1024 800</WindowLocation>
+	<LocationIsInside>0</LocationIsInside>
+	<HTMLPane>0</HTMLPane>
+	<FloatingToolBar>0</FloatingToolBar>
+	<TextureCompression>1</TextureCompression>
+	<PlantSize>1</PlantSize>
+	<PlantShadows>0</PlantShadows>
+	<ShowOnlyAvailableSpecies>1</ShowOnlyAvailableSpecies>
+	<DirectPicking>0</DirectPicking>
+	<SelectionCutoff>10</SelectionCutoff>
+	<DisableModelMipmaps>0</DisableModelMipmaps>
+	<CursorThickness>0.012</CursorThickness>
+	<CatenaryFactor>2000</CatenaryFactor>
+	<ContentFile>common_content.vtco</ContentFile>
+	<MaxPickableInstanceRadius>200</MaxPickableInstanceRadius>
+	<ShowProgress>1</ShowProgress>
+	<FlyIn>0</FlyIn>
+	<UseJoystick>0</UseJoystick>
+	<UseSpaceNav>0</UseSpaceNav>
+	<TBCulture>1</TBCulture>
+	<TBSnapshot>1</TBSnapshot>
+	<TBTime>1</TBTime>
+</EnviroOptions>

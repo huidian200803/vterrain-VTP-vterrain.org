@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder Water</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+
+<h3>Water Layers</h3>
+<blockquote>
+  <p>VTBuilder can import water (shoreline/river vectors) data from these formats:</p>
+  <ul>
+    <li>USGS DLG Hydrography</li>
+    <li>US Census TIGER</li>
+    <li>ESRI Shape files and other GIS vector formats</li>
+  </ul>
+  <p>Currently you can only display water data.&nbsp; This can be very useful as 
+  an aid in aligning other data layers.&nbsp; However, since there is no 
+  standard file format yet for streams and rivers, they can't be saved.</p>
+</blockquote>
+
+<h3>Water as an Elevation Layer</h3>
+<p class="indent">The VTP 3D runtime environment (Enviro) can load an elevation 
+TIN as a water surface.&nbsp; This is a very powerful way to represent water, as 
+a surface which typically intersects the ground surface.&nbsp; Where is it 
+higher than the ground, water is visible.&nbsp; This is very similar to how 
+water is modeled as &quot;water table&quot; in hydrology.</p>
+<p class="indent">To work with this kind of water in VTBuilder, it is treated 
+just like an elevation TIN, so you can treat it as an <a href="elevation.html">
+Elevation Layer</a>.&nbsp; Save your TIN to the standard format (.itf) and 
+location (Data/Elevation).&nbsp; In Enviro, you can specify it as water using
+<strong>Terrain Parameters: Ephemeris: Water surface</strong>.</p>
+
+</body>
+
+</html>

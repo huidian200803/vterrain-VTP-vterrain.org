@@ -1,0 +1,30 @@
+/* XPM */
+static const char *fence_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 3 1",
+/* colors */
+"` c #000000",
+"a c None",
+"b c #808080",
+/* pixels */
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaab`aa",
+"aaaaaaaaaaaaaaaab`aa",
+"aaaaaaaaaaaaaaa```aa",
+"aaaaaaaaaaaaa``ab`aa",
+"aaaaaaaaab```aaab`aa",
+"aaaaaaaaab`aaaa```aa",
+"aaaaaaaa```aa``ab`aa",
+"aaaaaaa`ab```aaaaaaa",
+"aaaaaa`aab`aaaaaaaaa",
+"aab```aa```aaaaaaaaa",
+"aab`aaa`ab`aaaaaaaaa",
+"aab`aa`aaaaaaaaaaaaa",
+"aab```aaaaaaaaaaaaaa",
+"aab`aaaaaaaaaaaaaaaa",
+"aab`aaaaaaaaaaaaaaaa",
+"aab`aaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa"
+};

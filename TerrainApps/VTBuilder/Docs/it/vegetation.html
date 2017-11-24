@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>VTBuilder Vegetation</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">back to index</font></a></h1>
+<h3>Livelli della Vegetazione</h3>
+<blockquote>
+	<p>Per dettagli su come il software VTP rappresenta la vegetazione, leggete 
+	la pagina web <a href="http://vterrain.org/Doc/Veg/">VTP Implementation 
+	Vegetation</a>. Ciò che segue presuppone che voi abbiate familiarità con la 
+	terminologia.</p>
+	<p>VTBuilder può importare dati vegetazione dai seguenti:</p>
+	<ul>
+		<li>ESRI Shape files (<b>.shp</b>)</li>
+		<li>USGS LULC (Land Use / Land Cover, in generale l&#39;enstensione del file 
+		é <b>.gir</b>)</li>
+	</ul>
+	<p>Ci sono diversi tipi di dati Vegetazione.</p>
+	<ol>
+		<li><b>Biotipo</b> - aree poligonali che descrivono il tipo di pianta 
+		trovate in ciascuna area.</li>
+		<li><b>Densità</b> - aree poligonali che contengono l&#39;informazione 
+		(compresa tra 0 e 1) su quanto é desa la vegetazione.</li>
+		<li><b>Esplicita</b> - un gruppo di istanze di piante.</li>
+	</ol>
+	<p>Attualmente è possibile:</p>
+	<ul>
+		<li>Importare <b>Biotipi</b> da Shapefile.</li>
+		<li>Importare <b>Densità</b> da LULC e Shapefile.</li>
+		<li>Leggere e scrivere istanze <b>Esplicite</b> con file VF, che possono 
+		essere letti anche da VTP Enviro</li>
+	</ul>
+	<p>Prima di fare qualunque operazione con la vegetazione,</p>
+	<ol>
+		<li>Siate sicuri di avere un file delle specie necessarie. Un file di 
+		esempio é <code>VTP/Enviro/Data/PlantData/species.xml</code></li>
+		<li>Caricate il vostro file di specie con il comando da menu 
+		&quot;Vegetazione: Lista delle Specie&quot;.&nbsp; </li>
+	</ol>
+	<p>Se avete i dati puntuali di ciascuna pianta, questi sono i passi per 
+	importare le istanze esplicite delle piante:</p>
+	<ol>
+		<li>Usate il comando da menu &quot;Livellio: Importa Dati&quot; ed indicate 
+		Vegetazione.</li>
+		<li>Indicate il file che coniene i punti delle vostre istanze.&nbsp; 
+		Generalmente si tratta di uno SHP file.</li>
+		<li>Salvate il livello risultante in un file VF, che può essere usato da 
+		Enviro.</li>
+	</ol>
+	<p>Se avete un&#39;ara coperta da una specie singola di pianta, questi sono i 
+	passi per generare una distribuzione di vegetazione:</p>
+	<ol>
+		<li>Usate lo <a href="export_area.html">Strumento Area</a> per indicare 
+		la zona in cui volete distribuire la vegetazione</li>
+		<li>Date il comando da menu &quot;Strumento Area - Genera Vegetazione&quot;.&nbsp; Un 
+		pannello di dialogo vi chiederà :
+		<ul>
+			<li>Spaziatura della Griglia di campionamento, in metri.&nbsp; La 
+			distribuzione avverrà su una griglia regolare.&nbsp; Per ogni punto, 
+			verrà testato quale tipo di pianta ricade in quella posizione, 
+			considerando tutti dati di ingresso conosciuti.&nbsp; Quindi, se viene 
+			generata una pianta, viene applicato un piccolo slittamento per 
+			evitare un aspetto troppo &quot;regolare&quot; rispetto ad una distribuzione 
+			casuale.</li>
+			<li>Scarsità Artificiale.&nbsp; Molti dei sistemi di simulazione 
+			interattiva non possono gestire la densità completa della 
+			vegetazione del mondo reale.&nbsp; Potete impostare questo valore 
+			nferiore ad 1 per produrre una distribuzione artificialmente 
+			scarsa.&nbsp; Per esempio, 0.001 produrrà 1/1000 della normale densità di 
+			vegetazione.</li>
+		</ul>
+		</li>
+		<li>Il risultante file VF può essere usato da Enviro.</li>
+	</ol>
+	<p>Se invece avete dati poligonali che descrivono l&#39;area generale coperta da 
+	un certo numero di piante, usate questi passi per generare una distribuzione 
+	di vegetali:</p>
+	<ol>
+		<li>Caricate la vostra Bioregione (lista di Biotipi) con il comando da 
+		menu &quot;Vegetazione: BioRegioni&quot;.<br />
+		Un file di esempio é in <code>Data/PlantData/bioregion.txt<br />
+		</code>Le densità sono descritte da piante per metro quadro.</li>
+		<li>Importate almeno un livello di vegetazione con <b>Biotipo</b>.&nbsp; 
+		Biotipo é un indice che parte da 0, e così un campo intero con valori di 
+		0, 1, 2, 3 ecc. indica quale biotipo.</li>
+		<li>Se avete anche (<i>optionalmente</i>) dati poligonali con 
+		informazioni aggiuntive sulla densità di piante, importate quel livello 
+		come <b>Densità</b>.&nbsp; Questo può essere lo stesso file GIS che contiene 
+		il Biotipo, oppure un file separato come un LULC file.&nbsp; Se non avete un 
+		file dati, verrà assunta la &quot;Normale Densità&quot;.</li>
+		<li>Usate lo <a href="export_area.html">Strumento Area</a> per indicare 
+		l&#39;area su cui distribuire la vegetazione</li>
+		<li>Date il comando da menu &quot;Strumento Area - Genera Vegetazione&quot;.&nbsp; Si 
+		aprirà un pannello di dialogo che chiederà :
+		<ul>
+			<li>Spaziatura della Griglia di campionamento, in metri.&nbsp; La 
+			distribuzione avverrà su una griglia regolare.&nbsp; Per ogni punto, 
+			verrà testato per vedere quale tipo di pianta cade in quella 
+			posizione, secondo i dati di ingresso conosciuti. Poi, se una pianta 
+			é generata, viene applicato un piccolo slittamento per evitare 
+			l&#39;aspetto troppo &quot;regolare&quot; di una distribuzione su una griglia.</li>
+			<li>Scarsità Artificiale.&nbsp; Molti dei sistemi di simulazione 
+			interattiva non possono gestire la densità completa della 
+			vegetazione del mondo reale.&nbsp; Potete impostare questo valore 
+			nferiore ad 1 per produrre una distribuzione artificialmente 
+			scarsa.&nbsp; Per esempio, 0.001 produrrà 1/1000 della normale densità di 
+			vegetazione.</li>
+		</ul>
+		</li>
+		<li>Questo file potrà essere nuovamente caricato in VTBuilder per 
+		cercare di correggere la distribuzione, oppure può essere caricato i 
+		Enviro per la visualizzazione 3D.</li>
+	</ol>
+	<p>Prego <a href="mailto:ben@vterrain.org">inviatemi domande via email</a></p>
+</blockquote>
+
+</body>
+
+</html>

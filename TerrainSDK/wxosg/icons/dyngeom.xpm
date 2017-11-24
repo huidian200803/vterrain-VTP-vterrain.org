@@ -1,0 +1,26 @@
+/* XPM */
+static const char *dyngeom_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1 ",
+"  c #040404",
+". c #5F5F5F",
+"X c #FFFEFD",
+"o c None",
+/* pixels */
+"oooooo....oooooo",
+"oooooo.XX.oooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo..   ooooo",
+"oooooo...  ooooo",
+"oooooo.XX  ooooo",
+"oooooo.XX  ooooo",
+"oooooo..   ooooo",
+"oooooooo   ooooo"
+};

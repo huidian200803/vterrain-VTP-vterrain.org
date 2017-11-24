@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder - Elevation</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder<br /></h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h2>Elevation Layers</h2>
+<blockquote>
+	<p>VTBuilder will read in elevation files from a large number of formats, 
+	and process them to prepare for visualization. You can load multiple files, 
+	select the area of interest to export, resample them, and many other 
+	operations.</p>
+	<p>VTBuilder can import elevation grid data from these formats:</p>
+	<ul>
+		<li>USGS DEM (Digital Elevation Models)</li>
+		<li>SDTS DEM</li>
+		<li>MicroDEM DEM</li>
+		<li>several less-common flavors of DEM</li>
+		<li>GTOPO30</li>
+		<li>DTED0 (DTED1 is untested)</li>
+		<li>CDF/netCDF</li>
+		<li>image formats: PNG, TIF, GeoTIFF</li>
+		<li>PGM<b> (&quot;</b>portable graymap format&quot;)</li>
+		<li><a href="http://www.goldensoftware.com/frames/surferframe.htm">Surfer 
+		7</a> Binary Grid</li>
+		<li>TerraGen terrains</li>
+		<li>raw data without a header</li>
+		<li>ArcInfo Ascii Grid</li>
+		<li>ArcInfo BIL (includes NOAA Globe files)</li>
+		<li>several other formats</li>
+	</ul>
+	<blockquote>
+		<p>If any of your terrain grids use different coordinates (such as different 
+		UTM zones), VTBuilder can convert them to the same projection for you.</p>
+	</blockquote>
+	<p>The native format for elevation grids is the
+	<a href="http://vterrain.org/Implementation/Formats/BT.html">BT format</a>.&nbsp; 
+	BT can be read by the VTP <b>Enviro</b> program and other virtual terrain software.</p>
+	<p>VTBuilder can also export elevation to ArcInfo ASCII Grid, GeoTIFF, TerraGen, 
+	BMP, STM, MSI Planet, VRML ElevationGrid, RAW/INF for MS Flight Simulator, ChunkLOD, 
+	and 16-bit PNG.&nbsp; However, format conversion is <b>not the intended use 
+	of the software.</b>&nbsp; The primary purpose of VTBuilder is to prepare data 
+	for 3D visualization.</p>
+</blockquote>
+<h4>TINs (Triangular Irregular Networks)</h4>
+<blockquote>
+	<p>Additionally, VTBuilder can import TIN elevation from these formats:</p>
+	<ul>
+		<li>AutoCAD DXF</li>
+	</ul>
+	<p>The native format for TIN data is the ITF file format.&nbsp; ITF can be read 
+	by the VTP <b>Enviro</b> program for visualization.&nbsp; Unfortunately, there 
+	is no common standard file format for TIN data.&nbsp; That is why we had to 
+	invent our own ad-hoc native format (ITF).</p>
+</blockquote>
+<h4>Display of Elevation Layers</h4>
+<blockquote>
+	<p>The default is to display elevation as artificially shaded and false-colored 
+	by elevation.&nbsp; Elevation at sea level is shown in blue.&nbsp; Areas of 
+	unknown elevation are shown in red, unless hidden with the <b>View: Hide Unknown 
+	Areas</b> option</p>
+</blockquote>
+<h4>How To Sample and Export Elevation</h4>
+<ul>
+	<li>Use the Area Tool to drag the black lines with the mouse to indicate the 
+	area of interest.&nbsp; You can also type in precise extents with the command
+	<b>Area Tool - Numeric Values</b></li>
+	<li>Use the command &quot;<b>Area Tool - <a href="export_area.html">Sample Elevation</a></b>&quot; to create a BT file.&nbsp; There will also 
+	be a PRJ file created with the same name as the BT file, which contains a full 
+	description of the projection. For example:<div class="center">
+		<center>
+		<table border="1" cellspacing="0">
+			<tr>
+				<td><code>hawaii_1k.bt</code></td>
+			</tr>
+			<tr>
+				<td><code>hawaii_1k.prj</code></td>
+			</tr>
+		</table>
+		</center></div>
+	</li>
+	<li>Important!&nbsp; If you will be using this for terrain LOD in Enviro 
+	(recommended), let VTBuilder enforce the size constraints in the <strong>Sample 
+	Elevation</strong> 
+	dialog.</li>
+	<li>If you have overlapping elevation layers, then the <i>last</i> elevation 
+	(in the order shown in the Layers View) with valid data will override the 
+	others.&nbsp; Therefore, if you have overlapping low-resolution and high-resolution 
+	layers, and want to sample them together, load the low-resolution layers <i>first.</i></li>
+</ul>
+<h3>Elevation Menu</h3>
+<ul>
+	<li><b>Select Elevation Layer </b>
+	<ul>
+		<li>Use this mode to pick elevation layers with the mouse.</li>
+	</ul>
+	</li>
+	<li><b>Scale Elevation </b>
+	<ul>
+		<li>For the currently selected layer, scales the elevation values up or 
+		down.</li>
+	</ul>
+	</li>
+	<li><b>Remove Elevation Range...</b><ul>
+		<li>For the currently selected layer, asks the user for a range of elevation, 
+		for example -100 to 100 meters, then sets all elevation points which are 
+		within this range to 'unknown' (shown as red)</li>
+	</ul>
+	</li>
+	<li><b>Fill In Unknown Areas</b><ul>
+		<li>For the currently selected layer, this feature can be used to fill &quot;cracks&quot; 
+		of unknown values.&nbsp; The unknown areas are filled in by interpolating 
+		the surrounding known areas.</li>
+	</ul>
+	</li>
+	<li><b>Set Unknown Areas</b><ul>
+		<li>For the currently selected layer, sets all unknown areas to the value 
+		you provide.</li>
+	</ul>
+	</li>
+	<li><b>Export To...</b><ul>
+		<li>Writes the current elevation grid layer to one of the following file 
+		formats:<ul>
+			<li>ArcInfo ASCII Grid</li>
+			<li>GeoTIFF</li>
+			<li>TerraGen</li>
+			<li>BMP (scaled to 8-bit)</li>
+			<li>STM</li>
+			<li>MSI Planet</li>
+			<li>VRML ElevationGrid</li>
+			<li>RAW/INF (for Microsoft Flight Simulator)</li>
+			<li>ChunkLOD (.chu)</li>
+			<li>PNG (16-bit greyscale)</li>
+			<li>3TX</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li><b>Export to Tiles...</b><ul>
+		<li>Writes the current elevation grid layer to a set of tiles.&nbsp; The
+		<b>Tiling Options </b>dialog will be shown.&nbsp; The output file should 
+		be an .ini file on your data path.&nbsp; For example, if you save to
+		<code>/Data/Elevation/Foo.ini</code>, then that file will contain a description 
+		of the tileset, and all the tiles will be placed in a directory called
+		<code>/Data/Elevation/Foo</code></li>
+	</ul>
+	</li>
+	<li><b>Render to Bitmap...</b><ul>
+		<li>Creates and a rendered bitmap (GeoTIFF or JPEG) of the currently selected 
+		Elevation Layer.&nbsp; The elevation is used to provide artificial color 
+		and shading for the bitmap.&nbsp; The bitmap can either be written to disk, 
+		or created a new Image Layer.&nbsp; When you don't have any imagery for 
+		your area, only elevation, this can give you a visually useful image - similar 
+		to the &quot;Texture: Derive from Elevation&quot; option in Enviro, but 
+		better because the image is generated before runtime.</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

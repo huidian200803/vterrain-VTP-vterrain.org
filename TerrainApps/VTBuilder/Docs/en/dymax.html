@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder - Dymaxion Textures</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+
+<h3>Dymaxion Textures</h3>
+<blockquote>
+  <p>The VTP libraries and applications support texture-mapping the whole earth
+  using the <i>Dymaxion Projection</i>, which is an icosahedral projection of
+  the earth developed by Buckminster Fuller in 1934.&nbsp; For more explanation
+  of the projection, see <b>Icosahedral mapping</b> on the vterrain.org <a href="http://vterrain.org/Textures/spherical.html">Spherical Textures</a>
+  page.</p>
+  <p>10 square textures are used to cover the earth.&nbsp; However, most earth
+  images are distributed as a single, large rectangular image using a straight
+  geographic projection:</p>
+  <p><img alt="earth-1" height="240" src="../images/earth-1.jpg" width="440" /></p>
+  <p>What is needed is a way to project this image into the 10 square texture
+  tiles used for the Dymaxion Projection, which look like these:</p>
+  <p><img alt="earth-2" height="202" src="../images/earth-2.jpg" width="457" /></p>
+  <p>VTBuilder provides a menu command &quot;Project: Create Dymaxion
+  Textures&quot; which will do this operation for you.&nbsp; It asks for:</p>
+  <ul>
+    <li>The filename of the original, which should be in BMP or PNG format</li>
+    <li>The size of each output tile, in pixels.
+      <ul>
+        <li>You are given a choice of a power of 2, from 128 to 4096.&nbsp;
+          Larger sizes give a crisper image on the earth, but use more texture
+          memory.&nbsp; Here is a rough guide to how much texture memory will be
+          required at run time:<br/>
+      <table border="1" cellpadding="3" cellspacing="0">
+        <tbody>
+        <tr>
+          <td>recommended<br />
+		  input size, at least:</td>
+          <td>
+		  <style type="text/css"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--></style>
+		  Approximate<br />
+		  earth resolution<br />
+		  in meters</td>
+          <td>Tile Size</td>
+          <td>Per Tile<br />
+		  RGBA</td>
+          <td>Per Tile<br />
+		  RGB565</td>
+          <td>10 tiles</td>
+          <td>Per Tile,<br />
+		  compressed texture<br />
+		  (ECT/DXTC/S3TC)</td>
+          <td>10 tiles</td>
+        </tr>
+        <tr>
+          <td>1280 x 640</td>
+          <td>31300</td>
+          <td>256</td>
+          <td>256k</td>
+          <td>128k</td>
+          <td>1.25 MB</td>
+          <td>32k</td>
+          <td>
+		  <style type="text/css"><!--td {border: 1px solid #ccc;}br {mso-data-placement:same-cell;}--></style>
+		  0.3125 MB</td>
+        </tr>
+        <tr>
+          <td>2560 x 1280</td>
+          <td>15650</td>
+          <td>512</td>
+          <td>1 MB</td>
+          <td>512k</td>
+          <td>5 MB</td>
+          <td>128k</td>
+          <td>1.25 MB</td>
+        </tr>
+        	<tr>
+          <td>5120 x 2560</td>
+          <td>7825</td>
+          <td>1024</td>
+          <td>4 MB</td>
+          <td>2 MB</td>
+          <td>20 MB</td>
+          <td>512k</td>
+          <td>5 MB</td>
+        	</tr>
+        <tr>
+          <td>10240 x 5120</td>
+          <td>3913</td>
+          <td>2048</td>
+          <td>16 MB</td>
+          <td>8 MB</td>
+          <td>80MB</td>
+          <td>2 MB</td>
+          <td>20 MB</td>
+        </tr>
+      </tbody>
+      </table>
+        </li>
+        <li>Keep in mind the texture memory of the 3D hardware you will be 
+		using.</li>
+        <li>Also remember that there is no reason to exceed the resolution of your
+          input file.&nbsp; As a rough guide, tile size should be <b>1/5 </b>of
+          the source image width.</li>
+      </ul>
+    </li>
+    <li>The prefix for the output files names.&nbsp; Can be any string, such as
+      &quot;my_earth_512_&quot;&nbsp; It is recommended that you put the tile
+      size (such as 512) in this file name.</li>
+  </ul>
+  <p>The projection is then done and the files are written to the same directory
+  as the source image.</p>
+  <p>To use your image tiles in Enviro, copy them to the &quot;Data/WholeEarth&quot;
+  folder, then choose it from the Enviro Startup dialog.</p>
+</blockquote>
+
+</body>
+
+</html>

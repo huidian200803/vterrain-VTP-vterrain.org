@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Navigation</title>
+<style type="text/css">
+.auto-style1 {
+	font-size: 100%;
+}
+.auto-style2 {
+	text-align: center;
+	font-size: 80%;
+}
+.auto-style3 {
+	border-style: solid;
+	border-width: 1px;
+	font-size: 120%;
+}
+</style>
+</head>
+
+<body>
+
+<h1><em>Enviro</em></h1>
+<h2>Navigation on a virtual terrain</h2>
+<blockquote>
+	<h3>Mouse Navigation - the Standard Terrain Flyer</h3>
+	<p>The drawback to the mouse is that its difficult to move in more than one 
+	degree of freedom at a time.&nbsp; For example, you can turn right, or move 
+	down, but not both at the same time.&nbsp; There are many ways to map the mouse 
+	position and mouse buttons to movement.&nbsp; This is the way Enviro does it:</p>
+</blockquote>
+<blockquote>
+	<table cellpadding="11" class="auto-style3" style="width: 90%">
+		<tr>
+			<td>The further you are from the center of the window, the faster you 
+			move.<table border="0" cellspacing="13">
+				<tr>
+					<td>Hold down the left mouse button:</td>
+					<td>
+					<img alt="mouse2" height="146" src="../images/mouse2.gif" width="146" /></td>
+					<td>
+					<img alt="button1" height="169" src="../images/button1.jpg" width="248" /></td>
+				</tr>
+				<tr>
+					<td>Hold down the right mouse button:</td>
+					<td>
+					<img alt="mouse3" height="146" src="../images/mouse3.gif" width="146" /></td>
+					<td>
+					<img alt="button2" height="168" src="../images/button2.jpg" width="248" /></td>
+				</tr>
+				<tr>
+					<td>Hold down both mouse buttons:</td>
+					<td>
+					<img alt="mouse4" height="146" src="../images/mouse4.gif" width="146" /></td>
+					<td>
+					<img alt="bothbuttons2" height="166" src="../images/bothbuttons2.jpg" width="248" /></td>
+				</tr>
+			</table>
+			<p>If you have a scroll (middle) button on your mouse, you can use 
+			it to zoom forward/backward; hold down the Shift key for faster 
+			movement.</p>
+			<p>If you find yourself moving too fast, keep your mouse cursor close 
+			to the center of the window, or decrease your Flight Speed with the 
+			+/- toolbar buttons, or the &#39;F&#39;/&#39;S&#39; shortcut keys (&quot;faster 
+			/ slower&quot;)</p>
+			</td>
+		</tr>
+	</table>
+	<h3>Mouse Navigation - the Velocity Flyer</h3>
+	<p>This behaves the same as the standard terrain flyer, but your motion has 
+	a damped velocity which makes motion smoother.&nbsp; You can set the amount 
+	of damping in the <em>Terrain Properties: Camera: Navigation</em>, or at 
+	runtime in <em>Camera-View Settings: Velocity Damping</em>.</p>
+	<h3>Mouse Navigation - the Grab/Pivot Flyer</h3>
+	<table cellpadding="11" class="auto-style3" style="width: 90%">
+		<tr>
+			<td>&nbsp;<table border="0" cellspacing="13">
+				<tr>
+					<td>
+					<img alt="mouse2" height="146" src="../images/mouse2.gif" width="146" /></td>
+					<td>Click and drag the left mouse button on a specific point 
+					on the ground to <b>pivot</b> around it. &nbsp;(Be aware that 
+					if you click far from the center of your view, it is possible 
+					to undesirably roll the camera.)</td>
+				</tr>
+				<tr>
+					<td>
+					<img alt="mouse3" height="146" src="../images/mouse3.gif" width="146" /></td>
+					<td>Click and drag the right mouse button to <b>grab</b> the 
+					ground and move it underneath you.</td>
+				</tr>
+				<tr>
+					<td>
+					<img alt="mouse4" height="146" src="../images/mouse4.gif" width="146" /></td>
+					<td>Hold down both mouse buttons to <b>zoom</b> in or out.</td>
+				</tr>
+			</table>
+			<p>Flight Speed does not have an effect on this style of navigation.</p>
+			</td>
+		</tr>
+	</table>
+	<h3>Keyboard Navigation</h3>
+	<table cellpadding="11" class="auto-style3" style="width: 90%">
+		<tr>
+			<td>
+			<img alt="keys1" height="265" src="../images/keys1.png" width="561" /><br />
+			<br />
+			<img alt="keys2" height="256" src="../images/keys2.png" width="566" /><p>
+			The SHIFT key accelerates all other keys.</p>
+			<p>Same as with mouse navigation, the &#39;F&#39;/&#39;S&#39; shortcut 
+			keys (&quot;faster / slower&quot;) can be used to change speed.</p>
+			</td>
+		</tr>
+	</table>
+	<h3>Joystick Navigation</h3>
+	<p class="tuck">(In Enviro's Global Options dialog: <em>Enable Joystick 
+	navigation</em>)</p>
+	<table cellpadding="11" class="auto-style3" style="width: 90%">
+		<tr>
+			<td>
+			<table border="0" cellpadding="4" cellspacing="4" style="border-collapse: collapse">
+				<tr>
+					<td>
+					<p class="text-right">Move the joystick: </p>
+					</td>
+					<td>
+					<img alt="button1" height="169" src="../images/button1.jpg" width="248" /></td>
+				</tr>
+				<tr>
+					<td class="text-right">Hold Button 2 and move the joystick:</td>
+					<td>
+					<img alt="button2" height="168" src="../images/button2.jpg" width="248" /></td>
+				</tr>
+				<tr>
+					<td class="text-right">Hold Button 3 and move the joystick:</td>
+					<td>
+					<img alt="bothbuttons2" height="166" src="../images/bothbuttons2.jpg" width="248" /></td>
+				</tr>
+			</table>
+			<p>Same as with mouse navigation, the &#39;F&#39;/&#39;S&#39; shortcut 
+			keys (&quot;faster / slower&quot;) can be used to change speed.</p>
+			</td>
+		</tr>
+	</table>
+	<h3>SpaceNavigator</h3>
+	<p class="tuck">(In Enviro's Global Options dialog: <em>Enable 
+	SpaceNavigator</em>) </p>
+	<table cellpadding="11" class="auto-style3" style="width: 90%">
+		<tr>
+			<td>
+			<p>Navigating should feel very natural and the same as in other 
+			applications:</p>
+			<table style="width: 505px">
+				<tr>
+					<td colspan="3">
+					<img alt="spacenav" height="144" src="../images/spacenav.jpg" width="505" /></td>
+				</tr>
+				<tr class="auto-style1">
+					<td class="auto-style2" style="width: 30%"><strong>Fly 
+					forward/backward, left/right</strong></td>
+					<td class="auto-style2" style="width: 30%"><strong>Yaw 
+					(turn) left/right, move up/down</strong></td>
+					<td class="auto-style2" style="width: 30%"><strong>Pitch 
+					(tilt) up/down)</strong></td>
+				</tr>
+			</table>
+			<p>Same as with mouse navigation, the &#39;F&#39;/&#39;S&#39; shortcut 
+			keys (&quot;faster / slower&quot;) can be used to change speed.</p>
+			</td>
+		</tr>
+	</table>
+	<p>&nbsp;</p>
+</blockquote>
+
+</body>
+
+</html>

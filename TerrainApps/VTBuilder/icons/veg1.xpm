@@ -1,0 +1,26 @@
+/* XPM */
+static const char *veg1_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 4 1",
+"  c black",
+". c #008000",
+"X c #800000",
+"o c None",
+/* pixels */
+"ooooooo..ooooooo",
+"oooooo....oooooo",
+"ooooo......ooooo",
+"oooo........oooo",
+"ooo..........ooo",
+"ooooo......ooooo",
+"oooo........oooo",
+"ooo..........ooo",
+"oo............oo",
+"oooo........oooo",
+"ooo..........ooo",
+"oo............oo",
+"o..............o",
+"ooooooXXXXXooooo",
+"ooooooXXXXXooooo",
+"ooooooXXXXXooooo"
+};

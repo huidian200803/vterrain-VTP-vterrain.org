@@ -1,0 +1,30 @@
+/* XPM */
+static const char *dummy_32x18_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"32 18 6 1 ",
+"  c black",
+". c red",
+"X c green",
+"o c yellow",
+"O c blue",
+"+ c magenta",
+/* pixels */
+".XO+       +OX.            ooooo",
+" .XO+       +OX.            oooo",
+"  .XO+       +OX.            ooo",
+"   .XO+       +OX.            oo",
+"    .XO+       +OX.            o",
+"     .XO+       +OX.            ",
+"      .XO+       +OX.           ",
+"       .XO+       +OX.          ",
+"        .XO+       +OX.         ",
+"         .XO+       +OX.        ",
+"          .XO+       +OX.       ",
+"           .XO+       +OX.      ",
+"            .XO+       +OX.     ",
+"o            .XO+       +OX.    ",
+"oo            .XO+       +OX.   ",
+"ooo            .XO+       +OX.  ",
+"oooo            .XO+       +OX. ",
+"ooooo            .XO+       +OX."
+};

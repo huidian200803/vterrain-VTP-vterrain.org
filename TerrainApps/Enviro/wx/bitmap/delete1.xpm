@@ -1,0 +1,29 @@
+/* XPM */
+static const char *delete1_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 3 1",
+"  c None",
+"a c Black",
+"b c #FFFFFF",
+/* pixels */
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"  aab        aab    ",
+"  aaaab     aab     ",
+"   aaaab   aab      ",
+"     aaab ab        ",
+"      aaaaab        ",
+"       aaab         ",
+"      aaaaab        ",
+"     aaab aab       ",
+"    aaab   aab      ",
+"   aaab     ab      ",
+"   aaab      ab     ",
+"    ab              ",
+"              ab    ",
+"                    ",
+"                    ",
+"                    "
+};

@@ -1,0 +1,30 @@
+/* XPM */
+static const char *select_move_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 4 1 ",
+"  c black",
+". c #808080",
+"X c gray100",
+"o c None",
+/* pixels */
+"ooooooooooooo..ooooo",
+"ooooooooooo.   .oooo",
+"ooooooooo.      .ooo",
+"oooooooooooo .oooooo",
+"ooo.ooooooo .ooo.ooo",
+"oo. oooooo .oooo .oo",
+"o.                .o",
+"o.  ......  ....  .o",
+"oo. oooo . X ooo .oo",
+"ooo.ooo .o XX oo.ooo",
+"oooooo .oo XXX ooooo",
+"ooo.       XXXX oooo",
+"oooo.   .o XXXXX ooo",
+"ooooo..ooo XXXXXX oo",
+"oooooooooo XXXX    o",
+"oooooooooo XX XX ooo",
+"oooooooooo X  XX ooo",
+"oooooooooo  oo XX oo",
+"oooooooooo ooo XX oo",
+"ooooooooooooooo XX o"
+};

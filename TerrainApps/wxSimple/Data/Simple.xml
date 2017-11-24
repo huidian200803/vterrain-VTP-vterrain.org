@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Terrain_Parameters>
+	<Name>Simple Terrain</Name>
+	<Elevation_Filename >crater_0513.bt</Elevation_Filename >
+	<Vertical_Exag>1.300000</Vertical_Exag>
+	<Min_Height>10</Min_Height>
+	<Nav_Style>0</Nav_Style>
+	<Nav_Speed>3000.000</Nav_Speed>
+	<Locations_File></Locations_File>
+	<Init_Location></Init_Location>
+	<Hither_Distance>5.000000</Hither_Distance>
+	<Accel>false</Accel>
+	<LOD_Method>2</LOD_Method>
+	<Pixel_Error>2.000000</Pixel_Error>
+	<Tri_Count>12000</Tri_Count>
+	<Tristrips>false</Tristrips>
+	<Detail_Texture>false</Detail_Texture>
+	<Is_TIN>false</Is_TIN>
+	<Time_On>false</Time_On>
+	<Init_Time>104 3 29 8 0 0</Init_Time>
+	<Time_Speed>1.000000</Time_Speed>
+	<Texture>3</Texture>
+	<Num_Tiles>4</Num_Tiles>
+	<Tile_Size>512</Tile_Size>
+	<Single_Texture></Single_Texture>
+	<Base_Texture></Base_Texture>
+	<Texture_Format>1</Texture_Format>
+	<MIP_Map>true</MIP_Map>
+	<Request_16_Bit>true</Request_16_Bit>
+	<Pre-Light>true</Pre-Light>
+	<PreLight_Factor>0.800000</PreLight_Factor>
+	<Cast_Shadows>false</Cast_Shadows>
+	<Roads>false</Roads>
+	<Road_File></Road_File>
+	<Highway>true</Highway>
+	<Paved>true</Paved>
+	<Dirt>false</Dirt>
+	<Road_Height>2.000000</Road_Height>
+	<Road_Distance>8.000000</Road_Distance>
+	<Road_Texture>true</Road_Texture>
+	<Road_Culture>false</Road_Culture>
+	<Trees>false</Trees>
+	<Tree_File></Tree_File>
+	<Tree_Distance>3000</Tree_Distance>
+	<Fog>false</Fog>
+	<Fog_Distance>0.000000</Fog_Distance>
+	<Fog_Color>-1 -1 -1</Fog_Color>
+	<Structure_Distance>2000</Structure_Distance>
+	<Content_File></Content_File>
+	<Trans_Towers>false</Trans_Towers>
+	<Tower_File></Tower_File>
+	<Vehicles>false</Vehicles>
+	<Vehicle_Size>1</Vehicle_Size>
+	<Vehicle_Speed>1</Vehicle_Speed>
+	<Number_of_Cars>0</Number_of_Cars>
+	<Sky>true</Sky>
+	<Sky_Texture></Sky_Texture>
+	<Ocean_Plane>false</Ocean_Plane>
+	<Ocean_Plane_Level>-20.000000</Ocean_Plane_Level>
+	<Depress_Ocean>false</Depress_Ocean>
+	<Depress_Ocean_Level>-40.000000</Depress_Ocean_Level>
+	<Horizon>false</Horizon>
+	<Overlay>0</Overlay>
+	<Labels>false</Labels>
+	<LabelFile></LabelFile>
+	<Label_Field>-1</Label_Field>
+	<Label_Height>0.000000</Label_Height>
+	<Label_Size>0.000000</Label_Size>
+	<Route_Enable>false</Route_Enable>
+	<Route_File></Route_File>
+	<Distance_Tool_Height>5</Distance_Tool_Height>
+</Terrain_Parameters>

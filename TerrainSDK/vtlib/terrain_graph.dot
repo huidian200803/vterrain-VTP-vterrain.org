@@ -1,0 +1,62 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="9"];
+  node [fontname="Helvetica",fontsize="9",shape=record];
+  rankdir=TB;
+
+	subgraph cluster_vtlib
+	{
+		node [shape=record,height=0.2,width=0.4,color="black",fillcolor="white",style="filled"];
+
+		style=filled;
+		color="#eeffee";
+
+		Node1 [label="Group\nTerrain Container",fillcolor="#cceecc"];
+
+		Node2 [label="Shadow"];
+		Node3 [label="Fog"];
+		NodeUnshadowed [label="Group\nUnshadowed",fillcolor="#cceecc"];
+
+		NodeTerrain [label="Group\nTerrain",fillcolor="#cceecc"];
+
+		Node1 -> Node2 [style="dashed"];
+		Node1 -> Node3 [style="dashed"];
+		Node1 -> NodeUnshadowed;
+
+		Node2 -> NodeTerrain [style="dashed"];
+		Node1 -> NodeTerrain [style="dashed"];
+		Node3 -> NodeTerrain [style="dashed"];
+
+		NodeScaled [label="Transform\nScaled Features",fillcolor="#ffdddd"];
+		NodeAbstracts [label="Group\nAbstract Layer",fillcolor="#cceecc"];
+
+		NodeUnshadowed -> NodeScaled;
+		NodeScaled -> NodeAbstracts;
+
+		NodeDyn1 [label="Transform\nDynamic Geometry Scaling Container",fillcolor="#ffdddd"];
+		NodeDyn2 [label="Geode: DynGeom"];
+		NodeDyn3 [label="Drawable\n(CLOD Terrain Surface)"];
+
+		NodeTerrain -> NodeDyn1;
+		NodeDyn1 -> NodeDyn2;
+		NodeDyn2 -> NodeDyn3;
+
+		NodeStructures [label="Group\nStructures LOD Grid",fillcolor="#cceecc"];
+		NodeVegetation [label="Group\nVegetation LOD Grid",fillcolor="#cceecc"];
+		NodeUtilityMap [label="Group\nUtilityMap",fillcolor="#cceecc"];
+
+		NodeTerrain -> NodeStructures;
+		NodeTerrain -> NodeVegetation;
+		NodeTerrain -> NodeUtilityMap;
+
+		NodeLOD1 [label="LOD\n(LOD nodes)",fillcolor="#ffffdd"];
+		NodeLOD1b [label="(built structures)"];
+		NodeLOD2 [label="LOD\n(LOD nodes)",fillcolor="#ffffdd"];
+		NodeLOD2b [label="(vegetation)"];
+
+		NodeStructures -> NodeLOD1;
+		NodeLOD1 -> NodeLOD1b;
+		NodeVegetation -> NodeLOD2;
+		NodeLOD2 -> NodeLOD2b;
+	}
+}

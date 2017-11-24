@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Enviro - Notes for Developers</title>
+</head>
+
+<body>
+
+<h2><i>Enviro</i></h2>
+<h3>Notes for Developers</h3>
+<blockquote>
+	<p>If you want to fully customize the terrain, such as adding your own custom 
+	objects and behaviors to the scene:</p>
+	<ol>
+		<li>Create a sub-class of <code>vtTerrain</code>, using one of the existing 
+		subclasses (like <code>TransitTerrain</code>) as an example</li>
+		<li>In <code>Enviro.cpp,</code> add a line to the function <code>LoadTerrainDescriptions()</code>, 
+		so that your .ini file will be constructed with your terrain class</li>
+		<li>Override the <code>CreateCustomCulture() </code>method and put in any 
+		terrain-specific implementation that you want.&nbsp; You can create geometry, 
+		load and place models, attach engines; anything is possible!</li>
+	</ol>
+</blockquote>
+
+</body>
+
+</html>

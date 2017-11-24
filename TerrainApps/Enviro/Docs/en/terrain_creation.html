@@ -1,0 +1,477 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Terrain Creation Parameters</title>
+<style type="text/css">
+.c1 {
+	background-color: #E0DFC2;
+}
+.c2 {
+	background-color: #EEEEDD;
+}
+</style>
+</head>
+
+<body>
+
+<h2>Enviro - Terrain Creation Parameters</h2>
+<h3>Elevation</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" valign="top">Grid</th>
+		<td class="c1" nowrap="" valign="top">Grid Filename</td>
+		<td class="c1">The BT file to use for elevation.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" rowspan="2" valign="top">&nbsp;</th>
+		<td class="c2" nowrap="" valign="top">LOD Method</td>
+		<td class="c2">Choose from several implementations of published Continuous 
+		LOD algorithms.&nbsp; Unless you are an expert user, it is recommended to 
+		use only <em><strong>Roettger</strong></em>.&nbsp; The others are historical 
+		or of interest to algorithm specialists.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Triangle Count</td>
+		<td class="c2">Algorithms will adaptively adjust detail to meet this indicated 
+		triangle count.</td>
+	</tr>
+	<tr>
+		<th class="c1" nowrap="" valign="top">TIN</th>
+		<td class="c1" nowrap="" valign="top">TIN Filename</td>
+		<td class="c1">The TIN file to use for elevation, instead of an elevation 
+		grid.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" rowspan="3" valign="top">Grid Tiles</th>
+		<td class="c2" nowrap="" valign="top">Tileset .ini file</td>
+		<td class="c2">The .ini file which describes a set of elevation grid tiles.&nbsp; 
+		See <a href="tilesets.html">tileset documentation</a>.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Vertex count target</td>
+		<td class="c2">Rendering will adaptively adjust detail to approach this 
+		vertex count.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Use multithreading</td>
+		<td class="c2">This option is recommended, as it should increase speed/smoothness 
+		on most modern computers.</td>
+	</tr>
+	<tr>
+		<th class="c1">&nbsp;</th>
+		<td class="c1" nowrap="" valign="top">Vertical Exaggeration</td>
+		<td class="c1">A value of 1.0 draws the terrain with real-world proportions.&nbsp; 
+		A value of 1.5 exaggerates height by 50%, and so forth.</td>
+	</tr>
+</table>
+<h3>Texture</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" nowrap="" rowspan="10" valign="top">Texture</th>
+		<td class="c1" nowrap="" valign="top">No texture</td>
+		<td class="c1">Your terrain will be white and plain.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Single texture</td>
+		<td class="c1">The indicated texture will be placed over the terrain.&nbsp; 
+		It must be a power of two in dimension, and be within the limit of your 
+		3d hardware&#39;s maximum texture size.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Derive texture<br />
+&nbsp;from elevation</td>
+		<td class="c1">Enviro will create a texture for you, and fill it with false 
+		colors based on elevation.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Tileset .ini file</td>
+		<td class="c1">The .ini file which describes a set of texture tiles.&nbsp; 
+		See <a href="tilesets.html">tileset documentation</a>.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Mipmapping</td>
+		<td class="c1">This will reduce aliasing, at the expense of using more texture 
+		RAM.&nbsp; There might also be an impact on rendering speed, depending on 
+		your graphics hardware.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Request 16-bit</td>
+		<td class="c1">Normally, textures are processed as 24-bit images.&nbsp; 
+		This options tells the 3d hardware that it is OK to use only 16-bits, which 
+		can save significant texture RAM.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Precompute lighting</td>
+		<td class="c1">At runtime, Enviro will make the terrain texture darker/lighter 
+		to simulate the sun&#39;s light.&nbsp; This is not necessary if you are 
+		using a Geospecific texture which already contains shadows.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Lighting factor</td>
+		<td class="c1">Use this scaling factor to make the precomputed lighting 
+		more pronounced or more subtle.&nbsp; 1.0 is the standard value.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Cast Shadows</td>
+		<td class="c1">If true, then the terrain shading will use a ray-casting 
+		approach, so that the terrain casts shadows onto itself.&nbsp; If false, 
+		then simpler (dot-product) shading is used.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Retain loaded<br />
+&nbsp;texture in memory</td>
+		<td class="c1">If you are loading a texture from disk and shading it, this 
+		option will keep an unshaded copy of the texture in memory, so that you 
+		can change the shading at runtime without waiting for the texture to load 
+		again.&nbsp; If this is not what you are doing, leave the option off.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top"><strong>Detail texture</strong></td>
+		<td class="c2" nowrap="" valign="top">&nbsp;</td>
+		<td class="c2"><i>Currently only works with the McNally CLOD option.<br />
+		</i>Will attempt to put a second, high-frequency detail texture over the 
+		whole terrain, faded by distance so that it is only visible close to the 
+		viewer.&nbsp; Currently this can only be a single texture.</td>
+	</tr>
+</table>
+<h3>Plants and Roads</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c2" nowrap="" rowspan="3" valign="top">Plant Layers</th>
+		<td class="c2" nowrap="" valign="top">(Source files)</td>
+		<td class="c2">Any number of VF (Vegetation Format) files which contains 
+		the plant instances for this terrain.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Visibility distance</td>
+		<td class="c2">Distance at which plants are visible.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Use Shaders for Plants</td>
+		<td class="c2">This option is around 5x faster, but you won't be able to 
+		edit the trees, and some other small limitations.</td>
+	</tr>
+	<tr>
+		<th class="c1" nowrap="" rowspan="6" valign="top">Roads</th>
+		<td class="c1" nowrap="" valign="top">Source file</td>
+		<td class="c1">The name of a RMF (Road Map Format) file which contains the 
+		road information.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Ground offset</td>
+		<td class="c1">All the roads centerlines will be elevated by this amount 
+		above the terrain.&nbsp; This can help to avoid collision or occlusion problems 
+		between the road and terrain.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Visibility distance</td>
+		<td class="c1">Distance at which roads are visible.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Texture-map roads</td>
+		<td class="c1">Set this for textures (pavement, roads stripes, etc.)</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Road culture</td>
+		<td class="c1">Set this for culture (such as stop sign and stop lights) 
+		automatically generated from the traffic information in the RMF file.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Include...</td>
+		<td class="c1">You can use these options to indicate a subset of the roads 
+		to create, e.g. only Paved roads.</td>
+	</tr>
+	</table>
+	<h3>Structures</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c2" nowrap="" rowspan="3" valign="top">Structure Files</th>
+		<td class="c2" nowrap="" valign="top">(Source files)</td>
+		<td class="c2">Any number of VTST (.vtst, Built Structures) files, containing 
+		the Buildings, Instances, and Fences for this terrain.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Visibility distance</td>
+		<td class="c2">Distance at which structures are visible.&nbsp; Structures 
+		further than this distance from the camera will not be rendered.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Terrain-specific<br />
+&nbsp;Content</td>
+		<td class="c2">A content file (.vtco) which contains additional content 
+		items specific to this terrain.&nbsp; For example, if the terrain is in 
+		Australia, you might have a set of Australian content items specific here, &quot;Australia.vtco&quot;.</td>
+	</tr>
+	<tr>
+		<th class="c1" nowrap="" rowspan="6" valign="top"><strong>Shadows</strong></th>
+		<td class="c1" nowrap="" valign="top">(on)</td>
+		<td class="c1">Dynamic shadows will be cast from the structures onto the 
+		terrain (and other structures).</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Resolution</td>
+		<td class="c1">The resolution of the shadow map texture.&nbsp; Shadows are 
+		better defined (crisper) when you increase this number.&nbsp; Older or less-powerful 
+		3D cards will only support up to 2048.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Darkness</td>
+		<td class="c1">A value from 0 to 1 for shadow darkness.&nbsp; Older 3D cards 
+		do not support variable darkness, so they will ignore this value, and shadows 
+		will always be black.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">All structures cast<br />
+&nbsp;shadows by default</td>
+		<td class="c1">If true, then every structure is automatically set to casts 
+		a shadow.&nbsp; If false, then no structures cast a shadow unless you tell 
+		them, for example with right-click menu, &quot;Toggle Shadow&quot;.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Recompute shadows<br />
+&nbsp;every frame</td>
+		<td class="c1">If true, then the shadows are truly dynamic.&nbsp; If false, 
+		shadows are only recomputed periodically, such as when the sun moves.&nbsp; 
+		There is a performance cost to this option, depending greatly on your CPU 
+		and GPU.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Limit shadow area</td>
+		<td class="c1">The shadow resolution must be stretched over the area of 
+		all structure casting a shadow, so to increase sharpness, you can limit 
+		the area to a given number of meters, relative to the spot on the ground 
+		where the camera is looking.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" valign="top" rowspan="3"><strong>Paging</strong></th>
+		<td class="c2" nowrap="" valign="top">(on)</td>
+		<td class="c2">Instead of all structures being created when the terrain 
+		loads, structures are loaded and unloaded dynamically (&quot;paging&quot;) 
+		as the camera moves around.&nbsp; This allows you to quickly load terrains 
+		with huge numbers of buildings, and fly around without using too much memory</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Maximum structures</td>
+		<td class="c2">When the number of loaded structures exceeds this number, 
+		far-away structures will be unloaded (&quot;paged out&quot;) to conserve 
+		memory.&nbsp; A typical value is 2000.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Page-out-distance</td>
+		<td class="c2">This distance indicates when a structure is far away, so 
+		that it can be paged out.</td>
+	</tr>
+</table>
+<h3>Ephemeris</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" nowrap="" rowspan="7" valign="top">Sky &amp; Water</th>
+		<td class="c1" nowrap="" valign="top">Ocean Plane</td>
+		<td class="c1">Set this option to create a single, large, flat &quot;ocean&quot; 
+		surface which intersects the terrain.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Ocean Plane Level</td>
+		<td class="c1">The is the elevation, in meters, at which the ocean plane 
+		will appear.&nbsp; Normally you would set this to either 0 (exact sea level) 
+		or slightly lower (e.g. -20) which can help to avoid Z-buffer problems between 
+		the ocean place and some terrains.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Water Surface</td>
+		<td class="c1">Loads an elevation TIN as a water surface, which usually 
+		intersects the terrain, so t<span class="c1">he water surface i</span>s 
+		visible when it is higher than the ground surface.&nbsp; It will be colored 
+		like water (blue and semi-transparent).</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Depress Ocean</td>
+		<td class="c1">Modifies your elevation, at load time, such that all points 
+		at &quot;sea level&quot; (elevation = 0 meters exactly) are artificially 
+		displaced.&nbsp; This can be useful combined with &quot;Ocean Plane&quot;, 
+		since many Elevation data files represent the ocean as &quot;sea level&quot;, 
+		this option will restore some depth to the ocean, so that it will not intersect 
+		the Ocean Plane.<br />
+		Another useful effect of this option is that it produces a &quot;cliff&quot; 
+		at the shoreline, which can help the CLOD algorithm to maintain the shoreline.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Sky Dome</td>
+		<td class="c1">The dome will be drawn using the specified PNG or JPG file 
+		with a hemispherical image of the sky.&nbsp; All files found in the &quot;Sky&quot; 
+		folders on the data path are available for you on the drop-down control.&nbsp; 
+		If the filename is blank, then sky will be drawn using vertex colors, using 
+		time of day (blue during day, orange during sunset, black at night, etc.)</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" style="height: 44px" valign="top">Fog</td>
+		<td class="c1" style="height: 44px">Fog causes an evenly distributed haze 
+		to appear, gradually increasing from transparent at the camera, to opaque 
+		a the given distance from the camera.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Scene Background<br />
+&nbsp;Color</td>
+		<td class="c1">This is the color that appears behind the terrain and skydome.&nbsp; 
+		If you use the skydome and artificial horizon, you won&#39;t see the background.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" rowspan="3" valign="top">Time</th>
+		<td class="c2" nowrap="" valign="top">Initial Time of Day</td>
+		<td class="c2">Hour, from 0 to 24, for the time of day when Enviro starts 
+		the terrain.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Time Moves</td>
+		<td class="c2">If set, then time cause the sun and sunlight to move, day 
+		and night to affect the sky dome, and the moon and stars to move at night.&nbsp; 
+		Note that currently the lighting on the terrain surface itself is not updated 
+		dynamically - it will remain at the initial time.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Faster than real</td>
+		<td class="c2">Watching the sun move across the sky at real-world speed 
+		may require too much patience.&nbsp; Try setting this value higher than 
+		1 (e.g. 1000) to see time move rapidly.</td>
+	</tr>
+</table>
+<h3>Abstracts</h3>
+<p>This is the place to specify features that don&#39;t correspond to a real, visible 
+aspect of the physical world.&nbsp; Example: place names, national boundaries, GPS 
+tracks, etc.</p>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" nowrap="" rowspan="2" valign="top">Abstract Layers</th>
+		<td class="c1" nowrap="" valign="top">&lt;Files&gt;</td>
+		<td class="c1">The file to read features from.&nbsp; This can be any vector 
+		data file (SHP, DXF, etc.)<p>To add files, double-click.<br />
+		To remove files, select them and press &lt;Delete&gt;.</p>
+		<p>Supported data types are: 2D Points, 3D Points, 2D Polylines, 3D Polylines, 
+		2D Polygons.</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Style</td>
+		<td class="c1">To set the style for a layer, select it and press the Style... 
+		button.&nbsp; The <a href="style_dialog.html">Style Dialog</a> lets you 
+		indicate how you want your abstract features to be drawn: color, text label, 
+		height above the ground, and so forth.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" valign="top">Image Layers</th>
+		<td class="c2" nowrap="" valign="top">&lt;Files&gt;</td>
+		<td class="c2">
+		You can have one or more images, loaded and draped on the terrain, in 
+		addition to the base ground texture.&nbsp; Each should be a GeoTIFF file 
+		(or other format, with a World file) 
+		in a <em>GeoSpecific</em> data folder, with the same CRS as the terrain.<br />
+		<br />
+		To add files, double-click.<br />
+		To remove files, select them and press &lt;Delete&gt;.<br />
+		<br />
+		The number of Image Layers you can use is limited by your 3D graphics card&#39;s 
+		number of fixed-pipeline texture units.&nbsp; Commonly, this is 3.</td>
+	</tr>
+</table>
+<h3>HUD</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c2" nowrap="" rowspan="2" valign="top">Window Overlay</th>
+		<td class="c2" nowrap="" valign="top">Image file</td>
+		<td class="c2">You can specify an image file which will be drawn as an &quot;overlay&quot; 
+		over the 3D window at runtime.&nbsp; This can be useful for things like 
+		a legend or overview map.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top">Placement</td>
+		<td class="c2">Where to place the Overlay Image, in pixel coordinates, relative 
+		to the bottom left corner of the 3D view.&nbsp; You can use negative values 
+		to indicate a position relative to the other side of the window.<br />
+		Example: -30, 10 is a position 30 pixels from the right side of the view 
+		and 10 pixels above the bottom of the view.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top"><strong>Terrain overview map</strong></td>
+		<td class="c2" colspan="2">The terrain texture will be shown as a clickable 
+		map in the lower-left corner of the 3D view.&nbsp; Only supported if your 
+		texture is simple, not a tileset.</td>
+	</tr>
+	<tr>
+		<td class="c2" nowrap="" valign="top"><strong>Compass</strong></td>
+		<td class="c2" colspan="2">A compass will appear in the upper-right corner 
+		of the 3D view, showing which way you are facing.</td>
+	</tr>
+</table>
+<h3>Camera</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" nowrap="" rowspan="7" valign="top">Navigation</th>
+		<td class="c1" nowrap="" valign="top">Style</td>
+		<td class="c1">See <a href="navigation.html">mouse navigation</a> for a 
+		description of the various styles.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Minimum height<br />
+&nbsp;above ground</td>
+		<td class="c1">The camera will be kept this height above the ground at all 
+		times.&nbsp; If you need to go under the ground, use a negative value.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Navigation speed</td>
+		<td class="c1">This is a factor used to scale the speed of your motion when 
+		using the mouse to navigate.&nbsp; You can change it on the fly once the 
+		Terrain View is running.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Velocity Damping</td>
+		<td class="c1">For the <em>Terrain Flyer with Velocity</em>, this sets 
+		how much damping your motion has, from 1 to 10.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Default locations file</td>
+		<td class="c1">You can load and save any number of Locations to a file.&nbsp; 
+		This option lets you associate a specific file with a terrain.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Initial Camera Location</td>
+		<td class="c1">If you have a location file, you can select one of its locations 
+		as the starting point for the camera, the first time the terrain is loaded.</td>
+	</tr>
+	<tr>
+		<td class="c1" nowrap="" valign="top">Near Clipping Distance</td>
+		<td class="c1">Otherwise known as &quot;Hither&quot;, everything closer 
+		than the Near Clipping Distance will not be drawn.&nbsp; Be careful not 
+		to make this value too small, or you may see Z-buffer problems, depending 
+		on your graphics card.&nbsp; If you do see Z-buffer problems, try increasing 
+		your Hither distance at runtime.&nbsp; If that fixes the problem, you can 
+		make the change permanent using this startup property.</td>
+	</tr>
+	<tr>
+		<th class="c2" nowrap="" valign="top">Animation Paths</th>
+		<td class="c2" nowrap="" valign="top">(VTAP files)</td>
+		<td class="c2">Any number of .vtap files which will be available during 
+		runtime.</td>
+	</tr>
+</table>
+<h3>Scenarios</h3>
+<table border="1" cellpadding="3" cellspacing="0">
+	<tr>
+		<th class="c1" nowrap="" rowspan="6" valign="top">(List of Scenarios)</th>
+		<td class="c1" nowrap="" valign="top">&nbsp;</td>
+		<td class="c1">A scenario is a set of visible layers.&nbsp; You can use 
+		the self-explanatory buttons (New, Delete, Edit, Move Up, Move Down) to 
+		create a set of Scenarios.&nbsp; At runtime, you can switch between these 
+		scenarios to show different sets of visible layers.<br />
+		For example, you could create two scenarios called &quot;Existing&quot; 
+		and &quot;Proposed&quot; and switch between them easily.</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

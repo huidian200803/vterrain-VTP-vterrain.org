@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="en-us" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VTBuilder Basic Menu Commands</title>
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<h2>Basic Menu Commands</h2>
+<ul>
+	<li><b><a name="Project">Project</a></b>
+	<ul>
+		<li>New
+		<ul>
+			<li>Clears the VTBuilder workspace to begin a new project.</li>
+		</ul>
+		</li>
+		<li>Open Project... 		<ul>
+			<li>Opens a previously saved VTBuilder Project.</li>
+		</ul>
+		</li>
+		<li>Save Project
+		<ul>
+			<li>Saves Project containing info on all layers as a <b>vtb</b> 
+			(VTBuilder Project File).</li>
+		</ul>
+		</li>
+		<li>Special<ul>
+			<li>Create Dymaxion Textures - see the explanation of
+			<a href="dymax.html">Dymaxion Textures</a></li>
+			<li>Process Billboard Texture - see
+			<a href="http://vterrain.org/Plants/Alpha/index.html">Issues with 
+			alpha values in texture-mapped billboards</a></li>
+		</ul>
+		</li>
+		<li>Exit</li>
+	</ul>
+	</li>
+	<li><b><a name="Edit">Edit</a></b>
+	<ul>
+		<li>Delete
+		<ul>
+			<li>If the current layer has some elements selected, they are 
+			deleted.&nbsp; Otherwise, the current layer is deleted, after you are 
+			asked to confirm.</li>
+		</ul>
+		</li>
+		<li>Deselect All
+		<ul>
+			<li>Deselects all selected elements in the current layer (eg. all 
+			roads in a road layer).</li>
+		</ul>
+		</li>
+		<li>Invert Selection 		<ul>
+			<li>Toggles the selection state of all elements in to current layer.</li>
+		</ul>
+		</li>
+		<li>Crossing Selection<ul>
+			<li>This option affects interactive selection of elements.&nbsp; When 
+			true, any part of an element inside the selection box will 
+			selected.&nbsp; When false, only elements entirely within the selection 
+			box are selected.</li>
+		</ul>
+		</li>
+		</ul>
+	</li>
+	<li><b><a name="Layer">Layers</a></b>
+	<ul>
+		<li>New Layer<ul>
+			<li>Creates a blank layer of selected type.</li>
+		</ul>
+		</li>
+		<li>Open Layer<ul>
+			<li>Opens any type of layer (e.g. Road, Building, Water) and adds it 
+			to the current project.</li>
+		</ul>
+		</li>
+		<li>Save Layer</li>
+		<li>Save Layer As...<ul>
+			<li>Save the current layer to its native file format (e.g. elevation 
+			as BT, roads as RMF, 
+			structures as VTST)</li>
+		</ul>
+		</li>
+		<li>Import Data<ul>
+			<li>Creates a new layer by importing data from any known file 
+			format.&nbsp; You will be asked for the kind of data to expect in the 
+			incoming file, which helps VTBuilder to create the correct type of 
+			layer.&nbsp; You can also simply drag-and-drop files into the VTBuilder 
+			window.&nbsp; See <a href="importing.html">Importing Data</a> for more 
+			information.</li>
+		</ul>
+		</li>
+		<li>Layer Properties<ul>
+			<li>Will display some properties of the current layer.&nbsp; Not all 
+			layer types will have properties to display.</li>
+		</ul>
+		</li>
+		<li>Offset Coordinates<ul>
+			<li>Shifts all the data in the current layer by a specified amount.&nbsp; 
+			This is useful to manually aligning layers which differ by a fixed 
+			horizontal offset.</li>
+		</ul>
+		</li>
+		<li>Combine Layers<ul>
+			<li>This will merge (&quot;flatten&quot;) all compatible layers <i>of the 
+			currently selected layer type</i> into a single layer.</li>
+		</ul>
+		</li>
+		<li>Convert Projection<ul>
+			<li>Converts the coordinate references system (CRS) of <b>all</b> loaded layers 
+			to a new CRS.&nbsp; The <a href="projdlg.html">Projection Dialog</a> 
+			is displayed for you to enter the new CRS.</li>
+		</ul>
+		</li>
+		<li>Set Projection<ul>
+			<li>Changes the currently assumed CRS, <b>without</b> 
+			converting any coordinates.&nbsp; Use this command if you know that the current 
+			CRS (as displayed in the Status Bar) is incorrect, and you 
+			wish to correct it.&nbsp; .&nbsp; The <a href="projdlg.html">Projection Dialog</a> 
+			is displayed for you to enter the new CRS.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+<p>&lt;
+<a href="index.html">back to index</a></p>
+
+</body>
+
+</html>

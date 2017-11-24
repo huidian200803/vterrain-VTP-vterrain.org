@@ -1,0 +1,29 @@
+/* XPM */
+static const char *move_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 2 1",
+/* colors */
+"` c #000000",
+"a c None",
+/* pixels */
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa``aaaa",
+"aaaaaaaaaaaa````aaaa",
+"aaaaaaaaaaa`````aaaa",
+"aaaaaaaaaaaaa```aaaa",
+"aaaaaaaaaaaa``a`aaaa",
+"aa`aaaaaaaa``aaaa`aa",
+"a``aaaaaaa``aaaaa``a",
+"````````````````````",
+"````````````````````",
+"a``aaaaa``aaaaaaa``a",
+"aa`aaaa``aaaaaaaa`aa",
+"aaaa`a``aaaaaaaaaaaa",
+"aaaa```aaaaaaaaaaaaa",
+"aaaa`````aaaaaaaaaaa",
+"aaaa````aaaaaaaaaaaa",
+"aaaa``aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa"
+};

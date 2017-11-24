@@ -1,0 +1,25 @@
+/* XPM */
+static const char *raw_yellow_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"a c Black",
+"b c #808080",
+"c c #FFFF00",
+/* pixels */
+"cccccccccccccccc",
+"caaaaaaaccaccacc",
+"caccccaccaccaccc",
+"cacccaccaccacccc",
+"caccaccaccaccccc",
+"cacaccaccacccbcc",
+"caaccaccacccbabc",
+"caccaccacccccbcc",
+"cccaccacccbccccc",
+"ccaccacccbabcccc",
+"caccacccccbccccc",
+"cccacccbcccccbcc",
+"ccacccbabcccbabc",
+"cacccccbcccccbcc",
+"cccccccccccccccc",
+"cccccccccccccccc"
+};

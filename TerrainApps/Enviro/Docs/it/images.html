@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Livelli Immagine</title>
+</head>
+
+<body>
+
+<h2><i><font face="Verdana">Livelli Immagine</font></i></h2>
+<blockquote>
+	<p><i>Livelli immagine</i> all&#39;interno del software VTP. E&#39; possibile 
+	aggiungere un numero illimitato di livelli immagine sui terreni, ma poiché 
+	queste sono limitate dal numero di <b>unità multi-texture</b> che la scheda 
+	grafica sostiene, il numero di immagini visualizzate può essere limitato a 
+	3.</p>
+</blockquote>
+<h3>Aggiungere livelli immagine al terreno</h3>
+<blockquote>
+	<p>Per aggiungere un livello immagine, modificare le
+	<a href="file:///C:/DOCUME~1/auselda/IMPOST~1/Temp/terrain_creation.html">
+	proprietà del terreno</a>. Dentro il tab <b>Texture</b>, è possibile 
+	scegliere tramite dei radio-button se non visualizzare la texture, se 
+	aggiungere una texture singola, se derivarla dall&#39;elevazione, se suddividere 
+	la texture in tiles.</p>
+	<p>L&#39;immagine deve essere:</p>
+	<ul>
+		<li><b>Georeferenziata.</b>&nbsp; Nello specifico, deve avere una estensione 
+		definita. Un modo facile per ottenere ciò è utilizzare il formato 
+		GeoTIFF, ma si può anche utilizzare un file TIF o JPEG associato ad un 
+		World File che ne definisce l&#39;estensione.</li>
+		<li><b>Proiettata nello stesso datum del terreno.</b>&nbsp; I livelli 
+		immagine non verranno riproiettati dinamicamente.</li>
+		<li>Entro i<b> </b><b>limiti di dimensione</b> supportati dalla scheda 
+		grafica. Ad esempio, le schede ATI supportano 2048x2048, le schede 
+		Nvidia supportano fino a 4096x4096. Si possono utilizzare anche immagini 
+		più piccole, ad esempio 1024x1024, ed immagini rettangolari, ad esempio 
+		2048x512.</li>
+	</ul>
+	<p>Se si possiede una vecchia scheda grafica priva di OpenGL 2.0, l&#39;immagine 
+	deve anche essere:</p>
+	<ul>
+		<li>La<b> potenza di 2 in ciascuna dimensione.</b>&nbsp; Ad esempio, 256x512 
+		sono valori supportati, 300x711 no.</li>
+	</ul>
+</blockquote>
+<h3>La finestra di Dialogo Livello nella Vista Terreno</h3>
+<blockquote>
+	<p>Nella <b>finestra di Dialogo Livelli</b> sono elencati i livelli 
+	immagine.&nbsp; Su un livello immagine è possibile eseguire le seguenti 
+	operazioni:</p>
+	<ul>
+		<li><b>Rimuovi:</b> Rimuove il livello selezionato.</li>
+		<li><b>Visibile:</b> Permette di accendere o spegnere il livello 
+		selezionato.</li>
+	</ul>
+</blockquote>
+
+</body>
+
+</html>

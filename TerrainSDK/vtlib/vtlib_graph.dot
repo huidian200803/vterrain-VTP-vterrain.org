@@ -1,0 +1,144 @@
+digraph G
+{
+  edge [fontname="Helvetica",fontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir=LR;
+
+	subgraph cluster_OSG
+	{
+		label="OSG";
+		style=filled;
+		color="#ddddee";
+
+		/* OSG */
+		node [fontname="Helvetica",fontsize="10",style="filled",fillcolor="grey90",shape=record];
+
+		Node1 [label="osg::Node",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeGroup [label="osg::Group",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeTransform [label="osg::Transform",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeMatrixTransform [label="osg::MatrixTransform",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeShadowedScene [label="osgShadow::ShadowedScene",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeLightSource [label="osg::LightSource",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeGeode [label="osg::Geode",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeLOD [label="osg::LOD",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeProjection [label="osg::Projection",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeDrawable [label="osg::Drawable",height=0.2,width=0.4,color="black",URL=".html"];
+
+		NodeStateSet [label="osg::StateSet",height=0.2,width=0.4,color="black",URL=".html"];
+		NodeGeometry [label="osg::Geometry",height=0.2,width=0.4,color="black",URL=".html"];
+
+		Node1 -> NodeGroup [dir=back];
+		Node1 -> NodeTransform [dir=back];
+		Node1 -> NodeGeode [dir=back];
+
+		NodeTransform -> NodeMatrixTransform [dir=back];
+
+		NodeGroup -> NodeShadowedScene [dir=back];
+		NodeGroup -> NodeLightSource [dir=back];
+		NodeGroup -> NodeProjection [dir=back];
+
+		NodeDrawable -> NodeGeometry [dir=back];
+
+		{ rank = same; NodeProjection; NodeStateSet; NodeGeometry; }  
+	}
+
+	subgraph cluster_vtdata
+	{
+		label="vtdata";
+		style=filled;
+		color="#eedddd";
+		/*	color="black"; */
+
+		Node29 [label="vtHeightField",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtdata/classvtHeightField.html"];
+		Node30 [label="vtHeightField3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtdata/classvtHeightField3d.html"];
+		Node33 [label="vtTin",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtdata/classvtTin.html"];
+		Node32 [label="vtHeightFieldGrid3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="../vtdata/classvtHeightFieldGrid3d.html"];
+
+		Node29 -> Node30 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node30 -> Node32 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node30 -> Node33 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+	}
+
+	subgraph cluster_vtlib
+	{
+		label="vtlib";
+		style=filled;
+		color="#ddeedd";
+		/*	color="black"; */
+
+		NodeGroup -> Node18 [dir=back];
+		NodeGroup -> Node8 [dir=back];
+		NodeMatrixTransform -> Node3 [dir=back];
+		NodeShadowedScene -> Node28 [dir=back];
+		NodeLightSource -> Node25 [dir=back];
+		NodeGeode -> Node9 [dir=back];
+		NodeGroup -> NodeLOD [dir=back];
+		NodeLOD -> Node26 [dir=back];
+		NodeProjection -> Node24 [dir=back];
+
+		Node3 [label="vtTransform",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtTransform.html"];
+		Node4 [label="vtCamera",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtCamera.html"];
+		Node5 [label="vtDimension",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtDimension.html"];
+		Node6 [label="vtMovGeode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtMovGeode.html"];
+		Node7 [label="vtSkyDome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtSkyDome.html"];
+		Node8 [label="vtFog",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtFog.html"];
+		Node9 [label="vtGeode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtGeode.html"];
+		Node10 [label="vtDynGeom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtDynGeom.html"];
+		Node11 [label="vtDynTerrainGeom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtDynTerrainGeom.html"];
+		Node14 [label="SMTerrain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classSMTerrain.html"];
+		Node15 [label="SRTerrain",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classSRTerrain.html"];
+		Node17 [label="vtTiledGeom",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtTiledGeom.html"];
+
+		Node3 -> Node4 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node3 -> Node5 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node3 -> Node6 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node3 -> Node7 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+
+		Node9 -> Node10 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node10 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node10 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node11 -> Node14 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node11 -> Node15 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+
+		Node18 [label="vtGroup",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtGroup.html"];
+		Node18 -> Node19 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node19 [label="GlobeLayer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classGlobeLayer.html"];
+		Node18 -> Node20 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node20 [label="vtLodGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtLodGrid.html"];
+		Node20 -> Node21 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node21 [label="vtPagedStructureLodGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtPagedStructureLodGrid.html"];
+		Node20 -> Node22 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node22 [label="vtSimpleLodGrid",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtSimpleLodGrid.html"];
+		Node18 -> Node23 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node23 [label="vtStarDome",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtStarDome.html"];
+
+		Node24 [label="vtHUD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtHUD.html"];
+
+		Node25 [label="vtLightSource",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtLightSource.html"];
+
+		Node26 [label="vtLOD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtLOD.html"];
+		Node26 -> Node27 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node27 [label="vtPagedStructureLOD",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtPagedStructureLOD.html"];
+
+		Node28 [label="vtShadow",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtShadow.html"];
+		Node30 -> Node31 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node31 [label="vtExternalHeightField3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtExternalHeightField3d.html"];
+		Node32 -> Node11 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node30 -> Node17 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node33 -> Node34 [dir=back,color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+		Node34 [label="vtTin3d",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtTin3d.html"];
+
+		NodeMaterial [label="vtMaterial",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtMaterial.html"];
+		NodeStateSet -> NodeMaterial [dir=back];
+
+		NodeMesh [label="vtMesh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="classvtMesh.html"];
+		NodeGeometry -> NodeMesh [dir=back];
+
+		{ rank = same; NodeMaterial; NodeMesh; Node9; }
+
+		edge [style="dashed", arrowhead="normal", arrowsize="0.5", color="#880000"];
+		Node9 -> NodeMaterial [label="0..*"];
+		edge [style="dashed", arrowhead="normal", arrowsize="0.5", color="#008800"];
+		Node9 -> NodeMesh [label="0..*"];
+	}
+}

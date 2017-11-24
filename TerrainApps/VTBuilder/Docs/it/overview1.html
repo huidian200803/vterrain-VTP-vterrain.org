@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Overview</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">ritorna all&#39;indice</font></a><font size="3">
+</font></h1>
+<h3><a name="Overview"><u>Panoramica</u> </a></h3>
+<blockquote>
+	<p>VTBuilder è uno strumento per visualizzare e processare dati geospaziali.&nbsp; 
+	Si possono importare un&#39;ampia varietà di formati di file, e produrre 
+	efficientemente i dati per software per il tempo reale 3D come <b>VTP</b> <b>
+	Enviro.</b> </p>
+	<p>Il procedimento tipico è il seguente:</p>
+	<ol>
+		<li>Acquisire dati geospaziali grezzi (elevazione, vettoriale delle 
+		strade, ecc.)</li>
+		<li>Caricarli in VTBuilder.</li>
+		<li>Ripulire i dati con operazioni come l&#39;allineamento, l&#39;estrazione di 
+		aree di interesse, l&#39;assemblaggio ed il ricampionamento, e l&#39;aggiunta di 
+		informazioni mancanti.</li>
+		<li>Esportare i dati prodotti.</li>
+	</ol>
+</blockquote>
+<h3><a name="Concepts">Concetti</a></h3>
+<blockquote>
+	<h4 align="left">Livelli</h4>
+	<blockquote>
+		<p align="left">VTBuilder tratta i dati come <i><b>Livelli</b></i>, in 
+		modo simile ad altri strumenti software GIS.<br />
+		I Livelli sono organizzati nei seguenti <b>tipi</b>:</p>
+		<ul>
+			<li>Elevazione</li>
+			<li>Immagini</li>
+			<li>Strutture (Edifici, Recinzioni..)</li>
+			<li>Strade</li>
+			<li>Vegetazione</li>
+			<li>Acqua</li>
+			<li>Grezzi (dati astratti senza correlazione geofisica)</li>
+		</ul>
+		<p>Poichè VTBuilder conosce il tipo di dati contenuti in ogni livello, 
+		può eseguire operazioni su di essi che sfruttano la conoscenza 
+		geospaziale d&#39;alto livello.</p>
+		<p>Ogni livello corrisponde ad un file su disco. Il file può essere <b>
+		importato</b> 
+		oppure di formato <b>nativo</b>.&nbsp; I Livelli possono essere letti da 
+		un formato <b>importato</b>, e può essere sia letto che scritto in 
+		formati
+		<b>nativi</b>.</p>
+	</blockquote>
+	<h4>Progetti</h4>
+	<blockquote>
+		<p>Potete salvare una descrizione di tutti i livelli correnti in un <b>
+		file di progetto (.vtb).</b>&nbsp; Questa é una maniera conveniente per 
+		ricordare i file che sono stati utilizzati, e per riaprirli velocemente 
+		tutti più tardi.</p>
+		<p>Per i dati importati, il file di progetto memorizzerà il nome del 
+		file importato, che sarà di nuovo importato quando il progetto sarà 
+		aperto.&nbsp; Per i formati nativi, il livello é semplicemente caricato 
+		dal suo file nativo.</p>
+	</blockquote>
+</blockquote>
+<h3><a name="Distribution">Distribuzione</a> </h3>
+<blockquote>
+	<p>Questo software é del tutto libero per uso e ridistribuzione, con
+	<a href="../license.txt">questa licenza</a>.<br />
+	Domande e commenti possono essere inviati ad
+	<a ref="mailto:ben.discoe@intel.com" href="mailto:toolbox@vterrain.org">
+	info@vterrain.org</a><br />
+	Più informazioni sul software VTP é online all&#39;indirizzo
+	<a href="http://vterrain.org/">http://vterrain.org/</a> </p>
+</blockquote>
+
+</body>
+
+</html>

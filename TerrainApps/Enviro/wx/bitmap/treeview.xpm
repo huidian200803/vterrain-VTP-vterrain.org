@@ -1,0 +1,29 @@
+/* XPM */
+static const char *treeview_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 3 1",
+"  c None",
+"a c Black",
+"b c #808080",
+/* pixels */
+"                    ",
+"   aaaaaa           ",
+"   aaaaaa           ",
+"    a               ",
+"    a  aaaaaa       ",
+"    aabaaaaaa       ",
+"    a               ",
+"    a  aaaaaa       ",
+"    aabaaaaaa       ",
+"    a               ",
+"    a  aaaaaa       ",
+"    aabaaaaaa       ",
+"    a               ",
+"    a  aaaaaa       ",
+"    aabaaaaaa       ",
+"    a               ",
+"    a  aaaaaa       ",
+"    aabaaaaaa       ",
+"                    ",
+"                    "
+};

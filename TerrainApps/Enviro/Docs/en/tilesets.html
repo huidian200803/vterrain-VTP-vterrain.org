@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Tilesets</title>
+</head>
+
+<body>
+
+<h2><i>Enviro</i></h2>
+<h3>Tilesets</h3>
+<blockquote>
+	<p>Tilesets are a way of supporting very large terrain data.&nbsp; The elevation 
+	and imagery are stored as a set of tiles in a regular grid, N x M in size.&nbsp; 
+	The elevation and imagery must both be tilesets of the same grid size.</p>
+	<p>Where to put them:</p>
+	<table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse">
+		<tr>
+			<td><b>Data</b></td>
+			<td><b>Location</b></td>
+		</tr>
+		<tr>
+			<td>elevation tilesets (.ini and folder)</td>
+			<td><code>Data/Elevation</code></td>
+		</tr>
+		<tr>
+			<td>image tilesets (.ini and folder)</td>
+			<td><code>Data/GeoSpecific</code></td>
+		</tr>
+	</table>
+	<p>It is good to avoid tiles which are very large (in heixels or texels), because 
+	there can be a significant pause (a fraction of a second) when each tile must 
+	be sent to the 3D card.&nbsp; To avoid this, you can increase N and M (columns 
+	and rows of the grid) so that each tile is smaller.</p>
+	<p>In addition the base texture (which can be a tileset), if you have a modern 
+	graphics card with multi-texture, you can use <a href="images.html">Image Layers</a> 
+	to overlay additional textures on your terrain.</p>
+</blockquote>
+
+</body>
+
+</html>

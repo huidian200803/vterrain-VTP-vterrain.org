@@ -1,0 +1,27 @@
+/* XPM */
+static const char *water_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 5 1",
+"  c black",
+". c blue",
+"X c #008080",
+"o c cyan",
+"O c None",
+/* pixels */
+"OOOOOOOOOOOOOOOO",
+"OOOOOO.OOOOOOOOO",
+"OOOOOO..OOOOOOOO",
+"OOOOOO..OOOOOOOO",
+"OOOOOX..XOOOOOOO",
+"OOOOOX...XOOOOOO",
+"OOOOO...oXOOOOOO",
+"OOOOO...ooOOOOOO",
+"OOOOX....oXOOOOO",
+"OOOO.....oXOOOOO",
+"OOOO......XOOOOO",
+"OOOOX....XXOOOOO",
+"OOOOO....XXOOOOO",
+"OOOOOO..XXOOOOOO",
+"OOOOOOOOOOOOOOOO",
+"OOOOOOOOOOOOOOOO"
+};

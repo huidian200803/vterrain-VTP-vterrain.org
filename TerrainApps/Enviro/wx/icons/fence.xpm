@@ -1,0 +1,25 @@
+/* XPM */
+static const char *fence_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1",
+"  c black",
+". c #808080",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXX. ",
+"XXXXXXXXXXXXXX. ",
+"XXXXXXXXXXXXX   ",
+"XXXXXXXXXXX  X. ",
+"XXXXXXX.   XXX. ",
+"XXXXXXX. XXXX   ",
+"XXXXXX   XX  X. ",
+"XXXXX X.   XXXXX",
+"XXXX XX. XXXXXXX",
+".   XX   XXXXXXX",
+". XXX X. XXXXXXX",
+". XX XXXXXXXXXXX",
+".   XXXXXXXXXXXX",
+". XXXXXXXXXXXXXX",
+". XXXXXXXXXXXXXX",
+". XXXXXXXXXXXXXX"
+};

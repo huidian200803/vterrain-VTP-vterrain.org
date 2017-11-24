@@ -1,0 +1,32 @@
+/* XPM */
+static const char *axes_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 6 1",
+"  c None",
+"a c Black",
+"b c #FF0000",
+"c c #0000FF",
+"d c #C0C0C0",
+"f c #00FF00",
+/* pixels */
+"                    ",
+"         ff         ",
+"         ffa        ",
+"         ffa   cc   ",
+"         ffa  cca   ",
+"         ffa cca    ",
+"         ffacca     ",
+"         ffcca      ",
+"         fcca       ",
+" bbbbbbbbccbbbbbbbb ",
+" bbbbbbbbcabbbbbbbba",
+"  aaaaaccafaaaaaaaaa",
+"      ccaffa        ",
+"     cca ffa        ",
+"    cca  ffa        ",
+"   cca   ffa        ",
+"   ca    ffa        ",
+"         ffa        ",
+"         ffa        ",
+"         daa        "
+};

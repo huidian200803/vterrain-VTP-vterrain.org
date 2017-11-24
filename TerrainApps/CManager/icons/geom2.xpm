@@ -1,0 +1,29 @@
+/* XPM */
+static const char *geom2_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 7 1",
+"  c black",
+". c navy",
+"X c blue",
+"o c #008000",
+"O c green",
+"+ c #800000",
+"@ c red",
+/* pixels */
+"@@@@@@@ @@@@@@@@",
+"@@@@@@   @@@@@@@",
+"@@@@@ O  +@@@@@@",
+"@@@@ OO X @@@@@@",
+"@@@ OOO XX @@@@@",
+"@@ OOOO XXX @@@@",
+"@ OOOOO.XXX +@@@",
+" OOOOOo.XXXX @@@",
+"+oOOOOo.XXXXX @@",
+"@ OOOO XXXXXXX @",
+"@@ OOO XXXXXXX +",
+"@@@ OO XXXXXXX  ",
+"@@@+ O XXX.   +@",
+"@@@@ O    +@@@@@",
+"@@@@@  +@@@@@@@@",
+"@@@@@@@@@@@@@@@@"
+};

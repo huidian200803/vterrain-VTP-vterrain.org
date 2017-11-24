@@ -1,0 +1,28 @@
+/* XPM */
+static const char *Enviro_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 6 1",
+"  c navy",
+". c blue",
+"X c #008000",
+"o c #008080",
+"O c #808080",
+"+ c #C0C0C0",
+/* pixels */
+"..XXo...........",
+"..+XXXoo........",
+"...++XXXX.......",
+"..O+++++XX+.....",
+"..++++OOOXO+....",
+"+++OOOOO+OX+....",
+"++OOO+O++OX++o..",
+".+++OOOOOOXXXX..",
+".++OOO OXXXXX+Xo",
+".OOOO O+O+XXXXXo",
+"..OOOOOO++OXOO..",
+"..OOOOo+++O+....",
+"..OOOo++o.o.....",
+"..OOOOO.........",
+"...O+O..........",
+"....O .........."
+};

@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Export Area</title>
+</head>
+
+<body>
+
+<h1 align="center">VTBuilder<br />
+<a href="index.html"><font size="3">back to index</font></a><font size="3">
+</font></h1>
+<h2>Strumento Area<br />
+</h2>
+Questo strumento vi permette di indicare un &#39;area rettangolare d&#39;interesse. E&#39; utile 
+per indicare dove tu vuoi operare altri livelli, per elevazione, immagini, e la 
+vegetazione.
+<h3>Menus:</h3>
+<ul>
+	<li><b>Area Tool</b>
+	<ul>
+		<li>Set to Full Extents
+		<ul>
+			<li>Resizes the area tool to surround all of the currently loaded layers.</li>
+		</ul>
+		</li>
+		<li>Set to Layer Extents
+		<ul>
+			<li>Resizes the area tool to surround the currently selected layer.</li>
+		</ul>
+		</li>
+		<li>Numeric Values
+		<ul>
+			<li>Allows you to examine and manually enter the range of the area tool.</li>
+		</ul>
+		</li>
+		<li>Match Area and Tiling to Layer
+		<ul>
+			<li>This is useful when you will be tiling your terrain, and you want 
+			to sample your data at its exact, full resolution.&nbsp; See <b>Match 
+			Area and Tiling to Layer Dialog </b>below.</li>
+		</ul>
+		</li>
+	</ul>
+	<ul>
+		<li>Merge &amp; Resample Elevation
+		<ul>
+			<li>Displays the <b>Merge and Resample Elevation</b> dialog (see below)</li>
+		</ul>
+		</li>
+		<li>Merge &amp; Resample Imagery
+		<ul>
+			<li>Displays the <b>Merge and Resample Imagery</b> dialog (see below)</li>
+		</ul>
+		</li>
+		<li>Generate Vegetation
+		<ul>
+			<li>See <a href="vegetation.html">Vegetation</a> for an description 
+			of how to use this command.</li>
+		</ul>
+		</li>
+		<li>Request Layer from WFS</li>
+		<li>Request Layer from WMS
+		<ul>
+			<li>These are experimental commands.&nbsp; If you know how to use a 
+			WFS or WMS, give them a try!</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+</ul>
+<h3>Toolbar:</h3>
+<ul>
+	<li>The Area Tool (<img src="images/tb_area.png" align="bottom" border="0" height="37" width="39" />) 
+	can be used to set the desired area directly with the mouse.&nbsp; Click on 
+	any edge of the area tool to move that edge, or click inside to move the whole 
+	area without resizing.</li>
+</ul>
+<h3>Merge and Resample Elevation Dialog</h3>
+<blockquote>
+	<p>You can choose where the output will go: To a new layer (in memory), To a 
+	file, or To a tileset (folder of tiles).</p>
+	<p>This dialog displays:</p>
+	<ul>
+		<li>The size of the <b>Save Area</b>, in either meters or degrees</li>
+		<li>An estimated <b>Sample factor</b>, which is a guess based on looking 
+		at the X spacing of the first elevation layer.</li>
+		<li>The projected <b>Size at that density</b>, which shows you the size 
+		of a grid that would result from sampling the area at the indicated sample 
+		factor.&nbsp; Assuming that your input layers are of the same density (spacing), 
+		this indicates the approximate grid size of the indicated area.</li>
+	</ul>
+	<h4>Output to a new layer or to a file:</h4>
+	<blockquote>
+		<p>You can change the sample factor to see the projected size change.&nbsp; 
+		Once you have a good idea of what output size you want, specify it in the 
+		&quot;<b>X size</b>&quot; and &quot;<b>Y size</b>&quot; fields.</p>
+		<p>Note that there is a helpful &quot;<b>Powers of 2 + 1</b>&quot; constraint you 
+		can use to limit the output to sizes which are supported by Terrain LOD, 
+		which is highly desirable at visualization runtime.</p>
+		<p>For effective visualization it is recommended that you pick a output 
+		size that is at least as large as your input data, but within the limits 
+		of your computer&#39;s RAM.</p>
+	</blockquote>
+	<h4>Output to a folder of tiles (Tileset):</h4>
+	<blockquote>
+		<p>This option has no limit on the size of the data.&nbsp; Press <i>Tile 
+		Options</i> for the <b>Tiling Options</b> dialog.&nbsp; Give the output 
+		a filename, and set the number of rows and columns of the tile grid along 
+		with the tile size (LOD0 Size) which gives the highest resolution of each 
+		tile.&nbsp; The <b>Information</b> display helps you see whether your tiling 
+		is a good approximation of the input data your are resampling.&nbsp; For 
+		smoother visualization, is it good to keep the tile grid size large and 
+		the LOD0 Size small (512 or less) so that there are shorter pauses as each 
+		tile is paged.&nbsp; Alternately, if smoothness isn&#39;t a concern, you can 
+		decrease the tile grid size, and increase the LOD0 Size, which will result 
+		in a drastically smaller number of files on your disk.</p>
+		<p>See <a href="../Enviro/tilesets.html">Enviro: Tilesets</a> for a description 
+		of how tilesets are handled at runtime.&nbsp; If you are using a tileset 
+		for your elevation, you must have a tileset of the same grid size for the 
+		imagery.</p>
+	</blockquote>
+</blockquote>
+<h3>Merge and Resample Imagery Dialog</h3>
+<blockquote>
+	<p>You can choose where the output will go: To a new layer (in memory), To a 
+	file, or To a tileset (folder of tiles).</p>
+	<p>This dialog displays:</p>
+	<ul>
+		<li>The size of the <b>Save Area</b>, in either meters or degrees</li>
+		<li>An estimated <b>Sample factor</b>, which is a guess based on looking 
+		at the X spacing of the first imagery layer.</li>
+		<li>The projected <b>Size at that density</b>, which shows you the size 
+		of a grid that would result from sampling the area at the indicated sample 
+		factor.&nbsp; Assuming that your input layers are of the same density (spacing), 
+		this indicates the approximate grid size of the indicated area.</li>
+	</ul>
+	<h4>Output to a new layer or to a file:</h4>
+	<blockquote>
+		<p>You can change the sample factor to see the projected size change.&nbsp; 
+		Once you have a good idea of what output size you want, specify it in the 
+		&quot;<b>X size</b>&quot; and &quot;<b>Y size</b>&quot; fields.</p>
+		<p>Note that there is a helpful &quot;<b>Powers of 2</b>&quot; constraint you can 
+		use to limit the output to sizes which are supported by the visualization 
+		runtime.</p>
+		<p>For effective visualization it is recommended that you pick a output 
+		size that is at least as large as your input data, but within the limits 
+		of your computer&#39;s RAM.</p>
+	</blockquote>
+	<h4>Output to a folder of tiles (Tileset):</h4>
+	<blockquote>
+		<p>This option has no limit on the size of the data.&nbsp; Press <i>Tile 
+		Options</i> for the <b>Tiling Options</b> dialog.&nbsp; Give the output 
+		a filename, and set the number of rows and columns of the tile grid along 
+		with the tile size (LOD0 Size) which gives the highest resolution of each 
+		tile.&nbsp; The <b>Information</b> display helps you see whether your tiling 
+		is a good approximation of the input data your are resampling.&nbsp; For 
+		smoother visualization, is it good to keep the tile grid size large and 
+		the LOD0 Size small (512 or less) so that there are shorter pauses as each 
+		tile is paged.&nbsp; Alternately, if smoothness isn&#39;t a concern, you can 
+		decrease the tile grid size, and increase the LOD0 Size, which will result 
+		in a drastically smaller number of files on your disk.</p>
+		<p>See <a href="../Enviro/tilesets.html">Enviro: Tilesets</a> for a description 
+		of how tilesets are handled at runtime.&nbsp; If you are using a tileset 
+		for your imagery, you must have a tileset of the same grid size for the 
+		elevation.</p>
+	</blockquote>
+</blockquote>
+<h3>Match Area<b> and Tiling to Layer</b> Dialog</h3>
+<blockquote>
+	<p>This is useful when you will be tiling your terrain, and you want to sample 
+	your data at its exact, full resolution.&nbsp; For example, if you have some 
+	elevation data with 10m spacing or aerial photos with 1m spacing, you will probably 
+	want your tile resolution to match this exactly, so that you are seeing your 
+	full original data without any sampling artifacts.</p>
+	<p>Set the area you are interested in, with the Area Tool, then give this command.&nbsp; 
+	You should see the dialog <b>Match Area and Tiling to Layer.</b></p>
+	<ul>
+		<li><b><i>Previous:</i> </b>This is your original area of interest, which 
+		we will try to match.</li>
+		<li><b><i>Current: </i></b>This is the current tiled area, as close as possible 
+		to the original area.</li>
+		<li><b><i>Match Layer: </i></b>This is the layer you want to match.&nbsp; 
+		For example, if you have one layers at 2m and some others at 4m, you might 
+		want to tell the dialog to match the 2m layer.</li>
+		<li><b><i>Layer Resolution: </i></b>This shows you the resolution (X and 
+		Y spacing) of the selected layer.</li>
+		<li><i><b>Allow Area to Grow/Shrink:</b>&nbsp; </i>In case your desired 
+		area can&#39;t be matched exactly with tiling, the area will need to grow or 
+		shrink.&nbsp; You can indicate which is allowable.&nbsp; For example, if 
+		you are sampling elevation, you will probably not want to grow the area 
+		outside the bounds of your original area, because then you would be sampling 
+		from an area with no elevation, which is undesirable.</li>
+		<li><b><i>Tile LOD0 Size: </i></b>This is value you set.&nbsp; Tiles have 
+		a number of levels of detail (LOD), which are numbered starting from 0.&nbsp; 
+		Hence, the LOD0 size is the highest resolution of each tile, which is value 
+		we want to match to the input data.&nbsp; For efficient paging at runtime, 
+		you should try to keep this value small (512 for elevation, 1024 for imagery).&nbsp; 
+		You can make it smaller, for even smoother paging at the expense of more 
+		tile files.</li>
+		<li><b><i>Tiling: </i></b>This is the tiling that results from matching 
+		your desired resolution and area.</li>
+	</ul>
+	<p>The tiling (area and number of tiles) is also shown visually in the main 
+	view.</p>
+</blockquote>
+
+</body>
+
+</html>

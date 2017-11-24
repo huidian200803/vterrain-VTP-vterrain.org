@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Utilizzare le Proprie Immagini</title>
+</head>
+
+<body>
+
+<h2><i><font face="Verdana">Enviro</font></i></h2>
+<h3>Utilizzare le Proprie Immagini (Textures)</h3>
+<ul>
+	<li>L&#39;immagine deve combaciare spazialmente con l&#39;elevazione sia per quanto 
+	riguarda la proiezione che l&#39;estensione. Un modo per ottenere ciò è 
+	utilizzare VTBuilder per riproiettare e ritagliare l&#39;elevazione, affinchè si 
+	sovrapponga perfettamente all&#39;immagine.</li>
+	<li>Se l&#39;immagine scelta misura fino a&nbsp; 4096*4096, si può utilizzare una 
+	texture terreno standard. Se supera abbondantemente questa dimensione, è 
+	preferibile utilizzare un <a href="tilesets.html">image tileset</a>.</li>
+</ul>
+<h4>Texture Terreno Standard&nbsp; </h4>
+<ul>
+	<li>L&#39;immagine deve essere convertita in uno tra i formati TIF, PNG, BMP o 
+	JPG.</li>
+	<li>Verificare quale è il limite di grandezza di una texture che il computer 
+	riesce a visualizzare. Dalla Finestra di Dialogo Enviro Avvio, fare click 
+	sul pulsante &quot;Informazioni su OpenGL&quot; e leggere il numero a fianco di 
+	&quot;Dimensione Massima della Texture&quot;</li>
+	<li>Se la dimensione della texture da utilizzare non supera la &quot;Dimensione 
+	Massima della Texture&quot;, è possibile utilizzare l&#39;opzione &quot;Texture Singola&quot;, 
+	altrimenti si deve usare l&#39;opzione &quot;Texture Tiled 4x4&quot;.</li>
+	<li>Assegnare alla texture un nome con un suffisso riguardante la sua 
+	dimensione, ad esempio &quot;<code>newyork_1024.bmp</code>&quot;</li>
+	<li>Collocare la texture nella cartella
+	<span style="font-family: monospace;"></span><code>Data/GeoSpecific</code></li>
+	<li>Per una texture Singola:
+	<ul>
+		<li>La dimensione della texture deve essere un numero potenza di 2, fino 
+		al limite raggiungibile dal computer (ad esempio 512, 1024)</li>
+	</ul>
+	</li>
+	<li>Per una texture Tiled 4x4:
+	<ul>
+		<li>Deve essere fornita ad Enviro una immagine quadrata, ed Enviro la 
+		ritaglierà sul momento in una serie di 16 tiles (4x4)</li>
+		<li>La dimensione di ciascun tile deve essere un numero potenza di 2, 
+		fino al limite raggiungibile dal computer (ad esempio 512, 1024)</li>
+		<li>A causa della sovrapposizione dei pixel necessaria per evitare 
+		cuciture sulla texture, la dimensione della singola grande texture può 
+		sembrare in qualche modo insolita - ad esempio 2045 per tile 4x4 a 512, 
+		4093 per tile 4x4 a 1024</li>
+		<li>Il nome del file è strutturato in due parti: il prefisso (ad esempio 
+		&quot;hawaii_&quot;) e la dimensione dell&#39;immagine (e.g. &quot;4093&quot;). La finestra di 
+		dialogo permette di specificare il prefisso, e in automatico calcola e 
+		aggiunge la dimensione dell&#39;immagine, basata sulla dimensione dei tile 
+		che viene specificata</li>
+		<li>Così, quando vengono preparati i file immagine, viene semplicemente 
+		assegnato loro il nome prescelto con al termine il numero che 
+		rappresenta la dimensione in pixel (ad esempio &quot;hawaii_4093.bmp&quot;)</li>
+		<li>Fare click sulla voce &quot;JPEG&quot; per ottenere una texture jpeg, 
+		altrimenti verrà creata una texture BMP.</li>
+	</ul>
+	</li>
+</ul>
+<p>Se si possiede una moderna scheda grafica con supporto multi-texture, per la 
+copertura di un terreno si possono utilizzare, oltre alle normali texture, i
+<a href="images.html">Livelli Immagine</a>.</p>
+
+</body>
+
+</html>

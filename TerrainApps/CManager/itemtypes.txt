@@ -1,0 +1,179 @@
+(none)
+unknown
+bench
+bollard
+bridge
+building
+	apartment building
+	bank
+	barn
+	barracks
+	castle
+	commercial
+	control tower
+	cooling tower
+	factory
+	fire station
+	greenhouse
+	hangar
+	hospital
+	hotel
+	house
+	igloo
+	library
+	lighthouse
+	motel
+	museum
+	observatory
+	office building
+	palace
+	police station
+	post office
+	power plant
+	prison building
+	refinery
+	restaurant
+	service station
+	shed
+	shopping center
+	store
+	warehouse
+	yurt
+crane
+dam
+fence
+gate
+gantry crane
+gasoline pump
+haystack
+lamp post
+mailbox
+parking meter
+picnic table
+pier
+pipeline
+post
+pylon
+radio telescope
+rail
+reflector
+satellite dish
+sign
+	stop sign
+	yield sign
+	speed limit sign
+	route marker
+	elevation sign
+silo
+solar panels
+stadium
+storage tank
+streetlight
+stoplight
+tent
+telephone booth
+tombstone
+tower
+	water tower
+	steel lattice tower
+transformer, power station
+tunnel
+utility pole
+wall
+well
+wellhead
+windmill
+windmotor, wind turbine, wind generator
+amphibious vehicle
+air vehicle
+	Boeing 747
+	DC-10
+	fighter jet
+	bomber
+	balloon
+	hang glider
+	helicopter
+	missile
+	paraglider
+	rocket
+ground vehicle
+	bicycle
+	bus
+	car, automobile
+	convertible
+	hatchback
+	limousine
+	minivan
+	sedan, four-door
+	sedan, two-door
+	sports car
+	station wagon
+	combine harvester
+	earthmover
+	bulldozer
+	grader
+	hydraulic shovel
+	scraper
+	wheel loader
+	fire engine
+	forklift
+	lawnmower
+	mobile home
+	mobile passenger stairs
+	motor home
+	motorcycle
+	snowmobile
+	sports utility vehicle
+	tank
+	tractor
+	train car
+	engine
+	coach car
+	sleeping car
+	dining car
+	box car
+	tank car
+	livestock car
+	hopper car
+	flat car
+	caboose
+	trolley, streetcar, light rail car
+	truck
+	pickup
+	dump truck
+	flatbed trailer
+	semi trailer
+	truck tractor
+	truck trailer
+	truck crane
+	wheelbarrow
+water vehicle
+	boat
+	aircraft carrier
+	canoe
+	container ship
+	catamaran
+	dinghy
+	ferry
+	frigate
+	hovercraft
+	hydrofoil
+	kayak
+	passenger liner
+	raft
+	rowboat
+	sailboat
+	schooner
+	speedboat
+	tanker
+	tugboat
+	yacht
+	buoy
+	jet ski
+	submarine
+space vehicle
+	satellite
+	communications satellite
+	weather satellite
+	space shuttle
+	space station

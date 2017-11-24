@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder Vegetation</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h2>Vegetation Layers</h2>
+<blockquote>
+	<p>To learn how the VTP software represents vegetation, first read the web page
+	<a href="http://vterrain.org/Doc/Veg/">VTP Implementation Vegetation</a>.&nbsp; 
+	The following assumes that you are familiar with the terminology.</p>
+	<p>VTBuilder can import vegetation data from these formats:</p>
+	<ul>
+		<li>ESRI Shape files (<b>.shp</b>)</li>
+		<li>USGS LULC (Land Use / Land Cover, usual file extension is <b>.gir</b>)</li>
+	</ul>
+	<p>There are several type of Vegetation Data.</p>
+	<ol>
+		<li><b>Biotype</b> - polygonal areas which describe which biotype is found 
+		in that area.</li>
+		<li><b>Density</b> - polygonal areas which contain information (0 to 1) 
+		about how dense the vegetation is.</li>
+		<li><b>Explicit</b> - a set of actual plant instances.</li>
+	</ol>
+	<p>Currently you can:</p>
+	<ul>
+		<li>Import <b>Biotype</b> from Shapefiles.</li>
+		<li>Import <b>Density</b> from LULC and Shapefiles.</li>
+		<li>Read and write <b>Explicit</b> instances with VF files, which can also 
+		be read by VTP Enviro</li>
+	</ul>
+	<p>Before doing any operations with vegetation,</p>
+	<ol>
+		<li>Make sure that you have a species file with the species you need. An 
+		example file is is <code>VTP/Enviro/Data/PlantData/species.xml</code></li>
+		<li>Load your species file with the menu command &quot;Vegetation: Species 
+		List&quot;.&nbsp; </li>
+	</ol>
+	<p>If you have point data for each plant, use these steps to import explicit 
+	plant instances:</p>
+	<ol>
+		<li>Use the menu command &quot;Layer: Import Data&quot; and indicate Vegetation.</li>
+		<li>Indicate the file which contains the point locations of your instances.&nbsp; 
+		Generally this is a SHP file.</li>
+		<li>Save the resulting layer to a VF file, which can be used by Enviro.</li>
+	</ol>
+	<p>If you have an area covered by a single plant species, use these steps to 
+	generate a vegetation distribution:</p>
+	<ol>
+		<li>Use the <a href="export_area.html">Area Tool</a> to indicate the area 
+		in which to distribute the vegetation</li>
+		<li>Give the menu command &quot;Area Tool - Generate Vegetation&quot;&nbsp; 
+		A dialog will ask for :
+		<ul>
+			<li>Grid Spacing of Sampling, in meters.&nbsp; The distribution will 
+			occur on a regular grid.&nbsp; At each point, it will test to see what 
+			kind of plant belongs at that location, given all known inputs.&nbsp; 
+			Then, if a plant is generated, a small random offset is applied to avoid 
+			the &quot;regular&quot; look of an evenly distribution.</li>
+			<li>Artificial Scarcity.&nbsp; Most interactive simulation can't handle 
+			the full density of real-world vegetation.&nbsp; You can set this to 
+			a value less than 1 to produce an artificially scarce distribution.&nbsp; 
+			For example, 0.001 will produce 1/1000 of the normal density of vegetation.</li>
+		</ul>
+		</li>
+		<li>The resulting VF file can be used by Enviro.</li>
+	</ol>
+	<p>If you instead have polygon data which described the general area covered 
+	by a number of plants, use these steps to generate a vegetation distribution:</p>
+	<ol>
+		<li>Load your Bioregion (list of Biotypes) with the menu command &quot;Vegetation: 
+		BioRegions&quot;.<br />
+		An example file is in <code>Data/PlantData/bioregion.txt<br />
+		</code>The plant densities are in plants per square meter.</li>
+		<li>Import at least one vegetation layer with <b>Biotype</b>.&nbsp; Biotype 
+		is by 0-based index, so a integer field with values of 0, 1, 2, 3 etc. indicates 
+		which biotype.</li>
+		<li>If you also (<i>optionally</i>) have polygon data with additional information 
+		about plant density, import that layer as <b>Density</b>.&nbsp; This can 
+		be the same GIS file that contains the Biotype, or a separate file such 
+		as a LULC file.&nbsp; If you don't have a data file, the default of &quot;Normal 
+		Density&quot; will be assumed.</li>
+		<li>Use the <a href="export_area.html">Area Tool</a> to indicate the area 
+		in which to distribute the vegetation</li>
+		<li>Give the menu command &quot;Area Tool - Generate Vegetation&quot;&nbsp; 
+		A dialog will ask for :
+		<ul>
+			<li>Grid Spacing of Sampling, in meters.&nbsp; The distribution will 
+			occur on a regular grid.&nbsp; At each point, it will test to see what 
+			kind of plant belongs at that location, given all known inputs.&nbsp; 
+			Then, if a plant is generated, a small random offset is applied to avoid 
+			the &quot;regular&quot; look of an gridded distribution.</li>
+			<li>Artificial Scarcity.&nbsp; Most interactive simulation can't handle 
+			the full density of real-world vegetation.&nbsp; You can set this to 
+			a value less than 1 to produce an artificially scarce distribution.&nbsp; 
+			For example, 0.001 will produce 1/1000 of the normal density of vegetation.</li>
+		</ul>
+		</li>
+		<li>A VF file will be produced.&nbsp; You can load this file back into VTBuilder 
+		to check for correct distribution, or you can load it into Enviro for 3D 
+		visualization.</li>
+	</ol>
+	<p>Please <a href="mailto:ben@vterrain.org">email any questions</a>.</p>
+</blockquote>
+
+</body>
+
+</html>

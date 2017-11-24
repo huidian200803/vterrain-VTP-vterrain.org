@@ -1,0 +1,31 @@
+/* XPM */
+static const char *eye_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 5 1",
+"  c None",
+"a c Black",
+"b c #BFBF00",
+"c c #FFFFFF",
+"d c #808080",
+/* pixels */
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"        aaaaaad     ",
+"      aadbbbbbaad   ",
+"    aadbbbbbbbbbaa  ",
+"  aadcbbbbaabbbbccad",
+" aacccbbbaaaabbbccca",
+"aaccccbbbaaaabbbccaa",
+" aaaccbbbbaabbbbcaa ",
+"   aaacbbbbbbbbbaa  ",
+"     aaabbbbbaaad   ",
+"       daaaaad      ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    ",
+"                    "
+};

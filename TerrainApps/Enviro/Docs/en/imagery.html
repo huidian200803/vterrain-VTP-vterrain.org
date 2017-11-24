@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Using Your Own Imagery</title>
+</head>
+
+<body>
+
+<h1><i>Enviro</i></h1>
+<h2>Using Your Own Imagery (Textures)</h2>
+<ul>
+	<li>Your image needs to match your elevation in both projection and extents.&nbsp; 
+	One way to do this is to use VTBuilder to re-project and crop your elevation, 
+	as needed, to match your image.</li>
+	<li>If your image is up to 4096*4096 in size (or 8192x8192 for recent 3D hardware), 
+	you can use a standard terrain texture.&nbsp; If it is much larger, you should 
+	use an <a href="tilesets.html">image tileset</a>.</li>
+</ul>
+<h4>Standard Terrain Textures</h4>
+<ul>
+	<li>Your imagery should be in either the TIF, PNG, BMP or JPG format.</li>
+	<li>Learn how large a texture your computer can display.&nbsp; From the Enviro 
+	Start dialog, press &quot;OpenGL Info...&quot; and look at the number for &quot;Maximum 
+	Texture Dimension&quot;</li>
+	<li>If your terrain texture map is not larger than the maximum texture, you 
+	can use the &quot;Single texture&quot; option, otherwise you will need to use &quot;4x4 
+	Tiled texture&quot;.</li>
+	<li>Give your texture a filename ending in it&#39;s size, e.g. &quot;<code>newyork_1024.bmp</code>&quot;</li>
+	<li>Put your texture in in the directory<code> Data/GeoSpecific</code></li>
+	<li>For a Single texture:
+	<ul>
+		<li>Your texture size must be a square power of 2, up to the limit of your 
+		computer (e.g. 512, 1024)</li>
+	</ul>
+	</li>
+	<li>For a 4x4 Tiled texture:
+	<ul>
+		<li>You provide a single large square image file, and Enviro will break 
+		it up for you, at runtime, into a set of 16 tiles (4x4)</li>
+		<li>The size of each tile must be a power of 2, up to the limit of your 
+		computer (e.g. 512, 1024)</li>
+		<li>Due to pixel overlap to avoid texture seams, the dimensions of the single 
+		large texture may seem somewhat unusual - e.g. 2045 for a 4x4 at 512, 4093 
+		for a 4x4 at 1024</li>
+		<li>The filename is made up of two parts: the prefix (e.g. &quot;hawaii_&quot;) 
+		and the image size (e.g. &quot;4093&quot;). The dialog lets you specify 
+		the prefix, and it computes and appends the image size, based on the tile 
+		size you specify</li>
+		<li>So, when you&#39;re preparing your image files, simply name them ending 
+		in a number that is their size in pixels (e.g. &quot;hawaii_4093.bmp&quot;)</li>
+		<li>Click the &quot;JPEG&quot; box for a jpeg texture, otherwise BMP is 
+		assumed.</li>
+	</ul>
+	</li>
+</ul>
+<h4>Transparency</h4>
+<ul>
+	<li>If you provide an image which has an alpha plane (transparency), Enviro 
+	will use it.</li>
+	<li>Provide a PNG or TIF that is 32-bit, that is, 24 bits of RGB and 8 bits 
+	of Alpha.</li>
+	<li>You may see some odd effects if you have <strong>other</strong> transparent 
+	objects in the scene, above or below the terrain surface.&nbsp; This is because 
+	OSG/OpenGL cannot always sort transparent objects relative to each other perfectly.</li>
+</ul>
+<p>In addition the base texture for a terrain, if you have a modern graphics card 
+with multi-texture, you can use <a href="images.html">Image Layers</a> to overlay 
+additional textures on your terrain.</p>
+
+</body>
+
+</html>

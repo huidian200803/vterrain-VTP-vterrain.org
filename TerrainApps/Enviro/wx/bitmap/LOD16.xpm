@@ -1,0 +1,21 @@
+/* XPM */
+static const char *LOD16_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"14 14 1 1",
+"a c #C0C0C0",
+/* pixels */
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaa"
+};

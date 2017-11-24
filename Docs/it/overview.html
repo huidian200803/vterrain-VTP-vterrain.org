@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="it" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>VTP Documentation</title>
+<link href="../docs.css" rel="stylesheet" />
+<link href="docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h2 class="tcenter">VTP Software Documentazione</h2>
+<p class="tcenter"><em>Vista d'insieme</em></p>
+<h4>Molto Brevemente</h4>
+<blockquote>
+	<p>Scopo del software VTP e'&nbsp;permettere di realizzare rapidamente la visualizzazione 
+	3D interattiva di qualsiasi parte del mondo reale.</p>
+</blockquote>
+<h4>In Dettaglio</h4>
+<blockquote>
+	<p>Il metodo generale per costruire una visualizzazione usando gli strumenti 
+	di VTP e' quello di&nbsp;<b>importare</b> file di dati all'interno di
+	<a href="VTBuilder/index.html">VTBuilder</a>, manipolarli ognuno in una maniera 
+	specifica, e poi <b>esportarli</b> in una serie di file di runtime.&nbsp; I 
+	file di runtime vanno disposti nelle directory Dati appropriate, e va poi usato
+	<a href="Enviro/index.html">Enviro</a> per la visualizzazione in realtime dei 
+	dati.</p>
+	<p>Si veda la documentazione di VTBuilder ed Enviro per il procedimento passo-passo 
+	di lettura dei propri dati, e per la visualizzazione. I dati&nbsp;includono&nbsp;orografia,&nbsp;strade, 
+	vegetazione,&nbsp;edifici e&nbsp;recinzioni.</p>
+	<p><a href="BExtractor/index.html">BExtractor</a> (Building Extractor) e' un'applicazione 
+	utile&nbsp;quando non si hanno i poligoni di base degli edifici o dati di localizzazione, 
+	ma si possiedono dei file TIF georeferenziati (come un USGS DRG) che contengono 
+	edifici. Esso produce&nbsp;VT Structure files (VTST) che possono essere inviati 
+	direttamente ad <a href="Enviro/index.html">Enviro</a>, oppure processati ulteriormente 
+	in <a href="VTBuilder/index.html">VTBuilder</a>.</p>
+</blockquote>
+<h4>Ritaglio e ri-campionamento Immagini</h4>
+<blockquote>
+	<p>Se possedete immagini che volete per il terreno, che non corrispondono al 
+	territorio come proiezione ed estensione, allora avete bisogno di ritaglarle 
+	e/o ri-proiettarle per farle corrispondere. Il software VTP non ha queste feature. 
+	Ci sono alcuni approcci possibili:</p>
+	<ol>
+		<li>Se avete la fortuna di averli, molti pacchetti software complessi come
+		<a href="http://www.gis.leica-geosystems.com/Products/product_details.asp?productid=1">
+		ERDAS Imagine</a> possono aiutarvi.</li>
+		<li>Il software gratuito <a href="http://www.globalmapper.com/">Global Mapper</a> 
+		e' capace di caricare qualunque numero di immagini, visualizzarli in ogni 
+		tipo di proiezione, e di estrarne un'area retangolare (cropping).</li>
+		<li>Se siete tecnicamente preparati, il pacchetto open-source
+		<a href="http://www.remotesensing.org/gdal/">GDAL</a> , multi-piattaforma, 
+		provvede uno strumento a linea di comando chiamato 'gdal_translate' che 
+		puo' essere configurato per ri-proiettare ed estrarre aree rettangolari. 
+		L'opzione&nbsp; <code>-projwin</code> e' utile per questo scopo.</li>
+		<li>Infine, se avete solo bisogno di estrarre un'area rettangolare, puo' 
+		essere possibile usare un'applicazione convenzionale bitmap application 
+		come PhotoShop per tagliare l'area di interesse.&nbsp; Questo richiede qualche 
+		calcolo aritmetico per trasformare coordinate in valori&nbsp; pixel.</li>
+	</ol>
+</blockquote>
+<h4>Geometria&nbsp;3D utente</h4>
+<blockquote>
+	<p>Se si vuole importare dei propri modelli 3D, ecco alcuni dettagli su come 
+	il software li supporta.</p>
+	<p>Una delle cose che <a href="Enviro/index.html">Enviro</a> puo' fare e' piazzare 
+	una o piu' istanze di un oggetto 3D sulla superficie del terreno. Per fare questo,esso 
+	richiede due tipi di file: ono per specificare la posizione dell'oggetto, e 
+	l'altro per specificare la geometria della superficie dell'ogegtto. Il primo 
+	e' un VT Structure File (VTST), ed e' tipicamente creato in
+	<a href="VTBuilder/index.html">VTBuilder</a> basato su dati GIS che rappresentano 
+	i centroidi dell'oggetto oppure le impronte a terra&nbsp; in un sistema di coordinate 
+	geografiche. (Le applicazioni&nbsp; "Building Extractor" e "Content Manager" 
+	possono essere usate per generare questo.) I file di geometria possono essere 
+	in uno dei formati riconosciuti dal sistema
+	<a href="http://www.openscenegraph.org/">OpenSceneGraph</a>&nbsp; ed e' tipicamente 
+	generato con un modellatore di superfici 3D o un sistema CAD. Formati tipici 
+	includono:</p>
+	<ul>
+		<li>.3DS (il formato dell'applicazione &nbsp;Discrete Studio Max, esportato 
+		anche da AutoCAD) </li>
+		<li>.LWO (Lightwave)</li>
+		<li>.FLT (formato OpenFlight - che puo' essere importato ed esportato tramite 
+		i plugin di Alias|Wavefront|AutoDesk Maya) </li>
+		<li>.OSG (il formato di OpenSceneGraph). </li>
+	</ul>
+	<p>C'e' ora anche supporto per il&nbsp; VRML 1.0 ed altri formati, come segnalato 
+	dal sito di <a href="http://www.openscenegraph.org/">OpenSceneGraph</a> in una 
+	lista completa, con alcuni limiti.&nbsp; L'applicazione&nbsp;<a href="CManager/index.html">CManager</a> 
+	puo' essere usata per fare un'anteprima dei propri modelli esattamente come 
+	essi appariarnno all'interno di <a href="Enviro/index.html">Enviro</a>.</p>
+	<p>Per meglio comprendere la relazione tra i due file (VTST e modello 3D) puo' 
+	essere utile vedere la struttura del contenuto del file. La struttura del file 
+	VT e' quella di un XML, e puo' essere esaminato in un comune text editor. Esso 
+	puo' contenere riferimenti (per nome) ad istanze di modelli 3D. (Si tratta dello 
+	stesso formato usato per la descrizione delle proprieta' parametriche degli 
+	edifici usate da Enviro nel generare proceduralmente edifici durante il tempo 
+	di caricamento, ma questo non e' al momento rilevante, qui.) I due tipi di file 
+	sono sistemati in directory separate, durante l'uso in runtime:</p>
+	<ul>
+		<li>i file VTST vanno nella cartella BuildingData, che e' al di sotto della 
+		cartella "Data"&nbsp; </li>
+		<li>i file degli oggetti 3D possono essere archiviati ovunque sulla propria 
+		macchina </li>
+	</ul>
+	<p>Una volta che i file VTST siano al loro posto, essi appariranno nei pannelli&nbsp;dei 
+	settaggi di Enviro nel menu a&nbsp;comparsa in&nbsp;"Buildings". (Si puo' avere 
+	un solo file VTST per terreno.)</p>
+</blockquote>
+
+</body>
+
+</html>

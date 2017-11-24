@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Options>
+	<MultiSampleN>1</MultiSampleN>
+	<MaxMegapixels>16</MaxMegapixels>
+	<ElevMaxRenderSize>4096</ElevMaxRenderSize>
+	<TiffCompressDeflate>false</TiffCompressDeflate>
+	<GapFillMethod>1</GapFillMethod>
+	<ElevMaxMemGrid>128</ElevMaxMemGrid>
+	<ShowMap>true</ShowMap>
+	<ShowUTMBounds>false</ShowUTMBounds>
+	<ShowFullPaths>false</ShowFullPaths>
+	<RoadDrawWidth>false</RoadDrawWidth>
+	<ShowElevation>true</ShowElevation>
+	<ShadingQuick>true</ShadingQuick>
+	<ShadingDot>false</ShadingDot>
+	<CastShadows>false</CastShadows>
+	<DoMask>true</DoMask>
+	<CastAngle>0</CastAngle>
+	<CastDirection>0</CastDirection>
+	<Ambient>0.000000</Ambient>
+	<Gamma>0.000000</Gamma>
+	<ColorMapFile>VTBuilder.cmt</ColorMapFile>
+	<UI_Layout>layout2|name=toolbar;caption=;state=2108144;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=712;besth=28;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_raw;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=108;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_elev;caption=;state=2108146;dir=1;layer=10;row=0;pos=723;prop=100000;bestw=81;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_image;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=27;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_road;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=189;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_struct;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=216;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_veg;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=27;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=toolbar_util;caption=;state=2108146;dir=1;layer=10;row=0;pos=0;prop=100000;bestw=89;besth=27;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=layers;caption=Layers;state=2099196;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=view;caption=View;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=200;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(1,10,0)=30|dock_size(4,0,0)=202|dock_size(5,0,0)=202|</UI_Layout>
+	<ProjectMRU></ProjectMRU>
+	<LayerMRU>G:\Data-Distro\Elevation\crater_0513.bt</LayerMRU>
+	<ImportMRU></ImportMRU>
+	<DrawSimpleTinLayers>false</DrawSimpleTinLayers>
+	<DrawSimpleRawLayers>false</DrawSimpleRawLayers>
+	<UseCurrentCRS>false</UseCurrentCRS>
+	<LoadImagesAlways>false</LoadImagesAlways>
+	<LoadImagesNever>false</LoadImagesNever>
+	<ReproToFloatAlways>false</ReproToFloatAlways>
+	<ReproToFloatNever>false</ReproToFloatNever>
+	<BlackAsTransparent>false</BlackAsTransparent>
+	<DefaultGzipBT>false</DefaultGzipBT>
+	<ElevDelayLoadGrid>false</ElevDelayLoadGrid>
+</Options>

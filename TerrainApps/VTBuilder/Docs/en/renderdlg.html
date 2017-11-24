@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+<title>VTBuilder: Rendering Options Dialog</title>
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+</head>
+
+<body>
+
+<h1>VTBuilder</h1>
+<p class="tuck"><a href="index.html">back to index</a></p>
+<h2>Rendering Options Dialog</h2>
+<blockquote>
+	<p>This dialog lets you indicate how an elevation grid should be rendered, how 
+	the elevation values are converted to colors.</p>
+	<h4>Colors</h4>
+	<ul>
+		<li><strong>Color Map File</strong><ul>
+			<li>You can choose any color map table (.cmt) file from any <strong>
+			GeoTypical</strong> folder on your data path.&nbsp; You can also use 
+			the <strong>Edit Colors...</strong> to modify any of the color tables, 
+			or make new tables.&nbsp; Don't forget to press <strong>Save</strong> 
+			(or <strong>Save As </strong>if making a new table) in the ColorMap 
+			dialog so your changes are kept.</li>
+		</ul>
+		</li>
+	</ul>
+	<h4>Shading</h4>
+	<ul>
+		<li><strong>None</strong><ul>
+			<li>There is no shading, just a direct mapping of elevation values to 
+			colors.</li>
+		</ul>
+		</li>
+		<li><strong>Quick (East-West)</strong><ul>
+			<li>Fast, false shading which is similar to a bright light from due 
+			east.</li>
+		</ul>
+		</li>
+		<li><b>Dot-product with surface</b><ul>
+			<li>A little slower.&nbsp; Produces shading based on the direction of 
+			the light and the orientation of the surface.&nbsp; You can control:<ul>
+				<li>Angle (0 degrees horizontal -&gt; 90 degrees vertical)</li>
+				<li>Direction (0 is north, 90 is east, 180 is south, 270 is west)</li>
+				<li>Ambient light (0 is no ambient, 1 is full ambient)</li>
+				<li>Gamma (shape of the lighting curve - 0.8 is a typically useful 
+				value)</li>
+			</ul>
+			</li>
+			<li><strong>Cast Shadows</strong><ul>
+				<li>Optionally, the elevation can shadow itself, based on the light 
+				direction.&nbsp; This is a potentially slow operation, as the render 
+				time is proportional the area in full shadow, so for very low angles 
+				with a lot of shadow, it can take some time.</li>
+			</ul>
+			</li>
+		</ul>
+		</li>
+	</ul>
+</blockquote>
+
+</body>
+
+</html>

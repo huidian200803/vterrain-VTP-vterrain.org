@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="en-us" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../../docs.css" rel="stylesheet" />
+<link href="../../../docs.css" rel="stylesheet" />
+<title>Enviro Startup</title>
+</head>
+
+<body>
+
+<h1><i>Enviro</i></h1>
+<h2>Startup Dialog</h2>
+<blockquote>
+	This simple dialog is the first thing you see when you launch Enviro.&nbsp; 
+	There are a few things you can do:<ul>
+		<li>Choose which image to use to texture-map the earth in Earth View.</li>
+		<li>Choose which terrain to view in Terrain View.</li>
+		<li>Edit the <a href="terrain_creation.html">terrain properties</a> of the 
+		selected terrain.</li>
+		<li>Open the Terrain Manager dialog (below).</li>
+		<li>Open the Global Options dialog (below).</li>
+		<li>Check your OpenGL Info<ul>
+			<li>This is a good thing to check the first time you run Enviro on a 
+			new machine, to troubleshoot issues with your 3D card and driver, and 
+			to learn the largest texture your system can handle.</li>
+		</ul>
+		</li>
+	</ul>
+</blockquote>
+<h3>Terrain Manager Dialog</h3>
+<blockquote>
+	From this dialog, you can:<ul>
+		<li>Add and remove paths from your <a href="data_path.html">Data Path</a></li>
+		<li>Create and delete terrains.</li>
+	</ul>
+	<p>Another easy way to create a new terrain is to copy an existing one.&nbsp; 
+	You can then Edit Parameters of the new terrain, including giving it a new name.</p>
+</blockquote>
+<h3>Global Options Dialog</h3>
+<blockquote>
+	<p>These options affect the entire Enviro application, including both the Earth 
+	View and Terrain View.</p>
+</blockquote>
+<ul>
+	<li>Display<ul>
+		<li>Full screen<ul>
+			<li>Enviro will attempt to open a full-screen window, with only the 
+			toolbar added to the immersive 3D experience.&nbsp; You can also toggle 
+			this at any time after the main window opens, with the &quot;View - 
+			Fullscreen&quot; menu, or Ctrl-F.</li>
+		</ul>
+		</li>
+		<li>Stereo<ul>
+			<li>There are two kinds of stereoscopic rendering available: Anaglyphic 
+			(used with cheap red-blue glasses) and Quad Buffer (used with more expensive 
+			shutter glasses or polarized stereo display systems).&nbsp; If you enable 
+			stereo, then at runtime in the <strong>Camera Dialog</strong>, you can 
+			control the<strong> Eye Separation</strong> and <strong>Fusion Distance</strong>.</li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Window size<ul>
+		<li>If you are not starting in Full Screen, then you can set the exact size 
+		and location of Enviro&#39;s main window.</li>
+	</ul>
+	</li>
+	<li>Texture compression<ul>
+		<li>If set, then all textures which are applied to model created by the 
+		VTP software (instead of loaded from external 3D models) will default to 
+		compressed (S3TC compression). </li>
+	</ul>
+	</li>
+	<li>Disable model mipmaps<ul>
+		<li>If set, then all models which are loaded from external 3D files will 
+		have mipmapping disabled on their textures.</li>
+	</ul>
+	</li>
+	<li>Selection<ul>
+		<li>Use direct picking<ul>
+			<li>When selecting objects in Terrain View, the object directly under 
+			the pixel of the mouse cursor will be selected.&nbsp; This mode is experimental, 
+			and not all operations are supported.</li>
+		</ul>
+		</li>
+		<li>Maximum radius for selecting models<ul>
+			<li>If you have some very large 3D models in your scene, you may want 
+			to avoid selecting them.&nbsp; For example, if you have two models: 
+			a long road 300m long, and a car 4m long.&nbsp; You may want to avoid 
+			selecting the road.&nbsp; You can set the maximum radius to 5m, and 
+			only the car will be selectable. </li>
+		</ul>
+		</li>
+	</ul>
+	</li>
+	<li>Set Size Exaggeration for Plants and Fences<ul>
+		<li>This will affect any terrain you open in Terrain View, and can be useful 
+		for working with large areas where these culture features are often small 
+		and hard to see.</li>
+	</ul>
+	</li>
+	<li>Show only species with available appearances<ul>
+		<li>If you have a large plant library (species.xml), but not all plants 
+		are available, select this option to hide all the unavailable species.</li>
+	</ul>
+	</li>
+	<li>Global content file<ul>
+		<li>Content items (models with metadata and LOD) in the global content file 
+		are available to all terrains.</li>
+	</ul>
+	</li>
+	<li>Show progress dialog during terrain creation<ul>
+		<li>If set, you will see a progress dialog.&nbsp; This is useful for letting 
+		users know that something is happening when loading large terrain.</li>
+	</ul>
+	</li>
+	<li>Fly in gradually from earth view<ul>
+		<li>If set, when you click on a terrain in Earth View, you will be taken 
+		down to the terrain in a series of stages:<ol>
+			<li>The camera will orbit the earth until it is directly over the terrain, 
+			and zoom in close</li>
+			<li>Enviro switches to Terrain View, with the camera still high above 
+			the terrain</li>
+			<li>The camera flies down directly to the terrain&#39;s current view 
+			locaiton</li>
+		</ol>
+		</li>
+	</ul>
+	</li>
+</ul>
+
+</body>
+
+</html>

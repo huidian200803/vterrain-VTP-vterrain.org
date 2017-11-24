@@ -1,0 +1,3673 @@
+# Romanian translation of Enviro text.
+# Copyright (C) 2004-2006 VTP
+# This file is distributed under the same license as the VTP package.
+# Ben Discoe <ben@vterrain.org>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-31 18:33-0800\n"
+"PO-Revision-Date: 2007-01-08 18:17+0200\n"
+"Last-Translator: Vasile Craciunescu <vasile@geo.unibuc.ro>\n"
+"Language-Team: Romanian <LL@li.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: TerrainApps/Enviro/Enviro.cpp:344
+#, fuzzy
+msgid "Terrain not found"
+msgstr "Informaţii nivel de detaliu teren"
+
+#: TerrainApps/Enviro/Enviro.cpp:472
+#, fuzzy
+msgid "Setting up Terrain "
+msgstr "Selectează terenul"
+
+#: TerrainApps/Enviro/Enviro.cpp:487
+#, fuzzy
+msgid "Loading Elevation"
+msgstr "Altitudine"
+
+#: TerrainApps/Enviro/Enviro.cpp:515
+msgid "Loading/Coloring/Prelighting Textures"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:537
+#, fuzzy
+msgid "Processing Elevation"
+msgstr "Altitudine"
+
+#: TerrainApps/Enviro/Enviro.cpp:548
+#, fuzzy
+msgid "Building CLOD"
+msgstr "Clădire"
+
+#: TerrainApps/Enviro/Enviro.cpp:559
+#, fuzzy
+msgid "Creating Structures"
+msgstr "Structuri liniare"
+
+#: TerrainApps/Enviro/Enviro.cpp:566
+#, fuzzy
+msgid "Creating Roads"
+msgstr "Creează infrastructura"
+
+#: TerrainApps/Enviro/Enviro.cpp:573
+#, fuzzy
+msgid "Creating Vegetation"
+msgstr "Salvează date vegetaţie"
+
+#: TerrainApps/Enviro/Enviro.cpp:580
+msgid "Creating Water and Abstracts"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:587
+msgid "Setting Camera"
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:601
+#, fuzzy
+msgid "Switching to Terrain"
+msgstr "Schimbă terenul"
+
+#: TerrainApps/Enviro/Enviro.cpp:623
+msgid "Welcome to "
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:2681
+msgid "Cursor: "
+msgstr ""
+
+#: TerrainApps/Enviro/Enviro.cpp:2691 TerrainApps/Enviro/Enviro.cpp:2776
+#, fuzzy
+msgid "Not on ground"
+msgstr "Distanţă deasupra pământului"
+
+#: TerrainApps/Enviro/Enviro.cpp:2770
+#, fuzzy
+msgid "Elev: "
+msgstr "Înălţimea:"
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:86
+msgid "Meters/sec"
+msgstr "metri/sec"
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:87
+msgid "Km/hour"
+msgstr "km/oră"
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:88
+msgid "Miles/hour"
+msgstr "mile/oră"
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:211
+msgid "View Width (meters)"
+msgstr "Lăţimea cîmpului vizual (metri)"
+
+#: TerrainApps/Enviro/wx/CameraDlg.cpp:217
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:495
+msgid "Horizontal FOV (degrees)"
+msgstr "Câmpul de vedere orizontal (grade)"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:223
+msgid " Startup"
+msgstr " Iniţializare"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:388
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:42
+msgid "Earth View"
+msgstr "Vedere glob"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:483
+msgid "Scanning data paths for terrains"
+msgstr "Caută terenuri"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:540
+msgid "No terrains found (datapath/Terrains/*.xml)"
+msgstr "Nu a fost găsit nici un teren (cale/Terrains/*.xml)"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:544
+msgid "Please choose a terrain"
+msgstr "Alege un teren"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:545
+msgid "Select Terrain"
+msgstr "Selectează terenul"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:573
+msgid "Terrain Creation Parameters"
+msgstr "Parametrii de creare ai terenului"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:578
+msgid "Couldn't load from that file."
+msgstr "Nu se poate încarcă din acest fişier."
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:591
+msgid "Upgrading the .ini to a .xml file.\n"
+msgstr "Upgrad-are din format .ini în format .xml\n"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:592
+msgid "Deleting old file: "
+msgstr "Şterge fişierul vechi: "
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:605
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:313
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:336
+#, c-format
+msgid "Couldn't save to file %hs.\n"
+msgstr "Nu se poate salva în fişierul %hs.\n"
+
+#: TerrainApps/Enviro/wx/EnviroApp.cpp:606
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:314
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:337
+msgid "Please make sure the file is not read-only."
+msgstr "Asiguraţi-vă că fişierul nu este protejat la scriere."
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:504
+msgid "Building Properties"
+msgstr "Proprietăţi clădiri"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:505
+msgid "Camera-View"
+msgstr "Setări cameră"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:506
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1088
+msgid "Distance"
+msgstr "Distanţă"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:507
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1560
+msgid "Ephemeris"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:508
+msgid "Linear Structures"
+msgstr "Structuri liniare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:509
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:631
+msgid "Instances"
+msgstr "Obiecte"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:511
+msgid "Tags"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:514
+msgid "Terrain LOD Info"
+msgstr "Informaţii nivel de detaliu teren"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:518
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:629
+msgid "Plants"
+msgstr "Plante"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:522
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:910
+msgid "Locations"
+msgstr "Locaţii"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:524
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:672
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:935
+msgid "Scene Graph"
+msgstr "Graful scenei"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:527
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:717
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:929
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1509
+msgid "Time"
+msgstr "Timp"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:528
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:628
+msgid "Routes"
+msgstr "Rute"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:529
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:710
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1865
+msgid "Scenarios"
+msgstr "Scenarii"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:530
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:632
+msgid "Vehicles"
+msgstr "Vehicule"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:534
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:674
+#: TerrainApps/Enviro/wx/EnviroUI.h:1132
+msgid "Performance Monitor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:551
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:556
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:611
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:343
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:574
+msgid "Layers"
+msgstr "Straturi"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:613
+#, fuzzy
+msgid "Create Layer"
+msgstr "Creează un strat nou"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:614
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:111
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:718
+#, fuzzy
+msgid "Load Layer"
+msgstr "Straturi imagine"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:616
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1629
+#, fuzzy
+msgid "Save Terrain State"
+msgstr "Salvează date vegetaţie"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:617
+#, fuzzy
+msgid "Save Terrain State As..."
+msgstr "Salvează structurile ca..."
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:619
+msgid "E&xit (Esc)"
+msgstr "Ie&şire (Esc)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:619
+msgid "Exit"
+msgstr "Ieşire"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:620
+msgid "&File"
+msgstr "&Fişier"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:623
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:845
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:849
+msgid "Select"
+msgstr "Selectează"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:624
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:864
+#, fuzzy
+msgid "Select Box"
+msgstr "Selectează"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:625
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:867
+#, fuzzy
+msgid "Select and Move"
+msgstr "Selectează terenul"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:626
+msgid "Fences"
+msgstr "Garduri"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:627
+msgid "Buildings"
+msgstr "Clădiri"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:630
+msgid "Points"
+msgstr "Puncte"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:633
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:868
+msgid "Move Objects"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:634
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:880
+msgid "Navigate"
+msgstr "Navigare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:635
+msgid "Measure Distances\tCtrl+D"
+msgstr "Măsoară distanţe"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:637
+msgid "Constrain building angles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:640
+#, fuzzy
+msgid "&Calculate\tCtrl+C"
+msgstr "&Aplatizare\tCtrl+E"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:640
+msgid "Calculate visual impact factor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:641
+#, fuzzy
+msgid "&Plot\tCtrl+P"
+msgstr "&Aplatizare\tCtrl+E"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:641
+msgid "Produce visual impact plot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:642
+#, fuzzy
+msgid "C&lear"
+msgstr "Curat"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:642
+msgid "Clear visual impact target and all contributors"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:644
+msgid "Visual Impact.."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:646
+msgid "&Tools"
+msgstr "&Instrumente"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:677
+msgid "Go to Terrain...\tCtrl+G"
+msgstr "Salt la terenul...\tCtrl+G"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:680
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:915
+msgid "Go to Space"
+msgstr "Vedere globală"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:683
+msgid "Save scene graph to .osg"
+msgstr "Salvează scena în format .osg"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:685
+#, fuzzy
+msgid "Ephemeris...\tCtrl+P"
+msgstr "Timp...\tCtrl+I"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:686
+msgid "Time...\tCtrl+I"
+msgstr "Timp...\tCtrl+I"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:687
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:931
+msgid "Time Stop"
+msgstr "Oprire rotire"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:688
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:930
+msgid "Time Faster"
+msgstr "Rotire mai rapidă"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:689
+msgid "&Scene"
+msgstr "&Scena"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:692
+msgid "Wireframe\tCtrl+W"
+msgstr "Wireframe\tCtrl+W"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:693
+msgid "Fullscreen\tCtrl+F"
+msgstr "Vedere pe tot ecranul\tCtrl+F"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:694
+msgid "Top-Down Camera\tCtrl+T"
+msgstr "Privire de sus în jos\tCtrl+T"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:695
+msgid "Rendering Statistics\tx"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:696
+msgid "Elevation Legend"
+msgstr "Scara înălţimii"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:697
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1651
+msgid "Compass"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:698
+msgid "Overview"
+msgstr "Imagine de ansamblu"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:699
+#, fuzzy
+msgid "Drive Vehicle"
+msgstr "Creează vehicule"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:701
+msgid "Camera - View Settings\tCtrl+S"
+msgstr "Setările câmpului de vedere\tCtrl+S"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:702
+msgid "Store/Recall Locations\tCtrl+L"
+msgstr "Stochează/Încarcă locaţii"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:703
+#, fuzzy
+msgid "Reset to Terrain Center\tCtrl+R"
+msgstr "Salt la terenul...\tCtrl+G"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:705
+msgid "Save Window Snapshot"
+msgstr "Captură de ecran"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:706
+msgid "Save Numbered Snapshot\tCtrl+N"
+msgstr "Captură de ecran numerotată\tCtrl+N"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:707
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1923
+msgid "High-resolution Snapshot"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:709
+msgid "&Status Bar"
+msgstr "&Bară de stare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:711
+msgid "&View"
+msgstr "&Vizualizare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:715
+msgid "Culture"
+msgstr "Cultură"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:716
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:895
+msgid "Snapshot"
+msgstr "Captură de ecran"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:718
+#, fuzzy
+msgid "Toolbars"
+msgstr "&Instrumente"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:721
+msgid "Fly Slower (S)"
+msgstr "Încetinirea vitezei de zbor (S)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:722
+msgid "Fly Faster (F)"
+msgstr "Accelerarea vitezei de zbor (F)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:723
+msgid "Maintain height above ground (A)"
+msgstr "Zbor la înălţime constantă (A)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:724
+msgid "&Navigate"
+msgstr "&Navigare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:728
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:942
+msgid "Normal Terrain Flyer"
+msgstr "Navigaţie normală"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:729
+msgid "Flyer with Velocity"
+msgstr "Navigaţie accelerată"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:730
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:944
+msgid "Grab-Pivot"
+msgstr "Rotire punctuală"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:732
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:946
+msgid "Panoramic Flyer"
+msgstr "Navigare panoramică"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:733
+msgid "Navigation Style"
+msgstr "Stil de navigare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:736
+msgid "LOD Terrain Surface\tF3"
+msgstr "Nivelul de detaliu al terenului\tF3"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:737
+#, fuzzy
+msgid "Cull every frame"
+msgstr "Elimină triunghiuri la fiecare cadru\tCtrl+C"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:738
+#, fuzzy
+msgid "Cull once"
+msgstr "Elimină triunghiuri o singură dată\tCtrl+K"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:740
+msgid "Show Sky\tF4"
+msgstr "Afişare cer\tF4"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:741
+msgid "Show Ocean\tF5"
+msgstr "Afişare ocean\tF5"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:742
+msgid "Show Plants\tF6"
+msgstr "Afişare plante\tF6"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:743
+msgid "Show Structures\tF7"
+msgstr "Afişare structuri\tF7"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:744
+msgid "Show Roads\tF8"
+msgstr "Afişare drumuri\tF8"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:745
+msgid "Show Fog\tF9"
+msgstr "Afişare ceaţă\tF9"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:747
+msgid "Increase Detail (+)"
+msgstr "Măreşte nivelul de detaliu (+)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:748
+msgid "Decrease Detail (-)"
+msgstr "Scade nivelul de detaliu (-)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:749
+msgid "Level of Detail Info\tCtrl+Q"
+msgstr "Informaţii nivel de detaliu\tCtrl+Q"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:751
+msgid "Toggle Artificial Foundations"
+msgstr "Afişare/Ascundere fundaţii artificiale"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:752
+#, fuzzy
+msgid "&Recalculate Shading\tCtrl+H"
+msgstr "&Recalculare umbrire\tCtrl+R"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:753
+msgid "&Change Texture"
+msgstr "&Schimbă textura"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:754
+msgid "&Distribute Vehicles (test)"
+msgstr "&Distribuie vehicule (test)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:755
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3002
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3010
+#, fuzzy
+msgid "Write Elevation to BT"
+msgstr "Tin"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:756
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3048
+#, fuzzy
+msgid "Add Contours"
+msgstr "Continuu"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:757
+msgid "Te&rrain"
+msgstr "Te&ren"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:762
+msgid "&Show Shading"
+msgstr "Afişează umbre"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:763
+msgid "Show &Axes\tCtrl+A"
+msgstr "Afişează &Axe\tCtrl+A"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:764
+msgid "Seasonal &Tilt"
+msgstr "Înclinare sezonieră"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:765
+msgid "&Flatten\tCtrl+E"
+msgstr "&Aplatizare\tCtrl+E"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:766
+msgid "&Unfold\tCtrl+U"
+msgstr "&Desfăşurare glob\tCtrl+U"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:771
+msgid "&Earth"
+msgstr "&Glob"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:775
+msgid "About"
+msgstr "Despre"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:780
+msgid "Documentation (local)"
+msgstr "Documentaţie (local)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:781
+msgid "Documentation (online)"
+msgstr "Documentaţie (online)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:782
+msgid "&Help"
+msgstr "&Ajutor"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:869
+msgid "Create Fences"
+msgstr "Creează garduri"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:870
+msgid "Create Buildings"
+msgstr "Creează clădiri"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:871
+msgid "Create Routes"
+msgstr "Creează infrastructura"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:872
+msgid "Create Plants"
+msgstr "Creează plante"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:874
+msgid "Create Points"
+msgstr "Creează puncte"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:877
+msgid "Create Instances"
+msgstr "Încărcare obiecte"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:878
+msgid "Create Vehicles"
+msgstr "Creează vehicule"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:884
+msgid "Measure Distance"
+msgstr "Măsurare distanţă"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:889
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3543
+msgid "Elevation Profile"
+msgstr "Profil altitudinal"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:890
+msgid "Constrain Angles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:896
+msgid "Numbered Snapshot"
+msgstr "Captură de ecran numerotată"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:901
+msgid "Show Layer Dialog"
+msgstr "Setări straturi"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:906
+msgid "Maintain Height"
+msgstr "Altitudine constantă"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:907
+msgid "Fly Faster"
+msgstr "Accelerarea vitezei de zbor"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:908
+msgid "Fly Slower"
+msgstr "Încetinirea vitezei de zbor"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:909
+msgid "Camera Dialog"
+msgstr "Setările câmpului de vedere"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:916
+msgid "Go to Terrain"
+msgstr "Schimbă terenul"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:920
+msgid "Show Sunlight"
+msgstr "Afişează soarele"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:921
+msgid "Axes"
+msgstr "Axe"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:922
+msgid "Tilt"
+msgstr "Înclinare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:923
+msgid "Unfold"
+msgstr "Desfăşurare glob"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1630
+#, fuzzy
+msgid "Terrain Files (*.xml)|*.xml"
+msgstr "Fişiere locaţii (*.loc)|*.loc"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1639
+msgid "Name for new terrain:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1639
+msgid "Query"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1874
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1939
+msgid "Save View Snapshot"
+msgstr "Salvează captura de ecran"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:1926
+msgid ""
+"If the size requested is greater than your graphics card supports, the size "
+"will be clamped to the card's limit"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2188
+msgid "Your 3d driver does not support off screen rendering.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2189
+msgid "If the main 3d window is obscured by any other windows\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2190
+msgid "(including popup dialogs). The accuracy of the visual impact\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2191
+msgid "calculation will be impaired."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2197
+msgid "Not available."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2365
+msgid "Visual Impact Plot successful"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2367
+msgid "Visual Impact Plot unsuccessful"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2875
+msgid "Adding Foundations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2880
+msgid "Removing Foundations"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2914
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3829
+msgid "Recalculating Shading"
+msgstr "Recalculează umbrire"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2934
+msgid "Change Texture"
+msgstr "Schimbă textura"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2940
+msgid "Changing Texture"
+msgstr "Schimbare textură"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2966
+msgid "There are no roads to put the vehicles on.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2982
+msgid "Could not find any ground vehicles in the content file.\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2987
+#, c-format
+msgid "There are %d types of ground vehicle available."
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2988
+msgid "Vehicles:"
+msgstr "Vehicule:"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:2988
+#, fuzzy
+msgid "Distribute Vehicles"
+msgstr "&Distribuie vehicule (test)"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3178
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:278
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:332
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:111 TerrainSDK/vtui/vtui_UI.cpp:387
+#: TerrainSDK/vtui/vtui_UI.cpp:1182
+msgid "Load"
+msgstr "Încărcare"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3179
+#, fuzzy
+msgid "JPEG Files (*.jpg)|*.jpg"
+msgstr "Fişiere GIS (*.shp)|*.shp"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3250
+msgid ""
+"The runtime environment for the Virtual Terrain Project.\n"
+"\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3251
+msgid ""
+"Please read the HTML documentation and license.\n"
+"\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3252
+msgid "Send feedback to: ben@vterrain.org\n"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3256
+msgid "Build date: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3265
+msgid "About "
+msgstr "Despre"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3582
+msgid "Properties"
+msgstr "Proprietăţi"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3588
+#, fuzzy
+msgid "Copy Style"
+msgstr "Stil"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3593
+#, fuzzy
+msgid "Paste Style"
+msgstr "Stil element"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3594
+msgid "Flip Footprint Direction"
+msgstr "Inversează amprenta clădirii"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3599
+msgid "Reload from Disk"
+msgstr "Reîncărcare date"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3600
+#, fuzzy
+msgid "Adjust Terrain Surface to Fit"
+msgstr "Nivelul de detaliu al terenului\tF3"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3604
+#, fuzzy
+msgid "Toggle Shadow"
+msgstr "Umbră"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3613
+msgid "URL"
+msgstr "URL"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3618
+msgid "&Visual Impact Contributor\tCtrl+V"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3619
+msgid "Set this structure as a contributor to the VIA calculation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3621
+msgid "Visual Impact &Target\tCtrl+T"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3622
+msgid "Set this structure as the viewer target for VIA plots"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3632
+msgid "Start Driving"
+msgstr "Începeţi şofatul"
+
+#: TerrainApps/Enviro/wx/EnviroFrame.cpp:3636
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1827
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1923
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2219
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2373
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:114
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:362
+msgid "Delete"
+msgstr "Şterge"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:149
+#, fuzzy
+msgid "Creating Terrain"
+msgstr "Selectează terenul"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:292
+msgid "Save Vegetation Data"
+msgstr "Salvează date vegetaţie"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:293
+msgid "Vegetation Files (*.vf)|*.vf"
+msgstr "Fişiere vegetaţie (*.vf)|*.vf"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:326
+msgid "Save Built Structures Data"
+msgstr "Salvează structurile construite"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:327
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:713
+msgid "Structure Files (*.vtst)|*.vtst"
+msgstr "Fişiere structuri (*.vtst)|*.vtst"
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:348
+msgid "Error"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:465
+#: TerrainApps/Enviro/wx/EnviroGUI.cpp:507
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:753
+msgid "Style"
+msgstr "Stil"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:40
+msgid "Launch with:"
+msgstr "Lansează cu:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:52
+msgid "Image:  "
+msgstr "Imagine:  "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:61 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Terrain"
+msgstr "Teren"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:71
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:726
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:780
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:792
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:825
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:843
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:935
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:950
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:970
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1437
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1675
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1768
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2151
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2444
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2459
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2660
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2751
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2850
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2869
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2948 TerrainSDK/vtui/vtui_UI.cpp:681
+#: TerrainSDK/vtui/vtui_UI.cpp:699 TerrainSDK/vtui/vtui_UI.cpp:717
+#: TerrainSDK/vtui/vtui_UI.cpp:786 TerrainSDK/vtui/vtui_UI.cpp:804
+#: TerrainSDK/vtui/vtui_UI.cpp:884 TerrainSDK/vtui/vtui_UI.cpp:899
+msgid "Item"
+msgstr "Articol"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:77
+msgid "Edit Properties"
+msgstr "Editare proprietăţi"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:88
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:208
+msgid "Terrain Manager"
+msgstr "Gestionare terenuri"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:92
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:268
+msgid "Global Options"
+msgstr "Opţiuni globale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:96
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:82
+msgid "OpenGL Info"
+msgstr "Informaţii OpenGL"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:105
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:697
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1872
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1937
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2177
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2333
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2404
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2482
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2968
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3622 TerrainSDK/wxosg/TimeDlg.cpp:85
+#: TerrainSDK/vtui/vtui_UI.cpp:281 TerrainSDK/vtui/vtui_UI.cpp:481
+#: TerrainSDK/vtui/vtui_UI.cpp:1308 TerrainSDK/vtui/vtui_UI.cpp:1353
+#: TerrainSDK/vtui/vtui_UI.cpp:1421
+msgid "OK"
+msgstr "OK"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:109
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1876
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2181
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2337
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2408
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2486
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2972
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3628 TerrainSDK/wxosg/TimeDlg.cpp:88
+#: TerrainSDK/vtui/vtui_UI.cpp:485 TerrainSDK/vtui/vtui_UI.cpp:1312
+#: TerrainSDK/vtui/vtui_UI.cpp:1357 TerrainSDK/vtui/vtui_UI.cpp:1425
+msgid "Cancel"
+msgstr "Revocare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:135
+msgid " Species:"
+msgstr " Specii:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:149
+msgid "Common names"
+msgstr "Nume comune"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:153
+msgid "Language:"
+msgstr "Limbi:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:167
+msgid "    Height:"
+msgstr "    Înălţime:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:174
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:236
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1181
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1696
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1786
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2104
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2120
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2682
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2698
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2773
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2887
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2903 TerrainSDK/vtui/vtui_UI.cpp:108
+#: TerrainSDK/vtui/vtui_UI.cpp:430 TerrainSDK/vtui/vtui_UI.cpp:445
+msgid "meters"
+msgstr "Metri"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:184
+msgid "Planting Options"
+msgstr "Opţiuni de plantare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:189
+msgid "Individual instances"
+msgstr "Obiecte individuale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:193
+msgid "Straight line"
+msgstr "Linie dreaptă"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:199
+msgid "Continuously"
+msgstr "Continuu"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:210
+msgid "Height variance:"
+msgstr "Variaţia înălţimii:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:217
+msgid "%"
+msgstr "%"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:229
+msgid "Minimum spacing:"
+msgstr "Distanţare minimă:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:274
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:328
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:112 TerrainSDK/vtui/vtui_UI.cpp:379
+#: TerrainSDK/vtui/vtui_UI.cpp:1174
+msgid "Save"
+msgstr "Salvare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:289
+msgid "Recall ->"
+msgstr "Reîncărcare ->"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:293
+msgid "<- Store"
+msgstr "<- Salvare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:297
+msgid "Store As.."
+msgstr "Salvează ca.."
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:301
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:360 TerrainSDK/vtui/vtui_UI.cpp:1162
+msgid "Remove"
+msgstr "Şterge"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:324
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1823
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2215
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2369
+msgid "New"
+msgstr "Nou"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:367
+msgid "Active"
+msgstr "Activ"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:374
+msgid "Playback"
+msgstr "Playback"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:379
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2533 TerrainSDK/wxosg/wxosg_UI.cpp:76
+msgid "Speed:"
+msgstr "Viteză:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:389
+msgid "m/s"
+msgstr "m/s"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:398
+msgid "Loop"
+msgstr "Buclă"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:402
+msgid "Continuous"
+msgstr "Continuu"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:406
+msgid "Smooth"
+msgstr "Lin"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:410
+msgid "Position Only"
+msgstr "Doar poziţia"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:416
+msgid "Play animation to disk as a series of images"
+msgstr "Stochează animaţia pe disk ca serie de imagini"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:423
+msgid "Recording"
+msgstr "Înregitrare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:425
+msgid "Use linear distance"
+msgstr "Foloseşte distanţa liniară"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:432
+msgid "Time interval"
+msgstr "Interval de timp"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:439
+msgid "seconds"
+msgstr "secunde"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:468
+msgid "Position:"
+msgstr "Poziţia:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:483
+msgid "Elevation:"
+msgstr "Înălţimea:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:510
+msgid "Near Clipping Plane (meters):"
+msgstr "Planul de secţionare apropiat (metri):"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:525
+msgid "Far Clipping Plane (meters):"
+msgstr "Planul de secţionare îndepărtat (metri):"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:540
+msgid "Stereo Eye Separation:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:555
+#, fuzzy
+msgid "Stereo Fusion Distance:"
+msgstr "Distanţă selecţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:573
+msgid "Navigation Speed:"
+msgstr "Viteza de navigare:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:588
+msgid "Units"
+msgstr "Unităţi"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:605
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1739
+msgid "Accelerate by height above ground"
+msgstr "Accelerare cu înălţimea deasupra terenului"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:614
+msgid "Velocity Damping:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:627
+#, fuzzy
+msgid "LOD Distance"
+msgstr "Distanţă"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:632
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:640
+#, fuzzy
+msgid "Vegetation"
+msgstr "Salvează date vegetaţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:647
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1402
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3169
+#, fuzzy
+msgid "Structures"
+msgstr "Structură"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:662
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1144
+msgid "Roads"
+msgstr "Drumuri"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:722
+msgid "Structure Type:"
+msgstr "Tipul de structură:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:755
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2275
+msgid "Name:"
+msgstr "Nume:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:770
+msgid "Grid"
+msgstr "Grid"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:775
+msgid "Grid Filename: "
+msgstr "Numele modelului: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:788
+msgid "Terrain LOD Method:"
+msgstr "Algoritmul pentru stabilirea nivelului de detaliu:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:798
+msgid "Triangle count target: "
+msgstr "Contor triunghiuri:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:815
+msgid "TIN"
+msgstr "TIN"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:820
+msgid "TIN Filename:"
+msgstr "Nume Tin:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:833
+msgid "Grid Tiles"
+msgstr "Subseturi Grid"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:838
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:965
+msgid "Tileset .ini file:"
+msgstr "Fişiere secţiuni .ini:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:851
+msgid "Vertex count target: "
+msgstr "Contor vertexi"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:858
+msgid "RAM cache size (MB):"
+msgstr "Dimensiune cache RAM (MB):"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:871
+msgid "Use multithreading for asynchronous tile loading"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:880
+msgid "External"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:885
+msgid "External Data:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:899
+msgid "Vertical Exaggeration:"
+msgstr "Exagerare verticală:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:906
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1546
+msgid "x"
+msgstr "x"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:915
+msgid "Elevation"
+msgstr "Altitudine"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:921
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1104
+msgid "Texture"
+msgstr "Textură"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:923
+msgid "No texture"
+msgstr "Fără textură"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:930
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2439
+msgid "Single texture "
+msgstr "O singură textură "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:940
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2449
+msgid "Derive texture from elevation"
+msgstr "Creează textură din altitudine"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:956
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2465
+msgid "Edit Colors..."
+msgstr "Editare culori..."
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:981
+msgid "Start with minimal texture tiles and load gradually"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:993
+msgid "Texture LOD factor:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1008
+msgid "Mipmapping"
+msgstr "Minimapare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1012
+msgid "Request 16-bit"
+msgstr "16 biţi"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1021
+msgid "Precompute lighting"
+msgstr "Precalculare iluminare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1028
+msgid "Lighting factor: "
+msgstr "Factor de iluminare: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1037
+msgid "Cast shadows"
+msgstr "Afişează umbră"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1048
+msgid "Retain loaded texture in memory for faster re-lighting"
+msgstr "Păstrează textura în memorie pentru calcularea mai rapidă a umbririi "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1060
+msgid "Detail Texture"
+msgstr "Textură detaliată"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1062
+msgid "Show detail texture"
+msgstr "Afişează textură detaliată"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1072
+msgid "Scale"
+msgstr "Scara"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1081
+msgid "(meter size of detail texture)"
+msgstr "(dimensiunea metrică a texturii detaliate)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1113
+#, fuzzy
+msgid "Plant Layers"
+msgstr "Straturi vectoriale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1121
+msgid " Visibility distance: "
+msgstr " Distanţă vizibilă: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1128
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1262
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1345
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1387
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3291
+msgid "m"
+msgstr "m"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1134
+msgid "Use Shaders for Plants"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1154
+msgid "Source file: "
+msgstr "Fişier sursă: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1174
+msgid "Ground offset: "
+msgstr "Decalaj suprafaţă pământului: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1185
+msgid "Visibility distance:"
+msgstr "Distanţă vizibilă:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1192
+msgid "km"
+msgstr "km"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1198
+msgid "Texture-map roads"
+msgstr "Textură drum"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1202
+msgid "Road culture (stoplights, etc.)"
+msgstr "Infrastructură drumuri (semne de circulaţie, etc.)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1213
+msgid "Include:"
+msgstr "Include:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1217
+msgid "Highways"
+msgstr "Autostrăzi"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1221
+msgid "Paved"
+msgstr "Pietruit"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1225
+msgid "Dirt"
+msgstr "Drum de ţară"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1238
+#, fuzzy
+msgid "Plants and Roads"
+msgstr "Umbră plante"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1244
+#, fuzzy
+msgid "Structure Layers"
+msgstr "Tipul de structură:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1255
+#, fuzzy
+msgid "Visibility distance: "
+msgstr " Distanţă vizibilă: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1271
+msgid "Terrain-specific content:"
+msgstr "Conţinutul specific terenului:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1288
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3247
+#, fuzzy
+msgid "Shadows"
+msgstr "Umbră"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1304
+msgid "Resolution:"
+msgstr "Rezoluţie:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1318
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3265
+msgid "Darkness:"
+msgstr "Obscuritate:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1327
+msgid "All structures cast shadows by default"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1331
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3277
+msgid "Recompute shadows every frame"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1338
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3284
+msgid "Limit shadow area:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1355
+msgid "Paging"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1365
+#, fuzzy
+msgid "Maximum structures:"
+msgstr "Structuri liniare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1380
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3132
+#, fuzzy
+msgid "Page-out distance:"
+msgstr "Distanţă selecţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1411
+#, fuzzy
+msgid "Sky && Water"
+msgstr "Cer && Ocean"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1413
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3191
+msgid "Ocean plane"
+msgstr "Nivelul oceanului"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1423
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1450
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3201
+msgid "Level (meters)"
+msgstr "Nivel (metri)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1432
+msgid "Water surface"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1440
+msgid "Depress Ocean"
+msgstr "Scădere nivel ocean"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1459
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3210
+msgid "Sky dome"
+msgstr "Bolta cerească"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1477
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3228
+msgid "Fog"
+msgstr "Ceaţă"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1481
+msgid "Distance (km)"
+msgstr "Distanţa (km)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1493
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3304
+msgid "Scene background color:"
+msgstr "Culoarea de fundal a scenei"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1500
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1521
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2584
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3311 TerrainSDK/vtui/vtui_UI.cpp:124
+#: TerrainSDK/vtui/vtui_UI.cpp:140 TerrainSDK/vtui/vtui_UI.cpp:156
+#: TerrainSDK/vtui/vtui_UI.cpp:195 TerrainSDK/vtui/vtui_UI.cpp:226
+msgid "Set"
+msgstr "Setare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1514
+msgid "Initial Time: "
+msgstr "Timpul iniţial: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1530
+msgid "Time Moves"
+msgstr "Timp deplasare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1539
+msgid "Faster than real: "
+msgstr "Mai repede decât în realitate: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1569
+msgid "Abstract Layers"
+msgstr "Straturi vectoriale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1577
+msgid "Style..."
+msgstr "Stil..."
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1586
+msgid "Image Layers"
+msgstr "Straturi imagine"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1599
+#, fuzzy
+msgid "Abstracts"
+msgstr "Straturi vectoriale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1608
+#, fuzzy
+msgid "Window Overlay"
+msgstr "Suprapunere fereastră (HUD)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1610
+msgid "Image file:"
+msgstr "Fişier imagine:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1620 TerrainSDK/vtui/vtui_UI.cpp:738
+msgid "..."
+msgstr "..."
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1629
+msgid "Placement:"
+msgstr "Poziţionare:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1641
+msgid "(pixels from the lower-left corner)"
+msgstr "(pixeli faţă de colţul din stânga-jos)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1647
+msgid "Terrain overview map"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1660
+msgid "HUD"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1666
+msgid "Navigation"
+msgstr "Navigaţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1671
+msgid "Style:"
+msgstr "Stil:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1689
+msgid "Minimum height above ground: "
+msgstr "Distanţă minimă deasupra pământului: "
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1708
+msgid "Navigation speed:"
+msgstr "Viteză de navigaţie:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1715
+msgid "meters/frame"
+msgstr "metri/cadru"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1727
+msgid "Velocity damping:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1743
+#, fuzzy
+msgid "Allow Roll"
+msgstr "Urmează ruta"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1752
+msgid "Default Locations File:"
+msgstr "Fişierul implicit de locaţii:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1764
+msgid "Initial Camera Location"
+msgstr "Poziţia iniţială a camerei"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1779
+msgid "Near clipping (\"Hither\") distance"
+msgstr "Planul de secţionare apropiată (\"încoace\")"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1797
+msgid "Animation Paths:"
+msgstr "Traseu animaţie:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1809
+#, fuzzy
+msgid "Camera"
+msgstr "Setări cameră"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1831
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2223
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2377 TerrainSDK/vtui/vtui_UI.cpp:980
+msgid "Edit"
+msgstr "Editare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1835
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2227
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2381
+msgid "Move Up"
+msgstr "Urcă"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1839
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2231
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2385
+msgid "Move Down"
+msgstr "Coboară"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1850
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2242
+msgid "Start with active scenario:"
+msgstr "Porneşte cu scenariul activat:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1854
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2246
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2568 TerrainSDK/vtui/vtui_UI.cpp:208
+#: TerrainSDK/vtui/vtui_UI.cpp:470 TerrainSDK/vtui/vtui_UI.cpp:974
+msgid "ChoiceItem"
+msgstr "Selectează articol"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1908
+msgid "Add Path"
+msgstr "Adaugă cale"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1912
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:242
+msgid "Add Terrain"
+msgstr "Adăugare teren"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1919
+msgid "Add Copy"
+msgstr "Adaugă copie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1930
+msgid "Edit Parameters"
+msgstr "Editează parametrii"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1967
+msgid "Display"
+msgstr "Afişare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1969
+msgid "Start in full screen"
+msgstr "Porneşte pe tot ecranul"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1973
+msgid "Stereo"
+msgstr "Stereo"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1985
+msgid "Anaglyphic (red-blue)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1992
+msgid "Quad buffer (shutter glasses)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:1998
+#, fuzzy
+msgid "Horizontal split"
+msgstr "Unităţi de măsură orizontale:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2004
+#, fuzzy
+msgid "Vertical split"
+msgstr "Diferenţă verticală"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2009
+msgid "Anti-aliasing (Multisamples):"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2019
+msgid "None / System Default"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2022
+#, fuzzy
+msgid "4x"
+msgstr "x"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2025
+#, fuzzy
+msgid "8x"
+msgstr "x"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2028
+msgid "16x"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2036
+msgid "Window size"
+msgstr "Dimensiunea ferestrei"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2043
+msgid "Window X"
+msgstr "Fereastra X"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2050
+msgid "Window Y"
+msgstr "Fereastra Y"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2057
+msgid "Width"
+msgstr "Lăţime"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2064
+msgid "Height"
+msgstr "Înălţime"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2073
+msgid "Size is inside (3D view area, not frame)"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2079
+msgid "Texture compression"
+msgstr "Compresie textură"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2083
+msgid "Disable model mipmaps"
+msgstr "Anulează minimapare model"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2088
+msgid "Selection"
+msgstr "Selecţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2090
+msgid "Use direct picking of object under 2D cursor"
+msgstr "Selectare directă a obiectului aflat sub cursorul 2D"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2097
+msgid "Selection cutoff distance:"
+msgstr "Distanţă selecţie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2113
+msgid "Maximum radius for selecting models:"
+msgstr "Raza maximă pentru modelul selectat"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2131
+msgid "Size exaggeration for plants and fences: "
+msgstr "Dimensiune exagerare pentru plante si garduri"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2140
+msgid "Show only species with available appearances"
+msgstr "Afişează doar speciile cu instanţe disponibile"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2147
+msgid "Global content file:"
+msgstr "Fişierul conţinut global"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2159
+msgid "Show progress dialog during terrain creation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2163
+msgid "Fly in gradually from earth view"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2167
+msgid "Enable joystick navigation"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2171
+msgid "Enable SpaceNavigator"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2293
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2326
+msgid "Visible Layers"
+msgstr "Straturi vizibile"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2303
+msgid "<<"
+msgstr "<<"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2307
+msgid ">>"
+msgstr ">>"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2314
+msgid "Available Layers"
+msgstr "Straturi disponibile"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2389
+msgid "Previous"
+msgstr "Anterior"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2393
+msgid "Next"
+msgstr "Următor"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2412
+msgid "Apply"
+msgstr "Aplică"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2537
+msgid "2.0"
+msgstr "2.0"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2540
+msgid "fps"
+msgstr "fps"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2577
+msgid "Body color:"
+msgstr "Culoare corp:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2610
+msgid "Feature type:"
+msgstr "Tip element:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2624
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2714
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2814
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2931
+#, fuzzy
+msgid "Enable"
+msgstr "Activat"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2634
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2724
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2824 TerrainSDK/vtui/vtui_UI.cpp:133
+#: TerrainSDK/vtui/vtui_UI.cpp:219
+msgid "Color:"
+msgstr "Culoare:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2644
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2734
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2834
+msgid "Fixed"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2657
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2747
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2847
+msgid "Field"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2675
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2766
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2880
+msgid "Height above ground"
+msgstr "Distanţă deasupra pământului"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2691
+#, fuzzy
+msgid "Size/scale"
+msgstr "Scara"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2709
+#, fuzzy
+msgid "Object Geometry"
+msgstr "Geometrie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2782
+msgid "Line width"
+msgstr "Lăţime linie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2789
+msgid "pixels"
+msgstr "pixeli"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2798
+msgid "Tessellate edges"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2809
+#, fuzzy
+msgid "Line Geometry"
+msgstr "Geometrie"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2865
+msgid "Text field:"
+msgstr "Câmp etichete:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2896
+msgid "Label Size (vertical)"
+msgstr "Dimensiune etichetă (verticală)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2912
+msgid "Font:"
+msgstr "Font:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2926
+msgid "Text Labels"
+msgstr "Etichete"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2944
+msgid "Mode:"
+msgstr "Mod:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:2961
+msgid "Texture Overlay"
+msgstr "Suprapunere textură"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3000
+msgid "Detail levels chart"
+msgstr "Grafic nivele de detaliu"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3010
+msgid "Number of Triangles"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3020
+msgid "Current"
+msgstr "Curent"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3030
+msgid "Tileset Texture Status"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3038
+msgid "prange"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3059
+msgid "16"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3066
+msgid "32"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3073
+msgid "64"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3080
+msgid "128"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3087
+msgid "256"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3094
+msgid "512"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3101
+msgid "1k"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3108
+msgid "2k"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3124
+msgid "Surface and Textures"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3127
+#, fuzzy
+msgid "Structure Paging Status"
+msgstr "Fişiere structuri"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3147
+msgid "Currently constructed:"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3154
+msgid "/"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3232
+#, fuzzy
+msgid "Distance (m)"
+msgstr "Distanţa (km)"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3322
+#, fuzzy
+msgid "Wind Direction:"
+msgstr "Inversează amprenta clădirii"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3332
+#, fuzzy
+msgid "Wind Speed:"
+msgstr "Viteză:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3365
+msgid "Right click on counter to enable/disable"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3396
+#, fuzzy
+msgid "Speed"
+msgstr "Viteză:"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3406
+msgid "kmph"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3410
+#, fuzzy
+msgid "Follow with camera"
+msgstr "Urmează ruta"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3413
+msgid "Rate of turn"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3421
+msgid "radians"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3492
+msgid "Percentage of human binocular field of view"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3509
+#, fuzzy
+msgid "Recalculate"
+msgstr "Recalculează înălţimile"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3515
+msgid "Done"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3550
+#, fuzzy
+msgid "Raster Creation Options"
+msgstr "Opţiuni de plantare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3553
+#, fuzzy
+msgid "Help"
+msgstr "&Ajutor"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3561
+#: TerrainApps/Enviro/wx/EnviroUI.h:1231
+#, fuzzy
+msgid "Creation Options"
+msgstr "Opţiuni de plantare"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3571
+msgid "Sample Grid"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3573
+#, fuzzy
+msgid "X(E-W) sample interval"
+msgstr "Interval de timp"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3582
+#, fuzzy
+msgid "Y(N-S) sample interval"
+msgstr "Interval de timp"
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3594
+msgid "Data conversion options"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3596
+msgid "Data Type"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3600
+msgid "Combo!"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.cpp:3608
+msgid "Scale Factor"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:110 TerrainSDK/vtui/vtui_UI.cpp:756
+msgid "Create"
+msgstr "Creează"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:110
+#, fuzzy
+msgid "Create New Layer"
+msgstr "Creează un strat nou"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:112
+#, fuzzy
+msgid "Save Layer"
+msgstr "Straturi imagine"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:113
+#, fuzzy
+msgid "Save As"
+msgstr "Salvează ca..."
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:113
+#, fuzzy
+msgid "Save Layer As..."
+msgstr "Salvează ca..."
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:114
+#, fuzzy
+msgid "Delete Layer"
+msgstr "Şterge culoarea"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:116
+#, fuzzy
+msgid "Zoom"
+msgstr "Zoom către"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:116
+#, fuzzy
+msgid "Zoom to Layer"
+msgstr "Zoom către"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:117
+msgid "Visible"
+msgstr "Vizibil"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:117
+#, fuzzy
+msgid "Toggle Layer Visibility"
+msgstr "Vizibilitate"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:118
+#, fuzzy
+msgid "Table of Attributes"
+msgstr "Atribut"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:119
+msgid "Shadow"
+msgstr "Umbră"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:119
+msgid "Toggle Structure Shadow"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:120 TerrainSDK/wxosg/wxosg_UI.cpp:124
+msgid "Refresh"
+msgstr "Reafişare"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:122
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:319
+#, fuzzy
+msgid "All"
+msgstr "(Toate)"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:122
+msgid "Show all elements of every layer"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:305
+#, fuzzy, c-format
+msgid " (Plants: %d)"
+msgstr " (etaje : %d)"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:322
+msgid ", Features: "
+msgstr ", Elemente: "
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:330
+#, fuzzy
+msgid ", Selected: "
+msgstr "Selectează"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:377
+msgid "Building"
+msgstr "Clădire"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:382
+msgid "Fence"
+msgstr "Gard"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:389
+#, fuzzy
+msgid "File "
+msgstr "&Fişier"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:395
+#, fuzzy
+msgid "Item "
+msgstr "Articol"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:418
+#, c-format
+msgid "Buildings: %d"
+msgstr "Clădiri: %d"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:428
+#, c-format
+msgid "Fences: %d"
+msgstr "Garduri: %d"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:438
+#, c-format
+msgid "Instances: %d"
+msgstr "Obiecte: %d"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:638
+msgid "Abstract (Points with labels)"
+msgstr "Abstract (Puncte cu etichete)"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:639
+msgid "Structure"
+msgstr "Structură"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:641
+msgid "Layer type:"
+msgstr "Tip strat:"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:641 TerrainSDK/vtui/vtui_UI.cpp:457
+msgid "Create new layer"
+msgstr "Creează un strat nou"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:680
+msgid "Save Abstract Data"
+msgstr "Salvează date abstracte"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:681
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:709
+msgid "GIS Files (*.shp)|*.shp"
+msgstr "Fişiere GIS (*.shp)|*.shp"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:698
+#, fuzzy
+msgid "Couldn't save layer."
+msgstr "Fişierul nu a putut fi localizat"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:715
+msgid "All supported layer formats (*.shp;*.vtst)|*.shp;*.vtst"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:778
+msgid "Couldn't open"
+msgstr "Imposibil de deschis"
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:780
+msgid "That file isn't point data."
+msgstr "Nu este un fişier de date tip punct."
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:1051
+#, c-format
+msgid "There are %d structures.  Are you sure you want to display them all?"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LayerDlg.cpp:1052
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:145
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:195
+msgid "Warning"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:182
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:521
+#, c-format
+msgid "%d: time %lf"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:590
+msgid "Please select an animpath to record."
+msgstr "Selectaţi un traseu pentru înregistrare"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:595
+msgid "Output directory for the images"
+msgstr "Directorul ţintă pentru imagini"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:610
+msgid "Animation time step for each frame, in seconds:"
+msgstr "Pasul de timp al animaţiei pentru fiecare cadru, în secunde"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:611
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:622
+msgid "Animation"
+msgstr "Animaţie"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:620
+#, c-format
+msgid "The animation of %.2f seconds will be recorded as %d frames (%.2f/sec)"
+msgstr "Animaţia de %.2f va fi înregistrată în %d cadre (%.2f/sec)"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:625
+msgid "Output"
+msgstr "Rezultat"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:643
+msgid "Polyline Data Sources"
+msgstr "Sursă date tip linie"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:645
+msgid "Load Animation Path"
+msgstr "Încarcă traseu animaţie"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:692
+msgid "Save AnimPath"
+msgstr "Salvează traseul animaţiei"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:693
+msgid "AnimPath Files (*.vtap)|*.vtap"
+msgstr "Fişiere trasee animaţii (*.vtap)|*.vtap"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:718
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:809
+msgid ""
+"Couldn't recall point, probably a coordinate system transformation problem."
+msgstr ""
+"Punctele nu pot fi încărcate, posibil o eroare de transformare a "
+"coordonatelor."
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:724
+msgid "Load Locations"
+msgstr "Încarcă locaţii"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:725
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:753
+msgid "Location Files (*.loc)|*.loc"
+msgstr "Fişiere locaţii (*.loc)|*.loc"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:752
+msgid "Save Locations"
+msgstr "Salvează locaţiile"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:769
+#, c-format
+msgid "Location %d"
+msgstr "Locaţie %d"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:770
+msgid "Type a name for the new location:"
+msgstr "Nume locaţie nouă:"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:771
+msgid "Location Name"
+msgstr "Nume locaţie"
+
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:788
+#: TerrainApps/Enviro/wx/LocationDlg.cpp:798
+msgid ""
+"Couldn't store point, probably a coordinate system transformation problem."
+msgstr ""
+"Punctele nu pot fi salvate, posibil o eroare de transformare a coordonatelor."
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:222
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1431
+msgid "Scenario Parameters"
+msgstr "Parametrii scenariului"
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:273
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1400
+msgid "Enter Scenario Name"
+msgstr "Introduceţi numele scenariului"
+
+#: TerrainApps/Enviro/wx/ScenarioSelectDialog.cpp:273
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1401
+msgid "New Scenario"
+msgstr "Scenariu nou"
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:58
+msgid "OpenGL Version: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:61
+msgid "Vendor: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:64
+msgid "Renderer: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:67
+#, c-format
+msgid "Maximum Texture Dimension: %d\n"
+msgstr "Dimensiunea maximă a texturii: %d\n"
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:70
+msgid "GLSL Version: "
+msgstr ""
+
+#: TerrainApps/Enviro/wx/StartupDlg.cpp:75
+#, fuzzy
+msgid "Extensions: "
+msgstr "Extensie:"
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:129
+msgid "ADD"
+msgstr "ADD"
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:130
+msgid "MODULATE"
+msgstr "MODULATE"
+
+#: TerrainApps/Enviro/wx/StyleDlg.cpp:131
+msgid "DECAL"
+msgstr "DECAL"
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:73
+msgid "Terrain Data Paths"
+msgstr "Căi fişiere teren"
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:170
+msgid "Please enter the name for the terrain copy."
+msgstr "Indroduceţi numele noului teren."
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:171
+msgid "Add Copy of Terrain"
+msgstr "Creează o copie a terenului"
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:241
+msgid "Please enter the name for a new terrain .xml file."
+msgstr "Introduceţi numele noului fişier de teren .xml."
+
+#: TerrainApps/Enviro/wx/TerrManDlg.cpp:275
+msgid "Specify Data Directory"
+msgstr "Setaţi directorul de date"
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:128
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1123
+msgid "Couldn't locate file."
+msgstr "Fişierul nu a putut fi localizat"
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:132
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1127
+msgid "ColorMap"
+msgstr "Hartă de culori"
+
+#: TerrainApps/Enviro/wx/TextureDlg.cpp:161
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:816
+msgid "Looking for files on data paths"
+msgstr "Caut fişiere"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:719
+msgid "(default)"
+msgstr "(implicit)"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:943
+msgid "Terrain Flyer with Velocity"
+msgstr "Navigaţie accelerată"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1010
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1011
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1012
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1013
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1018
+msgid "(double-click to add files)"
+msgstr "(dublu clic pentru a adăuga fişiere)"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1113
+msgid "Please select a filename."
+msgstr "Selectaţi numele fişierului"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1190
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1216
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1267
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1293
+msgid "One of the following to add:"
+msgstr "Adaugă unul dintre următoarele:"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1191
+#, fuzzy
+msgid "Choose a plant file"
+msgstr "Alegeţi fişierul traseu"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1217
+msgid "Choose a structure file"
+msgstr "Alege un fişier tip structură"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1238
+#, fuzzy
+msgid "Load features"
+msgstr ", Elemente: "
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1239
+#, fuzzy
+msgid "Feature files (*.shp,*.igc,*.dxf)|*.shp;*.igc;*.dxf"
+msgstr "Fişiere imagine (*.png,*.jpg,*.bmp)|*.png;*.jpg;*.bmp"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1267
+msgid "Choose an animpath file"
+msgstr "Alegeţi fişierul traseu"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1294
+msgid "Choose an image file"
+msgstr "Alegeţi fişierul imagine"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1332
+msgid "Set Initial Time"
+msgstr "Setare timp iniţial"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1352
+msgid "Feature Style"
+msgstr "Stil element"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1365
+msgid "Overlay Image File"
+msgstr "Suprapunere fişier imagine"
+
+#: TerrainApps/Enviro/wx/TParamsDlg.cpp:1366
+msgid "Image Files (*.png,*.jpg,*.bmp)|*.png;*.jpg;*.bmp"
+msgstr "Fişiere imagine (*.png,*.jpg,*.bmp)|*.png;*.jpg;*.bmp"
+
+#: TerrainApps/Enviro/wx/VIADlg.cpp:30 TerrainApps/Enviro/wx/VIADlg.cpp:38
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:34
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:35
+#: TerrainApps/Enviro/wx/VIAGDALOptionsDlg.cpp:36
+#, c-format
+msgid "%0.2f"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.h:1167
+msgid "Drive"
+msgstr ""
+
+#: TerrainApps/Enviro/wx/EnviroUI.h:1196
+msgid "Visual Impact Calculation"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:152
+msgid "Engines"
+msgstr "Motoare"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:174
+msgid "vtLightSource"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:179
+msgid "vtDynGeom"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:184
+msgid "vtGeode"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:199
+msgid "vtFog"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:204
+#, fuzzy
+msgid "vtShadow"
+msgstr "Umbră"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:209
+msgid "vtHUD"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:215
+#, fuzzy
+msgid "vtGroup"
+msgstr "Grup"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:221
+msgid "MatrixTransform"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:226
+msgid "LOD"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:231
+msgid "Group"
+msgstr "Grup"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:236
+msgid "Geode"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:242
+msgid "Other"
+msgstr "Altele"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:293
+#, fuzzy, c-format
+msgid "%d: Mesh, %hs, %d verts, %d prims"
+msgstr "Meşă %d, %hs, %d vertexi, %d prims"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:297
+msgid "Text Mesh"
+msgstr "Text meşă"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:301
+#, c-format
+msgid "%d: Drawable, %d verts"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:306
+#, fuzzy
+msgid "Drawable"
+msgstr "Acoperiş 2 planuri: formă V"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:322
+#, c-format
+msgid "%d: %d verts"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:327
+#, c-format
+msgid "%d: drawable"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:342
+#, c-format
+msgid "(%d children)"
+msgstr "(%d copil)"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:353
+msgid "(internal node)"
+msgstr "(nod intern)"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:371
+msgid "unnamed"
+msgstr "fără nume"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:387
+msgid "(non-node)"
+msgstr "(fără-nod)"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:392
+#, c-format
+msgid " (%d targets total)"
+msgstr " (%d total ţinte)"
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:491
+msgid "The standard log file (debug.txt)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:492
+msgid "A dot file (scene.dot)"
+msgstr ""
+
+#: TerrainSDK/wxosg/SceneGraphDlg.cpp:493
+#, fuzzy
+msgid "Log the scene graph to:"
+msgstr "Salvează scena în format .osg"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:24
+msgid "Year:"
+msgstr "An:"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:31
+msgid "Month"
+msgstr "Lună"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:38
+msgid "Day"
+msgstr "Zi"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:50
+msgid "Hour:"
+msgstr "Oră:"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:57
+msgid "Minute"
+msgstr "Minut"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:64
+msgid "Second"
+msgstr "Secundă"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:86
+msgid "Stop"
+msgstr "Stop"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:116
+msgid "Enabled"
+msgstr "Activat"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:120
+msgid "Zoom To"
+msgstr "Zoom către"
+
+#: TerrainSDK/wxosg/wxosg_UI.cpp:128
+#, fuzzy
+msgid "Log"
+msgstr "Ceaţă"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:179 TerrainSDK/vtui/BuildingDlg.cpp:683
+#, fuzzy
+msgid "(None)"
+msgstr "(nul)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:401
+msgid " (flat roof)"
+msgstr " (acoperiş plat)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:403
+msgid " (shed roof)"
+msgstr " (acoperiş înclinat)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:405
+msgid " (gable roof)"
+msgstr " (acoperiş 2 planuri: formă V)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:407
+msgid " (hip roof)"
+msgstr " (acoperiş 4 planuri)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:411
+#, c-format
+msgid " (stories : %d)"
+msgstr " (etaje : %d)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:506 TerrainSDK/vtui/DoubleProgDlg.cpp:418
+#: TerrainSDK/vtui/ProjectionDlg.cpp:118
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:562
+msgid "Flat (all edges 0(degree sign))"
+msgstr "Plat (toate marginile 0°)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:563
+msgid "Shed"
+msgstr "Acoperiş înclinat"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:564
+msgid "Gable"
+msgstr "Acoperiş 2 planuri: formă V"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:565
+msgid "Hip"
+msgstr "Acoperiş 4 planuri"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:566
+msgid "Vertical (all edges 90(degree sign))"
+msgstr "Vertical (toate marginile 90°)"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:572
+msgid "Please indicate edge slopes"
+msgstr "Indicaţi panta marginilor"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:586
+msgid "Sloped edges"
+msgstr "Panta marginilor"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:586 TerrainSDK/vtui/DistanceDlg.cpp:321
+#: TerrainSDK/vtui/ProjectionDlg.cpp:206
+msgid "Degrees"
+msgstr "Grade"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:587
+msgid "Slope"
+msgstr "Pantă"
+
+#: TerrainSDK/vtui/BuildingDlg.cpp:734
+msgid "Set Building Material for All Edges"
+msgstr "Aplică materialul la toate marginile"
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:104
+#, c-format
+msgid "%.2f meters"
+msgstr "%.2f metri"
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:124
+msgid "Load ColorMap"
+msgstr "Încarcă rampă de culori"
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:125 TerrainSDK/vtui/ColorMapDlg.cpp:165
+msgid "ColorMap Files (*.cmt)|*.cmt"
+msgstr "Rampă de culori (*.cmt)|*.cmt"
+
+#: TerrainSDK/vtui/ColorMapDlg.cpp:164
+msgid "Save ColorMap"
+msgstr "Salvează rampa de culori"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:47 TerrainSDK/vtui/DistanceDlg.cpp:53
+#: TerrainSDK/vtui/DistanceDlg.cpp:59 TerrainSDK/vtui/DistanceDlg.cpp:65
+#: TerrainSDK/vtui/DistanceDlg.cpp:324 TerrainSDK/vtui/ProjectionDlg.cpp:208
+#: TerrainSDK/vtui/vtui_UI.cpp:1404
+msgid "Meters"
+msgstr "Metri"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:48 TerrainSDK/vtui/DistanceDlg.cpp:54
+#: TerrainSDK/vtui/DistanceDlg.cpp:60 TerrainSDK/vtui/DistanceDlg.cpp:66
+#: TerrainSDK/vtui/DistanceDlg.cpp:325 TerrainSDK/vtui/vtui_UI.cpp:1408
+msgid "Feet"
+msgstr "Picioare"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:49 TerrainSDK/vtui/DistanceDlg.cpp:55
+#: TerrainSDK/vtui/DistanceDlg.cpp:61 TerrainSDK/vtui/DistanceDlg.cpp:67
+#: TerrainSDK/vtui/DistanceDlg.cpp:326
+msgid "US Survey Feet"
+msgstr "Picioare US Survey"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:50 TerrainSDK/vtui/DistanceDlg.cpp:56
+#: TerrainSDK/vtui/DistanceDlg.cpp:62
+msgid "Kilometers"
+msgstr "Kilometri"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:51 TerrainSDK/vtui/DistanceDlg.cpp:57
+#: TerrainSDK/vtui/DistanceDlg.cpp:63
+msgid "Miles"
+msgstr "Mile"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:181
+msgid "<Projection failure>"
+msgstr "<Eroare de proiecţie>"
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:369
+msgid ""
+"Enter the path to a SHP file containing a polyline, or a series of points in "
+"the form X Y X Y .."
+msgstr ""
+
+#: TerrainSDK/vtui/DistanceDlg.cpp:369
+msgid "Input Path"
+msgstr ""
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:209
+#, fuzzy
+msgid "unknown"
+msgstr "Necunoscut"
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:271
+msgid "Done."
+msgstr ""
+
+#: TerrainSDK/vtui/DoubleProgDlg.cpp:442 TerrainSDK/vtui/vtui_UI.cpp:394
+#: TerrainSDK/vtui/vtui_UI.cpp:1186
+msgid "Close"
+msgstr "Închide"
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:116
+#, fuzzy
+msgid "Feature Info"
+msgstr ", Elemente: "
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:144
+#, c-format
+msgid ""
+"There are %d selected features.  Are you sure you\n"
+" want to display them all in the table view?"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:150
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:200
+msgid "Populating table"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:194
+#, c-format
+msgid ""
+"There are %d features in this layer.  Are you sure\n"
+" you want to display them all in the table view?"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:293
+#, fuzzy, c-format
+msgid "Enter a new value for field '%hs'"
+msgstr "Introduceţi valoarea nouă"
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:295
+#, fuzzy
+msgid "Text entry"
+msgstr "Suprapunere textură"
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:317
+#, fuzzy
+msgid "Selected"
+msgstr "Selectează"
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:318
+msgid "Picked"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:322
+#, fuzzy
+msgid "Meter"
+msgstr "Metri"
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:323
+msgid "Foot"
+msgstr ""
+
+#: TerrainSDK/vtui/FeatureTableDlg.cpp:324
+msgid "Foot (US)"
+msgstr ""
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:169
+msgid "(All)"
+msgstr "(Toate)"
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:195
+msgid "3D Model files"
+msgstr "Fişiere modele 3D"
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:197
+msgid "All files"
+msgstr "Toate fişierele"
+
+#: TerrainSDK/vtui/InstanceDlg.cpp:199
+#, fuzzy
+msgid "Choose model file"
+msgstr "Alegeţi fişierul imagine"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:111
+msgid "Wooden posts, wire"
+msgstr "Stâlpi de lemn, sîrmă"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:112
+msgid "Metal posts, wire"
+msgstr "Stâlpi de metal, sârmă"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:113
+#, fuzzy
+msgid "Metal posts, hog wire"
+msgstr "Stâlpi de metal, sârmă"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:114
+msgid "Metal poles, chain-link"
+msgstr "Stâlpi de metal, plasă"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:115
+msgid "Security fence"
+msgstr "Gard securizat"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:116
+msgid "Dry-stone wall"
+msgstr "Zid piatră de râu"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:117
+msgid "Stone wall"
+msgstr "Zid de piatră"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:118
+msgid "Privet hedge"
+msgstr "Gard viu"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:119
+msgid "Berm"
+msgstr ""
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:120
+msgid "Railing (Pipe)"
+msgstr "Gard de protecţie (ţeavă)"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:121
+msgid "Railing (Wire)"
+msgstr "Gard de protecţie (sârmă)"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:122
+msgid "Railing (EU)"
+msgstr "Gard de protecţie (EU)"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:123
+msgid "(custom)"
+msgstr "(particularizat)"
+
+#: TerrainSDK/vtui/LinearStructDlg.cpp:298
+msgid "Edit Linear Structure Profile"
+msgstr "Editează profilul structurilor liniare"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:646
+msgid "No Endpoints"
+msgstr "Nu există puncte finale"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:681
+msgid "No Data"
+msgstr "Nu există date"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:948
+#, c-format
+msgid "Minimum: %.2f m at distance %.1f\n"
+msgstr "Minimum: %.2f m la distanţa %.1f\n"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:951
+#, c-format
+msgid "Maximum: %.2f m at distance %.1f"
+msgstr "Maximum: %.2f m la distanţa %.1f"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:958
+#, c-format
+msgid "Mouse: %.2f m at distance %.1f"
+msgstr "Mouse: %.2f m la distanţa %.1f"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:964
+#, c-format
+msgid "Slope %.3f (%.1f degrees)"
+msgstr "Panta %.3f (%.1f grade)"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:972
+#, c-format
+msgid "Fresnel Zone 1: Radius: %.1f, Clearance %.1f"
+msgstr "Fresnel Zone 1: Radius: %.1f, Clearance %.1f"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:977
+#, c-format
+msgid "  OF Zone: Radius: %.1f, Clearance %.1f"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:987
+#, c-format
+msgid ""
+"Fresnel zone radius at midpoint %.2fm (Object free zone %.2fm) Geoid Height "
+"%.1fm"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:996
+#, c-format
+msgid "Intersects ground at height %.2f, distance %.1f"
+msgstr "Intersectează solul la înălţimea %.2f, distanţa %.1f"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1003
+#, fuzzy, c-format
+msgid "Intersects culture at height %.2f, distance %.1f"
+msgstr "Intersectează solul la înălţimea %.2f, distanţa %.1f"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1183
+msgid "Export Profile to DXF"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1184 TerrainSDK/vtui/ProfileDlg.cpp:1198
+#, fuzzy
+msgid "DXF Files (*.dxf)|*.dxf"
+msgstr "Fişiere vegetaţie (*.vf)|*.vf"
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1197
+msgid "Export Trace to DXF"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1211
+msgid "Export Trace to CSV"
+msgstr ""
+
+#: TerrainSDK/vtui/ProfileDlg.cpp:1212
+#, fuzzy
+msgid "CSV Files (*.csv)|*.csv"
+msgstr "Fişiere GIS (*.shp)|*.shp"
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:258
+msgid "Load Profile"
+msgstr "Încarcă profil"
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:259
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:278
+msgid "Profile Files (*.shp)|*.shp"
+msgstr "Fişiere profil (*.shp)|*.shp"
+
+#: TerrainSDK/vtui/ProfileEditDlg.cpp:277
+msgid "Save Profile"
+msgstr "Salvează profilul"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:73
+msgid "Albers Equal Area Conic"
+msgstr "Albers Equal Area Conic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:74
+msgid "Geographic"
+msgstr "Geographic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:75
+msgid "Hotine Oblique Mercator"
+msgstr "Hotine Oblique Mercator"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:76
+msgid "Krovak"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:77
+msgid "Lambert Azimuthal Equal-Area"
+msgstr "Lambert Azimuthal Equal-Area"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:78
+msgid "Lambert Conformal Conic"
+msgstr "Lambert Conformal Conic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:79
+#, fuzzy
+msgid "Lambert Conformal Conic 1 SP"
+msgstr "Lambert Conformal Conic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:80
+msgid "New Zealand Map Grid"
+msgstr "New Zealand Map Grid"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:81
+msgid "Oblique Stereographic"
+msgstr "Oblique Stereographic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:82
+msgid "Polar Stereographic"
+msgstr "Polar Stereographic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:83
+msgid "Sinusoidal"
+msgstr "Sinusoidal"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:84
+msgid "Stereographic"
+msgstr "Stereographic"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:85
+msgid "Mercator"
+msgstr "Mercator"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:86
+msgid "Transverse Mercator"
+msgstr "Transverse Mercator"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:87
+msgid "UTM"
+msgstr "UTM"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:88
+msgid "Dymaxion"
+msgstr "Dymaxion"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:94
+msgid "Attribute"
+msgstr "Atribut"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:96
+msgid "Value"
+msgstr "Valoare"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:211
+msgid "Feet (International)"
+msgstr "Picioare (Internaţional)"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:212
+msgid "Feet (U.S. Survey)"
+msgstr "Picioare (U.S. Survey)"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:215
+msgid "Unit Edges"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:267
+msgid "(Invalid projection)"
+msgstr "(Proiecţie invalidă)"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:367
+msgid "Unknown projection: "
+msgstr "Proiecţie necunoscută:"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:384
+msgid "Save Projection to File"
+msgstr "Salvează proiecţia în fişier"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:385 TerrainSDK/vtui/ProjectionDlg.cpp:395
+msgid "Projection Files (*.prj)|*.prj"
+msgstr "Fişiere proiecţie (*.prj)|*.prj"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:394
+msgid "Load Projection from File"
+msgstr "Încărcă proiecţie din fişier"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:402
+msgid "Couldn't load projection from that file.\n"
+msgstr "Imposibil de încărcat proiecţia din fişierul specificat.\n"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:422
+msgid ""
+"Couldn't set that Datum.  Perhaps the EPSG\n"
+" tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+"Imposibil de aplicat datumul.  Posibil că tabelele EPSG\n"
+" să nu putut fi localizate. Verificaţi dacă\n"
+" variabila de sistem GEOTIFF_CSV este setată."
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:450
+msgid "Value for "
+msgstr "Valoarea pentru"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:454
+msgid "Enter new value"
+msgstr "Introduceţi valoarea nouă"
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Enter EPSG code:"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:516
+msgid "Input"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:523
+msgid "Couldn't set EPSG coordinate system."
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:629
+msgid "Select State Plane"
+msgstr ""
+
+#: TerrainSDK/vtui/ProjectionDlg.cpp:648
+msgid ""
+"Couldn't set state plane projection.  Perhaps the\n"
+" EPSG tables could not be located.  Check that your\n"
+" GEOTIFF_CSV environment variable is set."
+msgstr ""
+"Imposibil de aplicat proiecţia.  Posibil că tabelele EPSG\n"
+" să nu putut fi localizate. Verificaţi dacă\n"
+" variabila de sistem GEOTIFF_CSV este setată."
+
+#: TerrainSDK/vtui/vtui_UI.cpp:29
+msgid "Building Levels"
+msgstr "Etaje clădire"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:41
+msgid "Copy"
+msgstr "Copiază"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:47
+msgid "Del"
+msgstr "Şterge"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:53
+msgid "Up"
+msgstr "Sus"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:57
+msgid "Down"
+msgstr "Jos"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:69
+msgid "Baseline Editor"
+msgstr "Editor linie de bază"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:75
+msgid "Set Roof Type"
+msgstr "Alegeţi tipul de acoperiş"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:84
+msgid "Level Properties"
+msgstr "Proprietăţi etaj"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:89
+msgid "Stories:"
+msgstr "Etaje:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:101
+msgid "Story Height:"
+msgstr "Înălţime etaj:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:117 TerrainSDK/vtui/vtui_UI.cpp:188
+#: TerrainSDK/vtui/vtui_UI.cpp:895
+msgid "Material:"
+msgstr "Material:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:149
+msgid "Edge Slopes:"
+msgstr "Pante margine:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:169
+#, fuzzy
+msgid "Edges"
+msgstr "Margini:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:183
+msgid "Edge Properties"
+msgstr "Proprietăţi margine"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:204
+#, fuzzy
+msgid "Facade:"
+msgstr "Faţade"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:235
+msgid "Slope:"
+msgstr "Pantă:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:250 TerrainSDK/vtui/vtui_UI.cpp:528
+msgid "Clear"
+msgstr "Curat"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:254
+msgid "Wall"
+msgstr "Zid"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:258
+msgid "Window"
+msgstr "Fereastră"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:262
+msgid "Door"
+msgstr "Uşă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:288
+msgid "Edges >>"
+msgstr "Margini >>"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:314 TerrainSDK/vtui/vtui_UI.cpp:677
+msgid "File:"
+msgstr "Fişier:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:326
+msgid "Scale relative to elevation range"
+msgstr "Scară relativa la ecartul altitudinal"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:330
+msgid "Blend colors smoothly"
+msgstr "Combină gradual culorile"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:340
+msgid "Colors"
+msgstr "Culori"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:348
+msgid "Change Color..."
+msgstr "Schimbă culoarea"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:352
+msgid "Delete Color"
+msgstr "Şterge culoarea"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:359
+msgid "New Color"
+msgstr "Culoare nouă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:361 TerrainSDK/vtui/vtui_UI.cpp:830
+msgid "Height:"
+msgstr "Înălţime:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:368 TerrainSDK/vtui/vtui_UI.cpp:1154
+msgid "Add"
+msgstr "Adaugă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:383 TerrainSDK/vtui/vtui_UI.cpp:1178
+msgid "Save As..."
+msgstr "Salvează ca..."
+
+#: TerrainSDK/vtui/vtui_UI.cpp:423
+#, fuzzy
+msgid "Single contour at:"
+msgstr "Contor triunghiuri:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:439
+msgid "Contours every:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:466
+msgid "Add to layer:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:514
+msgid "Line"
+msgstr "Linie"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:518
+msgid "Path"
+msgstr "Cale"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:524
+#, fuzzy
+msgid "Load Path..."
+msgstr "Adaugă cale"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:539
+msgid "Map Offset"
+msgstr "Decalaj hartă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:551
+msgid "Map Distance"
+msgstr "Distanţă hartă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:563
+msgid "Geodesic Distance"
+msgstr "Distanţă geodezică"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:575
+msgid "Approximate Ground"
+msgstr "Aproximează sol"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:587
+msgid "Vertical Difference"
+msgstr "Diferenţă verticală"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:622
+#, fuzzy
+msgid "Show features:"
+msgstr ", Elemente: "
+
+#: TerrainSDK/vtui/vtui_UI.cpp:631
+#, fuzzy
+msgid "Vertical units:"
+msgstr "Unităţi de măsură orizontale:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:640
+msgid "Delete Highlighted"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:667
+msgid "Instance from Content File"
+msgstr "Obiecte din fişier"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:695 TerrainSDK/vtui/vtui_UI.cpp:800
+#: TerrainSDK/vtui/vtui_UI.cpp:880
+msgid "Type:"
+msgstr "Tip:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:713
+msgid "Item:"
+msgstr "Obiect:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:725
+msgid "Instance from 3D Model File"
+msgstr "Obiect din fişier 3D"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:749
+msgid "Location:"
+msgstr "Locaţie:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:782
+msgid "Defined Style:"
+msgstr "Stil definit:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:795
+msgid "Posts"
+msgstr "Stâlpi"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:815
+msgid "Spacing:"
+msgstr "Rezoluţie spaţială:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:845
+msgid "Size:"
+msgstr "Dimensiune:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:860
+msgid "Extension:"
+msgstr "Extensie:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "None"
+msgstr "Nici unul"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Left"
+msgstr "Stânga"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Right"
+msgstr "Dreapta"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:864
+msgid "Double"
+msgstr "Dublu"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:875
+msgid "Connection"
+msgstr "Conexiune"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:910
+msgid "Top Height:"
+msgstr "Înălţimea părţii superioare:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:925
+msgid "Bottom Height:"
+msgstr "Înălţimea părţii inferioare:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:940
+msgid "Width:"
+msgstr "Lăţime:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:955
+msgid "Side Slope:"
+msgstr "Înclinare latură:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:970
+msgid "Profile:"
+msgstr "Profil:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:986
+msgid "Constant Top Height"
+msgstr "Înălţime superioară constantă"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1019 TerrainSDK/vtui/vtui_UI.cpp:1083
+msgid "Line of Sight"
+msgstr "Rază de vizibilitate"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1023
+msgid "Visibility"
+msgstr "Vizibilitate"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1027
+msgid "Show Fresnel zones"
+msgstr "Afişează zonele Fresnel"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1031
+msgid "Use effective radius of earth"
+msgstr "Utilizează curbură reală a pămîntului"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1035
+msgid "Show Culture Objects"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1049
+msgid "Start height:"
+msgstr "Înălţime la pornire:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1056
+msgid "End height:"
+msgstr "Înălţime la final:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1063
+msgid "Radio Frequency:"
+msgstr "Frecvenţă radio:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1073
+msgid "MHz"
+msgstr "MHz"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1079
+msgid "Apply curvature to:"
+msgstr "Aplică curbura la:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1103
+msgid "Export:"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1107
+#, fuzzy
+msgid "Profile"
+msgstr "Profil:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1111
+msgid "Trace"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1115
+msgid "CSV"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1158
+msgid "Move"
+msgstr "Mută"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1212
+msgid "Projection:"
+msgstr "Proiecţie:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1224
+msgid "Datum:"
+msgstr "Datum:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1228
+msgid "Show All Datums"
+msgstr "Afişează toate datumurile"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1242
+msgid "Ellipsoid:"
+msgstr "Elipsoid:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1251
+msgid "Horizontal Units:"
+msgstr "Unităţi de măsură orizontale:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1260
+msgid "Zone:"
+msgstr "Zona:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1269
+msgid "Parameters:"
+msgstr "Parametri:"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1279
+msgid "Set State Plane Projection"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1283
+msgid "Set EPSG"
+msgstr ""
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1292
+msgid "Load from File"
+msgstr "Încarcă din fişier"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1296
+msgid "Save to File"
+msgstr "Salvează în fişier"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1391
+msgid "NAD27"
+msgstr "NAD27"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1395
+msgid "NAD83"
+msgstr "NAD83"
+
+#: TerrainSDK/vtui/vtui_UI.cpp:1412
+msgid "U.S. Feet"
+msgstr "Picioare SUA"

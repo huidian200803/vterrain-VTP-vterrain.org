@@ -1,0 +1,30 @@
+/* XPM */
+static const char *item_remove_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 4 1",
+"  c None",
+"a c Black",
+"b c #FFFFFF",
+"c c #FF0000",
+/* pixels */
+"                    ",
+"                    ",
+"cb        ccb       ",
+"cccb     ccb        ",
+"ccccb   ccb         ",
+"  cccb cb           ",
+"   cccccb           ",
+"    cccb            ",
+"   cccccb           ",
+"  cccb ccb  aaaa    ",
+" cccb   ccb aaaa    ",
+"cccb     cb  aa     ",
+"cccb      cb aa     ",
+" cb       cb aa     ",
+"           cbaa     ",
+"             aa     ",
+"            aaaa    ",
+"            aaaa    ",
+"                    ",
+"                    "
+};

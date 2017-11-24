@@ -1,0 +1,29 @@
+/* XPM */
+static const char *rulers_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 3 1",
+"  c None",
+"a c #FFFFFF",
+"b c #808080",
+/* pixels */
+"                    ",
+"   a                ",
+"   ab               ",
+" aaaaa              ",
+"  babbb             ",
+"   ab               ",
+"   ab               ",
+" aaaaa              ",
+"  babbb             ",
+"   ab               ",
+"   ab               ",
+" aaaaa              ",
+"  babbb             ",
+"   ab  a   a   a    ",
+"   ab  ab  ab  ab   ",
+" aaaaaaaaaaaaaaaaaa ",
+"  babbbabbbabbbabbbb",
+"   ab  ab  ab  ab   ",
+"   ab   b   b   b   ",
+"    b               "
+};

@@ -1,0 +1,66 @@
+﻿
+a.bt:link, a.bt:visited, a.bt:active, a.bt:hover {
+ color:#0000ff;
+ background-color:#B5CBE7; 
+ font-weight:bold;
+ font-family:Verdana, Arial, Helvetica, sans-serif;
+ font-size:10pt;
+ text-decoration: none;
+}
+
+body
+{
+	font-family: Georgia;
+	font-size: 95%;
+	background-color:#EEEEEC;
+}
+h1 {
+	font-family: Verdana, Arial, sans-serif; 
+	margin-bottom: 2px;
+}
+h2 {
+	font-family: Verdana, Arial, sans-serif; 
+	margin-bottom: 2px;
+}
+h3 {
+	font-family: Verdana, Arial, sans-serif; 
+	margin-bottom: 2px;
+}
+h4 {
+	font-family: Verdana, Arial, sans-serif; 
+	margin-bottom: 2px;
+}
+.smaller {
+	font-size:65%;
+}
+.bigger {
+	font-size:120%;
+}
+.nowrap {
+	white-space: nowrap;
+}
+.light-table {
+	border-collapse: collapse;
+	background-color: #FFFFFF;
+}
+.text-right {
+	text-align: right;
+}
+.indent {
+	margin-left: 40px;
+}
+.tuck {
+	margin-top:0px;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+.tcenter {
+	text-align: center;
+}
+.menuleft {
+	float: left; background-color: white;
+	padding: 10px 10px 10px 10px;
+	border: 2px gray solid;
+}

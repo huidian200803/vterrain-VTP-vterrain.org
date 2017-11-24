@@ -1,0 +1,30 @@
+/* XPM */
+static const char *sgraph_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 3 1",
+/* colors */
+"` c #000000",
+"a c None",
+"b c #808080",
+/* pixels */
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaa``````aaaaaaaaaaa",
+"aaa``````aaaaaaaaaaa",
+"aaaa`aaaaaaaaaaaaaaa",
+"aaaa`aa``````aaaaaaa",
+"aaaa``b``````aaaaaaa",
+"aaaa`aaa`aaaaaaaaaaa",
+"aaaa`aaa`aa``````aaa",
+"aaaa`aaa``b``````aaa",
+"aaaa`aaa`aaaaaaaaaaa",
+"aaaa`aaa`aa``````aaa",
+"aaaa`aaa``b``````aaa",
+"aaaa`aaaaaaaaaaaaaaa",
+"aaaa`aa``````aaaaaaa",
+"aaaa``b``````aaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa",
+"aaaaaaaaaaaaaaaaaaaa"
+};

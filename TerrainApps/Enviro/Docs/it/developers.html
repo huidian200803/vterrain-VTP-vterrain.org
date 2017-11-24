@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="it" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="../../docs.css" />
+<link rel="stylesheet" href="../../../docs.css" />
+<title>Enviro - Note per gli Sviluppatori</title>
+</head>
+
+<body>
+
+<h2><i><font face="Verdana">Enviro</font></i></h2>
+<h3>Note per gli Sviluppatori</h3>
+<blockquote>
+	<p>Se si desidera personalizzare completamente il terreno, ad esempio 
+	aggiungendo i propri oggetti e comportamenti alla scena:</p>
+	<ol>
+		<li>Creare una sottoclasse di <code>vtTerrain</code>, utilizzando come 
+		esempio una delle sottoclassi esistenti (come <code>TransitTerrain</code>) </li>
+		<li>In <code>Enviro.cpp,</code> aggiungere una riga alla funzione <code>
+		LoadTerrainDescriptions()</code>, cosicchè il file .ini verrà costruito 
+		con la nuova classe terreno</li>
+		<li>Eliminare il metodo <code>CreateCustomCulture() </code>ed inserire 
+		tutte le implementazioni specifiche per il terreno desiderate. E&#39; 
+		possibile creare geometrie, caricare e posizionare modelli, collegare 
+		motori; tutto è possibile!</li>
+	</ol>
+</blockquote>
+
+</body>
+
+</html>

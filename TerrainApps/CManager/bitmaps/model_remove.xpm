@@ -1,0 +1,31 @@
+/* XPM */
+static const char *model_remove_xpm[] = {
+/* columns rows colors chars-per-pixel */
+"20 20 5 1",
+"  c None",
+"a c Black",
+"b c #FFFFFF",
+"c c #808080",
+"d c #FF0000",
+/* pixels */
+"                    ",
+"                    ",
+"db        ddb       ",
+"dddb     ddb        ",
+"ddddb   ddb         ",
+"  dddb db           ",
+"   dddddb           ",
+"    dddb            ",
+"   dddddb  aa    aa ",
+"  dddb ddb aa    aa ",
+" dddb   ddbaaa  aaa ",
+"dddb     dbaaaaaaaa ",
+"dddb      dca aa aa ",
+" db        aa aa aa ",
+"           dc    aa ",
+"           aa    aa ",
+"                    ",
+"                    ",
+"                    ",
+"                    "
+};
